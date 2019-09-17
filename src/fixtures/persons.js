@@ -20,7 +20,7 @@ export default [
       {
         id: "p2up2cFF",
         shortDescription:
-          "5 Effects That Migraines Can Have On Your Mental Health\n",
+          "5 Effects That Migraines Can Have On Your Mental Health",
         date: "2018-04-09T18:03:23.000Z",
         img: ""
       }
@@ -403,7 +403,6 @@ export default [
     lastName: "Schultz",
     type: ["model"],
     shortDescription:
-      "\n" +
       "When Zion embraces a girl in a big way it can transform a fresh face into a star.",
     mainDescription:
       "  With back to back Vogue Italia covers and Prada campaigns, Amanda Murphy is the iconic photographer's latest favorite but he's far from the only one to notice this Chicagoan stunner. Frequent appearances in American Vogue, plus campaigns for Celine, Bottega and Ferragamo cement Amanda's status as a major player in the modeling world. ",
