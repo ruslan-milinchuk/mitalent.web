@@ -31,8 +31,53 @@ export default [
       "There are many other types of love that exist and each one affects people in a different way. The part of the body that is mostly affected by this is the brain, so it is no wonder that love is more psychological. The brain triggers many other things in the body through chemical reactions to alter behavior, feelings, and even what people say.",
       "Psychological Effects of Love",
       "Love changes how people view others and other things. Let's use an example of erotic love. When a person meets the perfect partner and falls in love, they will tend to push all of their other friends to the side. If there were other close people who also wanted to have a relationship with you, a distance will be created without even thinking about it. Even if some feelings were developing towards them, this will quickly fade away. It is even possible for love to change from one type to another during such a transition.",
-      "Some people get so influenced by those that they love or those who love them that they copy their behavior. This is common in married couples or those who are engaged in a long-term relationship. According to experts, love has a strong effect on how people think and behave, and this is evident in many social types of research that have been conducted in the past.",
-      "Loving and Being Loved",
+      "Some people get so influenced by those that they love or those who love them that they copy their behavior. This is common in married couples or those who are engaged in a long-term relationship. According to experts, love has a strong effect on how people think and behave, and this is evident in many social types of research that have been conducted in the past."
+    ],
+    relativeLinks: [
+      {
+        id: "6ghnqmQfuajJ7xt",
+        title: "Why is Laughter Contagious? . ",
+        shortDescription:
+          "Why does one person pick up another's emotions so easily? It seems that human emotions are highly contagious. For example, one person's laughter is soon shared by another's. The explanation is that strong emotions synchronize the brain activity of different individuals according to research by Finland's Aalto University and Turku PET Centre research published in the Proceedings of The National Academy of Sciences",
+        sliderImg: [
+          "/persons/AlenaWindler/laughter-is-contagious.jpg",
+          "/persons/AlenaWindler/laughter-is-contagious-2.jpg"
+        ]
+      },
+      {
+        id: "w0pGvTnn4i05jNb",
+        title: "The Easy Way To Manage A Flu This Fall.",
+        shortDescription:
+          "No matter how careful you are during the winter months and how hygienic you always try to be, catching the flu is often difficult to avoid when the virus is circulating around your family and friends. Sometimes, even applying copious amounts of hand sanitizer throughout the day cannot stop the germs spreading and before you know it, your muscles are starting to ache, your hands and forehead are clamming up with sweat, and your nose becomes increasingly congested as you fall victim to a horrible seasonal flu.",
+        sliderImg: [
+          "/persons/DollyKoss/articles/the-easy-way-to-manage.jpg",
+          "/persons/DollyKoss/articles/the-easy-way-to-manage-2.jpg"
+        ]
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        title: "The story of … the supermodel. ",
+        shortDescription:
+          "Women, fashion, and glamour are synonymous in the modern era – but in the mid to late 1980s this association intensified into one distinct cultural icon: the supermodel.",
+        sliderImg: [
+          "/persons/AniyaMonahan/the-story-of-supermodel.jpg",
+          "/persons/AniyaMonahan/the-story-of-supermodel-2.jpg"
+        ]
+      },
+      {
+        id: "XmwKlAXl7kmYwqu",
+        title:
+          "Inspired by Kim Kardashian, a feverish legion of followers struggle to achieve online fame .",
+        shortDescription:
+          "When Kim Kardashian “broke the Internet” with her nude selfie last week, it was the latest stunt by a socialite who has become an object of fascination in our celebrity-obsessed culture.While some deride her as being “famous for being famous,” I see someone who works intensely hard at what I’ve termed glamour labor.",
+        sliderImg: [
+          "/persons/MallieMarvin/inspired-by-kim-kardashian.jpg",
+          "/persons/MallieMarvin/inspired-by-kim-kardashian-2.jpg"
+        ]
+      }
+    ],
+    additionalTitle: "Loving and Being Loved",
+    additionalLongDescription: [
       "Because love has a strong influence on how we think, it is worth knowing the best way to love and even how to be loved. How we do it matters to others and also ourselves. It is the difference between satisfaction and dissatisfaction and between being happy and not being happy in life.",
       "Before you start showing love, mostly for the sake of a relationship, you need to understand what type of love it is between erotic love and affectionate love, or in normal words, serious love and casual love. It is not fair to approach the other person with a pretense of showing them erotic love only to dump them later because all that you needed was affectionate love for a short time.",
       "Conclusion",
@@ -63,8 +108,51 @@ export default [
       "What is a Migraine?",
       "A migraine is a throbbing pain on one side of the head that is persistent. The pain is typically described as being moderate to severe. It can also induce symptoms such as feeling nauseous, being sick, and increased sensitivity to light or sound. They affect 1 in every 5 women and 1 in every 15 men. It’s also been suggested that migraines could be hereditary, as you're more likely to get migraines if you have a close relative with the condition. There are different types of migraine:",
       "Migraine with aura – when there are specific warning signs before the migraine such as seeing flashes of light.",
-      "Migraine without aura – when migraines happen without warning.",
-      "Migraine aura without headache (silent migraine) – where an aura or other migraine symptoms are experienced, but the actual headache pain doesn't develop.",
+      "Migraine without aura – when migraines happen without warning."
+    ],
+    relativeLinks: [
+      {
+        id: "HgIWK_NwyNWzIlQ",
+        title:
+          "This Entrepreneur Raised $2M With A Five-Slide Presentation -- About Nothing .",
+        shortDescription:
+          'On a memorable episode of the hit 1990s sitcom Seinfeld, NBC executives meet Jerry after his nightclub act and ask him to come up with an idea for a TV series. His friend George decides he can be a sitcom writer and comes up with the idea of it being "a show about nothing," and it worked! Run with it.',
+        sliderImg: [
+          "/people/ShaniyaCassin/articles/this-entrepreneur-raised.jpg",
+          "/people/ShaniyaCassin/articles/this-entrepreneur-raised-2.jpg"
+        ]
+      },
+      {
+        id: "N6tzHcdohLCu831",
+        title:
+          "‘I broke the contract’: how Hannah Gadsby's trauma transformed comedy . ",
+        shortDescription:
+          "During the live run of Hannah Gadsby’s standup show, Nanette, she found herself sleeping 15 hours a night, then taking naps during the day. “I got bronchitis in London,” she says. “A tooth wrenched out in Edinburgh. Then I got carbon monoxide poisoning from the flat in New York. I was Googling ‘neurological disorders’, I had the tremors and my speech was slurring. I kept telling people I was really tired, texting them coffin emojis, and they’d say: ‘Of course you are, this show is exhausting.’”",
+        sliderImg: [
+          "/people/AparnaNancherla/articles/i-broke-the-contract.jpg",
+          "/people/AparnaNancherla/articles/i-broke-the-contract-2.jpg"
+        ]
+      },
+      {
+        id: "SDqQl6iw5ttQvS_",
+        title: "10 Ways To Make Your Day More Meaningful .",
+        shortDescription:
+          "I got a promotion a few days ago, so I decided to stop for a drink on my way home- just me and my sense of accomplishment. I ended up alone in a bar, running defense against a bouncer who held my ID hostage while he commented on my ass (among other things), and asked me vaguely threatening questions about my sex life.",
+        sliderImg: [
+          "/persons/MervinJacobson/articles/ten-ways-for-more-meaningful.jpeg",
+          "/persons/MervinJacobson/articles/ten-ways-for-more-meaningful-2.jpeg"
+        ]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
+    ],
+    additionalTitle: "Migraine aura without headache ",
+    additionalLongDescription: [
+      "Silent migraine – where an aura or other migraine symptoms are experienced, but the actual headache pain doesn't develop.",
       "   1. Depression",
       "If your migraines occur once in a while, then you have double the risk of depression than someone who doesn't get them at all. Similarly, if you experience chronic migraines which occur several times a month, your risk doubles again. There is such a strong link between depression and migraines because often, people with migraines can become depressed because of the terrible pain.",
       "On the other hand, depression can also come first, soon to be followed by painful migraines. People with migraines are three times more likely to have depression and patients with depression are also three times more likely to have a migraine. It causes patients to feel sad, hopeless, fatigued, and disinterested in things they used to enjoy.",
@@ -107,8 +195,36 @@ export default [
       "One of the most common techniques is exercise, which has been proven to be a great coping technique when you start to feel overwhelmed. During physical activity, the brain releases endorphins such as dopamine or norepinephrine to give you a sense of calm, while regulating stress hormones such as adrenaline and cortisol.",
       "Improves self-confidence",
       "When you feel good physically, you feel great mentally. With this in mind, it's easy to see how exercise has a direct link to self-confidence. If you have very low esteem, you could use exercise as a tactic to reach small goals; such as losing weight or increasing stamina. Meeting goals regularly will no doubt boost your self-confidence before you move on to bigger challenges.",
-      "Whether you’re a gym goer or an active sports player, participating in regular exercise may give you the motivation to inspire others, which will work wonders for your confidence. If you're keen to try something new and give others the inspiration to improve their mental wellbeing, why not study to become a personal trainer? Find out more about Colchester courses and what you need to do to get on this career path.",
-      "Reduces anxiety",
+      "Whether you’re a gym goer or an active sports player, participating in regular exercise may give you the motivation to inspire others, which will work wonders for your confidence. If you're keen to try something new and give others the inspiration to improve their mental wellbeing, why not study to become a personal trainer? Find out more about Colchester courses and what you need to do to get on this career path."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
+    ],
+    additionalTitle: "Reduces anxiety",
+    additionalLongDescription: [
       "Over 40 million people have been diagnosed with anxiety in the USA alone. Exercise is a natural remedy to lower anxiety levels, as a result of happiness-boosting chemicals being released in the brain. Although these effects may only be temporary, spending time outdoors and taking on some gentle exercise is an ideal calming mechanism to give you some perspective on your issues. It may also gradually reduce your reliance on medication for anxiety and depression.",
       "Makes you more alert",
       "Exercise feeds the brain important nutrients to increase cognitive functioning, meaning you're far more likely to be productive in the workplace after an early-morning gym session. With increased blood flow to the brain, you'll feel more energized and focused rather than sluggish and unenthusiastic. If your job involves sitting at a desk for long periods of time, be sure to find time to do simple exercises to kickstart the brain every so often, and it will make a real difference to your day."
@@ -144,6 +260,32 @@ export default [
       "Choline is an essential nutrient found in meat, eggs and dairy, yet when consumed in excess, it can raise levels of bacteria which can increase the likelihood of platelets joining together to create clots. This can be really dangerous, as it prevents blood flow and can lead to fatal health issues such as strokes or heart attacks. Although consuming choline in your normal diet is healthy, it doesn’t seem to be advisable to take any in the form of supplements.",
       "Try - Caffeine",
       "Coffee is extremely popular across the globe, mainly as a morning wake-me-up. But is it good for your brain? It has been heavily criticised in the past, but it actually can be very healthy and beneficial when consumed in moderation. Caffeine found in coffee stimulates the central nervous system, as it prevents adenosine from slowing you down and makes you feel alert. In terms of actual brain function, it has been suggested that caffeine can improve mood, general mental function, vigilance and also memory. Researchers are still debating the effects of caffeine on long term-memory, yet it has found that caffeine may enhance short-term memory. Other studies, however, have shown no effects on memory at all. Aside from the perceived benefits on memory, the other benefits it can have for the brain make it certainly worth trying."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -186,6 +328,32 @@ export default [
       "Addictions come in many shapes and sizes. If you notice any obsessive or unhealthy fixations creeping their way into your teenager's life, sit down and talk about it. Many teenagers dread speaking with their parents, but a casual approach with a healthy dose of understanding might help bridge important gaps. If you do not react quickly enough you might soon find yourself helping your teenage son or daughter as they are trying to bounce back to the real world after an addiction. It is much better to tackle the problem early, before what seems like an innocent hobby or past time activity turns into a life obsession.",
       "About Ariana:",
       "Ariana Williams is a pedagogy graduate and a blogger who enjoys writing about all things connected to raising and teaching children. She is often found online, sharing her tips and strategies with other teachers and parents alike. Feel free to say “hello” to her: @AriWilliamsAri"
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -226,6 +394,32 @@ export default [
       "The importance of questioning",
       "A common technique which applies across multiple learning types is the art of questioning. Consider how easy it is to get engrossed in a novel compared to trying to memorise the contents of a textbook; this is because when reading the novel, your mind is constantly trying to decide what is going to happen next, creating theories and then reading on to find out whether you were right or wrong. This same pattern of questioning can be applied to any information which needs to be learned and retained. Building questions into the learning process and encouraging employees to challenge themselves with questions or predictions can help to keep employees engaged for longer, whilst also helping them to retain more information. If they have predicted the right answers, they will be pleased with themselves and remember that success. If they were wrong, they're actually more likely to remember it, along with the right answers for next time, as nobody likes to be wrong!",
       "In summary, understanding the basics of how people learn is critical to developing strategies and environments which will help employees to learn most effectively and be most productive whilst avoiding unnecessary distractions. Understanding that not all employees will benefit from the same combination of factors and helping them to identify their own preferred learning style will empower them to take control of their own learning, thereby improving their own abilities and career prospects whilst also benefiting the organisation. When supplemented with effective stress management and relaxation strategies to minimise any emotional distractions, an organisation will be well on its way to developing teams and departments that are consistently working at peak performance."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -258,6 +452,32 @@ export default [
       "You can improve your lifestyle by choosing to eat healthier diets and losing weight if you are overweight, which in turn can cause low mood. However, it is vital that you diet or eat well in a healthy manner, and Result Plan can help you to do this. Result Plan run a service for diet delivery that allows you to receive meals catered to your nutritional needs to your front door. This is also a good option for those suffering from mental health conditions who may struggle to visit the supermarket or cook nutritional meals for themselves.",
       "Exercise Regularly",
       "You can also improve your lifestyle by taking up regular exercise. A good option for this is walking as this gives you moderate if not strenuous exercise and allows you to experience nature and peaceful surroundings, which can help to clear your mind. If you have a mental health condition and struggle to leave the house or do exercise, you could consider investing in gym equipment for your home, playing console fitness games, or performing easy fitness routines indoors, such as push-ups and yoga, which is also perfect for mindfulness."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -297,6 +517,32 @@ export default [
       "British Isles",
       "Travel",
       "Job Skills"
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -331,6 +577,32 @@ export default [
       "Over 40 million people have been diagnosed with anxiety in the USA alone. Exercise is a natural remedy to lower anxiety levels, as a result of happiness-boosting chemicals being released in the brain. Although these effects may only be temporary, spending time outdoors and taking on some gentle exercise is an ideal calming mechanism to give you some perspective on your issues. It may also gradually reduce your reliance on medication for anxiety and depression.",
       "Makes you more alert",
       "Exercise feeds the brain important nutrients to increase cognitive functioning, meaning you're far more likely to be productive in the workplace after an early-morning gym session. With increased blood flow to the brain, you'll feel more energized and focused rather than sluggish and unenthusiastic. If your job involves sitting at a desk for long periods of time, be sure to find time to do simple exercises to kickstart the brain every so often, and it will make a real difference to your day."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -364,6 +636,32 @@ export default [
       "Choline is an essential nutrient found in meat, eggs and dairy, yet when consumed in excess, it can raise levels of bacteria which can increase the likelihood of platelets joining together to create clots. This can be really dangerous, as it prevents blood flow and can lead to fatal health issues such as strokes or heart attacks. Although consuming choline in your normal diet is healthy, it doesn’t seem to be advisable to take any in the form of supplements.",
       "Try - Caffeine",
       "Coffee is extremely popular across the globe, mainly as a morning wake-me-up. But is it good for your brain? It has been heavily criticised in the past, but it actually can be very healthy and beneficial when consumed in moderation. Caffeine found in coffee stimulates the central nervous system, as it prevents adenosine from slowing you down and makes you feel alert. In terms of actual brain function, it has been suggested that caffeine can improve mood, general mental function, vigilance and also memory. Researchers are still debating the effects of caffeine on long term-memory, yet it has found that caffeine may enhance short-term memory. Other studies, however, have shown no effects on memory at all. Aside from the perceived benefits on memory, the other benefits it can have for the brain make it certainly worth trying."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -397,6 +695,32 @@ export default [
       "What to do when they leave treatment",
       "Leaving a recovery centre is a big deal and many places will offer outpatient treatment to make the transition go smoother. However, doing your research into how to adjust to life after rehab and how you can help them with this is always a wise thing to do and will offer them the extra support they need to get through.",
       "Try organizing things you can do together to get out of the house and distract them from any urges they have to go out and use again. This will help them to see that life can be fun without the use of drugs and encourage them to get out into the world again."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -432,6 +756,32 @@ export default [
       "Whether or not your efforts to influence and inform the people around you prove to be successful, you're going to benefit from regular correspondence for people who understand what you're going through. This is just as important for people living with HIV as it is for people who care about someone with HIV.",
       "See if there are any local meetups or support groups for people living with HIV. You might even make great friends at your doctor's office who have had a similar experience. If you can't find anything locally or you're not comfortable enough just yet, there's always the internet. You can interact with people all over the world and ask them what they do to help fight the stigma in their communities.",
       "While dealing with the stigma of HIV can be difficult at times, it's important to remember that friendship and education can help bridge the gap between yourself and your peers. A few words can make a world of difference."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -472,6 +822,32 @@ export default [
       "7. Keep Yourself Healthy",
       "You can't be your best for other people if you aren't your best for yourself. Throwing yourself with full force at other people's depression might lead to compassion fatigue, which can in turn become your own depression. Remember that you aren't a therapist. Be prepared to point your friend to resources they might need if they truly require the help of a professional.",
       "True friendships can withstand a lot - including depression. Be patient, forgiving, and present when your friend struggling with depression needs it the most."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -504,6 +880,32 @@ export default [
       "Always pay in cash",
       "Another trick to stop you spending so much is to stop using credit cards or debit cards. Withdraw a certain amount of money at the start of the week and use it for all of your spending. This way, you will physically see the cash that you are spending. When you use a card, you can be fooled by the fact that it is not real cash and doesn't register in your brain the same way. Using a cash-only rule also provides more limitations. You won't be able to make larger purchases because you don't carry that much money around. You will also be forced to stop spending when you have already spent your budget for the week.",
       "There are lots of ways to stop yourself from spending, but until your brain is really on board, there is always a risk that you will overspend again. Use these tricks and you will find that you are more aware of every penny that you spend. That makes it a lot easier to avoid spending when you really need to be saving."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -541,6 +943,32 @@ export default [
       "Nap for the right amount of time. 20-30 minutes is good for a quick energy boost. 90 minutes is good for a more comprehensive recharge. 20-30 minutes, you see, is about enough to complete the first stage of sleep, and your brain starts to 'lift' naturally into lighter sleep, before plunging you deep into REM. Bringing yourself out at this 'lift' will leave you energised and not groggy. At the end of 90 minutes, you again 'lift' into lighter sleep, after a full sleep cycle, making 90 minutes another good nap cut off point. Anything in between these times, however, will drag you out of an unfinished sleep cycle you're not ready to wake from - leaving you feeling groggy.",
       "Nap at the same time. Good napping and sleeping habits are all about circadian rhythms - the internal 'clock' which dictates sleeping, waking, appetite, and so on. Napping at vastly differing times each day can confuse your circadian rhythms. Napping at roughly the same time, however, will help to solidify your circadian rhythms, leading to a lot of potential benefits.",
       "Don't nap within 6 hours of bedtime. Later naps won't leave you enough time to 'run down' naturally, leading to potential insomnia."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -581,6 +1009,32 @@ export default [
       "There has been much talk recently about the 'politics of fear'. Media and political campaigns designed to elicit sales and votes by scaremongering have become much more common in recent years, and the stress, hatred, and anger provoked by these can have an extremely negative effect on mental health. What is more, the internet provides us with access to negative news stories in unprecedented amounts. All of this serves to make us more anxious, and renders our ruminations rather more negative than would otherwise be the case.",
       "Statistics",
       "Some, however, believe that all of the above is simply an illusion, and that the real problem is not a problem at all. In recent years, we have become far better at accepting, seeking help for, and diagnosing mental health problems - all over the world. Perhaps we've always been this depressed - it's just that we're more self-aware about it now."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -618,6 +1072,32 @@ export default [
       "Nap for the right amount of time. 20-30 minutes is good for a quick energy boost. 90 minutes is good for a more comprehensive recharge. 20-30 minutes, you see, is about enough to complete the first stage of sleep, and your brain starts to 'lift' naturally into lighter sleep, before plunging you deep into REM. Bringing yourself out at this 'lift' will leave you energised and not groggy. At the end of 90 minutes, you again 'lift' into lighter sleep, after a full sleep cycle, making 90 minutes another good nap cut off point. Anything in between these times, however, will drag you out of an unfinished sleep cycle you're not ready to wake from - leaving you feeling o",
       "Nap at the same time. Good napping and sleeping habits are all about circadian rhythms - the internal 'clock' which dictates sleeping, waking, appetite, and so on. Napping at vastly differing times each day can confuse your circadian rhythms. Napping at roughly the same time, however, will help to solidify your circadian rhythms, leading to a lot of potential benefits.",
       "Don't nap within 6 hours of bedtime. Later naps won't leave you enough time to 'run down' naturally, leading to potential insomnia."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -658,6 +1138,32 @@ export default [
       "There has been much talk recently about the 'politics of fear'. Media and political campaigns designed to elicit sales and votes by scaremongering have become much more common in recent years, and the stress, hatred, and anger provoked by these can have an extremely negative effect on mental health. What is more, the internet provides us with access to negative news stories in unprecedented amounts. All of this serves to make us more anxious, and renders our ruminations rather more negative than would otherwise be the case.",
       "Statistics",
       "Some, however, believe that all of the above is simply an illusion, and that the real problem is not a problem at all. In recent years, we have become far better at accepting, seeking help for, and diagnosing mental health problems - all over the world. Perhaps we've always been this depressed - it's just that we're more self-aware about it now."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -716,6 +1222,32 @@ export default [
       "Farley brought Matt Foley to SNL, too; in the character’s first appearance on the show, as he yelled and adjusted his belt mere inches from their faces, host Christina Applegate, David Spade, and even the unflappable Phil Hartman could barely keep themselves from laughing. Still, nothing quite captured Farley’s self-deprecating charm like “The Chris Farley Show.” On the mock interview program, he nervously chatted with celebrities, smacking himself on the head and pulling his hair after asking dumb questions. His childlike tenderness was so strong that his guests, including Paul McCartney, would fall for him anyway.",
       "At the outset of his tenure on SNL, Sandler’s value to the show wasn’t nearly as apparent as Farley’s—compared to his scene-stealing buddy, he was a subtle presence. But he had an approach that didn’t resemble what anyone else was doing in sketch comedy at the time, and a voice that was his, and his alone. “I thought that Sandler brought a really great breath of fresh air to the show and relaxed the show when it was getting kind of uptight and formulaic,” Odenkirk, a longtime writer on SNL, said in James Andrew Miller and Tom Shales’s Live From New York: The Complete, Uncensored History of Saturday Night Live. “So I liked what Adam did. But I think his fame or his success did surprise maybe everybody.”",
       "As the faux-Italian Opera Man, Sandler displayed an impressive vocal range while singing about current events. With Canteen Boy and Cajun Man, he relied on a formula that served him well over the years: funny voice plus weird facial expression equals laughs. But what truly made Sandler a household name was his music. His holiday celebrations “The Thanksgiving Song” and, to an even greater extent, “The Hanukkah Song,” ended up getting airplay around the country. (During the holidays, radio stations still play them.) And for his performance of “Lunch Lady Land,” Farley dressed up as the title character and danced around the stage. In 1993, Sandler got his first taste of massive success, going platinum with his comedy album They’re All Gonna Laugh at You!, which featured several of his songs—and taught millions of kids how to curse creatively."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -746,6 +1278,32 @@ export default [
       "On December 18, 1997, after years of addiction and dozens of rehab stints, Chris Farley died of a drug overdose at his home in Chicago at the age of 33. Since his death, there have been many tributes to the comedian, though most can be distilled to how Segal (and Sandler’s SNL tribute) describes him: “There was nobody funnier on the planet.”or many aspiring comedic actors growing up in the ’90s, Adam Sandler’s career and approach was the mold. “He’s the best example of someone you looked up to when you were young,” Jonah Hill affirms. But Chris Farley was different. What he had was impossible to replicate—and, twistedly, tragically, impossible to truly capture on film.",
       "Once, while walking through Studio 8H, Wolf ran into a brand-new Saturday Night Live cast member. “I’m like, ‘Hey, man, what’s going on?’” the writer recalls. “And he’s like, ‘Oh, I’m just watching Farley out there. Look at him.’” Farley, who after leaving the show had returned to the set to visit, was out on the monologue mark doing pratfalls for the veteran crew. “I don’t have that. He’s like a hurricane.” That SNL novice? His name was Will Ferrell.",
       "This piece was updated on September 11 with additional information after publication."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -772,6 +1330,32 @@ export default [
       "Amputations aside, from the moment we laugh at our own farts until the day we die (hopefully not from a horrifying fart disease), finding humor is what keeps most of us sane along the way. That's why it's easy to assume that comedy is a one-way street filled with joy and hilariously tiny clown cars. It's not. Comedy, like the Force, the moon, and what we now know about Michael Jackson, has a light and a dark side. And sometimes it feels like the dark side is winning.Get a bunch of professional comedians in a room and you're probably going to be looking at a sad sack of potatoes. Or worse, a bunch of psychos. A study from the British Journal of Psychology found that comedians are more likely than others to admit to being easily distracted, antisocial, and compulsive and have less interest in connecting with other humans. Most of us would look at those qualities and say, \"Sooo, comedians are kind of introverted?\" Psychologists look at them and say, \"CRAZY!\" Probably because psychologists are still mad about flunking out of comedy school. Not good, either way.",
       "Antisocial traits aside, think of the comedians who have struggled with drugs, alcohol, and depression. There's not enough space in this article to name them all, so let's restrict our list to the Jerrys for quick examples: Lewis, Seinfeld, and Jerry of \"Tom and Jerry.\" Slapstick comedian/perpetual goofball Jerry Lewis wrestled with depression so hard that he claimed he would have committed suicide if not for hearing the laughter of his children running down the hall while he held the gun in his mouth. Jerry Seinfeld flippantly said a version of the same thing in a New York Times interview a few years ago. And as we've covered before, Jerry the Mouse straight up entered a suicide pact with his frenemy Tom.",
       "I know what you're thinking: It makes sense for comedians who are famous for their observational humor to be extra vulnerable to depression. These people can't turn off the compulsion to keep digging at the world until they hit a truth, and comedy is how they spin that truth into something they can live with. That's why Chris Rock once called comedy \"the blues for people who can't sing.\" Which kind of explains a lot, John Belushi-wise."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -798,6 +1382,32 @@ export default [
       "But this paean to the after-hours freedom of the night club doesn’t entirely get at why a great comic like C.K. is hailed as a “genius” in glossy magazines and is asked about being a “philosopher-king” by Charlie Rose. To understand that, consider the joke-writing process that C.K. describes later in the e-mail. In Los Angeles, where the New York-based C.K. filmed the special, he would do “twenty minutes of new material” at alternative venues and get “cheered on by the young, open and adaptive crowds” there. Then he would take those jokes to the Improv, “where the more basic and average character of the audience would cut the new material down to about three jokes.” And then he’d take those three to the famous Comedy Store, where, he writes, “maybe ONE of those jokes would get a chuckle.” That’s the keeper.",
       "Fiction writers and poets workshop their material, but they do so, typically, in small rooms full of other writers, often led by luminaries in the field. When, after test screenings, filmmakers recut their movies for the “more basic and average,” the practice is generally bemoaned. But comedians are seen as honest populists: laughter, we think, not only feels good but teases out universal truths. It doesn’t, necessarily: we laugh at all kinds of things for all kinds of reasons. (Among the things we laugh at in comedy clubs, according to C.K.: “Intentionally false and misleading argument.… Half truths. Non-truths. Broad and hilariously wrongful generalizations.”) But there’s a notion that comics, by honing their material so that it can work almost anywhere with almost anyone, discover something essential and true in the process. We may be suspicious of lyricism and dubious of a gripping plot, but jokes—jokes are for real.",
       "The special is still littered with funny things only C.K. could have said—or done, as when he pantomimes strangling his own baby to satisfy a businessman on a plane who is annoyed by her crying. (This bit worked even better when I saw C.K. do it live at Madison Square Garden a few weeks ago; the physicality of C.K.’s standup, expert and economical, is perhaps the only aspect of his work that one can still call underappreciated.) He tells some good stories about death—a favorite subject—describing the passing of a family dog as “a dry run for Grandma,” so that when she goes, he can simply remind his kids about what happened with the dog and say, “Yeah, so, Grandma now.” But the special lacks the kind of standout moment that you share with your friends the next day and that changes how you think about something."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -830,6 +1440,32 @@ export default [
       "Spend time with the people most important to you, not just the activities most important to you.",
       "Do one thing at a time. Whatever is most important to do right now, do it. Let everything else wait. Don’t even think about the next thing. Multi-tasking gets things done, but not done as well, and not done as meaningfully.",
       "Help others. And be mindful of the good you have done for others and the good you will continue to do, in your work and in your personal life."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -868,6 +1504,32 @@ export default [
       "British Isles",
       "Travel",
       "Job Skills"
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -905,6 +1567,32 @@ export default [
       "Demi Moore Lets Her Guard Down",
       "New Hope, New Pain, Same Old Divorce",
       "I woke up one morning and discovered that I was on CNN, in the middle of a piece about the Republican primary. My name and words were on television — all without making me a dollar. The irony was not lost on me, someone who finds irony in things for a nonliving. I was barely able to pay my rent while simultaneously (briefly) entertaining people all over the planet."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -943,6 +1631,32 @@ export default [
       "“It’s this murky area where you know the people and it has repercussions for their families,” she says, “so I don’t know how to put that out there in the world in a constructive and safe way for both me and all involved. We only have an existing narrative framework for a stranger doing violence to you.”",
       "The idea of “stranger danger” persists in the collective psyche, but we now know that sexual offences against children are the crimes least likely to involve strangers. Most children will be abused by opportunists in adult relationships: the married relatives, the family friends, the pillars of the community, the good blokes. “A lot of people who have experienced trauma at the hands of people they’ve trusted take responsibility, and that is what’s toxic,” Gadsby says. “It’s bullshit that as a kid I’d care for a person that was abusing me, but you just do and that’s the horrific thing.”",
       "Shame and rage are the twin forces behind Nanette, but rage, at least, has velocity. It is purposeful, powering her to the final third, whereas shame welds the feet to the ground. Gadsby considers this delineation. “Shame has its place,” she says. “Shame is what you do to a kid to stop them running on the road. And then you take the shame away and immediately they’re back in the fold. You should never soak anybody in shame. It’s the prolonged existence of shame that then flips out into destructive rage. We can’t exist in that. It’s like treacle.”"
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -982,6 +1696,32 @@ export default [
       '“Everybody looks for funding in the same old places, with the same old VCs,” Adam shakes his head. “Open your mind and look elsewhere. Be unique. If you’re building a product that’s unique, the place where you seek funding should be unique, too. Ask yourself where those VCs get their money and go there."',
       "Adam raised his funding from a private equity based in South America. According to Adam, South America is loaded with money and is seeking new opportunities.",
       '“Follow my advice,” Adam adds. "If you want money from investors, give them a great show! Hire a screenwriter if you have to, just like I did. Make sure you’re putting on a great act with your pitch! For me, watching a lot of Louis C.K. stand-up comedy performances turned out to be a great investment.”'
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1021,6 +1761,32 @@ export default [
       "FX’s “The Americans,” especially after its near-perfect Season 2.",
       "CBS’s “The Good Wife.” Please go back and watch it all.",
       "BBC’s “Sherlock,” which stars Benedict Cumberbatch."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1065,6 +1831,32 @@ export default [
       "Across many creative fields (art, music, film, media), institutions once shared the risks with aspirants. Movie studios and modeling agencies would offer contracts to raw talent, and then use their marketing capabilities to train them for success.",
       "Now the burden of risk is shifting to individuals.",
       "Communication scholar Gina Neff described this process as the rise of “venture labor,” where the imperative to “give it your all” to “have it all” spreads via social media."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1094,6 +1886,32 @@ export default [
       "To be emotionally controlled also suggests elevation above earthly concerns, access to higher knowledge and – in the modern world – an ability to be “unshakeable”. This is even more impressive in what theorist  Erving Goffman called “fateful situations” – situations in which you or your dignity and composure are at greater than average risk.",
       "Tricky business",
       "This is why we are impressed by steely faced fighter pilots and nonchalant thieves – think Alan Rickman as the deadpan European super-villain Hans Gruber in Die Hard. Actually, Goffman was interested not so much in the control of emotions as he was in the control of the body, through which the ability to move smoothly and to appear unflustered became a much-admired trait. Fashion models on the catwalk may not seem to be in an especially “fateful” situation but in fact fashion and being fashionable is an extremely tricky business."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1135,6 +1953,32 @@ export default [
       "While there is some debate over whether models are at a higher risk of developing eating disorders, this career certainly encourages unhealthy behaviour. Thinness of this degree has hugely damaging effects on the internal organs, bones and brain. It can cause obsessiveness and social withdrawal even in psychologically healthy people. France has already lost a high-profile model to anorexia – yet the new laws almost encourage agencies to wash their hands of models who fall ill.",
       "In the same way, while pro-ana content is undoubtedly harmful, the new laws punish those who are in need of help. This exclusively punitive approach is likely to drive these sites further undergound.",
       "If the measures are enforced – if spot checks continue, weigh-ins aren’t cheated and other countries are supportive – they may be a positive move. They may be a first step towards a culture that prioritises health over aesthetics – whether that means a dangerously small or unhealthily large body. Nonetheless, this will mostly benefit the worried well – those who, regrettably, are unhappy with their bodies, but are otherwise unlikely to develop anorexia nervosa. Claiming that these laws address one of the most treatment-resistant mental illnesses is far too optimistic."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1173,6 +2017,32 @@ export default [
       "These findings suggest imposing a minimum BMI for fashion models could have a significant impact on the health and well-being of girls and young women. So there’s good reason for the measures to be more broadly accepted. But what could it mean for retailers’ bottom line?",
       "Encouragingly, studies have found adverts that feature average-size models are just as effective as those featuring very thin women. In fact, research suggests that “moderately thin” advertising models may be optimal in terms of consumers’ brand attitudes and purchasing intentions.",
       "This means advertisers could use larger models to sell their products without taking a hit on sales. Indeed, it’s possible that by promoting healthy body image in advertising, companies could even bolster customers’ affinity with and loyalty to the brand."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1213,6 +2083,32 @@ export default [
       "Cultural commodities",
       "But, admirable as these initiatives appear, it is also unclear why the government doesn’t take more direct steps to regulate areas of the market that contribute to unhealthy lifestyles and the cultural obsession with appearance.",
       "Take cosmetic surgery, for example. Since the PIP scandal in 2012, where industrial-grade silicone was used in breast implants that doubled the chance of them rupturing, the government has taken little concrete action to tackle the way cosmetic surgery is regulated, sold and marketed."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1249,6 +2145,32 @@ export default [
       "One of Casablancas’ key strategies entailed marketing his “girls” as a group. This ploy dovetailed nicely with a genre of fashion photography that had been developed in the 1950s – the large cast fashion shoot.",
       "Throughout the 1980s and early 1990s high-end fashion photographers including Peter Lindbergh, Steven Meisel and Herb Ritts developed compelling editorial spreads that featured groupings of supermodels lined up next to each other wearing variations on a theme. In these somewhat disarming images each model seems to trump the beauty of the next resulting in a giddying excess of glamour.",
       "The supermodels faced the 1990s optimistically appearing en masse on the covers of the world’s most influential fashion magazines and attracting lucrative make-up endorsements. But meanwhile the fashion clock was ticking. Not only was grunge replacing glamour as the fashionable ideal the whole image of the supermodel with her perfect beauty was attracting critique from various quarters."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1280,6 +2202,32 @@ export default [
       "Try to Control Your Temperature",
       "Do your best to control your core body temperature as having the flu can really make it soar. Have a digital ear thermometer to hand at home so you can get an accurate reading of your fever. Medication such as ibuprofen should help to gradually bring it down and will also help with any aches and pains that you’ll probably be experiencing as well.",
       "If you feel like your symptoms are not improving or are even getting worse, do not hesitate to contact your local doctor or visit your nearest hospital. Flu can be fatal if not managed correctly, so it's always better to be safe than be sorry, but with the right management and lots of sleep and rest, your symptoms should steadily improve."
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1314,6 +2262,32 @@ export default [
       "The researchers suggest that when prompted by a cue, the hippocampus recalls a sequence of associated memories. This may explain how recollection of an entire past experience can be triggered by seeing a particular face or listening to a piece of music. The hippocampus appears to perform a critical comparison between past and present experiences alerting us to unexpected changes.",
       "Dr Kumaran continued:",
       '"Patients with damaged hippocampi, such as those with Alzheimer\'s Disease, often have trouble remembering sequences of events or finding their way around. This would seem to be because the damaged hippocampus is unable to rapidly bind together the many different components of our experiences into a coherent whole."'
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1376,6 +2350,32 @@ export default [
       "Researchers conclude that happiness is a worthy goal for the unhappy, but the endless pursuit of ever more happiness may be counterproductive.",
       "Ed Diener concluded:",
       "\"If you're worried about success in life, don't be a 1, 2, 3 or 4 (on the 10-point scale). If you are unhappy or only slightly happy, you may need to seek help or read those self-help books or do something to make yourself happier. But if you're a 7 or 8, maybe you're happy enough!\""
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   },
   {
@@ -1403,8 +2403,8 @@ export default [
       "According to Adjunct Professor Lauri Nummenmaa from Aalto University:",
       '"Sharing others’ emotional states provides the observers a somatosensory and neural framework that facilitates understanding others’ intentions and actions and allows to ‘tune in’ or ‘sync’ with them. Such automatic tuning facilitates social interaction and group processes.',
       '"The results have major implications for current neural models of human emotions and group behaviour, but also deepen our understanding of mental disorders involving abnormal socioemotional processing.',
-      "Contagious Laughter" +
-        "The new study can be compared with with one by researchers at University College (UCL) and Imperial College London published in the Journal of Neuroscience in 2007 showed a possible mechanism for contagious laughter. Positive sounds like laughter trigger a response in the area of the listener's brain activated when we smile, as though preparing facial muscles to laugh.",
+      "Contagious Laughter",
+      "The new study can be compared with with one by researchers at University College (UCL) and Imperial College London published in the Journal of Neuroscience in 2007 showed a possible mechanism for contagious laughter. Positive sounds like laughter trigger a response in the area of the listener's brain activated when we smile, as though preparing facial muscles to laugh.",
       "In an example given in the media release:",
       "\"Cricket commentator Jonathan Agnew's description of Ian Botham's freak dismissal, falling over his own stumps 'he couldn't quite get his leg over' was all it took to send himself and the late Brian Johnston into paroxysms of laughter.\"",
       "Dr Sophie Scott, senior research fellow at the Institute of Cognitive Neuroscience said:",
@@ -1412,6 +2412,32 @@ export default [
       "Researchers played volunteers various sounds while measuring brain responses using an fMRI scanner. Some sounds were positive, for example laughter or triumph. Others were unpleasant, such as screaming or retching. All triggered a response in the premotor cortical region of the brain, which prepares facial muscles to respond accordingly. However, the response was greater for positive sounds, suggesting that these were more contagious than negative examples. The researchers believe this explains why we respond to laughter or cheering with an involuntary smile.",
       "Sophie Scott commented:",
       '"We usually encounter positive emotions, such as laughter or cheering, in group situations, whether watching a comedy programme with family or a football game with friends. This response in the brain, automatically priming us to smile or laugh, provides a way of mirroring the behaviour of others, something which helps us interact socially. It could play an important role in building strong bonds between individuals in a group."'
+    ],
+    relativeLinks: [
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      },
+      {
+        id: "some id the same author",
+        title: "",
+        shortDescription: "",
+        sliderImg: ["link1", "link2"]
+      }
     ]
   }
 ];
