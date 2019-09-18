@@ -466,13 +466,13 @@ export default [
     article: [
       {
         id: "r00WQkQQuUx",
-        shortDescription: "Love: Unity or Journey?  .",
+        shortDescription: "Infants, Adults and Novelty. ",
         date: "2019-09-17:03:21.000Z",
         img: ""
       },
       {
         id: "QkQQuUxTNW1",
-        shortDescription: "Height and Depression . ",
+        shortDescription: "The Easy Way To Manage A Flu This Fall.",
         date: "2019-01-24:20:23.000Z",
         img: ""
       }
