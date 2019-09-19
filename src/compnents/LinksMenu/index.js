@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 class LinksMenu extends Component {
   render() {
     return (
-      <div className="list">
-        <Link className="item" to="/aboute">
+      <div className="header__list">
+        <Link className="header__item_unfixed" to="/aboute">
           Aboute
         </Link>
-        <Link className="item" to="/clients">
+        <Link className="header__item_unfixed" to="/clients">
           Clients
         </Link>
-        <Link className="item" to="/news">
+        <Link className="header__item_unfixed" to="/news">
           News
         </Link>
-        <Link className="item" to="/contact-us">
+        <Link className="header__item_unfixed" to="/contact-us">
           Contact us
         </Link>
       </div>

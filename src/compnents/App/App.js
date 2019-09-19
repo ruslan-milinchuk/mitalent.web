@@ -6,6 +6,7 @@ import About from "../../pages/About";
 import Clients from "../../pages/Clients";
 import ContactUs from "../../pages/ContactUs";
 import HomePage from "../../pages/HomePage";
+import Header from "../../pages/Header";
 const history = createBrowserHistory();
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <div>
         <Router history={history}>
+          <Header />
           <Route exact path="/" component={HomePage} />
           <Route path="/aboute" component={About} />
           <Route path="/clients" component={Clients} />
