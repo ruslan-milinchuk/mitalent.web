@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Router, Route } from "react-router-dom";
 import createBrowserHistory from "history/createBrowserHistory";
-import News from "../../pages/News/";
-import About from "../../pages/About";
-import Clients from "../../pages/Clients";
-import ContactUs from "../../pages/ContactUs";
-import HomePage from "../../pages/HomePage";
-import Header from "../../pages/Header";
+import News from "./pages/News";
+import About from "./pages/About";
+import Clients from "./pages/Clients";
+import ContactUs from "./pages/ContactUs";
+import HomePage from "./pages/HomePage";
+import Header from "./pages/Header";
 const history = createBrowserHistory();
 
 class App extends Component {
