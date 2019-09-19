@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import LinksMenu from "../LinksMenu";
 import "../BurgerMenu/style.css";
-import { isLink } from "../../utils/isLink";
 
 class BurgerMenu extends Component {
   state = {
@@ -17,7 +16,6 @@ class BurgerMenu extends Component {
             <span />
           </a>
         </div>
-        {isLink() && this.menuClick}
         {isOpen && <LinksMenu />}
       </div>
     );
