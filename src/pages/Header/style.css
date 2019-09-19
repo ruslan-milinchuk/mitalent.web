@@ -36,3 +36,28 @@
 .item:first-child{
 	margin-top: 0;
 }
+
+.form {
+	display: flex;
+	margin-right: 25px;
+	width: 280px;
+	height: 35px;
+	box-sizing: border-box;
+	border-left: 1px black solid;
+}
+
+.input {
+	padding-left: 30px;
+	border: none;
+	max-height: 100%;
+	width: 225px;
+	outline: none;
+}
+
+.button {
+	border: none;
+	width: 35px;
+	height: 100%;
+	outline: none;
+	cursor: pointer;
+}
