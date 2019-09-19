@@ -5,6 +5,7 @@ class BurgerMenu extends Component {
   state = {
     isOpen: false
   };
+
   render() {
     return (
       <div>
@@ -13,7 +14,8 @@ class BurgerMenu extends Component {
             <span />
           </a>
         </div>
-        {this.state.isOpen && <LinksMenu c />}
+
+        {this.state.isOpen && <LinksMenu />}
       </div>
     );
   }

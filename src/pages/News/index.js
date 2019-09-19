@@ -1,8 +1,14 @@
 import React, { Component } from "react";
+import Header from "../Header";
 
 class News extends Component {
   render() {
-    return <h1>Some news</h1>;
+    return (
+      <div>
+        <Header />
+        <h1>Some news</h1>
+      </div>
+    );
   }
 }
 
