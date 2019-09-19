@@ -5,7 +5,6 @@ class ContactUs extends Component {
   render() {
     return (
       <div>
-        <Header />
         <h1>Contact</h1>
       </div>
     );

@@ -5,7 +5,6 @@ class News extends Component {
   render() {
     return (
       <div>
-        <Header />
         <h1>Some news</h1>
       </div>
     );
