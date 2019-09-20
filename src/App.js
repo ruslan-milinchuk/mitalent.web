@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Router, Route } from "react-router-dom";
 import createBrowserHistory from "history/createBrowserHistory";
 import News from "./pages/News";
@@ -6,7 +6,8 @@ import About from "./pages/About";
 import Clients from "./pages/Clients";
 import ContactUs from "./pages/ContactUs";
 import HomePage from "./pages/HomePage";
-import Header from "./pages/Header";
+import Header from "./compnents/Header";
+import "./media.css";
 const history = createBrowserHistory();
 
 const App = () => (
