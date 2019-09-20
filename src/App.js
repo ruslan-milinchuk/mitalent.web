@@ -6,8 +6,7 @@ import About from "./pages/About";
 import Clients from "./pages/Clients";
 import ContactUs from "./pages/ContactUs";
 import HomePage from "./pages/HomePage";
-import Header from "./compnents/Header";
-import "./media.css";
+import Header from "./components/Header";
 const history = createBrowserHistory();
 
 const App = () => (

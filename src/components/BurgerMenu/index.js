@@ -10,7 +10,7 @@ class BurgerMenu extends Component {
   render() {
     const { isOpen } = this.state;
     return (
-      <div>
+      <div className="header__burger-menu">
         <div className="section" onClick={this.menuClick}>
           <a href="#" className="menu-btn">
             <span />
