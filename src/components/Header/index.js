@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import BurgerMenu from "../BurgerMenu";
 import { Link } from "react-router-dom";
 import "./style.css";
-import IconSearch from "../../compnents/IconSearch";
-import "../../media.css";
+import IconSearch from "../IconSearch";
 
 class Header extends Component {
   render() {

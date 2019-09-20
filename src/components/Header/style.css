@@ -67,4 +67,24 @@
     outline: none;
     cursor: pointer; }
 
+@media screen and (max-width: 1024px) {
+  .header__item_fixed {
+    margin-left: 30px; }
+  .header__input {
+    width: 120px; }
+  .header__search-form {
+    width: 150px; } }
+@media screen and (max-width: 820px) {
+  .header {
+    justify-content: center; }
+    .header__item_fixed {
+      display: none; }
+    .header__search-form {
+      display: none; }
+    .header__logo {
+      margin-right: 30px; }
+    .header__burger-menu {
+      position: absolute;
+      left: 0; } }
+
 /*# sourceMappingURL=style.css.map */
