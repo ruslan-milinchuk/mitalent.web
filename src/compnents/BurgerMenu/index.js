@@ -16,7 +16,7 @@ class BurgerMenu extends Component {
             <span />
           </a>
         </div>
-        {isOpen && <LinksMenu />}
+        {isOpen && <LinksMenu close={this.menuClick} />}
       </div>
     );
   }
