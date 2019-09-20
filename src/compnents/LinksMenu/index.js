@@ -5,7 +5,7 @@ class LinksMenu extends Component {
   render() {
     return (
       <div className="header__list">
-        <Link className="header__item_unfixed" to="/aboute">
+        <Link className="header__item_unfixed" to="/about">
           Aboute
         </Link>
         <Link className="header__item_unfixed" to="/clients">

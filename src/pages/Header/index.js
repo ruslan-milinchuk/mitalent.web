@@ -19,7 +19,8 @@ class Header extends Component {
         </div>
         <h1>
           <Link className="header__logo" to="/">
-            MITALENT
+            <span>MI</span>
+            <span className="header__logo-spasing">TALENT</span>
           </Link>
         </h1>
         <form className="header__search-form">
