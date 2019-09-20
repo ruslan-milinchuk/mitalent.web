@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import LinksMenu from "../LinksMenu";
-import "../BurgerMenu/style.css";
+import "./style.css";
 
 class BurgerMenu extends Component {
   state = {
