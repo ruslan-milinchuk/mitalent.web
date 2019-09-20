@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Toledo serial;
+  src: url("../../fonts/toledo-serial/toledo-serial-bold.ttf"); }
+@font-face {
+  font-family: Seconda;
+  src: url("../../fonts/seconda-soft/TTF/SecondaSoft-Light.ttf"); }
 .header {
   display: flex;
   align-items: center;
@@ -9,16 +15,25 @@
     left: 88px;
     margin-left: 20px;
     text-decoration: none;
-    color: black; }
+    color: black;
+    text-transform: uppercase;
+    font-family: Seconda;
+    font-weight: 700; }
   .header__list {
     position: fixed;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-family: Seconda;
+    font-weight: 700; }
   .header__logo, .header__item_unfixed {
     text-decoration: none;
     color: black;
-    margin: 15px; }
+    margin: 15px;
+    text-transform: uppercase; }
+  .header__logo {
+    font-family: Toledo serial; }
   .header__item_fixed:hover, .header__item_unfixed:hover {
     text-decoration: none; }
   .header__item_unfixed:first-child {
