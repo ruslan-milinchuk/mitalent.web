@@ -6,7 +6,7 @@ const ButtonList = ({ list, stateNumb }) => {
       onClick={() => stateNumb(index)}
       className="person__btn-item"
     >
-      0{index + 1}
+      {index + 1 >= 10 ? index + 1 : "0" + (index + 1)}
     </button>
   ));
 };
