@@ -2,6 +2,9 @@
   display: flex;
   width: 100%; }
   .person__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 30%;
     z-index: 1; }
   .person__name {
@@ -26,7 +29,8 @@
   .person__btn {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end; }
+    align-items: flex-end;
+    margin-bottom: 50px; }
     .person__btn-arrow {
       display: flex;
       margin: 0 auto; }
@@ -35,18 +39,21 @@
       background-color: white;
       width: 20px;
       border: none;
-      margin: 10px; }
+      margin: 10px;
+      color: grey; }
     .person__btn-right {
       cursor: pointer;
       background-color: white;
       width: 20px;
       border: none;
-      margin: 10px; }
+      margin: 10px;
+      color: grey; }
     .person__btn-left, .person__btn-right {
-      display: grid; }
+      display: grid;
+      outline: none; }
     .person__btn-left:hover, .person__btn-right:hover {
-      border: 1px grey solid;
-      border-radius: 2px; }
+      border-radius: 2px;
+      color: black; }
   .person__btn-list {
     display: flex;
     flex-direction: column; }
@@ -57,10 +64,17 @@
     border: none;
     margin-left: 25px;
     width: 35px;
-    height: 35px; }
+    height: 35px;
+    color: grey; }
     .person__btn-item:hover {
       border: 1px grey solid;
       border-radius: 2px; }
+  .person__btn-item-active:before {
+    content: '';
+    width: 5px;
+    height: 1px;
+    border: 1px black solid;
+    color: black; }
   .person__img {
     margin-right: 25px;
     height: 45vw;
@@ -79,6 +93,8 @@
     background-color: white;
     text-decoration: none;
     font-size: 14px; }
+    .person__link:hover {
+      color: grey; }
 
 @media screen and (max-width: 1300px) {
   .person__content {
@@ -104,7 +120,9 @@
   .person__name {
     padding-top: 15px; }
   .person__name_font {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .person__btn {
+    margin-bottom: 0; } }
 @media screen and (max-width: 700px) {
   .person__name {
     padding-top: 5px; }

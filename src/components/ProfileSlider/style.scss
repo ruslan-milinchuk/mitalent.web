@@ -3,6 +3,9 @@
   width: 100%;
 
   &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 30%;
     z-index: 1;
   }
@@ -37,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 50px;
 
     &-arrow{
       display: flex;
@@ -49,6 +53,7 @@
       width: 20px;
       border: none;
       margin: 10px;
+      color: grey;
 
     }
 
@@ -58,13 +63,15 @@
       width: 20px;
       border: none;
       margin: 10px;
+      color: grey;
     }&-left, &-right {
        display: grid;
+    outline: none;
      }
 
     &-left:hover, &-right:hover {
-      border: 1px grey solid;
       border-radius: 2px;
+      color: black;
     }
   }
 
@@ -81,11 +88,20 @@
     margin-left: 25px;
     width: 35px;
     height: 35px;
+    color: grey;
 
     &:hover{
       border: 1px grey solid;
       border-radius: 2px;
     }
+  }
+
+  &__btn-item-active:before{
+    content: '';
+    width: 5px;
+    height: 1px;
+    border: 1px black solid;
+    color: black;
   }
 
   &__img{
@@ -109,6 +125,10 @@
     background-color: white;
     text-decoration: none;
     font-size: 14px;
+
+    &:hover{
+      color: grey;
+    }
   }
 }
 
@@ -162,6 +182,10 @@
 
     &__name_font {
       font-size: 40px;
+    }
+
+    &__btn {
+      margin-bottom: 0;
     }
   }
 }
