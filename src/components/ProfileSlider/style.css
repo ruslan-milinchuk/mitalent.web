@@ -1,0 +1,64 @@
+.person {
+  display: flex;
+  width: 100%; }
+  .person__content {
+    width: 30%;
+    z-index: 1; }
+  .person__name {
+    font-size: 35px;
+    margin-left: 20vw;
+    padding-top: 170px; }
+    .person__name_font {
+      font-family: Nominee Regular;
+      font-weight: lighter;
+      z-index: 1;
+      min-width: 350px; }
+  .person__role {
+    font-family: Aftica Regular;
+    margin-left: 20vw;
+    padding-top: 50px;
+    min-width: 300px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: gray;
+    z-index: 1; }
+  .person__btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    .person__btn-arrow {
+      display: flex;
+      margin: 0 auto; }
+    .person__btn-left {
+      width: 20px;
+      border: none;
+      margin: 10px; }
+    .person__btn-right {
+      width: 20px;
+      border: none;
+      margin: 10px; }
+  .person__btn-list {
+    display: flex;
+    flex-direction: column; }
+  .person__btn-item {
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-left: 25px; }
+  .person__img {
+    height: 45vw;
+    overflow: hidden;
+    position: relative; }
+  .person__link {
+    font-family: Aftica Regular;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    padding: 20px 50px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */
