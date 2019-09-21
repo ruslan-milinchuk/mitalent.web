@@ -43,7 +43,7 @@ class ProfileSlider extends Component {
         client"
           />
 
-          <a className="person__link" href="#">
+          <a className="person__link" href={link}>
             Enquire about {name[0]}
           </a>
         </div>

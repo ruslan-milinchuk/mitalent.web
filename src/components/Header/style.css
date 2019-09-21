@@ -26,7 +26,8 @@
     font-family: Seconda;
     font-weight: 700;
     font-size: 14px;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    z-index: 4; }
   .header__logo, .header__item_unfixed {
     text-decoration: none;
     color: black;
@@ -86,5 +87,12 @@
     .header__burger-menu {
       position: absolute;
       left: 0; } }
+@media screen and (max-width: 580px) {
+  .header__logo {
+    margin: 10px;
+    font-size: 26px; }
+
+  .menu-btn {
+    margin: 10px 0 10px 10px; } }
 
 /*# sourceMappingURL=style.css.map */
