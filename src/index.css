@@ -18,6 +18,15 @@
   src: url("fonts/sweet-sans/SweetSansSC.otf");
 }
 
+@font-face {
+  font-family: Nominee Regular ;
+  src: url("fonts/nominee-regular/17730.ttf");
+}
+
+@font-face {
+  font-family: Aftica Regular ;
+  src: url("fonts/aftica-regular/FontsFree-Net-AftikaRegular.ttf");
+}
 
 * {
   padding: 0;
