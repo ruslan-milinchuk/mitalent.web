@@ -10,16 +10,14 @@ class Clients extends Component {
       "https://images.pexels.com/photos/2963035/pexels-photo-2963035.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
     ];
 
+    const link = "#";
+
     const name = ["Derec", "Anderson"];
 
     const role = "American actor and comedian";
     return (
       <div>
-        <img
-          src="../../img/persons/NoemieBeier/photoPerson/photo2.jpeg"
-          alt=""
-        />
-        <ProfileSlider list={list} name={name} role={role} />
+        <ProfileSlider list={list} name={name} role={role} link={link} />
       </div>
     );
   }

@@ -34,9 +34,7 @@
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2px;
-
-
-
+    z-index: 4;
   }
   
   &__logo, &__item_unfixed{
@@ -61,7 +59,6 @@
     }
   }
 
-
   &__logo-spasing {
     margin-left: 4px;
   }
@@ -72,7 +69,6 @@
 
   &__item_unfixed:first-child{
     margin-top: 0;
-
   }
 
   &__search-form {
@@ -138,5 +134,15 @@
       position: absolute;
       left: 0;
     }
+  }
+}
+
+@media screen and(max-width: 580px){
+  .header__logo{
+    margin: 10px;
+    font-size: 26px;
+  }
+  .menu-btn{
+    margin: 10px 0 10px 10px;
   }
 }
