@@ -1,17 +1,12 @@
 import React from "react";
-const ButtonList = (list, func) => {
-  let numbOfBtn = [];
-  for (var i = 0; i < list.list.length; i++) {
-    numbOfBtn.push(list.list[i]);
-  }
-
-  return numbOfBtn.map((item, index) => (
+const ButtonList = ({ list, stateNumb }) => {
+  return list.map((item, index) => (
     <button
       key={index}
-      onClick={() => func(index)}
+      onClick={() => stateNumb(index)}
       className="person__btn-item"
     >
-      {index + 1}
+      0{index + 1}
     </button>
   ));
 };

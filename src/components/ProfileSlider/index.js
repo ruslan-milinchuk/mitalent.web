@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
-import ArrowLeft from "../ArrowLeft";
-import ArrowRight from "../ArrowRight";
+import ArrowLeft from "../../icons/ArrowLeft";
+import ArrowRight from "../../icons/ArrowRight";
 import ButtonList from "../ButtonList";
 class ProfileSlider extends Component {
   state = { i: 0 };
@@ -12,13 +12,13 @@ class ProfileSlider extends Component {
       <div className="person">
         <div className="person__content">
           <div className="person__name">
-            <h1 className="person__name_font">{name[0]}</h1>
-            <h1 className="person__name_font">{name[1]}</h1>
+            <h2 className="person__name_font">{name[0]}</h2>
+            <h2 className="person__name_font">{name[1]}</h2>
           </div>
-          <h1 className="person__role">{role}</h1>
+          <h3 className="person__role">{role}</h3>
           <div className="person__btn">
             <div className="person__btn-list">
-              <ButtonList list={list} changeState={this.stateNumb} />
+              <ButtonList list={list} stateNumb={this.stateNumb} />
             </div>
             <div className="person__btn-arrow">
               <button
