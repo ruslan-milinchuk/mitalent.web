@@ -1,0 +1,66 @@
+.client__card {
+  position: relative;
+  width: 235px;
+  height: 250px;
+  overflow: hidden; }
+  .client__card:hover:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: block; }
+  .client__card > img {
+    width: 100%; }
+.client__card:hover {
+  background-color: rgba(0, 0, 0, 0.7); }
+.client__card:hover > .client__name {
+  display: block; }
+.client__card:hover > .client__role {
+  display: block; }
+.client__card:hover > .client__link {
+  display: block;
+  z-index: 1; }
+.client__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+  justify-content: center; }
+.client__name {
+  font-family: Helvetica;
+  display: none;
+  position: absolute;
+  bottom: 43px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: white;
+  z-index: 1; }
+.client__role {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 8px;
+  margin: 5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 1.5px;
+  z-index: 1;
+  font-family: "Sweet Sans"; }
+.client__link {
+  border-radius: 50%;
+  background: #b5d2d3;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  overflow: hidden;
+  width: 25px;
+  height: 25px;
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
