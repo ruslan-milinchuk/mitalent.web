@@ -8,6 +8,17 @@
   src: url("fonts/seconda-soft/seconda-soft-light.ttf");
 }
 
+@font-face {
+  font-family: Helvetica ;
+  src: url("fonts/helvetica/helveticaneuecyr-light.otf");
+}
+
+@font-face {
+  font-family: Sweet Sans ;
+  src: url("fonts/sweet-sans/SweetSansSC.otf");
+}
+
+
 * {
   padding: 0;
   margin: 0;

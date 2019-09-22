@@ -80,8 +80,8 @@ export default [
   },
   {
     id: "DxLLFpxPIRjohDg",
-    firstName: "Lincoln",
-    lastName: "Glover",
+    firstName: "Glover",
+    lastName: "Lincoln",
     type: ["actor"],
     shortDescription: "Is an Irish film, television, and stage actor. ",
     mainDescription:
