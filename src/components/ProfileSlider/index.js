@@ -15,8 +15,8 @@ class ProfileSlider extends Component {
         <div className="person__content">
           <div className="person__name">
             <h2 className="person__name_font">
-              {firstName}
-              <br />
+              {firstName}&nbsp;
+              <br className="person__br-none" />
               {lastName}
             </h2>
           </div>
@@ -25,7 +25,7 @@ class ProfileSlider extends Component {
             <div className="person__btn-list">
               <ButtonList list={list} stateNumb={this.stateNumb} />
             </div>
-            <div className="person__btn-arrow">
+            <div className="person__btn-arrow_disp-inline">
               <button
                 onClick={() => this.slideLeft(list)}
                 className="person__btn-left"
@@ -51,6 +51,20 @@ class ProfileSlider extends Component {
           <a className="person__link" href={link}>
             Enquire about {firstName}
           </a>
+        </div>
+        <div className="person__btn-arrow_disp-none">
+          <button
+            onClick={() => this.slideLeft(list)}
+            className="person__btn-left"
+          >
+            <ArrowLeft />
+          </button>
+          <button
+            onClick={() => this.slideRight(list)}
+            className="person__btn-right"
+          >
+            <ArrowRight />
+          </button>
         </div>
       </div>
     );
