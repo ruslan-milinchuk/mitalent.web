@@ -7,16 +7,22 @@ import Clients from "./pages/Clients";
 import ContactUs from "./pages/ContactUs";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Layout from "./components/Layout";
 const history = createBrowserHistory();
 
 const App = () => (
   <Router history={history}>
     <Header />
-    <Route exact path="/" component={HomePage} />
-    <Route path="/about" component={About} />
-    <Route path="/clients" component={Clients} />
-    <Route path="/news" component={News} />
-    <Route path="/contact-us" component={ContactUs} />
+    <Layout>
+      {" "}
+      <Route exact path="/" component={HomePage} />
+      <Route path="/about" component={About} />
+      <Route path="/clients" component={Clients} />
+      <Route path="/news" component={News} />
+      <Route path="/contact-us" component={ContactUs} />
+    </Layout>
+    <Footer />
   </Router>
 );
 
