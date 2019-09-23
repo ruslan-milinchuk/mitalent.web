@@ -15,7 +15,6 @@ const App = () => (
   <Router history={history}>
     <Header />
     <Layout>
-      {" "}
       <Route exact path="/" component={HomePage} />
       <Route path="/about" component={About} />
       <Route path="/clients" component={Clients} />
