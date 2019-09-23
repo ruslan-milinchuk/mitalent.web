@@ -8,12 +8,12 @@
     width: 100%;
     z-index: 5;
   }
-  
+
   &__menu {
     display: flex;
     align-items: center;
   }
-  
+
   &__item_fixed{
     left: 88px;
     margin-left: 50px;
@@ -28,7 +28,7 @@
 
   &__item_fixed:hover{
     color: rgba(167,167,167,.9);  }
-  
+
   &__list {
     position: fixed;
     display: flex;
@@ -41,8 +41,8 @@
     letter-spacing: 2px;
     z-index: 4;
   }
-  
-  &__logo, &__item_unfixed{
+
+  &__item_unfixed{
     text-decoration: none;
     color: black;
     margin: 15px;
@@ -51,16 +51,6 @@
 
   &__item_unfixed:hover{
     color: rgba(167,167,167,.9);  }
-
-  &__logo {
-    font-family: Toledo serial;
-    display:inline-block;
-    transform: scale(1.2, 1);
-    letter-spacing: 1px;
-
-    &:hover{
-      color: rgba(167,167,167,.9);    }
-  }
 
   &__logo-spasing {
     margin-left: 4px;

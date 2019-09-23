@@ -32,20 +32,13 @@
     font-size: 14px;
     letter-spacing: 2px;
     z-index: 4; }
-  .header__logo, .header__item_unfixed {
+  .header__item_unfixed {
     text-decoration: none;
     color: black;
     margin: 15px;
     text-transform: uppercase; }
   .header__item_unfixed:hover {
     color: rgba(167, 167, 167, 0.9); }
-  .header__logo {
-    font-family: Toledo serial;
-    display: inline-block;
-    transform: scale(1.2, 1);
-    letter-spacing: 1px; }
-    .header__logo:hover {
-      color: rgba(167, 167, 167, 0.9); }
   .header__logo-spasing {
     margin-left: 4px; }
   .header__item_fixed:hover, .header__item_unfixed:hover {
