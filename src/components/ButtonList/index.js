@@ -1,6 +1,6 @@
 import React from "react";
-const ButtonList = ({ list, stateNumb }) => {
-  return list.map((item, index) => (
+const ButtonList = ({ list, stateNumb }) =>
+  list.map((item, index) => (
     <button
       key={index}
       onClick={() => stateNumb(index)}
@@ -9,5 +9,4 @@ const ButtonList = ({ list, stateNumb }) => {
       {index + 1 >= 10 ? index + 1 : "0" + (index + 1)}
     </button>
   ));
-};
 export default ButtonList;

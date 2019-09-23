@@ -1,10 +1,8 @@
 import React from "react";
 import ArrowRight from "../../icons/ArrowRight";
 
-const PersonCardList = ({ data }) => {
-  console.log("data PersonCardList", data);
-
-  return data.map((item, index) => (
+const PersonCardList = ({ data }) =>
+  data.map((item, index) => (
     <div key={index} className="client__card">
       <img src={item.img} alt="client image" />
       <h3 className="client__name">
@@ -16,5 +14,5 @@ const PersonCardList = ({ data }) => {
       </a>
     </div>
   ));
-};
+
 export default PersonCardList;
