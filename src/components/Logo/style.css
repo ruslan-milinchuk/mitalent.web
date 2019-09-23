@@ -12,4 +12,8 @@
   .logo:hover {
     color: rgba(167, 167, 167, 0.9); }
 
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 18px; } }
+
 /*# sourceMappingURL=style.css.map */
