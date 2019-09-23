@@ -20,11 +20,19 @@
 @media screen and (max-width: 740px) {
   .footer__date {
     max-width: 243px; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .footer__date {
-    max-width: 174px; }
+    max-width: 243px; } }
+@media screen and (max-width: 480px) {
+  .footer .logo {
+    display: none; }
+  .footer__date {
+    display: none; }
   .footer__section {
-    padding: 0 5px; }
+    width: calc( 100% - 40px);
+    padding: 0 20px;
+    display: flex;
+    justify-content: center; }
   .footer__buttons > a {
     padding: 5px;
     margin: 5px; } }

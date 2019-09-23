@@ -37,15 +37,27 @@
     max-width: 243px;
   }
 }
+@media screen and(max-width:600px) {
+  .footer__date {
+    max-width: 243px;
+  }
+}
 
 @media screen and(max-width:480px) {
   .footer{
+
+    & .logo{
+      display: none;
+    }
     &__date {
-      max-width: 174px;
+      display: none;
     }
 
-    &__section{
-      padding: 0 5px;
+    &__section {
+      width: calc( 100% - 40px) ;
+      padding: 0 20px;
+      display: flex;
+      justify-content: center;
     }
 
     &__buttons > a {
