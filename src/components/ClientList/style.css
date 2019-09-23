@@ -21,7 +21,8 @@
 .client__card:hover > .client__role {
   display: block; }
 .client__card:hover > .client__link {
-  display: block;
+  display: flex;
+  justify-content: center;
   z-index: 1; }
 .client__list {
   display: flex;
@@ -62,5 +63,9 @@
   width: 25px;
   height: 25px;
   display: none; }
+.client__link > svg {
+  width: 10px;
+  transform: rotate(-45deg);
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
