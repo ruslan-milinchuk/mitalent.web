@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowRight from "../../icons/ArrowRight";
 
 const PersonCardList = ({ data }) => {
   console.log("data PersonCardList", data);
@@ -10,7 +11,9 @@ const PersonCardList = ({ data }) => {
         {item.name[0]} {item.name[1]}
       </h3>
       <h4 className="client__role">{item.role}</h4>
-      <a className="client__link" href={item.link}></a>
+      <a className="client__link" href={item.link}>
+        <ArrowRight />
+      </a>
     </div>
   ));
 };
