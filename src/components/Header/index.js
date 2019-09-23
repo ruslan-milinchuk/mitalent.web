@@ -2,7 +2,8 @@ import React from "react";
 import BurgerMenu from "../BurgerMenu";
 import { Link } from "react-router-dom";
 import "./style.css";
-import IconSearch from "../../icons/IconSearch";
+import Logo from "../Logo/Logo";
+import FormSearch from "../FormSearch";
 
 const Header = () => {
   return (
@@ -17,22 +18,8 @@ const Header = () => {
             News
           </Link>
         </div>
-        <h1>
-          <Link className="header__logo" to="/">
-            <span>MI</span>
-            <span className="header__logo-spasing">TALENT</span>
-          </Link>
-        </h1>
-        <form className="header__search-form">
-          <input
-            className="header__input"
-            type="text"
-            placeholder="Search client"
-          />
-          <button className="header__button" type="submit">
-            <IconSearch />
-          </button>
-        </form>
+        <Logo />
+        <FormSearch plaseholder="Search client" icon="search" />
       </div>
     </div>
   );

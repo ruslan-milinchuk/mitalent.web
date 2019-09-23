@@ -42,7 +42,7 @@
     z-index: 4;
   }
   
-  &__logo, &__item_unfixed{
+  &__item_unfixed{
     text-decoration: none;
     color: black;
     margin: 15px;
@@ -52,19 +52,7 @@
   &__item_unfixed:hover{
     color: rgba(167,167,167,.9);  }
 
-  &__logo {
-    font-family: Toledo serial;
-    display:inline-block;
-    transform: scale(1.2, 1);
-    letter-spacing: 1px;
 
-    &:hover{
-      color: rgba(167,167,167,.9);    }
-  }
-
-  &__logo-spasing {
-    margin-left: 4px;
-  }
 
   &__item_fixed:hover, &__item_unfixed:hover{
     text-decoration: none;
@@ -72,35 +60,6 @@
 
   &__item_unfixed:first-child{
     margin-top: 0;
-  }
-
-  &__search-form {
-    display: flex;
-    margin-right: 25px;
-    width: 280px;
-    height: 35px;
-    box-sizing: border-box;
-    border-left: 1px #b4d4d3 solid;
-  }
-
-  &__input {
-    padding-left: 30px;
-    border: none;
-    max-height: 100%;
-    width: 225px;
-    outline: none;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: 700;
-    color: rgba(167,167,167,.9);
-  }
-
-  &__button {
-    border: none;
-    width: 35px;
-    height: 100%;
-    outline: none;
-    cursor: pointer;
   }
 }
 
