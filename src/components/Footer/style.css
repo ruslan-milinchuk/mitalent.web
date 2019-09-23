@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 200px; }
+  .footer__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__date {
+    font-size: 10px;
+    color: rgba(167, 167, 167, 0.9);
+    font-family: "Aftica Regular"; }
+  .footer__divider {
+    margin-bottom: 20px; }
+  .footer__buttons > a {
+    padding: 5px;
+    margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */
