@@ -23,4 +23,23 @@
     outline: none;
     cursor: pointer; }
 
+@media screen and (max-width: 740px) {
+  .search-form {
+    width: 236px; }
+    .search-form__input {
+      width: 180px;
+      font-size: 10px; } }
+@media screen and (max-width: 600px) {
+  .search-form {
+    width: 215px; }
+    .search-form__input {
+      width: 178px; } }
+@media screen and (max-width: 480px) {
+  .search-form {
+    width: 175px; }
+    .search-form__input {
+      width: 135px;
+      font-size: 7px;
+      padding-left: 5px; } }
+
 /*# sourceMappingURL=style.css.map */

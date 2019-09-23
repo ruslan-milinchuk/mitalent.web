@@ -6,6 +6,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
+
+    &>.search-form{
+      margin-right: 0;
+    }
   }
 
   &__date {
@@ -15,7 +20,9 @@
   }
 
   &__divider {
-    margin-bottom: 20px;
+    color: rgba(167,167,167,.9);
+    width: 95%;
+    margin: 0 auto 20px;
   }
 
   &__buttons{
@@ -23,6 +30,29 @@
     &>a{
       padding: 5px;
       margin: 10px;
+    }
+  }
+}
+
+@media screen and(max-width:740px) {
+  .footer__date {
+    max-width: 243px;
+  }
+}
+
+@media screen and(max-width:480px) {
+  .footer{
+    &__date {
+      max-width: 174px;
+    }
+
+    &__section{
+      padding: 0 5px;
+    }
+
+    &__buttons > a {
+      padding: 5px;
+      margin: 5px;
     }
   }
 }

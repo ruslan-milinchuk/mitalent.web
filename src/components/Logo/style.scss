@@ -16,3 +16,9 @@
     color: rgba(167,167,167,.9);
   }
 }
+
+@media screen and(max-width:480px) {
+  .logo {
+    font-size: 18px;
+  }
+}
