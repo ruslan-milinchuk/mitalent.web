@@ -1,0 +1,30 @@
+.search-form {
+  display: flex;
+  margin-right: 25px;
+  width: 280px;
+  height: 35px;
+  box-sizing: border-box;
+  border-left: 1px #b4d4d3 solid;
+
+  &__input {
+    padding-left: 30px;
+    border: none;
+    max-height: 100%;
+    width: 225px;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: rgba(167,167,167,.9);
+    font-family: "Aftica Regular"
+  }
+
+  &__button {
+    border: none;
+    width: 35px;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+  }
+}
+

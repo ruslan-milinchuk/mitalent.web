@@ -1,0 +1,28 @@
+.footer{
+  padding-top: 200px;
+
+
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__date {
+    font-size: 10px;
+    color: rgba(167,167,167,.9);
+    font-family: "Aftica Regular";
+  }
+
+  &__divider {
+    margin-bottom: 20px;
+  }
+
+  &__buttons{
+
+    &>a{
+      padding: 5px;
+      margin: 10px;
+    }
+  }
+}

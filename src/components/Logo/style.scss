@@ -1,0 +1,18 @@
+.logo {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+  text-transform: uppercase;
+  font-family: Toledo serial;
+  display:inline-block;
+  transform: scale(1.2, 1);
+  letter-spacing: 1px;
+
+  &__spasing {
+    margin-left: 4px;
+  }
+
+  &:hover{
+    color: rgba(167,167,167,.9);
+  }
+}
