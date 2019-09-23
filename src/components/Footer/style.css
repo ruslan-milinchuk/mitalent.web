@@ -10,8 +10,8 @@
   color: rgba(167, 167, 167, 0.9);
   font-family: "Aftica Regular"; }
 .footer__divider {
-  color: rgba(167, 167, 167, 0.9);
-  width: 95%;
+  border-bottom: 1px #f9f9f9 solid;
+  width: calc( 100% - 40px);
   margin: 0 auto 20px; }
 .footer__buttons > a {
   padding: 5px;

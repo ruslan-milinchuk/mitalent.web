@@ -12,7 +12,7 @@ const Footer = () => (
       <Logo />
       <FormSearch placeholder="sign up our newsletter" icon="mail" />
     </div>
-    <hr className="footer__divider" />
+    <div className="footer__divider" />
     <div className="footer__section">
       <p className="footer__date">
         &copy; 2018 MI Talent.Designed by Tranmautritan for Mass Impressions
