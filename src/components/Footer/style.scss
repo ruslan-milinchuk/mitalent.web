@@ -18,8 +18,8 @@
   }
 
   &__divider {
-    color: rgba(167,167,167,.9);
-    width: 95%;
+    border-bottom: 1px rgb(249,249,249) solid;
+    width: calc( 100% - 40px);
     margin: 0 auto 20px;
   }
 
