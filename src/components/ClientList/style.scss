@@ -35,7 +35,8 @@
   }
 
   &__card:hover>&__link {
-    display: block;
+    display: flex;
+    justify-content: center;
     z-index: 1;
   }
 
@@ -84,6 +85,12 @@
     width: 25px;
     height: 25px;
     display: none;
+  }
+
+  &__link>svg{
+    width: 10px;
+    transform: rotate(-45deg);
+    color: white;
   }
 }
 
