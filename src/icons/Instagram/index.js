@@ -6,7 +6,7 @@ const Instagram = () => (
     id="Layer_1"
     x="0px"
     y="0px"
-    width="15px"
+    width="10px"
     viewBox="0 0 169.063 169.063"
   >
     <path
