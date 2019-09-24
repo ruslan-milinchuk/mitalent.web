@@ -50,12 +50,12 @@
       text-transform: uppercase;
       color: white; }
     .contact__btn-navigation {
-      width: 17%;
+      width: 73px;
       border: none;
       outline: none; }
   .contact__info {
     position: relative;
-    max-width: 36vw;
+    max-width: 38vw;
     padding-right: 56px;
     box-sizing: border-box;
     display: flex;
@@ -86,7 +86,8 @@
     justify-content: space-between; }
   .contact__coordinates, .contact__phone, .contact__mail {
     display: flex;
-    min-width: 40%; }
+    min-width: 40%;
+    margin-left: 10px; }
   .contact__svg {
     padding-top: 7px; }
     .contact__svg-date {
@@ -98,5 +99,62 @@
         line-height: 23px;
         color: rgba(167, 167, 167, 0.9);
         display: block; }
+
+@media screen and (max-width: 1024px) {
+  .contact__info {
+    max-width: 42vw;
+    padding-right: 60px; }
+  .contact__section-first {
+    width: 50%; }
+  .contact__section-second {
+    padding: 121px 0 20% 60px; } }
+@media screen and (max-width: 868px) {
+  .contact__title {
+    font-size: 53px; }
+  .contact__description:first-letter {
+    font-size: 48px; }
+  .contact__info {
+    padding-right: 0; }
+    .contact__info:after {
+      display: none; } }
+@media screen and (max-width: 735px) {
+  .contact__title {
+    margin: 120px auto 0; }
+  .contact__btn {
+    width: 100%;
+    height: 50px;
+    justify-content: unset; }
+    .contact__btn-navigation {
+      width: 50px; }
+    .contact__btn-info {
+      width: 84%; } }
+@media screen and (max-width: 630px) {
+  .contact {
+    flex-direction: column;
+    margin: -90px 0 0 0; }
+    .contact__title {
+      margin: 120px auto 86px; }
+    .contact__section-first {
+      width: 100%; }
+    .contact__section-second {
+      padding: 90px 0 0 20px; }
+    .contact__coordinates, .contact__phone, .contact__mail {
+      margin-top: 10px; }
+    .contact__info {
+      max-width: 100%; }
+    .contact__btn {
+      justify-content: flex-end; }
+      .contact__btn-info {
+        width: 36%; } }
+@media screen and (max-width: 440px) {
+  .contact__section-second {
+    padding: 45px 0 0 0; }
+  .contact__title {
+    font-size: 39px; }
+  .contact__description {
+    margin-bottom: 59px;
+    font-size: 15px; }
+  .contact__btn-info {
+    width: 88%; } }
 
 /*# sourceMappingURL=style.css.map */

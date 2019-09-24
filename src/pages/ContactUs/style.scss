@@ -64,7 +64,7 @@
     }
 
     &-navigation{
-      width: 17%;
+      width: 73px;
       border: none;
       outline: none;
     }
@@ -72,7 +72,7 @@
 
   &__info{
     position: relative;
-    max-width: 36vw;
+    max-width: 38vw;
     padding-right: 56px;
     box-sizing: border-box;
     display: flex;
@@ -115,7 +115,9 @@
 
   &__coordinates, &__phone, &__mail{
     display: flex;
-    min-width: 40%;  }
+    min-width: 40%;
+    margin-left: 10px
+  }
 
   &__svg{
     padding-top: 7px;
@@ -130,6 +132,128 @@
         color: rgba(167,167,167,.9);
         display: block;
       }
+    }
+  }
+}
+
+@media screen and(max-width:1024px) {
+  .contact{
+    &__info{
+      max-width: 42vw;
+      padding-right: 60px;
+    }
+
+    &__section{
+
+      &-first{
+        width: 50%;
+      }
+
+      &-second {
+        padding: 121px 0 20% 60px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:868px) {
+  .contact{
+
+    &__title{
+      font-size: 53px;
+    }
+
+    &__description:first-letter {
+        font-size: 48px;
+    }
+
+    &__info{
+     padding-right: 0;
+
+      &:after{
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:735px) {
+  .contact{
+
+    &__title{
+      margin: 120px auto 0;
+    }
+
+    &__btn{
+      width: 100%;
+      height: 50px;
+      justify-content: unset;
+
+      &-navigation{
+        width: 50px;
+      }
+
+      &-info{
+        width: 84%;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:630px) {
+  .contact{
+    flex-direction: column;
+    margin: -90px 0 0 0;
+
+    &__title{
+        margin: 120px auto 86px;
+    }
+
+    &__section{
+
+      &-first {
+        width: 100%;      }
+
+      &-second {
+        padding: 90px 0 0 20px;
+      }
+    }
+
+    &__coordinates, &__phone, &__mail {
+      margin-top: 10px;
+    }
+
+    &__info{
+      max-width: 100%;
+    }
+
+    &__btn{
+      justify-content: flex-end;
+
+      &-info{
+        width: 36%;
+      }
+    }
+  }
+}
+@media screen and(max-width:440px) {
+  .contact{
+
+    &__section-second{
+      padding: 45px 0 0 0;
+    }
+
+    &__title {
+      font-size: 39px;
+    }
+
+    &__description {
+      margin-bottom: 59px;
+      font-size: 15px;
+    }
+
+    &__btn-info {
+      width: 88%;
     }
   }
 }
