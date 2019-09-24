@@ -70,7 +70,7 @@ const ContactUs = () => (
               <IconMail />
             </div>
             <div className="contact__svg-date">
-              <a href="mailto:hello@mitalent.com">youremail@address.com</a>
+              <a href="mailto:hello@mitalent.com">hello@mitalent.com</a>
             </div>
           </div>
         </div>
