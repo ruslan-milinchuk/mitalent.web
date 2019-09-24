@@ -1,30 +1,30 @@
 .contact{
   color: black;
   display: flex;
-  margin:  -90px 0 -105px 0;
+  margin:  -90px 0 0 -20px ;
   width: 100%;
-  height: calc( 100vh - 105px);
 
   &__section {
     color: white;
     display: flex;
     &-first{
-      position: relative;
-      width: 41%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 39%;
       background: url("../../img/contact-us-bg.jpg") no-repeat;
       background-size: cover;
     }
 
     &-second{
-      padding: 121px 0 20% 110px;
+      padding: 121px 0 20% 140px;
       color: black;
-      height: 43vh;
     }
   }
 
   &__title{
     font-size: 69px;
-    margin: 28vh 0 0 13vw;
+    margin: 120px 0 0 28%;
     font-family: Helvetica;
     font-weight: 600;
     letter-spacing: 2px;
@@ -49,16 +49,12 @@
 
   &__btn{
     display: flex;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    justify-content: flex-end;
     height: 73px;
-    width: 355px;
     &-info{
       border: none;
       outline: none;
-      width: 80%;
-      height: 100%;
+      width: 52%;
       background: #b4d4d3;
       font-size: 10px;
       font-weight: bold;
@@ -68,24 +64,35 @@
     }
 
     &-navigation{
-      width: 20%;
-      height: 100%;
+      width: 17%;
       border: none;
       outline: none;
     }
   }
 
   &__info{
+    position: relative;
     max-width: 36vw;
     padding-right: 56px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    &:after{
+      content: '';
+      position: absolute;
+      width: 46%;
+      height: 100%;
+      background: #b4d4d3;
+      right: -46%;
+
+    ;
+    }
   }
 
   &__description{
     font-family: Seconda;
+    margin-bottom: 59px;
 
     font-weight: 400;
     color: black;
@@ -111,21 +118,18 @@
     min-width: 40%;  }
 
   &__svg{
-    color: black;
+    padding-top: 7px;
 
     &-date{
       margin-left: 20px;
       letter-spacing: 1px;
       font-size: 11px;
-      color: rgba(167,167,167,.9);
-      &>p {
+      &>a {
+        text-decoration: none;
         line-height: 23px;
+        color: rgba(167,167,167,.9);
+        display: block;
       }
     }
-  }
-
-  &__bg{
-    background: #b4d4d3;
-    width: 13vw;
   }
 }
