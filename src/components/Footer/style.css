@@ -32,7 +32,9 @@
 @media screen and (max-width: 600px) {
   .footer__date {
     max-width: 243px; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
+  .footer .search-form {
+    display: none; }
   .footer .logo {
     display: none; }
   .footer__date {
