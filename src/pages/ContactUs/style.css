@@ -1,24 +1,24 @@
 .contact {
   color: black;
   display: flex;
-  margin: -90px 0 -105px 0;
-  width: 100%;
-  height: calc( 100vh - 105px); }
+  margin: -90px 0 0 -20px;
+  width: 100%; }
   .contact__section {
     color: white;
     display: flex; }
     .contact__section-first {
-      position: relative;
-      width: 41%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 39%;
       background: url("../../img/contact-us-bg.jpg") no-repeat;
       background-size: cover; }
     .contact__section-second {
-      padding: 121px 0 20% 110px;
-      color: black;
-      height: 43vh; }
+      padding: 121px 0 20% 140px;
+      color: black; }
   .contact__title {
     font-size: 69px;
-    margin: 28vh 0 0 13vw;
+    margin: 120px 0 0 28%;
     font-family: Helvetica;
     font-weight: 600;
     letter-spacing: 2px;
@@ -37,16 +37,12 @@
     font-weight: bold; }
   .contact__btn {
     display: flex;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 73px;
-    width: 355px; }
+    justify-content: flex-end;
+    height: 73px; }
     .contact__btn-info {
       border: none;
       outline: none;
-      width: 80%;
-      height: 100%;
+      width: 52%;
       background: #b4d4d3;
       font-size: 10px;
       font-weight: bold;
@@ -54,19 +50,27 @@
       text-transform: uppercase;
       color: white; }
     .contact__btn-navigation {
-      width: 20%;
-      height: 100%;
+      width: 17%;
       border: none;
       outline: none; }
   .contact__info {
+    position: relative;
     max-width: 36vw;
     padding-right: 56px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
+    .contact__info:after {
+      content: '';
+      position: absolute;
+      width: 46%;
+      height: 100%;
+      background: #b4d4d3;
+      right: -46%; }
   .contact__description {
     font-family: Seconda;
+    margin-bottom: 59px;
     font-weight: 400;
     color: black;
     letter-spacing: 1px; }
@@ -84,16 +88,15 @@
     display: flex;
     min-width: 40%; }
   .contact__svg {
-    color: black; }
+    padding-top: 7px; }
     .contact__svg-date {
       margin-left: 20px;
       letter-spacing: 1px;
-      font-size: 11px;
-      color: rgba(167, 167, 167, 0.9); }
-      .contact__svg-date > p {
-        line-height: 23px; }
-  .contact__bg {
-    background: #b4d4d3;
-    width: 13vw; }
+      font-size: 11px; }
+      .contact__svg-date > a {
+        text-decoration: none;
+        line-height: 23px;
+        color: rgba(167, 167, 167, 0.9);
+        display: block; }
 
 /*# sourceMappingURL=style.css.map */
