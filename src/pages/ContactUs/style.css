@@ -10,15 +10,15 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 39%;
+      width: 41.5%;
       background: url("../../img/contact-us-bg.jpg") no-repeat;
       background-size: cover; }
     .contact__section-second {
-      padding: 121px 0 20% 140px;
+      padding: 169px 0 12% 140px;
       color: black; }
   .contact__title {
     font-size: 69px;
-    margin: 120px 0 0 28%;
+    margin: 176px 0 0 30%;
     font-family: Helvetica;
     font-weight: 600;
     letter-spacing: 2px;
@@ -29,7 +29,7 @@
     display: inline-block;
     margin-left: 30px; }
   .contact__short-description {
-    margin-top: 22px;
+    margin-top: 42px;
     text-transform: uppercase;
     letter-spacing: 2.3px;
     font-size: 11px;
@@ -55,7 +55,7 @@
       outline: none; }
   .contact__info {
     position: relative;
-    max-width: 38vw;
+    max-width: 36vw;
     padding-right: 56px;
     box-sizing: border-box;
     display: flex;
@@ -72,8 +72,7 @@
     font-family: Seconda;
     margin-bottom: 59px;
     font-weight: 400;
-    color: black;
-    letter-spacing: 1px; }
+    color: black; }
     .contact__description:first-letter {
       font-size: 55px;
       float: left;
@@ -87,7 +86,7 @@
   .contact__coordinates, .contact__phone, .contact__mail {
     display: flex;
     min-width: 40%;
-    margin-left: 10px; }
+    margin: 21px 15px 21px 0; }
   .contact__svg {
     padding-top: 7px; }
     .contact__svg-date {
@@ -100,6 +99,9 @@
         color: rgba(167, 167, 167, 0.9);
         display: block; }
 
+@media screen and (max-width: 1250px) {
+  .contact__coordinates, .contact__phone, .contact__mail {
+    margin: 10px 10px 10px 0; } }
 @media screen and (max-width: 1024px) {
   .contact__info {
     max-width: 42vw;
@@ -121,11 +123,11 @@
   .contact__title {
     margin: 120px auto 0; }
   .contact__btn {
-    width: 100%;
+    width: 101%;
     height: 50px;
     justify-content: unset; }
     .contact__btn-navigation {
-      width: 50px; }
+      width: 52px; }
     .contact__btn-info {
       width: 84%; } }
 @media screen and (max-width: 630px) {
