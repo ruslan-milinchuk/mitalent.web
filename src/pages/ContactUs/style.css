@@ -123,11 +123,11 @@
   .contact__title {
     margin: 120px auto 0; }
   .contact__btn {
-    width: 101%;
+    width: 100%;
     height: 50px;
     justify-content: unset; }
     .contact__btn-navigation {
-      width: 52px; }
+      width: 16%; }
     .contact__btn-info {
       width: 84%; } }
 @media screen and (max-width: 630px) {
@@ -147,7 +147,9 @@
     .contact__btn {
       justify-content: flex-end; }
       .contact__btn-info {
-        width: 36%; } }
+        width: 170px; }
+      .contact__btn-navigation {
+        width: 50px; } }
 @media screen and (max-width: 440px) {
   .contact__section-second {
     padding: 45px 0 0 0; }
