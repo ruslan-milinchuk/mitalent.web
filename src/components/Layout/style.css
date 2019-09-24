@@ -2,4 +2,8 @@
   padding: 90px 20px;
   min-height: calc(100vh - 300px); }
 
+@media screen and (max-width: 480px) {
+  .layout {
+    min-height: calc(100vh - 239px); } }
+
 /*# sourceMappingURL=style.css.map */

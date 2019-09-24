@@ -55,8 +55,12 @@
   }
 }
 
-@media screen and(max-width:480px) {
+@media screen and(max-width:550px) {
   .footer{
+
+    & .search-form{
+      display: none;
+    }
 
     & .logo{
       display: none;
