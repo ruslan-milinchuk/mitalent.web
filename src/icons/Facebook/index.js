@@ -6,8 +6,8 @@ const Facebook = () => (
     id="Capa_1"
     x="0px"
     y="0px"
-    width="15px"
-    height="15px"
+    width="10px"
+    height="10px"
     viewBox="0 0 60.734 60.733"
   >
     <path
