@@ -1,0 +1,99 @@
+.contact {
+  color: black;
+  display: flex;
+  margin: -90px 0 -105px 0;
+  width: 100%;
+  height: calc( 100vh - 105px); }
+  .contact__section {
+    color: white;
+    display: flex; }
+    .contact__section-first {
+      position: relative;
+      width: 41%;
+      background: url("../../img/contact-us-bg.jpg") no-repeat;
+      background-size: cover; }
+    .contact__section-second {
+      padding: 121px 0 20% 110px;
+      color: black;
+      height: 43vh; }
+  .contact__title {
+    font-size: 69px;
+    margin: 28vh 0 0 13vw;
+    font-family: Helvetica;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transform: rotateX(15deg); }
+  .contact__divider {
+    width: 51px;
+    border-bottom: 5px white solid;
+    display: inline-block;
+    margin-left: 30px; }
+  .contact__short-description {
+    margin-top: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    font-size: 11px;
+    font-family: Helvetica;
+    font-weight: bold; }
+  .contact__btn {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 73px;
+    width: 355px; }
+    .contact__btn-info {
+      border: none;
+      outline: none;
+      width: 80%;
+      height: 100%;
+      background: #b4d4d3;
+      font-size: 10px;
+      font-weight: bold;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: white; }
+    .contact__btn-navigation {
+      width: 20%;
+      height: 100%;
+      border: none;
+      outline: none; }
+  .contact__info {
+    max-width: 36vw;
+    padding-right: 56px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .contact__description {
+    font-family: Seconda;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px; }
+    .contact__description:first-letter {
+      font-size: 55px;
+      float: left;
+      font-weight: lighter;
+      margin: 0 10px -15px 0; }
+  .contact__location {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .contact__coordinates, .contact__phone, .contact__mail {
+    display: flex;
+    min-width: 40%; }
+  .contact__svg {
+    color: black; }
+    .contact__svg-date {
+      margin-left: 20px;
+      letter-spacing: 1px;
+      font-size: 11px;
+      color: rgba(167, 167, 167, 0.9); }
+      .contact__svg-date > p {
+        line-height: 23px; }
+  .contact__bg {
+    background: #b4d4d3;
+    width: 13vw; }
+
+/*# sourceMappingURL=style.css.map */
