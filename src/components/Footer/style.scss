@@ -76,9 +76,17 @@
       justify-content: center;
     }
 
-    &__buttons > a {
+    &__divider{
+      margin: 0;
+    }
+
+    &__buttons{
+      margin: 20px 0;
+
+      &> a {
       padding: 5px;
       margin: 5px;
+      }
     }
   }
 }
