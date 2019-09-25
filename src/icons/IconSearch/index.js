@@ -9,6 +9,7 @@ const IconSearch = () => (
     width="15px"
     height="15px"
     viewBox="0 0 30.239 30.239"
+    fill="currentColor"
   >
     <path
       d="M20.194,3.46c-4.613-4.613-12.121-4.613-16.734,0c-4.612,4.614-4.612,12.121,0,16.735

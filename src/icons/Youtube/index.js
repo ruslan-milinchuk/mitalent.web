@@ -8,6 +8,7 @@ const Youtube = () => (
     x="0px"
     y="0px"
     viewBox="0 0 310 310"
+    fill="currentColor"
   >
     <path
       id="XMLID_823_"

@@ -11,12 +11,15 @@
 
   &__buttons {
     margin: 250px 0 189px 30px;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
 
     &>a{
       padding: 3px;
       margin: 5px;
+    }
+    &>a:hover{
+      color: #a9c9c8;
     }
   }
 
@@ -33,12 +36,26 @@
       font-weight: 600;
       background: #b4d4d3;
       color: white;
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      &:hover{
+        background: #a9c9c8;
+      }
     }
 
     &-user {
       background-color: white;
       width: 75px;
       height: 100%;
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      &:hover{
+        color: #a9c9c8;
+      }
     }
   }
 

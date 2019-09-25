@@ -8,6 +8,7 @@ const Twitter = () => (
     y="0px"
     viewBox="0 0 310 310"
     width="10px"
+    fill="currentColor"
   >
     <path
       id="XMLID_827_"
