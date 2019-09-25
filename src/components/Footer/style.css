@@ -24,7 +24,8 @@
   margin-right: 10px; }
   .footer__buttons > a {
     padding: 5px;
-    margin: 10px; }
+    margin: 10px;
+    color: black; }
 
 @media screen and (max-width: 740px) {
   .footer__date {
