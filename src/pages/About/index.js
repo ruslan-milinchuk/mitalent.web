@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ButtonsSocial from "../../components/ButtonsSocial";
-import User from "../../icons/User/User";
+import User from "../../icons/User";
 import "./style.css";
 
 class About extends Component {
