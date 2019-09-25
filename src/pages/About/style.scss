@@ -1,0 +1,290 @@
+.about{
+  display: flex;
+  margin: -91px 0 0 -20px;
+
+  &__comunication{
+    background: url(https://pop-wrapped.s3-us-west-1.amazonaws.com/articles/80935/dianna-agron-showing-voice-nsfw-photoshoot-1-med.jpg) no-repeat;
+    width: 45.5%;
+    background-size: cover;
+    background-position: top;
+  }
+
+  &__buttons {
+    margin: 250px 0 189px 30px;
+    display: flex;
+    flex-direction: column;
+
+    &>a{
+      padding: 3px;
+      margin: 5px;
+    }
+  }
+
+  &__btn {
+    width: 325px;
+    height: 75px;
+    display: flex;
+    &-info {
+      width: 250px;
+      height: 100%;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 9px;
+      font-weight: 600;
+      background: #b4d4d3;
+      color: white;
+    }
+
+    &-user {
+      background-color: white;
+      width: 75px;
+      height: 100%;
+    }
+  }
+
+  &__date{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 54.5%;
+    font-size: 16px;
+    padding-left: 130px;
+
+    &:after{
+      content: '';
+      position: absolute;
+      width: 173px;
+      height: 48%;
+      background: #b4d4d3;
+      right: -58px;
+      top: 0;
+    }
+  }
+
+  &__title{
+    font-family: Seconda;
+    margin: 155px 15px 10px 0;
+    max-width: calc( 100% - 235px);
+    font-weight: 100;
+
+    &:first-letter {
+      font-size: 55px;
+      float: left;
+      font-weight: lighter;
+      margin: -5px 11px 0px -7px;
+    }
+  }
+
+  &__description {
+    letter-spacing: .2px;
+    font-size: 11px;
+    color: gray;
+    line-height: 2.2;
+    max-width: calc( 100% - 190px);
+
+    &:first-child{
+      margin-bottom: 10px;
+    }
+  }
+
+  &__quote {
+    width: 215px;
+    margin-top: 50px;
+    padding: 50px 91px;
+    font-size: 23px;
+    font-family: "Toledo serial";
+    text-align: center;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+
+    &>span{
+      font-family: Century;
+    }
+  }
+}
+
+@media screen and(max-width: 1295px) {
+  .about{
+
+    &__date{
+      margin-left: 0;
+      padding: 0 57px;
+    }
+  }
+}
+
+@media screen and(max-width: 1134px) {
+  .about{
+
+    &__date{
+      padding-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1151px){
+  .about{
+
+    &__title{
+      max-width: calc( 100% - 145px);
+    }
+
+    &__description{
+      max-width: calc( 100% - 120px);
+    }
+
+    &__date:after {
+      width: 125px;
+    }
+
+    &__quote{
+      padding: 34px 65px;
+      margin-top: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 1071px){
+  .about{
+
+    &__btn {
+      width: 100%;
+
+      &-info {
+        width: calc( 100% - 75px);
+      }
+    }
+  }
+}
+
+@media screen and(max-width: 948px) {
+
+  .about{
+
+    &__title {
+      max-width: 75%;
+    }
+
+    &__description {
+      max-width: 100%;
+    }
+
+
+    &__date{
+      padding: 0 50px;
+
+      &:after{
+        display: none;
+      }
+    }
+  }
+
+}
+
+@media screen and(max-width: 803px) {
+
+  .about{
+    margin: -91px 0 0 0px;
+
+    &__comunication{
+      width: 47%;
+    }
+
+    &__title {
+      max-width: 100%;
+      margin: 80px auto 0;
+    }
+
+    &__description {
+      max-width: 100%;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+
+    &__buttons {
+      margin: 0 0 189px 30px;
+      padding-top: 125px;
+    }
+
+    &__date{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 0 0 20px;
+      width: 47%;
+    }
+
+    &__quote{
+      width: auto;
+      padding: 13px 65px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+  }
+
+}
+
+@media screen and(max-width: 736px) {
+
+  .about{
+    display: block;
+
+    &__comunication {
+      width: 100%;
+    }
+
+    &__buttons {
+      margin: 0 0 125px 30px;
+    }
+
+    &__date{
+      width: 100%;
+      padding: 0;
+    }
+
+    &__title {
+      max-width: 70%;
+    }
+
+    &__description {
+      margin-bottom: 13px;
+      text-indent: 13px;
+    }
+
+    &__quote{
+      margin-top: 10px;
+    }
+  }
+
+}
+
+@media screen and(max-width: 541px) {
+
+  .about{
+
+    &__title{
+      margin-top: 40px;
+      max-width: 83%;
+    }
+  }
+}
+
+@media screen and(max-width: 445px) {
+
+  .about{
+
+    .about__title{
+      margin-bottom: 15px;
+
+      &:first-letter {
+        font-size: inherit;
+        float: none;
+        font-weight: normal;
+        margin: 0;
+      }
+    }
+  }
+}
