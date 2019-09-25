@@ -28,6 +28,11 @@
   src: url("fonts/aftica-regular/FontsFree-Net-AftikaRegular.ttf");
 }
 
+@font-face {
+  font-family: Century ;
+  src: url("fonts/century/Century751BT-SemiBoldItalicB.otf");
+}
+
 * {
   padding: 0;
   margin: 0;
