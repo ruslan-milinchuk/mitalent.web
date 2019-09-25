@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import User from "../../icons/User";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -9,12 +10,12 @@ class About extends Component {
       <div className="about">
         <div className="about__comunication">
           <ButtonsSocial component="about" />
-          <div className="about__btn">
-            <button className="about__btn-info">Contact us</button>
-            <button className="about__btn-user">
+          <Link to="/contact-us" className="about__btn-info">
+            <div className="about__btn-name">Contact us</div>
+            <div className="about__btn-user">
               <User />
-            </button>
-          </div>
+            </div>
+          </Link>
         </div>
         <div className="about__date">
           <h3 className="about__title">

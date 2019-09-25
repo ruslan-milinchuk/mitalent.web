@@ -2,7 +2,7 @@
   display: flex;
   margin: -91px 0 0 -20px; }
   .about__comunication {
-    background: url(https://pop-wrapped.s3-us-west-1.amazonaws.com/articles/80935/dianna-agron-showing-voice-nsfw-photoshoot-1-med.jpg) no-repeat;
+    background: url(http://5b0988e595225.cdn.sohucs.com/images/20180408/cce984e2e7474db8a808c64d23cf6dc3.jpeg) no-repeat;
     width: 45.5%;
     background-size: cover;
     background-position: top; }
@@ -12,36 +12,41 @@
     flex-direction: column; }
     .about__buttons > a {
       padding: 3px;
-      margin: 5px; }
+      margin: 5px;
+      color: black; }
     .about__buttons > a:hover {
       color: #a9c9c8; }
-  .about__btn {
+  .about__btn-info {
     width: 325px;
     height: 75px;
-    display: flex; }
-    .about__btn-info {
-      width: 250px;
-      height: 100%;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 9px;
-      font-weight: 600;
-      background: #b4d4d3;
-      color: white;
-      border: none;
-      outline: none;
-      cursor: pointer; }
-      .about__btn-info:hover {
-        background: #a9c9c8; }
-    .about__btn-user {
-      background-color: white;
-      width: 75px;
-      height: 100%;
-      border: none;
-      outline: none;
-      cursor: pointer; }
-      .about__btn-user:hover {
-        color: #a9c9c8; }
+    display: flex;
+    cursor: pointer;
+    text-decoration: none; }
+    .about__btn-info:hover > .about__btn-name {
+      background: #a9c9c8; }
+    .about__btn-info:hover > .about__btn-user {
+      color: #a9c9c8; }
+  .about__btn-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 9px;
+    font-weight: 600;
+    background: #b4d4d3;
+    color: white; }
+  .about__btn-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-width: 75px;
+    height: 100%; }
+    .about__btn-user:hover {
+      color: #a9c9c8; }
   .about__date {
     display: flex;
     flex-direction: column;
@@ -107,10 +112,10 @@
     padding: 34px 65px;
     margin-top: 70px; } }
 @media screen and (max-width: 1071px) {
-  .about__btn {
+  .about__btn-info {
     width: 100%; }
-    .about__btn-info {
-      width: calc( 100% - 75px); } }
+  .about__btn-name {
+    width: 100%; } }
 @media screen and (max-width: 948px) {
   .about__title {
     max-width: 75%; }
@@ -164,6 +169,12 @@
     .about__quote {
       margin-top: 10px; } }
 @media screen and (max-width: 541px) {
+  .about__comunication {
+    display: flex;
+    align-items: flex-end;
+    height: 350px; }
+  .about__buttons {
+    display: none; }
   .about__title {
     margin-top: 40px;
     max-width: 83%; } }
