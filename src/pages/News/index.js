@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import CustomerGroups from "../../components/CustomerGroups";
 
 class News extends Component {
   render() {
     return (
       <div>
-        <h1>Some news</h1>
+        <CustomerGroups />
       </div>
     );
   }
