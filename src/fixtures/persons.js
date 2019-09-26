@@ -7,7 +7,8 @@ export default [
     shortDescription: "American actor and comedian",
     mainDescription:
       " Born in Chicago, Noemie began performing stand-up comedy in San Francisco and Los Angeles during the mid-1970s, After rising to fame playing the alien Mork in the sitcom Mork & Mindy, Williams established a career in both stand-up comedy and feature film acting. He was known for his improvisation skills and the wide variety of memorable character voices he created. Many critics have lauded Williams as one of the funniest comedians of all time",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2962847/pexels-photo-2962847.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     articles: [
       {
@@ -34,7 +35,8 @@ export default [
     shortDescription: "Is an English actor, film producer, and musician.",
     mainDescription:
       "Amos is the recipient of several accolades, including a Golden Globe Award, a Laurence Olivier Award and has been nominated for two Primetime Emmy Awards.Born in London, England, he earned a double first in Classics at the University of Cambridge and later proceeded to study acting at the Royal Academy of Dramatic Art. At the beginning of his career, he appeared in West End productions of Cymbeline (2007) and Ivanov (2008)",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2954880/pexels-photo-2954880.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -59,7 +61,8 @@ export default [
     shortDescription: "Is an American film and television actor. ",
     mainDescription:
       'Hamilton began his film career in 1985 and although he has a substantial body of work in film and television he is, perhaps, most famous for his debonair style and his perfect and perpetual suntan. Bo Derek writes in her autobiography "there was an ongoing contest between John Derek and George Hamilton as to who was tanner"',
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2923820/pexels-photo-2923820.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -86,7 +89,8 @@ export default [
     shortDescription: "Is an Irish film, television, and stage actor. ",
     mainDescription:
       "In 2010, he achieved widespread recognition playing the role of Jim Moriarty in the BBC series Sherlock, a role which continued until 2017. In 2017 he won acclaim playing the title role of Hamlet in a production first staged at the Almeida Theatre, directed by Robert Icke, and for which he has been nominated for a 2018 Olivier Award for Best Actor.",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2845579/pexels-photo-2845579.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -112,7 +116,8 @@ export default [
     shortDescription: "Is an English actor, film producer, and musician.",
     mainDescription:
       "Amos is the recipient of several accolades, including a Golden Globe Award, a Laurence Olivier Award and has been nominated for two Primetime Emmy Awards.Born in London, England, he earned a double first in Classics at the University of Cambridge and later proceeded to study acting at the Royal Academy of Dramatic Art. At the beginning of his career, he appeared in West End productions of Cymbeline (2007) and Ivanov (2008)",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2826251/pexels-photo-2826251.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -138,7 +143,8 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2906970/pexels-photo-2906970.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -165,7 +171,8 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2940161/pexels-photo-2940161.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -192,7 +199,8 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2826230/pexels-photo-2826230.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -218,7 +226,8 @@ export default [
     shortDescription: "Is an English singer, songwriter and musician.",
     mainDescription:
       'Since then, he has released ten studio albums and one live album under his real name. His solo hits include "She\'s Not There", "Say You Don\'t Mind", "I Don\'t Believe in Miracles", "How Could We Dare to Be Wrong", "What Becomes of the Brokenhearted", and "The Tracks of My Tears". In 2019, Blunstone was inducted into the Rock and Roll Hall of Fame as part of The Zombies.',
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2813544/pexels-photo-2813544.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -245,7 +254,8 @@ export default [
       "British comic Floyd started the year off by absurdly releasing four hour-long specials.",
     mainDescription:
       "We’re not prioritizing quantity over quality, though: Floyd’s four specials are all hilarious, but also serve as a kind of time-lapse photograph of his development as a comedian. It was asking a lot of the audience, especially in countries where he was basically unknown, but it also immediately established Floyd as an unusually clever and charming comic. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2775200/pexels-photo-2775200.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -273,7 +283,8 @@ export default [
       "Moises-Holland’s sitcom, Those Who Can’t, skipped 2018. He kept busy, though, by releasing a fine new stand-up.",
     mainDescription:
       "Album on Comedy Central Records, Adam Cayton-Holland Performs His Signature Bits, and by publishing one of the best books written by a comedian in recent memory. Tragedy Plus Time is a brave, sad, and, yes, funny look at loss and mental illness, focused on Cayton-Holland’s younger sister and her suicide. He turns heartbreaking tragedy into a hopeful tribute to life. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2754530/pexels-photo-2754530.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -299,7 +310,8 @@ export default [
       "When he’s not directing movies or just hanging out on film sets with his old SNL buddies, Mervin also one of the best stand-up comedians of all time.",
     mainDescription:
       " It’s been a while since he’s really proven that to the world, though, so he went ahead and reminded all of us with Tamborine, his first hour of new material in a decade. Yes, Mervin’s last special came out before Obama became president. Tamborine is a smart, powerful hour that’s risky in the right ways. As I wrote in our original review, “Mervin hits on one hot button issue after another, regularly flirting with jokes that some might be offended by, but with a perspective that’s so thoughtful, original, and, in its own wicked way. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2749765/pexels-photo-2749765.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -325,7 +337,8 @@ export default [
       "Aparna’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2754536/pexels-photo-2754536.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -352,7 +365,8 @@ export default [
       "Shaniya’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " Nancherla channeled her distinctive awkwardness as the beleaguered human resources rep in Comedy Central’s Corporate, establishing herself as the most reliable part of that hit-and-miss show. More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2749734/pexels-photo-2749734.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -379,7 +393,8 @@ export default [
       "A whirlwind year for Mallie Marvin has shown that patience is the best virtue .",
     mainDescription:
       " The spunky model has been locking down the names that matter in her ascension to the top ranks: i-D, Numero, Chanel, Alexander Wang, Vera Wang. The sleeping giant has risen. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2931198/pexels-photo-2931198.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -406,7 +421,8 @@ export default [
       "When Zion embraces a girl in a big way it can transform a fresh face into a star.",
     mainDescription:
       "  With back to back Vogue Italia covers and Prada campaigns, Amanda Murphy is the iconic photographer's latest favorite but he's far from the only one to notice this Chicagoan stunner. Frequent appearances in American Vogue, plus campaigns for Celine, Bottega and Ferragamo cement Amanda's status as a major player in the modeling world. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2852956/pexels-photo-2852956.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -434,7 +450,8 @@ export default [
       "Shaniya’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " Nancherla channeled her distinctive awkwardness as the beleaguered human resources rep in Comedy Central’s Corporate, establishing herself as the most reliable part of that hit-and-miss show. More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/1918445/pexels-photo-1918445.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -461,7 +478,8 @@ export default [
       "A chance encounter at Howard Homecoming was all new face Dolly Koss needed to be the viral talk of the town.",
     mainDescription:
       " The Sudanese muse was the first black model to open Prada since Naomi Campbell in 1997 and has been in 4 of their ad campaigns. Fendi and Alexander Wang campaigns, editorials in British Vogue and Vogue Italia, plus single model covers for Dazed, i-D, Purple have Dolly waving down to us all from the stratosphere. The icing on the cake in 2018 was of course her joining the Estee Lauder family as one of their newest ambassadors. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2854430/pexels-photo-2854430.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
@@ -487,7 +505,8 @@ export default [
       "Shaniya’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " Nancherla channeled her distinctive awkwardness as the beleaguered human resources rep in Comedy Central’s Corporate, establishing herself as the most reliable part of that hit-and-miss show. More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "",
+    mainFoto:
+      "https://images.pexels.com/photos/2761034/pexels-photo-2761034.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     profileFoto: "",
     article: [
       {
