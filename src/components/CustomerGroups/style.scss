@@ -1,0 +1,14 @@
+.costumer-groups{
+  &__btn-arrow{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+  }
+
+  &__list{
+    display: flex;
+    align-items: center;
+
+  }
+}
+
