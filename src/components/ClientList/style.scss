@@ -1,8 +1,8 @@
 .client{
   &__card {
     position: relative;
-    width: 235px;
-    height: 250px;
+    min-width: 250px;
+    height: 320px;
     overflow: hidden;
 
     &:hover:after {
@@ -15,7 +15,6 @@
       background: rgba(0, 0, 0, .7);
       display: block;
     }
-
 
     &>img{
       width: 100%;
