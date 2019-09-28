@@ -1,19 +1,18 @@
 import React from "react";
-import "./style.css";
 
-const ButtonsGroupsClients = ({ clickBtn, role, profession }) =>
+const ButtonsGroupsClients = ({ activeType, changeRole, role }) =>
   role.map(item => (
-    <button
+    <div
       id={item}
       key={item}
-      onClick={() => clickBtn(item)}
+      onClick={() => changeRole(item)}
       className={
-        item === profession
-          ? "costumer-groups__btn costumer-groups__btn-active"
-          : "costumer-groups__btn"
+        item === activeType
+          ? "customer-groups__btn customer-groups__btn-active"
+          : "customer-groups__btn"
       }
     >
       {item}
-    </button>
+    </div>
   ));
 export default ButtonsGroupsClients;

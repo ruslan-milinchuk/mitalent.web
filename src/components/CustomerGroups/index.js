@@ -1,119 +1,58 @@
 import React, { Component } from "react";
-import ButtonsGroupsClients from "../ButtonsGroupsClients";
-import ClientList from "../ClientList";
 import persons from "../../fixtures/persons";
-import ArrowLeft from "../../icons/ArrowLeft";
+import ButtonsGroupsClients from "../ButtonsGroupsClients";
+
 import "./style.css";
-import ArrowRight from "../../icons/ArrowRight";
+import SliderWrapper from "../SliderWrapper";
+
+const role = ["actor", "musician", "comedian", "model"];
+
 class CustomerGroups extends Component {
   state = {
-    profession: "musician",
-    arrowBtn: 0,
-    data: []
+    position: 0,
+    type: "musician",
+    data: [],
+    filterData: []
   };
 
-  render() {
-    const { profession } = this.state;
-    const data = [];
-    const role = ["actor", "musician", "comedian", "model"];
-    let dateForArrow = [];
-    let newData = [];
-
-    persons.map(item => {
-      const { firstName, lastName, type, mainFoto } = item;
-      const [role] = type;
-      const link = "#";
-
-      if (role === profession) {
-        data.push({ firstName, lastName, mainFoto, link, type });
-      }
-
-      return data;
+  componentDidMount() {
+    const { type } = this.state;
+    const filterWithRole = persons.filter(item => {
+      return item.type.includes(type);
     });
+    this.setState({ data: persons, filterData: filterWithRole });
+  }
 
-    if (data.length <= 4) {
-      newData = data;
-    }
-
-    if (data.length > 4) {
-      dateForArrow = data.slice(0, 4);
-      newData = data.slice(0, 4);
-    }
-
-    if (this.state.data.length !== 0) {
-      newData = this.state.data;
-    }
-
+  render() {
+    const { type, filterData, position } = this.state;
     return (
-      <div>
-        <div className="costumer-groups">
+      <div className="customer-groups">
+        <div className="customer-groups__btn-wrapper">
           <ButtonsGroupsClients
-            clickBtn={this.clickBtn}
+            activeType={type}
+            changeRole={this.changeRole}
             role={role}
-            profession={profession}
           />
         </div>
-        <div className="costumer-groups__list">
-          <div
-            onClick={() => this.clickLeft(dateForArrow, data)}
-            className="costumer-groups__btn-arrow"
-          >
-            <ArrowLeft />
-          </div>
-          <ClientList data={newData} />
-          <div
-            onClick={() => this.clickRight(dateForArrow, data)}
-            className="costumer-groups__btn-arrow"
-          >
-            <ArrowRight />
-          </div>
-        </div>
+        <SliderWrapper
+          dataLength={filterData.length}
+          filterData={filterData}
+          position={position}
+          onClick={value => this.setState({ position: value })}
+        />
       </div>
     );
   }
 
-  clickLeft = (newData, data) => {
-    const { arrowBtn } = this.state;
-    if (data.length <= 4) {
-      return;
-    }
-    if (data.length > 4) {
-      if (arrowBtn === 0) {
-        return;
-      }
-      this.setState({ arrowBtn: arrowBtn - 1 });
-      newData = data.slice(arrowBtn, arrowBtn + 4);
-      return this.setState({ data: newData });
-    }
-  };
+  changeRole = value => {
+    const { data } = this.state;
 
-  clickRight = (newData, data) => {
-    const { arrowBtn } = this.state;
+    const filterDataWithRole = data.filter(item => {
+      const { type } = item;
+      return type.includes(value);
+    });
 
-    if (data.length <= 4) {
-      return;
-    }
-
-    if (data.length > 4) {
-      if (arrowBtn === data.length - 3) {
-        return;
-      }
-      this.setState({ arrowBtn: arrowBtn + 1 });
-      newData = data.slice(arrowBtn, arrowBtn + 4);
-
-      return this.setState({ data: newData });
-    }
-  };
-
-  clickBtn = profession => {
-    const btnActive = document.getElementById(profession);
-    this.setState({ data: [] });
-    this.setState({ arrowBtn: 0 });
-    if (btnActive.classList.contains("costumer-groups__btn-active")) {
-      return;
-    }
-
-    return this.setState({ profession: profession });
+    this.setState({ filterData: filterDataWithRole, type: value, position: 0 });
   };
 }
 
