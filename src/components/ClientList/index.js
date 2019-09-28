@@ -4,7 +4,7 @@ import "./style.css";
 
 const ClientList = ({ data }) => {
   return (
-    <div className="client__list">
+    <div  className="client__list" >
       <PersonCardList data={data} />
     </div>
   );
