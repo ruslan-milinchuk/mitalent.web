@@ -45,6 +45,10 @@
     width: 85%;
     margin: auto;
     justify-content: center;
+
+    &-slider {
+      transition: all .7s;
+    }
   }
 
   &__name{

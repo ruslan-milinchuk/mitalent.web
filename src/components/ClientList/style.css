@@ -30,6 +30,8 @@
   width: 85%;
   margin: auto;
   justify-content: center; }
+  .client__list-slider {
+    transition: all .7s; }
 .client__name {
   font-family: Helvetica;
   display: none;
