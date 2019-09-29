@@ -1,7 +1,7 @@
 .client__card {
   position: relative;
   min-width: 250px;
-  height: 320px;
+  height: 310px;
   overflow: hidden; }
   .client__card:hover:after {
     content: '';

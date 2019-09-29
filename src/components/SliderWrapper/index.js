@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import windowSize from "react-window-size";
+
 import ArrowLeft from "../../icons/ArrowLeft";
 import ClientList from "../ClientList";
 import ArrowRight from "../../icons/ArrowRight";
@@ -9,6 +11,18 @@ class SliderWrapper extends Component {
   state = {
     maxItemLength: 4
   };
+
+  componentDidMount() {
+    this.changeState();
+  }
+
+  shouldComponentUpdate(nextProps, nextState, nextContext) {
+    if (this.props.windowWidth !== nextProps.windowWidth) {
+      this.changeState();
+    }
+
+    return this.props.windowWidth === nextProps.windowWidth;
+  }
 
   render() {
     const { position, filterData, onClick, dataLength } = this.props;
@@ -51,6 +65,29 @@ class SliderWrapper extends Component {
       </div>
     );
   }
+
+  changeState = () => {
+    if (this.props.windowWidth > 1111) {
+      return this.setState({
+        maxItemLength: 4
+      });
+    }
+    if (869 < this.props.windowWidth && this.props.windowWidth <= 1111) {
+      return this.setState({
+        maxItemLength: 3
+      });
+    }
+    if (619 < this.props.windowWidth && this.props.windowWidth <= 869) {
+      return this.setState({
+        maxItemLength: 2
+      });
+    }
+    if (360 < this.props.windowWidth && this.props.windowWidth <= 619) {
+      return this.setState({
+        maxItemLength: 1
+      });
+    }
+  };
 }
 
-export default SliderWrapper;
+export default windowSize(SliderWrapper);
