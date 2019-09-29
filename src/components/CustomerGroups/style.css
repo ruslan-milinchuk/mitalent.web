@@ -45,4 +45,17 @@
   .customer-groups .arrow-unactive {
     color: grey; }
 
+@media screen and (max-width: 1111px) {
+  .customer-groups .client__list-wrapper {
+    min-width: 750px;
+    max-width: 750px; } }
+@media screen and (max-width: 870px) {
+  .customer-groups .client__list-wrapper {
+    min-width: 500px;
+    max-width: 500px; } }
+@media screen and (max-width: 620px) {
+  .customer-groups .client__list-wrapper {
+    min-width: 250px;
+    max-width: 250px; } }
+
 /*# sourceMappingURL=style.css.map */
