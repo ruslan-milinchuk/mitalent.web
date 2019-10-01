@@ -1,0 +1,47 @@
+.our-stories{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 75px;
+
+
+  &__item{
+
+    &:nth-child(1), &:nth-child(2), &:nth-child(3){
+      display: flex;
+      width: 370px;
+      font-family: Seconda;
+    }
+
+    &:nth-child(1) .our-stories__title,
+    &:nth-child(2) .our-stories__title,
+    &:nth-child(3) .our-stories__title {
+      font-size: 17px;
+      line-height: 1.4;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    &:nth-child(1) .our-stories__img,
+    &:nth-child(2) .our-stories__img,
+    &:nth-child(3) .our-stories__img {
+      color: red;
+      width: 130px;
+    }
+
+    &:nth-child(1) .our-stories__info,
+    &:nth-child(2) .our-stories__info,
+    &:nth-child(3) .our-stories__info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 0 30px;
+
+    }
+
+    &:nth-child(1) .our-stories__date,
+    &:nth-child(2) .our-stories__date,
+    &:nth-child(3) .our-stories__date {
+      font-size: 11px;
+      color: rgba(167,167,167,.9);
+    }
+  }
+}
