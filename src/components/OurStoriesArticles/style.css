@@ -147,7 +147,7 @@
     .our-stories__item:nth-child(7):hover .our-stories__date {
       color: #919191; }
     .our-stories__item:nth-child(6), .our-stories__item:nth-child(7) {
-      width: calc(33.1% - 7px);
+      width: calc(33.1% - 5.5px);
       height: 274px;
       overflow: hidden;
       margin: -276px 20px 0 0; }
