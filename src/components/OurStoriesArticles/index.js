@@ -11,7 +11,7 @@ const OurStoriesArticles = ({ newArticles }) => {
       />
       <Link
         className="our-stories__info"
-        to={`people/${item.person.profileId}`}
+        to={`person/${item.person.profileId}`}
       >
         <div className="our-stories__link">
           <h3 className="our-stories__title">{item.title}</h3>

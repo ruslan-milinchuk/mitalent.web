@@ -28,7 +28,7 @@
       flex-direction: row-reverse;
       height: 346px;
       width: 67%;
-      padding: 20px 0 0 0; }
+      margin: 20px 0 0 0; }
       .our-stories__item:nth-child(4):hover .our-stories__link {
         color: white; }
       .our-stories__item:nth-child(4):hover .our-stories__info {
@@ -49,7 +49,7 @@
       height: 640px;
       overflow: hidden;
       width: 30%;
-      padding: 20px 0 0 20px;
+      margin: 20px 0 0 20px;
       right: 0;
       top: 115px; }
       .our-stories__item:nth-child(5):hover .our-stories__info {
@@ -129,7 +129,7 @@
   .our-stories__item:nth-child(5) {
     height: 275px;
     width: calc(50% - 10px);
-    padding: 20px 0 0 0; }
+    margin: 20px 0 0 0; }
     .our-stories__item:nth-child(5) .our-stories__img {
       height: 194px; }
   .our-stories__item:nth-child(6) {
@@ -172,14 +172,20 @@
     font-size: 13px;
     letter-spacing: .5px; }
     .our-stories__item:nth-child(1) .our-stories__info, .our-stories__item:nth-child(2) .our-stories__info, .our-stories__item:nth-child(3) .our-stories__info {
-      padding: 0 10px 0 10px; }
-    .our-stories__item:nth-child(1):hover .our-stories__info, .our-stories__item:nth-child(2):hover .our-stories__info, .our-stories__item:nth-child(3):hover .our-stories__info {
-      background: #b5d2d3; }
+      padding: 0 10px 0 10px;
+      font-size: 13px; }
+    .our-stories__item:nth-child(1) .our-stories__link, .our-stories__item:nth-child(2) .our-stories__link, .our-stories__item:nth-child(3) .our-stories__link {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+    .our-stories__item:nth-child(1) .our-stories__date, .our-stories__item:nth-child(2) .our-stories__date, .our-stories__item:nth-child(3) .our-stories__date {
+      margin-top: 0; }
     .our-stories__item:nth-child(1):hover .our-stories__title, .our-stories__item:nth-child(2):hover .our-stories__title, .our-stories__item:nth-child(3):hover .our-stories__title {
-      color: white; }
+      color: #b5d2d3; }
     .our-stories__item:nth-child(1) .our-stories__img, .our-stories__item:nth-child(2) .our-stories__img, .our-stories__item:nth-child(3) .our-stories__img {
-      min-width: 100px;
-      height: 100px; } }
+      min-width: 110px;
+      height: 110px; } }
 @media screen and (max-width: 906px) {
   .our-stories__item {
     font-size: 13px;
