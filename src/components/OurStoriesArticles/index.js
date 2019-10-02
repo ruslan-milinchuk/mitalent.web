@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const OurStoriesArticles = ({ newArticles }) => {
   return newArticles.map(item => (
@@ -8,12 +9,17 @@ const OurStoriesArticles = ({ newArticles }) => {
         className="our-stories__img"
         style={{ backgroundImage: "url(" + item.person.img + ")" }}
       />
-      <div className="our-stories__info">
-        <h3 className="our-stories__title">{item.title}</h3>
-        <h3 className="our-stories__date">
-          {new Date(item.createAt).toDateString()}
-        </h3>
-      </div>
+      <Link
+        className="our-stories__info"
+        to={`people/${item.person.profileId}`}
+      >
+        <div className="our-stories__link">
+          <h3 className="our-stories__title">{item.title}</h3>
+          <h3 className="our-stories__date">
+            {new Date(item.createAt).toDateString()}
+          </h3>
+        </div>
+      </Link>
     </div>
   ));
 };
