@@ -6,20 +6,25 @@
   &__item{
     font-family: Seconda;
 
+    &:nth-child(1n){
+      & .our-stories__link {
+        text-decoration: none;
+      }
+    }
+
     &:nth-child(1), &:nth-child(2), &:nth-child(3){
       display: flex;
       max-width: 32.3%;
 
+      &:hover .our-stories__title , .our-stories__date {
+        color: #b5d2d3;
+      }
+
       & .our-stories__title {
         color: rgba(0, 0, 0, 0.7);
-
-        &:hover {
-          color: #b5d2d3;
-        }
       }
 
       & .our-stories__img {
-        color: red;
         min-width: 130px;
         max-width: 130px;
       }
@@ -43,6 +48,19 @@
       width: 67%;
       padding: 20px 0 0 0;
 
+      &:hover .our-stories__link {
+        color: white;
+      }
+
+      &:hover .our-stories__info {
+        display: flex;
+        background-color: #b5d2d3;
+      }
+
+      & .our-stories__link {
+        color: black;
+      }
+
       & .our-stories__img {
         width: 65%;
       }
@@ -53,8 +71,7 @@
         justify-content: flex-end;
         width: 35%;
         padding: 35px;
-        background: #b5d2d3;
-        color: white;
+        color: black;
       }
     }
 
@@ -66,8 +83,26 @@
       right: 0;
       top: 115px;
 
+      &:hover .our-stories__info{
+        display: flex;
+        background: #b5d2d3;
+      }
+
+      & .our-stories__link {
+        color: black;
+      }
+
+      &:hover .our-stories__title , &:hover .our-stories__date {
+        color: white;
+      }
+
       & .our-stories__img {
         height: 550px;
+      }
+
+      & .our-stories__info {
+        display: flex;
+        padding-left: 5px;
       }
 
       & .our-stories__title {
@@ -81,8 +116,28 @@
 
     &:nth-child(6){
 
+      &:hover .our-stories__info {
+        display: flex;
+        padding-left: 5px;
+        background: #b5d2d3;
+
+      }
+
+      & .our-stories__link {
+        color: black;
+      }
+
+      &:hover .our-stories__title , &:hover .our-stories__date {
+        color: white;
+      }
+
+      & .our-stories__info {
+        display: flex;
+        padding-left: 5px;
+      }
+
       & .our-stories__img {
-        height: 194px;
+        height: 187px;
         width: 100%;
       }
 
@@ -96,6 +151,17 @@
     }
 
     &:nth-child(7) {
+      &:hover .our-stories__info{
+        background: #b5d2d3;
+      }
+
+      & .our-stories__link {
+        color: white;
+      }
+
+      &:hover .our-stories__title , &:hover .our-stories__date {
+        color: white;
+      }
 
       & .our-stories__img {
         width: 100%;
@@ -103,6 +169,7 @@
       }
 
       & .our-stories__info {
+        display: flex;
         color: white;
         margin-top: -286px;
         padding: 35px;
@@ -119,6 +186,10 @@
     &__img {
       width: 100%;
     }
+  }
+
+  &__info {
+    text-decoration: none;
   }
 
   &__img {
@@ -172,6 +243,10 @@
           color: white;
         }
 
+        & .our-stories__title {
+          color: white;
+        }
+
         & .our-stories__img {
           height: 100%;
         }
@@ -180,6 +255,10 @@
           color: white;
           margin-top: -274px;
           padding: 0 15px;
+        }
+
+        &:hover .our-stories__info {
+          padding-left: 15px;
         }
       }
 
@@ -201,8 +280,14 @@
           margin-top: 0;
           width: 35%;
           padding: 35px;
-          background: #b5d2d3;
-          color: white;
+          color: black;
+        }
+
+        & .our-stories__date{
+          color: rgba(167,167,167,.9)
+        }
+        & .our-stories__title{
+          color: black;
         }
       }
     }
@@ -220,6 +305,16 @@
 
         & .our-stories__info {
           padding: 0 10px 0 10px;
+
+        }
+
+        &:hover .our-stories__info {
+          background: #b5d2d3;
+
+        }
+
+        &:hover .our-stories__title {
+          color: white;
 
         }
 
@@ -249,6 +344,10 @@
         padding: 0;
         margin: 10px 0 0 0;
         overflow: hidden;
+
+        &:hover .our-stories__info {
+          padding: 10px;
+        }
 
         & .our-stories__img {
           width: 100%;
@@ -288,6 +387,10 @@
     &__item{
       &:nth-child(1n){
         flex-direction: inherit;
+
+        &:hover .our-stories__title, &:hover .our-stories__date {
+          color: white;
+        }
 
         display: flex;
         width: 100%;
