@@ -69,7 +69,8 @@
         flex-direction: column;
         justify-content: flex-end;
         width: 35%;
-        padding: 35px;
+        padding: 0 5px 0;
+        line-height: 2;
         color: black; }
     .our-stories__item:nth-child(5) {
       height: 640px;
@@ -243,7 +244,8 @@
       float: right;
       margin-top: 0;
       width: 35%;
-      padding: 35px;
+      padding: 0 5px 0;
+      line-height: 2;
       color: black; }
     .our-stories__item:nth-child(7) .our-stories__date {
       color: rgba(167, 167, 167, 0.9); }

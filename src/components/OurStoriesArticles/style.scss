@@ -113,7 +113,8 @@
         flex-direction: column;
         justify-content: flex-end;
         width: 35%;
-        padding: 35px;
+        padding: 0 5px 0;
+        line-height: 2;
         color: black;
       }
     }
@@ -424,7 +425,8 @@
           float: right;
           margin-top: 0;
           width: 35%;
-          padding: 35px;
+          padding: 0 5px 0;
+          line-height: 2;
           color: black;
         }
 
