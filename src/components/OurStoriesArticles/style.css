@@ -6,9 +6,15 @@
     font-family: Seconda; }
     .our-stories__item:nth-child(1n) .our-stories__link {
       text-decoration: none; }
+    .our-stories__item:nth-child(1n) .our-stories__img {
+      background-size: 100%;
+      transition: background-size 500ms linear , opacity 500ms ease-in-out; }
+    .our-stories__item:nth-child(1n):hover .our-stories__img {
+      background-size: 105%;
+      opacity: 0.3; }
     .our-stories__item:nth-child(1), .our-stories__item:nth-child(2), .our-stories__item:nth-child(3) {
       display: flex;
-      max-width: 32.3%; }
+      max-width: 33.3%; }
       .our-stories__item:nth-child(1):hover .our-stories__title, .our-stories__item:nth-child(1) .our-stories__date, .our-stories__item:nth-child(2):hover .our-stories__title, .our-stories__item:nth-child(2) .our-stories__date, .our-stories__item:nth-child(3):hover .our-stories__title, .our-stories__item:nth-child(3) .our-stories__date {
         color: #b5d2d3; }
       .our-stories__item:nth-child(1) .our-stories__title, .our-stories__item:nth-child(2) .our-stories__title, .our-stories__item:nth-child(3) .our-stories__title {
@@ -53,14 +59,16 @@
       right: 0;
       top: 115px; }
       .our-stories__item:nth-child(5):hover .our-stories__info {
-        display: flex;
-        background: #b5d2d3; }
+        display: flex; }
+      .our-stories__item:nth-child(5) .our-stories__img {
+        background-size: 200%;
+        height: 550px; }
+      .our-stories__item:nth-child(5):hover .our-stories__img {
+        background-size: 210%; }
       .our-stories__item:nth-child(5) .our-stories__link {
         color: black; }
-      .our-stories__item:nth-child(5):hover .our-stories__title, .our-stories__item:nth-child(5):hover .our-stories__date {
-        color: white; }
-      .our-stories__item:nth-child(5) .our-stories__img {
-        height: 550px; }
+      .our-stories__item:nth-child(5):hover .our-stories__title {
+        color: #b5d2d3; }
       .our-stories__item:nth-child(5) .our-stories__info {
         display: flex;
         padding-left: 5px; }
@@ -70,12 +78,11 @@
         color: rgba(167, 167, 167, 0.9); }
     .our-stories__item:nth-child(6):hover .our-stories__info {
       display: flex;
-      padding-left: 5px;
-      background: #b5d2d3; }
+      padding-left: 5px; }
     .our-stories__item:nth-child(6) .our-stories__link {
       color: black; }
-    .our-stories__item:nth-child(6):hover .our-stories__title, .our-stories__item:nth-child(6):hover .our-stories__date {
-      color: white; }
+    .our-stories__item:nth-child(6):hover .our-stories__title {
+      color: #b5d2d3; }
     .our-stories__item:nth-child(6) .our-stories__info {
       display: flex;
       padding-left: 5px; }
@@ -131,7 +138,10 @@
     width: calc(50% - 10px);
     margin: 20px 0 0 0; }
     .our-stories__item:nth-child(5) .our-stories__img {
-      height: 194px; }
+      height: 194px;
+      background-size: 100%; }
+    .our-stories__item:nth-child(5):hover .our-stories__img {
+      background-size: 105%; }
   .our-stories__item:nth-child(6) {
     width: calc(50% - 14px);
     margin: 20px 0 0 20px; }
@@ -146,7 +156,10 @@
       margin-top: -274px;
       padding: 0 15px; }
     .our-stories__item:nth-child(6):hover .our-stories__info {
-      padding-left: 15px; }
+      padding-left: 15px;
+      background: #b5d2d3; }
+    .our-stories__item:nth-child(6):hover .our-stories__title {
+      color: white; }
   .our-stories__item:nth-child(7) {
     display: flex;
     width: 100%;
@@ -200,7 +213,10 @@
       margin: 10px 0 0 0;
       overflow: hidden; }
       .our-stories__item:nth-child(1n):hover .our-stories__info {
-        padding: 10px; }
+        padding: 10px;
+        background: #b5d2d3; }
+      .our-stories__item:nth-child(1n):hover .our-stories__title {
+        color: white; }
       .our-stories__item:nth-child(1n) .our-stories__img {
         width: 100%;
         max-width: 100%;
@@ -213,13 +229,16 @@
         padding: 10px;
         background: none;
         float: inherit; }
+      .our-stories__item:nth-child(1n) .our-stories__link {
+        justify-content: unset; }
       .our-stories__item:nth-child(1n) .our-stories__title {
         color: white;
         padding: 0; }
       .our-stories__item:nth-child(1n) .our-stories__date {
         background: none;
         color: white;
-        padding: 0; } }
+        padding: 0;
+        margin-top: 15px; } }
 @media screen and (max-width: 538px) {
   .our-stories {
     margin: 0 15px; }

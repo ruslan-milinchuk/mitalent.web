@@ -10,11 +10,26 @@
       & .our-stories__link {
         text-decoration: none;
       }
+
+      & .our-stories__img {
+        background-size: 100%;
+        //-webkit-transition: background-size op 500ms linear;
+        //-moz-transition: background-size 500ms linear;
+        //-o-transition: background-size 500ms linear;
+        //-ms-transition: background-size 500ms linear;
+        transition: background-size 500ms linear ,
+        opacity 500ms ease-in-out;
+      }
+
+      &:hover .our-stories__img {
+        background-size: 105%;
+        opacity: 0.3;
+      }
     }
 
     &:nth-child(1), &:nth-child(2), &:nth-child(3){
       display: flex;
-      max-width: 32.3%;
+      max-width: 33.3%;
 
       &:hover .our-stories__title , .our-stories__date {
         color: #b5d2d3;
@@ -85,19 +100,23 @@
 
       &:hover .our-stories__info{
         display: flex;
-        background: #b5d2d3;
+      }
+
+      & .our-stories__img {
+        background-size: 200%;
+        height: 550px;
+      }
+
+      &:hover .our-stories__img{
+        background-size: 210%;
       }
 
       & .our-stories__link {
         color: black;
       }
 
-      &:hover .our-stories__title , &:hover .our-stories__date {
-        color: white;
-      }
-
-      & .our-stories__img {
-        height: 550px;
+      &:hover .our-stories__title  {
+        color:  #b5d2d3;
       }
 
       & .our-stories__info {
@@ -119,7 +138,6 @@
       &:hover .our-stories__info {
         display: flex;
         padding-left: 5px;
-        background: #b5d2d3;
 
       }
 
@@ -127,8 +145,8 @@
         color: black;
       }
 
-      &:hover .our-stories__title , &:hover .our-stories__date {
-        color: white;
+      &:hover .our-stories__title  {
+        color: #b5d2d3;
       }
 
       & .our-stories__info {
@@ -232,6 +250,11 @@
 
         & .our-stories__img {
           height: 194px;
+          background-size: 100%;
+        }
+
+        &:hover .our-stories__img {
+          background-size: 105%;
         }
       }
 
@@ -259,7 +282,13 @@
 
         &:hover .our-stories__info {
           padding-left: 15px;
+          background: #b5d2d3;
         }
+
+        &:hover .our-stories__title {
+          color: white;
+        }
+
       }
 
       &:nth-child(7) {
@@ -352,6 +381,11 @@
 
         &:hover .our-stories__info {
           padding: 10px;
+          background: #b5d2d3;
+        }
+
+        &:hover .our-stories__title {
+          color: white;
         }
 
         & .our-stories__img {
@@ -370,6 +404,10 @@
           float: inherit;
         }
 
+        & .our-stories__link {
+          justify-content: unset;
+        }
+
         & .our-stories__title {
           color: white;
           padding: 0;
@@ -379,6 +417,7 @@
           background: none;
           color: white;
           padding: 0;
+          margin-top: 15px;
         }
       }
     }
