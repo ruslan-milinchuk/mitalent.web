@@ -79,7 +79,7 @@
         position: relative;
       }
 
-      &:hover .our-stories__link {
+      & .our-stories__link {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -87,13 +87,21 @@
         color: #b5d2d3;
       }
 
+      &:hover .our-stories__title {
+        color: #b5d2d3;
+      }
+
       &:hover .our-stories__date {
         color: rgb(145, 145, 145);
       }
 
-      &:hover .our-stories__description {
+      & .our-stories__description {
         display: block;
         color: rgba(167,167,167,.9);
+      }
+
+      &:hover .our-stories__description {
+        color: rgb(145, 145, 145);
       }
 
       & .our-stories__date {
@@ -111,7 +119,7 @@
       & .our-stories__info {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+    
         width: 35%;
         padding: 0 5px 0;
         line-height: 2;
@@ -308,6 +316,7 @@
 
   &__description {
     display: none;
+    margin-top: 20px;
   }
 
   &__date {
@@ -396,17 +405,21 @@
           position: unset;
         }
 
+        &:hover .our-stories__description {
+          color: rgb(145, 145, 145);
+        }
 
-        &:hover .our-stories__link{
+
+        & .our-stories__link{
           height: 100%;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
         }
 
-        &:hover .our-stories__description {
+        & .our-stories__description {
           display: block;
-          color: rgb(145, 145, 145);
+          color: rgba(167,167,167,.9)
         }
 
 
@@ -421,7 +434,7 @@
         & .our-stories__info {
           display: flex;
           flex-direction: column;
-          justify-content: flex-end;
+      
           float: right;
           margin-top: 0;
           width: 35%;
@@ -564,12 +577,12 @@
 
       &:nth-child(4) {
 
-        &:hover .our-stories__description {
+        & .our-stories__description {
           display: none;
         }
       }
       &:nth-child(7) {
-        &:hover .our-stories__description {
+        & .our-stories__description {
           display: none;
         }
       }
