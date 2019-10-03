@@ -5,10 +5,11 @@
 
   &__item{
     font-family: Seconda;
+    text-decoration: none;
+
 
     &:nth-child(1n){
       & .our-stories__link {
-        text-decoration: none;
       }
 
       & .our-stories__img {
