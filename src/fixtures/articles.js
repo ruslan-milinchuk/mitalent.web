@@ -145,7 +145,7 @@ export default [
       },
       {
         id: "some id the same author",
-        title: "",
+        title: "The Easy Way To Manage A Flu This Fall.",
         shortDescription: "",
         sliderImg: ["link1", "link2"]
       }
@@ -1492,7 +1492,7 @@ export default [
       img: ""
     },
     createAt: "2019-09-17:03:21.000Z",
-    title: "",
+    title: "The Easy Way To Manage A Flu This Fall.",
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Nearly 30 years ago, a handful of smart people set out with one mission: to make some silly movies. What followed was a true golden age of Hollywood comedy that saw the arrival of megastars still with us today, a commercial explosion, and then, an eventual splintering that changed the genre forever. Welcome to Comedy in the ’90s, a six-part series released over three months that will document this decade-defining boom in all of its sophomoric glory.",
