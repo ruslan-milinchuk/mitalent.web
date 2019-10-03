@@ -16,8 +16,10 @@ const OurStoriesArticles = ({ newArticles }) => {
         to={`person/${item.person.profileId}`}
       >
         <div className="our-stories__link">
-          <h3 className="our-stories__title">{item.title}</h3>
-          <p className="our-stories__description">{item.shortDescription}</p>
+          <h3 className="our-stories__title">
+            {item.title}
+            <p className="our-stories__description">{item.shortDescription}</p>
+          </h3>
           <h3 className="our-stories__date">
             {new Date(item.createAt).toDateString()}
           </h3>
