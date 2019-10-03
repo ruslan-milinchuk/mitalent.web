@@ -4,17 +4,14 @@ import { Link } from "react-router-dom";
 
 const OurStoriesArticles = ({ newArticles }) => {
   return newArticles.map(item => (
-    <div className="our-stories__item">
+    <Link className="our-stories__item" to={`articles/${item.id}`}>
       <div
         className="our-stories__img"
         style={{ backgroundImage: "url(" + item.person.img + ")" }}
       >
         <div className="our-stories__img_hover"></div>
       </div>
-      <Link
-        className="our-stories__info"
-        to={`person/${item.person.profileId}`}
-      >
+      <div className="our-stories__info">
         <div className="our-stories__link">
           <h3 className="our-stories__title">
             {item.title}
@@ -24,8 +21,8 @@ const OurStoriesArticles = ({ newArticles }) => {
             {new Date(item.createAt).toDateString()}
           </h3>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   ));
 };
 

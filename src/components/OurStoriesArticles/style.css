@@ -3,9 +3,8 @@
   flex-wrap: wrap;
   margin: 0 75px; }
   .our-stories__item {
-    font-family: Seconda; }
-    .our-stories__item:nth-child(1n) .our-stories__link {
-      text-decoration: none; }
+    font-family: Seconda;
+    text-decoration: none; }
     .our-stories__item:nth-child(1n) .our-stories__img {
       background-size: 100%;
       transition: background-size 0.2s linear; }
