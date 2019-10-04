@@ -4,6 +4,7 @@ import articles from "../../fixtures/articles";
 import "./style.css";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
+import NewsArticles from "../../components/NewsArticles";
 
 class News extends Component {
   state = {
@@ -40,8 +41,12 @@ class News extends Component {
 
     return (
       <div className="news">
-        <OurStoriesArticles newArticles={newArticles} className="news" />
-        <div className="news__control">
+        <NewsArticles
+          newArticles={newArticles}
+          clickArrowLeft={this.clickArrowLeft}
+          clickArrowRight={this.clickArrowRight}
+        />
+        <div className="news__control-end">
           <div className="news__control-left" onClick={this.clickArrowLeft}>
             <ArrowLeft />
             <p className="news__control-name"> prev post</p>
@@ -56,6 +61,7 @@ class News extends Component {
   }
   clickArrowLeft = () => {
     const { count } = this.state;
+    console.log("left");
     if (count - 1 >= 0) {
       return this.setState({ count: count - 1 });
     }
