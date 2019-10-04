@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowLeft from "../../icons/ArrowLeft";
 
-const NewsArticles = ({ newArticles, clickArrowLeft, clickArrowRight }) => {
+const NewsArticles = ({ newArticles, count, articlesLength, clickArrowLeft, clickArrowRight }) => {
   return newArticles.map((item, index) => (
     <Link key={index} className="news__item" to={`articles/${item.id}`}>
       <div
@@ -15,10 +15,20 @@ const NewsArticles = ({ newArticles, clickArrowLeft, clickArrowRight }) => {
           <p className="news__btn-name">READ MORE</p> <ArrowRight />
         </Link>
         <div className="news__control-start">
-          <div className="news__control-left" onClick={clickArrowLeft}>
+          <div className={
+            count === 0
+              ? "news__control-left news__control-left-disable"
+              : "news__control-left"
+          }
+               onClick={clickArrowLeft}>
             <ArrowLeft />
           </div>
-          <div className="news__control-right" onClick={clickArrowRight}>
+          <div className={
+            count + 11 === articlesLength
+              ? "news__control-right news__control-right-disable"
+              : "news__control-right"
+          }
+               onClick={clickArrowRight}>
             <ArrowRight />
           </div>
         </div>
