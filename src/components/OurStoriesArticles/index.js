@@ -2,31 +2,22 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 
-const OurStoriesArticles = ({ newArticles, className }) => {
-  return newArticles.map((item, index) => (
-    <Link
-      key={index}
-      className={`${className}__item`}
-      to={`articles/${item.id}`}
-    >
+const OurStoriesArticles = ({ newArticles }) => {
+  return newArticles.map(item => (
+    <Link className="our-stories__item" to={`articles/${item.id}`}>
       <div
-        className={`${className}__img`}
+        className="our-stories__img"
         style={{ backgroundImage: "url(" + item.person.img + ")" }}
       >
-        <div className={`${className}__img_hover`}></div>
+        <div className="our-stories__img_hover"></div>
       </div>
-      <div className={`${className}__info`}>
-        <div className={`${className}__link`}>
-          <div className={`${className}__type-article`}>
-            {item.typeArticle[0]}
-          </div>
-          <h3 className={`${className}__title`}>
+      <div className="our-stories__info">
+        <div className="our-stories__link">
+          <h3 className="our-stories__title">
             {item.title}
-            <p className={`${className}__description`}>
-              {item.shortDescription}
-            </p>
+            <p className="our-stories__description">{item.shortDescription}</p>
           </h3>
-          <h3 className={`${className}__date`}>
+          <h3 className="our-stories__date">
             {new Date(item.createAt).toDateString()}
           </h3>
         </div>

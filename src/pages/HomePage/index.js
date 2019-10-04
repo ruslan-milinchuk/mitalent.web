@@ -8,7 +8,7 @@ class HomePage extends Component {
 
     return (
       <div className="our-stories">
-        <OurStoriesArticles newArticles={newArticles} className="our-stories" />
+        <OurStoriesArticles newArticles={newArticles} />
       </div>
     );
   }
