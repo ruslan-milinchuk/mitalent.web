@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import OurStoriesArticles from "../../components/OurStoriesArticles";
 import articles from "../../fixtures/articles";
 import "./style.css";
 import ArrowLeft from "../../icons/ArrowLeft";
@@ -8,32 +7,19 @@ import NewsArticles from "../../components/NewsArticles";
 
 class News extends Component {
   state = {
+    articlesList: articles,
     newArticles: [],
     articlesLength: 0,
     count: 0
   };
 
   componentDidMount() {
-    let newArticles = articles.slice(0, 11);
+    const { articlesList } = this.state;
+    let newArticles = articlesList.slice(0, 11);
     this.setState({
       newArticles: newArticles,
-      articlesLength: articles.length
+      articlesLength: articlesList.length
     });
-  }
-
-  shouldComponentUpdate(nextProps, nextState, nextContext) {
-    const { count } = this.state;
-    if (this.state.count < nextState.count) {
-      const newArticles = articles.slice(count + 1, count + 12);
-      return this.setState({ newArticles: newArticles });
-    }
-
-    if (this.state.count > nextState.count) {
-      const newArticles = articles.slice(count - 1, count + 10);
-      return this.setState({ newArticles: newArticles });
-    }
-
-    return this.state.count === nextState.count;
   }
 
   render() {
@@ -60,16 +46,19 @@ class News extends Component {
     );
   }
   clickArrowLeft = () => {
+    const { articlesList } = this.state;
     const { count } = this.state;
-    console.log("left");
     if (count - 1 >= 0) {
-      return this.setState({ count: count - 1 });
+      const newArticles = articlesList.slice(count - 1, count + 10);
+      return this.setState({ newArticles: newArticles, count: count - 1 });
     }
   };
   clickArrowRight = () => {
+    const { articlesList } = this.state;
     const { count, articlesLength } = this.state;
     if (count + 11 < articlesLength) {
-      return this.setState({ count: count + 1 });
+      const newArticles = articlesList.slice(count + 1, count + 12);
+      return this.setState({ newArticles: newArticles, count: count + 1 });
     }
   };
 }
