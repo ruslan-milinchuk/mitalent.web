@@ -23,21 +23,37 @@ class News extends Component {
   }
 
   render() {
-    const { newArticles } = this.state;
+    const { newArticles, count, articlesLength } = this.state;
 
     return (
       <div className="news">
         <NewsArticles
           newArticles={newArticles}
+          count={count}
+          articlesLength={articlesLength}
           clickArrowLeft={this.clickArrowLeft}
           clickArrowRight={this.clickArrowRight}
         />
         <div className="news__control-end">
-          <div className="news__control-left" onClick={this.clickArrowLeft}>
+          <div
+            className={
+              count === 0
+                ? "news__control-left news__control-left-disable"
+                : "news__control-left"
+            }
+            onClick={this.clickArrowLeft}
+          >
             <ArrowLeft />
             <p className="news__control-name"> prev post</p>
           </div>
-          <div className="news__control-right" onClick={this.clickArrowRight}>
+          <div
+            className={
+              count + 11 === articlesLength
+                ? "news__control-right news__control-right-disable"
+                : "news__control-right"
+            }
+            onClick={this.clickArrowRight}
+          >
             <p className="news__control-name">next post </p>
             <ArrowRight />
           </div>
