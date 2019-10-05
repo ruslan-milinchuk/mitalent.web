@@ -3,9 +3,39 @@ import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowLeft from "../../icons/ArrowLeft";
 
-const NewsArticles = ({ newArticles, count, articlesLength, clickArrowLeft, clickArrowRight }) => {
+const NewsArticles = ({
+  newArticles,
+  count,
+  articlesLength,
+  sliceArticle,
+  smallMonitor,
+  bigMonitor,
+  clickArrowLeft,
+  clickArrowRight
+}) => {
   return newArticles.map((item, index) => (
-    <Link key={index} className="news__item" to={`articles/${item.id}`}>
+    <Link
+      onClick={
+        sliceArticle !== smallMonitor
+          ? sliceArticle === smallMonitor
+            ? (sliceArticle - bigMonitor === index ||
+                sliceArticle - smallMonitor === index) &&
+              "event.preventDefault()"
+            : (sliceArticle - bigMonitor === index ||
+                sliceArticle - bigMonitor === index) &&
+              "event.preventDefault()"
+          : null
+      }
+      key={index}
+      className="news__item"
+      to={`articles/${item.id}`}
+    >
+      {console.log(
+        "(sliceArticle - smallMonitor === index )",
+        sliceArticle - bigMonitor === index
+      )}
+      {console.log("sliceArticle", sliceArticle)}
+      {console.log("smallMonitor", smallMonitor)}
       <div
         className="news__img"
         style={{ backgroundImage: "url(" + item.person.img + ")" }}
@@ -15,21 +45,29 @@ const NewsArticles = ({ newArticles, count, articlesLength, clickArrowLeft, clic
           <p className="news__btn-name">READ MORE</p> <ArrowRight />
         </Link>
         <div className="news__control-start">
-          <div className={
-            count === 0
-              ? "news__control-left news__control-left-disable"
-              : "news__control-left"
-          }
-               onClick={clickArrowLeft}>
-            <ArrowLeft />
+          <div
+            className={
+              count === 0
+                ? "news__control-left news__control-left-disable"
+                : "news__control-left"
+            }
+            onClick={clickArrowLeft}
+          >
+            <div className="svg">
+              <ArrowLeft />
+            </div>
           </div>
-          <div className={
-            count + 11 === articlesLength
-              ? "news__control-right news__control-right-disable"
-              : "news__control-right"
-          }
-               onClick={clickArrowRight}>
-            <ArrowRight />
+          <div
+            className={
+              count + sliceArticle === articlesLength
+                ? "news__control-right news__control-right-disable"
+                : "news__control-right"
+            }
+            onClick={clickArrowRight}
+          >
+            <div className="svg">
+              <ArrowRight />
+            </div>
           </div>
         </div>
       </div>

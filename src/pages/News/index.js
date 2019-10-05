@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import windowSize from "react-window-size";
+
 import articles from "../../fixtures/articles";
 import "./style.css";
 import ArrowLeft from "../../icons/ArrowLeft";
@@ -10,20 +12,36 @@ class News extends Component {
     articlesList: articles,
     newArticles: [],
     articlesLength: 0,
-    count: 0
+    count: 0,
+    sliceArticle: 0,
+		smallMonitor : 5,
+		bigMonitor : 11
   };
 
   componentDidMount() {
     const { articlesList } = this.state;
-    let newArticles = articlesList.slice(0, 11);
+    let expansionMonitor = 0;
+    this.props.windowWidth <= 548
+      ? (expansionMonitor = 5)
+      : (expansionMonitor = 11);
+    let newArticles = articlesList.slice(0, expansionMonitor);
     this.setState({
       newArticles: newArticles,
-      articlesLength: articlesList.length
+      articlesLength: articlesList.length,
+      sliceArticle: expansionMonitor
     });
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    if (this.props.windowWidth !== nextProps.windowWidth) {
+      this.changeState();
+    }
+
+    return this.props.windowWidth === nextProps.windowWidth;
+  }
+
   render() {
-    const { newArticles, count, articlesLength } = this.state;
+    const { newArticles, count, articlesLength, sliceArticle, smallMonitor, bigMonitor } = this.state;
 
     return (
       <div className="news">
@@ -31,6 +49,9 @@ class News extends Component {
           newArticles={newArticles}
           count={count}
           articlesLength={articlesLength}
+				  sliceArticle={sliceArticle}
+					smallMonitor={smallMonitor}
+					bigMonitor={bigMonitor}
           clickArrowLeft={this.clickArrowLeft}
           clickArrowRight={this.clickArrowRight}
         />
@@ -48,7 +69,7 @@ class News extends Component {
           </div>
           <div
             className={
-              count + 11 === articlesLength
+              count + sliceArticle === articlesLength
                 ? "news__control-right news__control-right-disable"
                 : "news__control-right"
             }
@@ -62,21 +83,53 @@ class News extends Component {
     );
   }
   clickArrowLeft = () => {
-    const { articlesList } = this.state;
-    const { count } = this.state;
+    const { articlesList, count, sliceArticle } = this.state;
     if (count - 1 >= 0) {
-      const newArticles = articlesList.slice(count - 1, count + 10);
+      const newArticles = articlesList.slice(
+        count - 1,
+        count + sliceArticle - 1
+      );
       return this.setState({ newArticles: newArticles, count: count - 1 });
     }
   };
   clickArrowRight = () => {
-    const { articlesList } = this.state;
-    const { count, articlesLength } = this.state;
-    if (count + 11 < articlesLength) {
-      const newArticles = articlesList.slice(count + 1, count + 12);
+    const { articlesList, count, articlesLength, sliceArticle } = this.state;
+    if (count + sliceArticle < articlesLength) {
+      const newArticles = articlesList.slice(
+        count + 1,
+        count + (sliceArticle + 1)
+      );
       return this.setState({ newArticles: newArticles, count: count + 1 });
+    }
+  };
+
+  changeState = () => {
+    const { articlesList, newArticles, smallMonitor, bigMonitor } = this.state;
+
+    if (1 < this.props.windowWidth && this.props.windowWidth <= 548) {
+      if (smallMonitor === newArticles.length) {
+        return;
+      }
+      let newListArticles = articlesList.slice(0, smallMonitor);
+      return this.setState({
+        sliceArticle: smallMonitor,
+        newArticles: newListArticles,
+        count: 0
+      });
+    }
+
+    if (548 < this.props.windowWidth) {
+      if (bigMonitor === newArticles.length) {
+        return;
+      }
+      let newListArticles = articlesList.slice(0, bigMonitor);
+      return this.setState({
+        sliceArticle: bigMonitor,
+        newArticles: newListArticles,
+        count: 0
+      });
     }
   };
 }
 
-export default News;
+export default windowSize(News);

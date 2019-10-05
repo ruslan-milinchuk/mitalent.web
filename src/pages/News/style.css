@@ -23,15 +23,14 @@
       margin: -90px 0 0; }
       .news__item:nth-child(1):not([href^="https://"]) {
         pointer-events: none; }
+      .news__item:nth-child(1):hover .news__title {
+        color: white; }
       .news__item:nth-child(1):hover .news__img_hover {
         position: absolute;
         height: 100%;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.2);
         transition: all .2s ease-in-out; }
-      .news__item:nth-child(1):hover .news__img {
-        background-size: 153%;
-        transition: background-size .2s ease-in-out; }
       .news__item:nth-child(1) .news__control-start {
         display: flex;
         justify-content: space-around;
@@ -46,6 +45,10 @@
           color: white;
           padding: 10px;
           cursor: pointer; }
+      .news__item:nth-child(1) .svg {
+        width: 12px;
+        height: 15px;
+        color: white; }
       .news__item:nth-child(1) .news__btn {
         pointer-events: auto;
         position: absolute;
@@ -61,9 +64,20 @@
         z-index: 2; }
         .news__item:nth-child(1) .news__btn:hover .news__btn-name {
           color: #b5d2d3; }
+        .news__item:nth-child(1) .news__btn:hover .news__title {
+          color: #b5d2d3; }
+        .news__item:nth-child(1) .news__btn:hover .news__img_hover {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.2);
+          transition: all .2s ease-in-out; }
+        .news__item:nth-child(1) .news__btn:hover > svg {
+          color: #919191; }
         .news__item:nth-child(1) .news__btn > svg {
           width: 25px;
-          height: 12px; }
+          height: 12px;
+          color: black; }
       .news__item:nth-child(1) .news__btn-name {
         font-family: sans-serif;
         font-size: 10px;
@@ -75,7 +89,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: 50% no-repeat;
+        background: 50% 50% no-repeat;
         background-size: 151%; }
       .news__item:nth-child(1) .news__info {
         position: absolute;
@@ -112,6 +126,7 @@
       position: relative;
       height: 100%;
       background-size: 101%;
+      background-position: 50% 50%;
       transition: background-size .2s ease-in-out; }
     .news__item:nth-child(2):hover .news__img_hover, .news__item:nth-child(7):hover .news__img_hover, .news__item:nth-child(8):hover .news__img_hover, .news__item:nth-child(9):hover .news__img_hover, .news__item:nth-child(10):hover .news__img_hover, .news__item:nth-child(11):hover .news__img_hover {
       position: absolute;
@@ -132,7 +147,7 @@
         width: 100%;
         height: 410px;
         background-size: 200%;
-        background-position: 50%; }
+        background-position: 50% 50%; }
       .news__item:nth-child(2) .news__link {
         display: flex;
         flex-direction: column;
@@ -148,10 +163,13 @@
       width: calc(56% - 35px);
       margin-left: 35px;
       height: 100px; }
+      .news__item:nth-child(3):hover .news__img_hover, .news__item:nth-child(4):hover .news__img_hover, .news__item:nth-child(5):hover .news__img_hover, .news__item:nth-child(6):hover .news__img_hover {
+        position: unset; }
       .news__item:nth-child(3) .news__img, .news__item:nth-child(4) .news__img, .news__item:nth-child(5) .news__img, .news__item:nth-child(6) .news__img {
         min-width: 120px;
         min-height: 100px;
-        background-size: 100%; }
+        background-size: 100%;
+        background-position: 50% 50%; }
       .news__item:nth-child(3) .news__link, .news__item:nth-child(4) .news__link, .news__item:nth-child(5) .news__link, .news__item:nth-child(6) .news__link {
         display: flex;
         flex-direction: column;
@@ -174,11 +192,13 @@
       margin: 35px 0;
       font-family: Seconda; }
       .news__item:nth-child(7):hover .news__img {
-        background-size: 101%; }
+        background-size: 100.5%;
+        background-position: 50% 50%; }
       .news__item:nth-child(7) .news__img {
         width: 100%;
         height: 360px;
-        background-size: 100%; }
+        background-size: 100%;
+        background-position: 50% 50%; }
       .news__item:nth-child(7) .news__link {
         height: 52px;
         display: flex;
@@ -191,10 +211,13 @@
       width: calc(50% - 17.5px);
       height: 300px;
       margin-bottom: 35px; }
+      .news__item:nth-child(8):hover .news__img, .news__item:nth-child(9):hover .news__img, .news__item:nth-child(10):hover .news__img, .news__item:nth-child(11):hover .news__img {
+        height: 214px; }
       .news__item:nth-child(8) .news__img, .news__item:nth-child(9) .news__img, .news__item:nth-child(10) .news__img, .news__item:nth-child(11) .news__img {
         width: 100%;
         height: 214px;
-        background-size: 100%; }
+        background-size: 100%;
+        background-position: 50% 50%; }
       .news__item:nth-child(8) .news__link, .news__item:nth-child(9) .news__link, .news__item:nth-child(10) .news__link, .news__item:nth-child(11) .news__link {
         display: flex;
         flex-direction: column;
@@ -208,6 +231,8 @@
     display: none; }
   .news__control-start {
     display: none; }
+    .news__control-start:hover ~ .news__img-hover {
+      position: unset; }
   .news__btn {
     display: none; }
   .news__title {
@@ -241,9 +266,11 @@
     font-weight: 700;
     margin: 0 10px; }
   .news__control-left-disable {
-    color: #919191; }
+    color: #919191;
+    cursor: no-drop; }
   .news__control-right-disable {
-    color: #919191; }
+    color: #919191;
+    cursor: no-drop; }
 
 @media screen and (max-width: 1172px) {
   .news__item:nth-child(1) .news__info:after {
@@ -288,7 +315,7 @@
         top: 370px;
         height: 60px; }
       .news__item:nth-child(1):nth-child(1) .news__control-start {
-        bottom: 225px;
+        bottom: 10px;
         height: 60px; } }
 @media screen and (max-width: 548px) {
   .news__item:nth-child(1n) {
@@ -301,7 +328,8 @@
     .news__item:nth-child(1n):hover .news__date {
       color: #919191; }
     .news__item:nth-child(1n):hover .news__img {
-      background-size: 100%; }
+      background-size: 100%;
+      background-position: 50% 50%; }
     .news__item:nth-child(1n):hover .news__img_hover {
       background-color: rgba(0, 0, 0, 0.2); }
     .news__item:nth-child(1n) .news__title {
@@ -320,7 +348,7 @@
       min-width: 120px;
       min-height: 190px;
       background-size: 100%;
-      background-position: inherit; }
+      background-position: 50% 50%; }
     .news__item:nth-child(1n) .news__img-hover {
       display: none; }
     .news__item:nth-child(1n) .news__btn {
