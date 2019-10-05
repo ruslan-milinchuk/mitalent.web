@@ -12,7 +12,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "September 2019 - Whether we are aware of it or not, love is all around us. If only we could realize it. There are many people who love us. Think of your family, friends, and the partners who cherish us. But the biggest question to ask ourselves is what love is.",
-    slider: "",
+    slider: [
+      "https://img.viva.ua/pictures/content/25/25866.jpg",
+      "https://img.tsn.ua/cached/1567001687/tsn-f31867ea2500d8c162f8e1b3822736e1/thumbs/x/3a/38/98ae08a19296f9b68b10651dbaac383a.jpeg"
+    ],
     quoute: [
       "However, the psychology of love looks at things in a deeper way.",
       "Love changes how people view others and other things.",
@@ -40,8 +43,8 @@ export default [
         shortDescription:
           "Why does one person pick up another's emotions so easily? It seems that human emotions are highly contagious. For example, one person's laughter is soon shared by another's. The explanation is that strong emotions synchronize the brain activity of different individuals according to research by Finland's Aalto University and Turku PET Centre research published in the Proceedings of The National Academy of Sciences",
         sliderImg: [
-          "/persons/AlenaWindler/laughter-is-contagious.jpg",
-          "/persons/AlenaWindler/laughter-is-contagious-2.jpg"
+          "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg",
+          "https://wallpaperscave.ru/images/original/18/01-21/celebrity-emma-watson-13070.jpg"
         ]
       },
       {
@@ -50,8 +53,8 @@ export default [
         shortDescription:
           "No matter how careful you are during the winter months and how hygienic you always try to be, catching the flu is often difficult to avoid when the virus is circulating around your family and friends. Sometimes, even applying copious amounts of hand sanitizer throughout the day cannot stop the germs spreading and before you know it, your muscles are starting to ache, your hands and forehead are clamming up with sweat, and your nose becomes increasingly congested as you fall victim to a horrible seasonal flu.",
         sliderImg: [
-          "/persons/DollyKoss/articles/the-easy-way-to-manage.jpg",
-          "/persons/DollyKoss/articles/the-easy-way-to-manage-2.jpg"
+          "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg",
+          "https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510683440-9854.jpg"
         ]
       },
       {
@@ -60,8 +63,8 @@ export default [
         shortDescription:
           "Women, fashion, and glamour are synonymous in the modern era – but in the mid to late 1980s this association intensified into one distinct cultural icon: the supermodel.",
         sliderImg: [
-          "/persons/AniyaMonahan/the-story-of-supermodel.jpg",
-          "/persons/AniyaMonahan/the-story-of-supermodel-2.jpg"
+          "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg",
+          "https://images.theconversation.com/files/52137/original/ym4bwg6f-1403658844.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
         ]
       },
       {
@@ -71,8 +74,8 @@ export default [
         shortDescription:
           "When Kim Kardashian “broke the Internet” with her nude selfie last week, it was the latest stunt by a socialite who has become an object of fascination in our celebrity-obsessed culture.While some deride her as being “famous for being famous,” I see someone who works intensely hard at what I’ve termed glamour labor.",
         sliderImg: [
-          "/persons/MallieMarvin/inspired-by-kim-kardashian.jpg",
-          "/persons/MallieMarvin/inspired-by-kim-kardashian-2.jpg"
+          "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+          "https://www.hellomagazine.com/imagenes/brides/2019051473010/kim-kardashian-wedding-makeup-collection/0-355-290/Kim-Kardashian-KKW-launch-t.jpg"
         ]
       }
     ],
@@ -97,7 +100,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "If you suffer from migraines and want to find out more, read on for 5 effects that they can have on your mental health",
-    slider: "",
+    slider: [
+      "https://atlantablackstar.com/wp-content/uploads/2013/07/migraine.jpg",
+      "https://narodna-pravda.ua/wp-content/uploads/2019/08/img-top-3-389149-9pycDqKA-1024x768.jpg"
+    ],
     quoute: [
       "A migraine is a throbbing pain on one side of the head that is persistent.",
       "Migraine aura without headache (silent migraine)."
@@ -118,8 +124,8 @@ export default [
         shortDescription:
           'On a memorable episode of the hit 1990s sitcom Seinfeld, NBC executives meet Jerry after his nightclub act and ask him to come up with an idea for a TV series. His friend George decides he can be a sitcom writer and comes up with the idea of it being "a show about nothing," and it worked! Run with it.',
         sliderImg: [
-          "/people/ShaniyaCassin/articles/this-entrepreneur-raised.jpg",
-          "/people/ShaniyaCassin/articles/this-entrepreneur-raised-2.jpg"
+          "https://hicenter.co.il/wp-content/uploads/2017/09/conference-2705706_1920-1920x1080.jpg",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXyosXQD7Tu_O_fRv-ZxWWrlxF2A4ce6jyw1ofimClMypTYXEj"
         ]
       },
       {
@@ -129,8 +135,8 @@ export default [
         shortDescription:
           "During the live run of Hannah Gadsby’s standup show, Nanette, she found herself sleeping 15 hours a night, then taking naps during the day. “I got bronchitis in London,” she says. “A tooth wrenched out in Edinburgh. Then I got carbon monoxide poisoning from the flat in New York. I was Googling ‘neurological disorders’, I had the tremors and my speech was slurring. I kept telling people I was really tired, texting them coffin emojis, and they’d say: ‘Of course you are, this show is exhausting.’”",
         sliderImg: [
-          "/people/AparnaNancherla/articles/i-broke-the-contract.jpg",
-          "/people/AparnaNancherla/articles/i-broke-the-contract-2.jpg"
+          "https://www.sbs.com.au/topics/sites/sbs.com.au.topics/files/hannah_g.jpg",
+          "https://cdn.newsapi.com.au/image/v1/bfdcb6594c253ee518c383984f32caf1"
         ]
       },
       {
@@ -139,15 +145,20 @@ export default [
         shortDescription:
           "I got a promotion a few days ago, so I decided to stop for a drink on my way home- just me and my sense of accomplishment. I ended up alone in a bar, running defense against a bouncer who held my ID hostage while he commented on my ass (among other things), and asked me vaguely threatening questions about my sex life.",
         sliderImg: [
-          "/persons/MervinJacobson/articles/ten-ways-for-more-meaningful.jpeg",
-          "/persons/MervinJacobson/articles/ten-ways-for-more-meaningful-2.jpeg"
+          "https://cdn.lifehack.org/wp-content/uploads/2010/04/self-improvement.jpeg",
+          "https://cdn.mindful.org/MINDFULNESS.png?q=80&fm=jpg&fit=crop&w=1400&h=875"
         ]
       },
       {
-        id: "some id the same author",
-        title: "The Easy Way To Manage A Flu This Fall.",
-        shortDescription: "",
-        sliderImg: ["link1", "link2"]
+        id: "tvvgsU1hncIirBl",
+        title:
+          "Anorexia is an illness – not something we can simply blame on the media .",
+        shortDescription:
+          "France has joined Italy and Israel in passing laws banning the promotion of extreme thinness in the fashion industry. The health reforms, which include fining agencies employing models with a BMI under 18 and criminalising pro-anorexia web content, have now passed through the upper house of parliament.",
+        sliderImg: [
+          "https://images.theconversation.com/files/179596/original/file-20170725-11526-1wnciz9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+          "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/07/25/3595165a-ad13-11e9-a61f-bc570b50c4e7_image_hires_060819.jpg?itok=DEgfweKK&v=1564006105"
+        ]
       }
     ],
     additionalTitle: "Migraine aura without headache ",
@@ -181,7 +192,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "If you have been diagnosed with a mental health condition, here are a number of benefits you may experience by incorporating regular exercise into your lifestyle:",
-    slider: "",
+    slider: [
+      "https://miro.medium.com/max/3200/1*PCS-DoKajyYOWXzlK_9LwA.jpeg",
+      "http://newsdaily.org.ua/images/3887/3887-54-1537353652.jpg"
+    ],
     quoute: [
       "When you feel good physically, you feel great mentally. ",
       " Find out more about Colchester courses and what you need to do to get on this career path.",
@@ -204,8 +218,8 @@ export default [
         shortDescription:
           "Why does one person pick up another's emotions so easily? It seems that human emotions are highly contagious. For example, one person's laughter is soon shared by another's. The explanation is that strong emotions synchronize the brain activity of different individuals according to research by Finland's Aalto University and Turku PET Centre research published in the Proceedings of The National Academy of Sciences",
         sliderImg: [
-          "/persons/AlenaWindler/laughter-is-contagious.jpg",
-          "/persons/AlenaWindler/laughter-is-contagious-2.jpg"
+          "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg",
+          "https://wallpaperscave.ru/images/original/18/01-21/celebrity-emma-watson-13070.jpg"
         ]
       },
       {
@@ -214,8 +228,8 @@ export default [
         shortDescription:
           "No matter how careful you are during the winter months and how hygienic you always try to be, catching the flu is often difficult to avoid when the virus is circulating around your family and friends. Sometimes, even applying copious amounts of hand sanitizer throughout the day cannot stop the germs spreading and before you know it, your muscles are starting to ache, your hands and forehead are clamming up with sweat, and your nose becomes increasingly congested as you fall victim to a horrible seasonal flu.",
         sliderImg: [
-          "/persons/DollyKoss/articles/the-easy-way-to-manage.jpg",
-          "/persons/DollyKoss/articles/the-easy-way-to-manage-2.jpg"
+          "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg",
+          "https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510683440-9854.jpg"
         ]
       },
       {
@@ -224,8 +238,8 @@ export default [
         shortDescription:
           "Women, fashion, and glamour are synonymous in the modern era – but in the mid to late 1980s this association intensified into one distinct cultural icon: the supermodel.",
         sliderImg: [
-          "/persons/AniyaMonahan/the-story-of-supermodel.jpg",
-          "/persons/AniyaMonahan/the-story-of-supermodel-2.jpg"
+          "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg",
+          "https://images.theconversation.com/files/52137/original/ym4bwg6f-1403658844.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
         ]
       },
       {
@@ -235,8 +249,8 @@ export default [
         shortDescription:
           "When Kim Kardashian “broke the Internet” with her nude selfie last week, it was the latest stunt by a socialite who has become an object of fascination in our celebrity-obsessed culture.While some deride her as being “famous for being famous,” I see someone who works intensely hard at what I’ve termed glamour labor.",
         sliderImg: [
-          "/persons/MallieMarvin/inspired-by-kim-kardashian.jpg",
-          "/persons/MallieMarvin/inspired-by-kim-kardashian-2.jpg"
+          "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+          "https://www.hellomagazine.com/imagenes/brides/2019051473010/kim-kardashian-wedding-makeup-collection/0-355-290/Kim-Kardashian-KKW-launch-t.jpg"
         ]
       }
     ],
@@ -260,7 +274,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Below we have a list of a few of the supplements that you should either try or avoid!",
-    slider: "",
+    slider: [
+      "https://img2.abo.media/upload/article/o_1dj6e5e0b27cin81m329f4dk30.jpg",
+      "https://d2ebzu6go672f3.cloudfront.net/media/content/images/p6_Brain_MLSept19_gi615500314.jpg"
+    ],
     quoute: [
       "Coffee is extremely popular across the globe, mainly as a morning wake-me-up. ",
       "There is a lot of controversy surrounding the effectiveness of supplements on long term function."
@@ -285,8 +302,8 @@ export default [
         shortDescription:
           "Why does one person pick up another's emotions so easily? It seems that human emotions are highly contagious. For example, one person's laughter is soon shared by another's. The explanation is that strong emotions synchronize the brain activity of different individuals according to research by Finland's Aalto University and Turku PET Centre research published in the Proceedings of The National Academy of Sciences",
         sliderImg: [
-          "/persons/AlenaWindler/laughter-is-contagious.jpg",
-          "/persons/AlenaWindler/laughter-is-contagious-2.jpg"
+          "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg",
+          "https://wallpaperscave.ru/images/original/18/01-21/celebrity-emma-watson-13070.jpg"
         ]
       },
       {
@@ -295,8 +312,8 @@ export default [
         shortDescription:
           "No matter how careful you are during the winter months and how hygienic you always try to be, catching the flu is often difficult to avoid when the virus is circulating around your family and friends. Sometimes, even applying copious amounts of hand sanitizer throughout the day cannot stop the germs spreading and before you know it, your muscles are starting to ache, your hands and forehead are clamming up with sweat, and your nose becomes increasingly congested as you fall victim to a horrible seasonal flu.",
         sliderImg: [
-          "/persons/DollyKoss/articles/the-easy-way-to-manage.jpg",
-          "/persons/DollyKoss/articles/the-easy-way-to-manage-2.jpg"
+          "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg",
+          "https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510683440-9854.jpg"
         ]
       },
       {
@@ -305,8 +322,8 @@ export default [
         shortDescription:
           "Women, fashion, and glamour are synonymous in the modern era – but in the mid to late 1980s this association intensified into one distinct cultural icon: the supermodel.",
         sliderImg: [
-          "/persons/AniyaMonahan/the-story-of-supermodel.jpg",
-          "/persons/AniyaMonahan/the-story-of-supermodel-2.jpg"
+          "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg",
+          "https://images.theconversation.com/files/52137/original/ym4bwg6f-1403658844.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
         ]
       },
       {
@@ -316,8 +333,8 @@ export default [
         shortDescription:
           "When Kim Kardashian “broke the Internet” with her nude selfie last week, it was the latest stunt by a socialite who has become an object of fascination in our celebrity-obsessed culture.While some deride her as being “famous for being famous,” I see someone who works intensely hard at what I’ve termed glamour labor.",
         sliderImg: [
-          "/persons/MallieMarvin/inspired-by-kim-kardashian.jpg",
-          "/persons/MallieMarvin/inspired-by-kim-kardashian-2.jpg"
+          "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+          "https://www.hellomagazine.com/imagenes/brides/2019051473010/kim-kardashian-wedding-makeup-collection/0-355-290/Kim-Kardashian-KKW-launch-t.jpg"
         ]
       }
     ],
@@ -342,7 +359,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Are your teenagers favorite pastimes verging on becoming addictions? Learn to recognize the signs and plan to step in if things seem to be getting out of hand.",
-    slider: "",
+    slider: [
+      "https://mamovediya.com.ua/uploads/content/2017/11/10/source/vospytanye-podrostka-6382x.png",
+      "https://svopi.ru/uploads/posts/2016-10/1477457591_hawaii-becomes-first-us-state-to-raise-smoking-age-to-21.jpg"
+    ],
     quoute: [
       "Good luck finding a teenager who dutifully eats his or her vegetables.",
       "It's no secret that teenagers have a tendency to experiment with alcohol.",
@@ -430,7 +450,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Individuals all have their own 'optimised state' in which they learn most effectively and this can be influenced by a variety of factors. ",
-    slider: "",
+    slider: [
+      "https://ak7.picdn.net/shutterstock/videos/9610337/thumb/1.jpg",
+      "https://st.depositphotos.com/1158045/4197/i/950/depositphotos_41979057-stock-photo-people-studying-in-a-library.jpg"
+    ],
     quoute: [
       "Whilst creating optimal conditions for learning is vital, of equal importance is good mental health.",
       "A common technique which applies across multiple learning types is the art of questioning.",
@@ -514,7 +537,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "In fact, many doctors often prescribe lifestyle factors such as exercise and a good diet as part of treatments for illnesses such as depression and anxiety.",
-    slider: "",
+    slider: [
+      "https://www.ministeriodesalud.go.cr/images/stories/ImagenesMS/2019/Prensa_2019/img_reduce_tabaco_cr_2019.jpg",
+      "https://www.previssima.fr/files/previssima/images_redacteurs/rubriques-thematiques/aides-sociales-a-la-dependa.jpg"
+    ],
     quoute: [
       "You can also improve your lifestyle by taking up regular exercise.",
       "Exercise can help to improve the amount of vitamins that you will receive, increase the amount of serotonin ."
@@ -591,7 +617,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "In the case of sustaining an injury in the workplace, you're going to need to take the steps outlined in this article – steps that'll ensure you're able to hit the ground running with both your recovery and your attitude. Here’s what you'll need to do.",
-    slider: "",
+    slider: [
+      "http://dtek-dnem.com.ua/wp-content/uploads/2019/06/для-защиты-сотрудников-специальное-снаряжение.jpg",
+      "https://ncworkercomp.com/wp-content/uploads/2013/08/construction-accident-bigstock.jpg"
+    ],
     quoute: [
       "In the immediate aftermath of your injury sustained in the workplace.",
       "Shortly after the incident, it'll be time to begin thinking about securing compensation.",
@@ -675,7 +704,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "If you have been diagnosed with a mental health condition, here are a number of benefits you may experience by incorporating regular exercise into your lifestyle:",
-    slider: "",
+    slider: [
+      "http://tatarbunar-rda.odessa.gov.ua/files/tatarbunar-rda/Anya/folder/51218454_1973973536240508_8438491481047564288_n.jpg",
+      "https://d24joh06to7u2b.cloudfront.net/wp-content/uploads/2015/04/o-OLDER-COUPLES-HAVING-FUN-facebook-e1427954512111.jpg"
+    ],
     quoute: [
       "Seven out of 10 adults in the USA suffer from stress.",
       "When you feel good physically, you feel great mentally.",
@@ -754,7 +786,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Living a healthy lifestyle and eating properly is great, and filling in the gaps with the effective supplements below is even better. ",
-    slider: "",
+    slider: [
+      "https://c8.alamy.com/comp/EC2KM7/brain-medicine-mental-health-care-concept-as-hands-holding-an-open-EC2KM7.jpg",
+      "https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319313/pills-and-the-human-brain.jpg"
+    ],
     quoute: [
       "Choline is an essential nutrient found in meat, eggs and dairy, yet when consumed in excess.",
       "However, it is thought that the benefits of ginkgo may only really apply to older people, so consider this before purchasing.",
@@ -832,7 +867,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "This can be a difficult task, which is why this guide has been created to give you some ideas on how to help them bounce back after kicking their addiction.",
-    slider: "",
+    slider: [
+      "https://previews.123rf.com/images/tverdohlib/tverdohlib1609/tverdohlib160902089/62698164-young-couple-of-handsome-bearded-man-with-long-beard-smoking-cigarette-and-sexy-woman-in-checkered-s.jpg",
+      "https://zagorje.by/images/8.jpg"
+    ],
     quoute: [
       "As much as you will want to be constantly there for the person you love.",
       "Once they have decided they want to change their life.",
@@ -911,7 +949,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "If you or someone you know is living with HIV, you have the power to take a few simple steps to help eradicate the stigma.",
-    slider: "",
+    slider: [
+      "https://www.5.ua/media/pictures/original/154254.jpg",
+      "http://images.unian.net/photos/2014_06/1401711318-9379-vich-spid.jpg"
+    ],
     quoute: [
       "In most first world countries, people with HIV are a protected class. ",
       "When you decide to tell people that you're living with HIV, you're making a brave move. ",
@@ -993,7 +1034,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Chances are, someone you know is struggling with depression. If this person is close to you, you probably want to do all you can to improve the way they feel.",
-    slider: "",
+    slider: [
+      "https://i.work.ua/article/1696b.jpg",
+      "https://tbn-tv.com/wp-content/uploads/2019/03/o-FRIENDSHIP-facebook-1080x675_croped-680x400.jpg"
+    ],
     quoute: [
       "Things like sunshine, fresh air, and a positive mindset are great.",
       "One of the worst things you can do is change the way you treat your friend with depression.",
@@ -1082,7 +1126,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Shopping can trigger pleasure centres in the brain and thus is a hard habit to break out of. ",
-    slider: "",
+    slider: [
+      "https://woman-psy.com/upload/iblock/131/%D0%B0%D0%B5%D1%80%D0%BA%D0%B5%D1%80%20%281%29.jpg",
+      "https://image.cnbcfm.com/api/v1/image/101297751-76491916r.jpg?v=1532564561&w=678&h=381"
+    ],
     quoute: [
       "The first thing you need to realise is that idle shopping often happens when you are bored or unhappy.",
       "Another trick to stop you spending so much is to stop using credit cards or debit cards.",
@@ -1159,7 +1206,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "As we've covered here before, daytime napping can be disruptive to sleep patterns. Which can in turn be disruptive to your health in general. However, a great many people swear by napping. Both Edison and Einstein liked a quick snooze in between bursts of scientific brilliance.",
-    slider: "",
+    slider: [
+      "https://arqdosono.com.br/blog/wp-content/uploads/2017/10/middle-aged-beautiful-woman-sleeping-in-bed_1262-6148.jpg",
+      "https://graciasmama.co/wp-content/uploads/2018/01/patron-sueno-bebe.jpg"
+    ],
     quoute: [
       "Nap for the right amount of time.",
       "If naps can do all of this, what's the problem with them?",
@@ -1241,7 +1291,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       " If you look at depression statistics spread over several years, a very worrying trend becomes immediately apparent. Cases of depression begin to rise extremely sharply in around 2005, and continue to escalate at an alarming pace. Should the problem continue in this vein",
-    slider: "",
+    slider: [
+      "https://www.blysk.space/wp-content/uploads/2019/05/8521-1.jpg",
+      "https://media.pogliad.ua/news/article/2018/03/28/352568/rsX3HMvvFKs8ChMs6yXg.r695x430.jpg"
+    ],
     quoute: [
       "There has been much talk recently about the 'politics of fear'.",
       "The internet causes addiction. ",
@@ -1327,7 +1380,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "As we've covered here before, daytime napping can be disruptive to sleep patterns. Which can in turn be disruptive to your health in general. However, a great many people swear by napping. Both Edison and Einstein liked a quick snooze in between bursts of scientific brilliance. Winston Churchill did not let even the pressures of wartime governance prevent him from taking his afternoon nap. ",
-    slider: "",
+    slider: [
+      "http://www.propaganda-eg.com/wp-content/uploads/2019/07/comment-soigner-la-fatigue.jpg",
+      "https://www.palinfo.com/Uploads/Models/Media/Images/2016/5/8/-880151218.jpg?h=500&w=947&crop=auto&scale=both&quality=80&404=default&format=jpg"
+    ],
     quoute: [
       " As you'd expect, naps can provide an energy boost.",
       "If naps can do all of this, what's the problem with them? ",
@@ -1410,7 +1466,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "If you look at depression statistics spread over several years, a very worrying trend becomes immediately apparent. Cases of depression begin to rise extremely sharply in around 2005, and continue to escalate at an alarming pace. Should the problem continue in this vein, it seems that everyone in the world will before long be suffering from depression, or some form of anxiety disorder.",
-    slider: "",
+    slider: [
+      "https://cdn.lifehacker.ru/wp-content/uploads/2018/02/Depra_1518533823-1140x570.jpg",
+      "https://cdn.filzor.ru/wp-content/uploads/2019/08/870x489_107x80_detail_crop_60544987f64ea7634a381494c217642f.jpg"
+    ],
     quoute: [
       "So what, if anything, is going on? What do people think is behind this problem?",
       "The internet feeds us a lot of depressing news, and makes us periodically angry.",
@@ -1496,7 +1555,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Nearly 30 years ago, a handful of smart people set out with one mission: to make some silly movies. What followed was a true golden age of Hollywood comedy that saw the arrival of megastars still with us today, a commercial explosion, and then, an eventual splintering that changed the genre forever. Welcome to Comedy in the ’90s, a six-part series released over three months that will document this decade-defining boom in all of its sophomoric glory.",
-    slider: "",
+    slider: [
+      "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg",
+      "https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510683440-9854.jpg"
+    ],
     quoute: [
       "Plaid jacket and belt too tight and he wasn’t even being funny.",
       "Hey buddy, life’s moved on but you still bring us so much joy.",
@@ -1601,7 +1663,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "In early 1995, Billy Madison (February 10) and Tommy Boy (March 31) hit theaters. Most critics, unsurprisingly, despised them. Gene Siskel wrote that Sandler’s film was “the latest entry in the American cinema’s investigation of dumb-and-dumber heroes.” Roger Ebert’s assessment of Farley’s comedy, meanwhile: “The movie is an assembly of clichés and obligatory scenes from dozens of other movies, all are better.”",
-    slider: "",
+    slider: [
+      "https://www.k1.ua/uploads/media/photo/2015/05/13/5a45dfd2a8e8d7f0dba8ccd91f28f88e8486faea.jpg",
+      "https://tureligious.com.ua/wp-content/uploads/2017/02/roassa.jpg"
+    ],
     quoute: [
       "For many aspiring comedic actors growing up in the ’90s, Adam Sandler’s career and approach was the mold.",
       "In a just world, Farley would’ve been right there with his friend.",
@@ -1679,7 +1744,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "The UPS guy accidentally delivered your package to my house and I brought it over.Thanks, can you leave it on the porch?",
-    slider: "",
+    slider: [
+      "https://cdn.lifehack.org/wp-content/uploads/2018/09/verbally-abusive-relationship-1024x768.jpeg",
+      "https://victimsthamesvalley.s3.amazonaws.com/Photos/Coercive%20control%20campaign/If%20I%20loved%20him%20I'd%20do%20it%20poster.jpg"
+    ],
     quoute: [
       "This is all terrible information for professional comedians.",
       "Get a bunch of professional comedians in a room and you're probably going to be looking at a sad sack of potatoes. ",
@@ -1752,7 +1820,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "If you want to figure out why standup comedy has become the most romanticized American art form of the past decade—and there are numerous factors, I’m sure, from podcasts to YouTube to … well, basically, it’s the Internet—you could start by reading the long e-mail that Louis C.K. blasted to his fans on Tuesday, moments after sending word that his new special was available on his Web site. ",
-    slider: "",
+    slider: [
+      "https://nationalpostcom.files.wordpress.com/2017/11/0926_ar_louis_ck-1.jpg",
+      "https://timeincsecure-a.akamaihd.net/rtmp_uds/219646971/201709/336/219646971_5573777845001_5573773904001-th.jpg?pubId=219646971&videoId=5573773904001"
+    ],
     quoute: [
       " Half truths. Non-truths. Broad and hilariously wrongful generalizations.”).",
       "But this paean to the after-hours freedom of the night club doesn’t entirely.",
@@ -1825,7 +1896,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "I got a promotion a few days ago, so I decided to stop for a drink on my way home- just me and my sense of accomplishment. I ended up alone in a bar, running defense against a bouncer who held my ID hostage while he commented on my ass (among other things), and asked me vaguely threatening questions about my sex life.",
-    slider: "",
+    slider: [
+      "https://cdn.lifehack.org/wp-content/uploads/2010/04/self-improvement.jpeg",
+      "https://cdn.mindful.org/MINDFULNESS.png?q=80&fm=jpg&fit=crop&w=1400&h=875"
+    ],
     quoute: [
       "However, the psychology of love looks at things in a deeper way.",
       "Love changes how people view others and other things.",
@@ -1905,7 +1979,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "In the case of sustaining an injury in the workplace, you're going to need to take the steps outlined in this article – steps that'll ensure you're able to hit the ground running with both your recovery and your attitude. Here’s what you'll need to do.",
-    slider: "",
+    slider: [
+      "https://timesofindia.indiatimes.com/thumb/msid-69140211,width-1200,height-900,resizemode-4/.jpg",
+      "https://www.personneltoday.com/wp-content/uploads/sites/8/2018/06/CPD-motorcycle.jpg-cropped.jpg"
+    ],
     quoute: [
       "In the immediate aftermath of your injury sustained in the workplace.",
       "Shortly after the incident, it'll be time to begin thinking about securing compensation.",
@@ -1989,7 +2066,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "You may have eventually seen it in your Facebook feed or in a chain email. It is the most widely consumed joke that I have produced. I don’t think it’s the funniest thing I’ve ever written, but that’s how these things go. Either way, it’s everywhere and it’s made me no money.",
-    slider: "",
+    slider: [
+      "https://static01.nyt.com/images/2016/05/29/opinion/sunday/29flores/29flores-superJumbo.jpg?quality=90&auto=webp",
+      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487618891i/33573083._UY1334_SS1334_.jpg"
+    ],
     quoute: [
       "It occurred to me that of all mind-boiling aspects of the current presidential race.",
       "My brain filled with dopamine.",
@@ -2073,7 +2153,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "During the live run of Hannah Gadsby’s standup show, Nanette, she found herself sleeping 15 hours a night, then taking naps during the day. “I got bronchitis in London,” she says. “A tooth wrenched out in Edinburgh. Then I got carbon monoxide poisoning from the flat in New York. I was Googling ‘neurological disorders’, I had the tremors and my speech was slurring. I kept telling people I was really tired, texting them coffin emojis, and they’d say: ‘Of course you are, this show is exhausting.’”",
-    slider: "",
+    slider: [
+      "https://www.sbs.com.au/topics/sites/sbs.com.au.topics/files/hannah_g.jpg",
+      "https://cdn.newsapi.com.au/image/v1/bfdcb6594c253ee518c383984f32caf1"
+    ],
     quoute: [
       "But she doesn’t think you should really suffer for your art.",
       "Gadsby is keen to go incognito.",
@@ -2158,7 +2241,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       'On a memorable episode of the hit 1990s sitcom Seinfeld, NBC executives meet Jerry after his nightclub act and ask him to come up with an idea for a TV series. His friend George decides he can be a sitcom writer and comes up with the idea of it being "a show about nothing," and it worked! Run with it.',
-    slider: "",
+    slider: [
+      "https://hicenter.co.il/wp-content/uploads/2017/09/conference-2705706_1920-1920x1080.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXyosXQD7Tu_O_fRv-ZxWWrlxF2A4ce6jyw1ofimClMypTYXEj"
+    ],
     quoute: [
       "But how did he do it?",
       "He cites the example of single mothers, explaining how they come to work.",
@@ -2242,7 +2328,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "For four years, I’ve refused to write a top-ten list. My motives were suspect. A good chunk of it was principle, but it’s hard to deny that there’s an element of entitlement. After all, I was lucky enough to be working at a venue outside the journalistic list mines. I’ve written my share of lists, and they make me itch—so reductive, so mathematical. Also, like all TV critics, I haven’t watched everything.",
-    slider: "",
+    slider: [
+      "https://media.newyorker.com/photos/590964f46552fa0be682ecd3/master/w_2046,c_limit/Nussbaum-Great-TV-2014.jpg",
+      "https://www.rollingstone.com/wp-content/uploads/2018/06/rolling-stone-100-best-tv-shows-of-all-time-c76cdd0b-2e04-4769-84c1-0faab178ddbf.jpg"
+    ],
     quoute: [
       " “Transparent” shakes up the system.",
       "O.K., I’ll drop the fake math and rude comparisons. ",
@@ -2330,7 +2419,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "When Kim Kardashian “broke the Internet” with her nude selfie last week, it was the latest stunt by a socialite who has become an object of fascination in our celebrity-obsessed culture.While some deride her as being “famous for being famous,” I see someone who works intensely hard at what I’ve termed glamour labor.",
-    slider: "",
+    slider: [
+      "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "https://www.hellomagazine.com/imagenes/brides/2019051473010/kim-kardashian-wedding-makeup-collection/0-355-290/Kim-Kardashian-KKW-launch-t.jpg"
+    ],
     quoute: [
       "Glamour labor is a phenomenon of the Internet age.",
       "Today, people are finding they have to work more for less. ",
@@ -2420,7 +2512,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "It’s almost fashion week season, with events in London, New York and Paris all coming up, and I have one pretty sure prediction: the models won’t be smiling. In spite of some hasty claims that happy faces are now de rigeur, a blank expression is a perennial trait of model behaviour.",
-    slider: "",
+    slider: [
+      "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Fashion%20Shows%20By%20Noura%20Alswailem%20%2C%20via%20Wikimedia%20Commons.jpg?itok=2hqxjidc",
+      "https://d.newsweek.com/en/full/421179/1-30-models.jpg"
+    ],
     quoute: [
       "The other thing that has always troubled me about this is how tiresomely predictable it is.",
       "There’s an interesting heritage to it, too.",
@@ -2496,7 +2591,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "France has joined Italy and Israel in passing laws banning the promotion of extreme thinness in the fashion industry. The health reforms, which include fining agencies employing models with a BMI under 18 and criminalising pro-anorexia web content, have now passed through the upper house of parliament.",
-    slider: "",
+    slider: [
+      "https://images.theconversation.com/files/179596/original/file-20170725-11526-1wnciz9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
+      "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/07/25/3595165a-ad13-11e9-a61f-bc570b50c4e7_image_hires_060819.jpg?itok=DEgfweKK&v=1564006105"
+    ],
     quoute: [
       "More importantly, the research showed correlation, not causation .",
       "Perhaps, as the authors suggested, these images activated, rather than cultivated, beauty ideals.",
@@ -2583,7 +2681,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "The French government is backing parliamentary plans to ban unhealthily thin models from catwalks. Under two proposed amendments to recent health reforms, anyone employing skinny, undernourished fashion models or “glorifying anorexia” could face fines of up to €75,000 (US$80,000; £54,000; A$104,000) and a six-month prison sentence.",
-    slider: "",
+    slider: [
+      "https://assets.change.org/photos/9/rf/mf/gtrFmfokfxNqxKm-1600x900-noPad.jpg?1495464317",
+      "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2015/02/07/Outlook/Advance/Images/cocorocha031423174091-259.jpg?t=20170517"
+    ],
     quoute: [
       "They found fashion models tended to be significantly underweight.",
       "Research shows women view their bodies more negatively after viewing media images .",
@@ -2668,7 +2769,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Our obsession with women’s weight and attractiveness manifests in different ways in the media, including being sold images that are far removed from reality and often impossible to achieve, or focusing on women’s looks rather then their achievements.",
-    slider: "",
+    slider: [
+      "https://a.optmnstr.com/users/6db32459bd37/images/5c37a158174b1533847285-blog-inline-relationshipmistakes.jpg",
+      "https://images.theconversation.com/files/174774/original/file-20170620-32348-6crcd4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    ],
     quoute: [
       "But, admirable as these initiatives appear .",
       "Most people now feel that how they look has a real impact on other aspects .",
@@ -2753,7 +2857,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Women, fashion, and glamour are synonymous in the modern era – but in the mid to late 1980s this association intensified into one distinct cultural icon: the supermodel.",
-    slider: "",
+    slider: [
+      "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg",
+      "https://images.theconversation.com/files/52137/original/ym4bwg6f-1403658844.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    ],
     quoute: [
       "This grouping is not definitive and the term was applied to other high profile.",
       "American Vogue 1991, Peter Lindbergh. Ji, We don’t wake up for less than $10,000 a day ."
@@ -2835,7 +2942,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "No matter how careful you are during the winter months and how hygienic you always try to be, catching the flu is often difficult to avoid when the virus is circulating around your family and friends. Sometimes, even applying copious amounts of hand sanitizer throughout the day cannot stop the germs spreading and before you know it, your muscles are starting to ache, your hands and forehead are clamming up with sweat, and your nose becomes increasingly congested as you fall victim to a horrible seasonal flu.",
-    slider: "",
+    slider: [
+      "https://www.healthline.com/hlcmsresource/images/topic_centers/Cold_and_Flu/1296x728_Treating_a_Cold_or_Flu_When_Pregnant.jpg",
+      "https://www.besthealthmag.ca/wp-content/uploads/sites/16/2010/10/cold-or-flu.jpg"
+    ],
     quoute: [
       "Prioritize Bed Rest.",
       "Do your best to control your core body temperature as having the flu can really make it soar.",
@@ -2912,7 +3022,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Infants who are excellent at processing novel information when they are just 6- and 12-months-old are likely to demonstrate excellence in intelligence tests and academic achievements as young adults in their 20's. This is the conclusion of a study directed by Joseph Fagan of Case Western Reserve University in the US with co-investigators Cynthia Holland from Cuyahoga Community College and undergraduate student Karyn Wheeler.",
-    slider: "",
+    slider: [
+      "https://i.dailymail.co.uk/i/pix/2017/10/19/13/457DF4B100000578-0-image-a-15_1508414568952.jpg",
+      "https://scx2.b-cdn.net/gfx/news/hires/2017/1-infant.jpg"
+    ],
     quoute: [
       "They found fashion models tended to be significantly underweight.",
       "Research shows women view their bodies more negatively after viewing media images .",
@@ -2992,7 +3105,10 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription:
       "Some of us never get over the pain of losing of a loved one while for most people adverse emotional situations associated with anxiety and depression fade with time. But there is another group who actually gain strength and grow personally from meeting adversity.",
-    slider: "",
+    slider: [
+      "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZV71ZsEVhYM5DEX2_MDR80ctaHohJqfuL_Xvf5PwM1RezG7dE"
+    ],
     quoute: [
       "The latter quality is a component of emotional intelligence.",
       "The results showed that students who were more resilient .",
@@ -3099,7 +3215,10 @@ export default [
     title: "Why is Laughter Contagious? . ",
     typeArticle: ["featured news", "trend"],
     shortDescription: "T.",
-    slider: "",
+    slider: [
+      "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg",
+      "https://wallpaperscave.ru/images/original/18/01-21/celebrity-emma-watson-13070.jpg"
+    ],
     quoute: [
       "In an example given in the media release.",
       "Researchers played volunteers various sounds while measuring brain responses using an fMRI scanner.",

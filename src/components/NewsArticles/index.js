@@ -38,7 +38,7 @@ const NewsArticles = ({
       {console.log("smallMonitor", smallMonitor)}
       <div
         className="news__img"
-        style={{ backgroundImage: "url(" + item.person.img + ")" }}
+        style={{ backgroundImage: "url(" + item.slider[0] + ")" }}
       >
         <div className="news__img_hover"></div>
         <Link className="news__btn" to={`articles/${item.id}`}>
