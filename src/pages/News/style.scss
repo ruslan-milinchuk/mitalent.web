@@ -128,7 +128,7 @@
         width: 100%;
         height: 100%;
         background: 50% 50% no-repeat;
-        background-size: 151%;
+        background-size: cover;
       }
 
       & .news__info{
@@ -173,8 +173,7 @@
       }
     }
 
-    &:nth-child(2), &:nth-child(7), &:nth-child(8),
-    &:nth-child(9), &:nth-child(10), &:nth-child(11){
+    &:nth-child(2), &:nth-child(7){
 
       &:hover .news__img {
         position: relative;
@@ -202,13 +201,13 @@
       height: 500px;
 
       &:hover .news__img {
-        background-size: 200%;
+        background-size: cover;
       }
 
       & .news__img {
         width: 100%;
         height: 410px;
-        background-size: 200%;
+        background-size: cover;
         background-position: 50% 50%;
       }
 
@@ -244,7 +243,7 @@
       & .news__img {
         min-width: 120px;
         min-height: 100px;
-        background-size: 100%;
+        background-size: cover;
         background-position: 50% 50%;
       }
 
@@ -313,14 +312,26 @@
       height: 300px;
       margin-bottom: 35px;
 
-      &:hover .news__img{
+      &:hover .news__img {
+        position: relative;
+        background-size: 151%;
+        background-position: 50% 50%;
+        transition: background-size .2s ease-in-out;
         height: 214px;
-      };
+      }
+
+      &:hover .news__img_hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .2);
+        transition: all .2s ease-in-out;
+      }
 
       & .news__img {
         width: 100%;
         height: 214px;
-        background-size: 100%;
+        background-size: 150%;
         background-position: 50% 50%;
       }
 
@@ -522,8 +533,7 @@
           color: rgb(145, 145, 145);
         }
         &:hover .news__img {
-          background-size: 100%;
-          background-position: 50% 50%;
+          background-size: cover;
         }
 
         &:hover .news__img_hover {
@@ -551,8 +561,7 @@
           width: 100%;
           min-width: 120px;
           min-height: 190px;
-          background-size: 100%;
-          background-position: 50% 50%;
+          background-size: cover;
         }
 
         & .news__img-hover {

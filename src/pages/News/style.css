@@ -90,7 +90,7 @@
         width: 100%;
         height: 100%;
         background: 50% 50% no-repeat;
-        background-size: 151%; }
+        background-size: cover; }
       .news__item:nth-child(1) .news__info {
         position: absolute;
         top: 0;
@@ -122,13 +122,13 @@
         color: white; }
       .news__item:nth-child(1) .news__date {
         display: none; }
-    .news__item:nth-child(2):hover .news__img, .news__item:nth-child(7):hover .news__img, .news__item:nth-child(8):hover .news__img, .news__item:nth-child(9):hover .news__img, .news__item:nth-child(10):hover .news__img, .news__item:nth-child(11):hover .news__img {
+    .news__item:nth-child(2):hover .news__img, .news__item:nth-child(7):hover .news__img {
       position: relative;
       height: 100%;
       background-size: 101%;
       background-position: 50% 50%;
       transition: background-size .2s ease-in-out; }
-    .news__item:nth-child(2):hover .news__img_hover, .news__item:nth-child(7):hover .news__img_hover, .news__item:nth-child(8):hover .news__img_hover, .news__item:nth-child(9):hover .news__img_hover, .news__item:nth-child(10):hover .news__img_hover, .news__item:nth-child(11):hover .news__img_hover {
+    .news__item:nth-child(2):hover .news__img_hover, .news__item:nth-child(7):hover .news__img_hover {
       position: absolute;
       height: 100%;
       width: 100%;
@@ -142,11 +142,11 @@
       width: 44%;
       height: 500px; }
       .news__item:nth-child(2):hover .news__img {
-        background-size: 200%; }
+        background-size: cover; }
       .news__item:nth-child(2) .news__img {
         width: 100%;
         height: 410px;
-        background-size: 200%;
+        background-size: cover;
         background-position: 50% 50%; }
       .news__item:nth-child(2) .news__link {
         display: flex;
@@ -168,7 +168,7 @@
       .news__item:nth-child(3) .news__img, .news__item:nth-child(4) .news__img, .news__item:nth-child(5) .news__img, .news__item:nth-child(6) .news__img {
         min-width: 120px;
         min-height: 100px;
-        background-size: 100%;
+        background-size: cover;
         background-position: 50% 50%; }
       .news__item:nth-child(3) .news__link, .news__item:nth-child(4) .news__link, .news__item:nth-child(5) .news__link, .news__item:nth-child(6) .news__link {
         display: flex;
@@ -212,11 +212,21 @@
       height: 300px;
       margin-bottom: 35px; }
       .news__item:nth-child(8):hover .news__img, .news__item:nth-child(9):hover .news__img, .news__item:nth-child(10):hover .news__img, .news__item:nth-child(11):hover .news__img {
+        position: relative;
+        background-size: 151%;
+        background-position: 50% 50%;
+        transition: background-size .2s ease-in-out;
         height: 214px; }
+      .news__item:nth-child(8):hover .news__img_hover, .news__item:nth-child(9):hover .news__img_hover, .news__item:nth-child(10):hover .news__img_hover, .news__item:nth-child(11):hover .news__img_hover {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        transition: all .2s ease-in-out; }
       .news__item:nth-child(8) .news__img, .news__item:nth-child(9) .news__img, .news__item:nth-child(10) .news__img, .news__item:nth-child(11) .news__img {
         width: 100%;
         height: 214px;
-        background-size: 100%;
+        background-size: 150%;
         background-position: 50% 50%; }
       .news__item:nth-child(8) .news__link, .news__item:nth-child(9) .news__link, .news__item:nth-child(10) .news__link, .news__item:nth-child(11) .news__link {
         display: flex;
@@ -328,8 +338,7 @@
     .news__item:nth-child(1n):hover .news__date {
       color: #919191; }
     .news__item:nth-child(1n):hover .news__img {
-      background-size: 100%;
-      background-position: 50% 50%; }
+      background-size: cover; }
     .news__item:nth-child(1n):hover .news__img_hover {
       background-color: rgba(0, 0, 0, 0.2); }
     .news__item:nth-child(1n) .news__title {
@@ -347,8 +356,7 @@
       width: 100%;
       min-width: 120px;
       min-height: 190px;
-      background-size: 100%;
-      background-position: 50% 50%; }
+      background-size: cover; }
     .news__item:nth-child(1n) .news__img-hover {
       display: none; }
     .news__item:nth-child(1n) .news__btn {
