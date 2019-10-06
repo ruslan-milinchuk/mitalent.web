@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import windowSize from "react-window-size";
+import ReactResizeDetector from "react-resize-detector";
+import { withResizeDetector } from "react-resize-detector";
 
 import articles from "../../fixtures/articles";
 import "./style.css";
@@ -14,44 +15,37 @@ class News extends Component {
     articlesLength: 0,
     count: 0,
     sliceArticle: 0,
-		smallMonitor : 5,
-		bigMonitor : 11
+    smallMonitor: 5,
+    bigMonitor: 11,
+    smallWidth: 548
   };
 
   componentDidMount() {
-    const { articlesList } = this.state;
-    let expansionMonitor = 0;
-    this.props.windowWidth <= 548
-      ? (expansionMonitor = 5)
-      : (expansionMonitor = 11);
-    let newArticles = articlesList.slice(0, expansionMonitor);
+    const { articlesList, bigMonitor, smallMonitor, smallWidth } = this.state;
+    const { width } = this.props;
+    let newArticles = articlesList.slice(
+      0,
+      width <= smallWidth ? smallMonitor : bigMonitor
+    );
     this.setState({
-      newArticles: newArticles,
+      newArticles,
       articlesLength: articlesList.length,
-      sliceArticle: expansionMonitor
+      sliceArticle: width <= smallWidth ? smallMonitor : bigMonitor
     });
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
-    if (this.props.windowWidth !== nextProps.windowWidth) {
-      this.changeState();
-    }
-
-    return this.props.windowWidth === nextProps.windowWidth;
-  }
-
   render() {
-    const { newArticles, count, articlesLength, sliceArticle, smallMonitor, bigMonitor } = this.state;
+    const { newArticles, count, articlesLength, sliceArticle } = this.state;
+    const { history } = this.props;
 
     return (
       <div className="news">
         <NewsArticles
+          history={history}
           newArticles={newArticles}
           count={count}
           articlesLength={articlesLength}
-				  sliceArticle={sliceArticle}
-					smallMonitor={smallMonitor}
-					bigMonitor={bigMonitor}
+          sliceArticle={sliceArticle}
           clickArrowLeft={this.clickArrowLeft}
           clickArrowRight={this.clickArrowRight}
         />
@@ -79,57 +73,67 @@ class News extends Component {
             <ArrowRight />
           </div>
         </div>
+        <ReactResizeDetector handleWidth onResize={this.onResize()} />
       </div>
     );
   }
   clickArrowLeft = () => {
     const { articlesList, count, sliceArticle } = this.state;
     if (count - 1 >= 0) {
-      const newArticles = articlesList.slice(
-        count - 1,
-        count + sliceArticle - 1
-      );
-      return this.setState({ newArticles: newArticles, count: count - 1 });
+      return this.setState({
+        newArticles: articlesList.slice(count - 1, count + sliceArticle - 1),
+        count: count - 1
+      });
     }
   };
+
   clickArrowRight = () => {
     const { articlesList, count, articlesLength, sliceArticle } = this.state;
     if (count + sliceArticle < articlesLength) {
-      const newArticles = articlesList.slice(
-        count + 1,
-        count + (sliceArticle + 1)
-      );
-      return this.setState({ newArticles: newArticles, count: count + 1 });
+      return this.setState({
+        newArticles: articlesList.slice(count + 1, count + (sliceArticle + 1)),
+        count: count + 1
+      });
     }
   };
 
   changeState = () => {
-    const { articlesList, newArticles, smallMonitor, bigMonitor } = this.state;
+    const {
+      articlesList,
+      newArticles,
+      smallMonitor,
+      bigMonitor,
+      smallWidth
+    } = this.state;
 
-    if (1 < this.props.windowWidth && this.props.windowWidth <= 548) {
+    const { width } = this.props;
+
+    if (1 < width && width <= smallWidth) {
       if (smallMonitor === newArticles.length) {
         return;
       }
-      let newListArticles = articlesList.slice(0, smallMonitor);
       return this.setState({
         sliceArticle: smallMonitor,
-        newArticles: newListArticles,
+        newArticles: articlesList.slice(0, smallMonitor),
         count: 0
       });
     }
 
-    if (548 < this.props.windowWidth) {
+    if (smallWidth < width) {
       if (bigMonitor === newArticles.length) {
         return;
       }
-      let newListArticles = articlesList.slice(0, bigMonitor);
       return this.setState({
         sliceArticle: bigMonitor,
-        newArticles: newListArticles,
+        newArticles: articlesList.slice(0, bigMonitor),
         count: 0
       });
     }
   };
+
+  onResize = () => {
+    this.changeState();
+  };
 }
 
-export default windowSize(News);
+export default withResizeDetector(News);

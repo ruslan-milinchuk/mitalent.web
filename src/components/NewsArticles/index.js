@@ -1,49 +1,36 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowLeft from "../../icons/ArrowLeft";
 
 const NewsArticles = ({
+  history,
   newArticles,
   count,
   articlesLength,
   sliceArticle,
-  smallMonitor,
-  bigMonitor,
   clickArrowLeft,
   clickArrowRight
 }) => {
   return newArticles.map((item, index) => (
-    <Link
-      onClick={
-        sliceArticle !== smallMonitor
-          ? sliceArticle === smallMonitor
-            ? (sliceArticle - bigMonitor === index ||
-                sliceArticle - smallMonitor === index) &&
-              "event.preventDefault()"
-            : (sliceArticle - bigMonitor === index ||
-                sliceArticle - bigMonitor === index) &&
-              "event.preventDefault()"
-          : null
-      }
+    <div
+      onClick={() => history.push(`articles/${item.id}`)}
       key={index}
       className="news__item"
-      to={`articles/${item.id}`}
     >
-      {console.log(
-        "(sliceArticle - smallMonitor === index )",
-        sliceArticle - bigMonitor === index
-      )}
-      {console.log("sliceArticle", sliceArticle)}
-      {console.log("smallMonitor", smallMonitor)}
       <div
         className="news__img"
         style={{ backgroundImage: "url(" + item.slider[0] + ")" }}
       >
         <div className="news__img_hover"></div>
-        <Link className="news__btn" to={`articles/${item.id}`}>
+        <div
+          onClick={e => {
+            e.stopPropagation();
+            history.push(`articles/${item.id}`);
+          }}
+          className="news__btn"
+        >
           <p className="news__btn-name">READ MORE</p> <ArrowRight />
-        </Link>
+        </div>
         <div className="news__control-start">
           <div
             className={
@@ -51,7 +38,10 @@ const NewsArticles = ({
                 ? "news__control-left news__control-left-disable"
                 : "news__control-left"
             }
-            onClick={clickArrowLeft}
+            onClick={e => {
+              e.stopPropagation();
+              clickArrowLeft();
+            }}
           >
             <div className="svg">
               <ArrowLeft />
@@ -63,7 +53,10 @@ const NewsArticles = ({
                 ? "news__control-right news__control-right-disable"
                 : "news__control-right"
             }
-            onClick={clickArrowRight}
+            onClick={e => {
+              e.stopPropagation();
+              clickArrowRight();
+            }}
           >
             <div className="svg">
               <ArrowRight />
@@ -80,7 +73,7 @@ const NewsArticles = ({
           </h3>
         </div>
       </div>
-    </Link>
+    </div>
   ));
 };
 
