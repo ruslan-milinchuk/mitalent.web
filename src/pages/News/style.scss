@@ -39,11 +39,7 @@
         position: absolute;
         height: 100%;
         width: 100%;
-        background-color: rgba(0, 0, 0, .2);
-        transition: all .2s ease-in-out;
       }
-
-
 
       & .news__control-start {
         display: flex;
@@ -58,7 +54,27 @@
           color: white;
           padding: 10px;
           cursor: pointer;
+
+          &:hover .news__control-name {
+            color: #b5d2d3;
+          }
         }
+
+        & .news__control-left, .news__control-right {
+
+          &:hover>.svg {
+            color: #b5d2d3;
+          }
+        }
+
+        & .news__control-left-disable, .news__control-right-disable {
+
+          &:hover>.svg {
+            color: white;
+          }
+        }
+
+
       }
 
       & .svg {
@@ -85,7 +101,7 @@
           color: #b5d2d3;
         }
 
-        &:hover .news__title{
+        &:hover ~.news__title{
           color: #b5d2d3;
         }
 
@@ -388,11 +404,29 @@
     text-transform: uppercase;
     padding: 5px 0;
     cursor: pointer;
+    &:hover .news__control-name {
+      color: #b5d2d3;
+    }
+
+    &:hover>svg {
+      color: rgba(167,167,167,.9);
+    }
 
     &>svg {
+      color: rgb(145, 145, 145);
       width: 12px;
       height: 15px;
-      color: black;
+    }
+  }
+
+  &__control-left-disable, &__control-right-disable {
+
+    &:hover .news__control-name {
+      color: rgb(145, 145, 145);
+    }
+
+    &:hover>svg {
+      color: rgb(145, 145, 145);
     }
   }
 

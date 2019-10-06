@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import ReactResizeDetector from "react-resize-detector";
-import { withResizeDetector } from "react-resize-detector";
+import ReactResizeDetector, { withResizeDetector } from "react-resize-detector";
 
 import articles from "../../fixtures/articles";
 import "./style.css";
@@ -97,7 +96,7 @@ class News extends Component {
     }
   };
 
-  changeState = () => {
+  updateArticleState = () => {
     const {
       articlesList,
       newArticles,
@@ -132,7 +131,7 @@ class News extends Component {
   };
 
   onResize = () => {
-    this.changeState();
+    this.updateArticleState();
   };
 }
 
