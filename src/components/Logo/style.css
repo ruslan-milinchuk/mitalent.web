@@ -7,8 +7,6 @@
   display: inline-block;
   transform: scale(1.2, 1);
   letter-spacing: 1px; }
-  .logo__active {
-    color: #919191; }
   .logo__spasing {
     margin-left: 4px; }
   .logo:hover {
