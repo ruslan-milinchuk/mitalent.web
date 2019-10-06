@@ -37,6 +37,8 @@
     color: black;
     margin: 15px;
     text-transform: uppercase; }
+  .header__item-active {
+    color: #919191; }
   .header__item_unfixed:hover {
     color: rgba(167, 167, 167, 0.9); }
   .header__item_fixed:hover, .header__item_unfixed:hover {

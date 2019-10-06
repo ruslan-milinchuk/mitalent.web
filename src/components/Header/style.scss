@@ -49,6 +49,10 @@
     text-transform: uppercase;
   }
 
+  &__item-active {
+    color: #919191;
+  }
+
   &__item_unfixed:hover{
     color: rgba(167,167,167,.9);  }
 

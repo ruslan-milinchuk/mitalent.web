@@ -8,6 +8,10 @@
   transform: scale(1.2, 1);
   letter-spacing: 1px;
 
+  &__active {
+    color: #919191;
+  }
+
   &__spasing {
     margin-left: 4px;
   }
