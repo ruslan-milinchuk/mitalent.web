@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const OurStoriesArticles = ({ newArticles }) => {
   return newArticles.map(item => (
-    <Link className="our-stories__item" to={`articles/${item.id}`}>
+    <Link className="our-stories__item" to={`news/${item.id}`}>
       <div
         className="our-stories__img"
         style={{ backgroundImage: "url(" + item.person.img + ")" }}
