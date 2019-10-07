@@ -1,0 +1,107 @@
+.article-info {
+  margin-top: 80px;
+
+  &__main, &__short-description-wrapp {
+    display: flex;
+    width: 65%;
+    margin: 0 auto 90px;
+  }
+
+  &__main-info {
+    margin-left: 45px;
+  }
+
+  &__title {
+    position: relative;
+    font-family: "Aftica Regular";
+    font-weight: 100;
+    font-size: 42px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+
+    &:after {
+      content: '';
+      margin-left: 30px;
+      width: 70px;
+      border-bottom: 5px black solid;
+      position: absolute;
+      bottom: 20px;
+    }
+  }
+
+  &__type-article {
+    margin: 15px auto 35px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  &__subtitle, &__description, &__additional-description {
+    font-family: "Aftica Regular";
+    font-size: 10px;
+    line-height: 2;
+    color: #919191;
+  }
+
+  &__first-img {
+    width: 100%;
+    height: auto;
+
+    &_hidden {
+      height: 550px;
+      overflow: hidden;
+    }
+  }
+
+
+
+  &__short-description-wrapp {
+    margin-top: 90px;
+  }
+
+  &__short-description {
+    display: flex;
+  }
+
+  &__quote {
+    min-width: 150px;
+    margin: 0 35px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Scotch;
+    font-size: 16px;
+  }
+
+  &__second-img {
+    display: flex;
+    justify-content: center;
+
+    &-paramount {
+      width: 500px;
+      height: 350px;
+      margin-right: 20px;
+      background-size: cover;
+    }
+
+    &-minor {
+      width: 400px;
+      height: 350px;
+      background-size: cover;
+    }
+  }
+
+  &__additional-info {
+    margin: 90px auto;
+    padding: 0 15% 0 33%;
+  }
+
+  &__additional-title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+}
