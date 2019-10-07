@@ -10,6 +10,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import Article from "./pages/Article";
+import Profile from "./pages/Profile";
 const history = createBrowserHistory();
 
 const App = () => (
@@ -22,6 +23,7 @@ const App = () => (
       <Route exact path="/news" component={News} />
       <Route path="/news/:id" component={Article} />
       <Route path="/contact-us" component={ContactUs} />
+      <Route path="/profile/:id" component={Profile} />
     </Layout>
     <Footer />
   </Router>

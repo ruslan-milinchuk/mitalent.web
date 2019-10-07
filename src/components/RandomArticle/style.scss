@@ -1,0 +1,114 @@
+.random {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  &__item {
+    display: flex;
+    cursor: pointer;
+
+    &:hover .random__title {
+      color: #b5d2d3;
+    }
+
+    &:hover .random__date {
+      color: #919191;
+    }
+  }
+
+  &__img {
+    min-width: 100px;
+    height: 70px;
+    background-size: cover;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 150px;
+    padding: 0 15px;
+  }
+
+  &__title {
+    font-family: "Aftica Regular";
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__date {
+    font-family: "Aftica Regular";
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(167,167,167,.9);
+  }
+}
+
+@media screen and(max-width: 1162px){
+  .random {
+
+    &__item {
+      display: flex;
+      cursor: pointer;
+      width: 40%;
+      margin-bottom: 30px;
+
+      &:nth-child(3),  &:nth-child(4) {
+        margin-bottom: 0;
+      }
+    }
+
+    &__info {
+      max-width: 330px;
+    }
+
+    &__title {
+      font-size: 12px;
+      white-space: unset;
+      overflow: hidden;
+      text-overflow: unset;
+    }
+  }
+}
+
+@media screen and (max-width: 931px){
+  .random {
+    &__title {
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and(max-width: 771px){
+  .random {
+    &__title {
+      letter-spacing: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 646px){
+  .random {
+    &__item {
+      width: calc(100% - 50px);
+
+
+      &:nth-child(3),  &:nth-child(4) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .random {
+    &__item {
+      width: calc(100% - 10px);
+
+    }
+  }
+}

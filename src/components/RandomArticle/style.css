@@ -1,0 +1,66 @@
+.random {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .random__item {
+    display: flex;
+    cursor: pointer; }
+    .random__item:hover .random__title {
+      color: #b5d2d3; }
+    .random__item:hover .random__date {
+      color: #919191; }
+  .random__img {
+    min-width: 100px;
+    height: 70px;
+    background-size: cover; }
+  .random__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 150px;
+    padding: 0 15px; }
+  .random__title {
+    font-family: "Aftica Regular";
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .random__date {
+    font-family: "Aftica Regular";
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: rgba(167, 167, 167, 0.9); }
+
+@media screen and (max-width: 1162px) {
+  .random__item {
+    display: flex;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom: 30px; }
+    .random__item:nth-child(3), .random__item:nth-child(4) {
+      margin-bottom: 0; }
+  .random__info {
+    max-width: 330px; }
+  .random__title {
+    font-size: 12px;
+    white-space: unset;
+    overflow: hidden;
+    text-overflow: unset; } }
+@media screen and (max-width: 931px) {
+  .random__title {
+    font-size: 10px; } }
+@media screen and (max-width: 771px) {
+  .random__title {
+    letter-spacing: 0; } }
+@media screen and (max-width: 646px) {
+  .random__item {
+    width: calc(100% - 50px); }
+    .random__item:nth-child(3), .random__item:nth-child(4) {
+      margin-bottom: 30px; } }
+@media screen and (max-width: 448px) {
+  .random__item {
+    width: calc(100% - 10px); } }
+
+/*# sourceMappingURL=style.css.map */
