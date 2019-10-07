@@ -3,9 +3,16 @@ import articles from "../../fixtures/articles";
 import PersonShortInfo from "../../components/PersonShortInfo";
 
 import "./style.css";
+import RandomArticle from "../../components/RandomArticle";
 class Article extends Component {
   componentDidMount() {
-    this.getWindowScrollTop();
+    window.scrollTo(0, 0);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      window.scrollTo(0, 0);
+    }
   }
 
   render() {
@@ -28,7 +35,7 @@ class Article extends Component {
       additionalTitle,
       additionalLongDescription
     } = neededArticle[0];
-    const allQuoute = quoute.map(item => <p>{item}</p>);
+    const allQuoute = quoute.map((item, index) => <p key={index}>{item}</p>);
     return (
       <div className="article-info">
         <div className="article-info__main">
@@ -65,15 +72,10 @@ class Article extends Component {
             {additionalLongDescription}
           </div>
         </div>
+        <RandomArticle articles={articles} />
       </div>
     );
   }
-
-  getWindowScrollTop = () => {
-    if (document.documentElement.scrollTop !== 0) {
-      document.documentElement.scrollTo(0, 0);
-    }
-  };
 }
 
 export default Article;
