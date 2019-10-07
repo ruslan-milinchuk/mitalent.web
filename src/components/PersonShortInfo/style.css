@@ -1,0 +1,28 @@
+.person-info {
+  display: flex;
+  margin: 10px 0 0 35px;
+  height: 30px;
+  min-width: 135px; }
+  .person-info__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15px;
+    text-align: right;
+    font-family: Seconda; }
+  .person-info__name {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7); }
+  .person-info__create-at {
+    font-size: 12px;
+    color: #919191; }
+  .person-info__img {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    overflow: hidden; }
+
+/*# sourceMappingURL=style.css.map */
