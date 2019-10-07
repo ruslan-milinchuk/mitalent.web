@@ -1,5 +1,6 @@
 .article-info {
   margin-top: 80px;
+  overflow: hidden;
 
   &__main, &__short-description-wrapp {
     display: flex;
@@ -104,4 +105,215 @@
     margin-bottom: 20px;
   }
 
+}
+
+@media screen and (max-width: 1165px){
+  .article-info {
+
+    &__title {
+      font-size: 36px;
+    }
+
+    &__short-description-wrapp, &__main {
+      width: 85%;
+    }
+
+    &__additional-info {
+      margin: 90px auto;
+      padding: 0 15%;
+    }
+  }
+}
+
+@media screen and (max-width: 918px){
+  .article-info {
+
+    &__main {
+      margin: 0 auto 50px;
+
+      &-info {
+        margin: 0 25px;
+      }
+    }
+
+    &__title {
+      &:after {
+        position: unset;
+      }
+    }
+
+    &__first-img_hidden {
+      margin: 0 25px;
+    }
+
+    &__short-description-wrapp {
+      margin: 50px auto;
+   }
+
+    &__second-img-paramount {
+      width: 360px;
+      height: 300px;
+    }
+
+    &__second-img-minor {
+      width: 280px;
+      height: 300px;
+    }
+
+    &__additional-info {
+      margin: 50px auto;
+      padding: 0 50px;
+    }
+
+    & .person-info {
+      margin: 10px 0 0;
+    }
+  }
+}
+
+@media screen and (max-width: 776px){
+  .article-info {
+
+    &__first-img_hidden {
+      height: 400px;
+    }
+     &__short-description-wrapp {
+       flex-direction: column;
+       align-items: center;
+
+       & .person-info {
+         margin: 10px 0 20px;
+       }
+     }
+
+    &__short-description-wrapp, &__main {
+      width: 100%;
+    }
+
+    &__short-description {
+      padding:  0 25px ;
+    }
+
+    &__quote {
+      margin: 0 20px 0 0;
+    }
+
+    &__second-img-paramount {
+      width: 260px;
+      height: 200px;
+    }
+
+    &__second-img-minor {
+      width: 200px;
+      height: 200px;
+    }
+
+    &__additional-info {
+      padding: 25px;
+    }
+
+
+  }
+}
+
+
+@media screen and (max-width: 576px){
+  .article-info {
+    margin-top: 0;
+
+    &__main {
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+
+    &__title {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    &__first-img {
+      &_hidden {
+        height: 250px;
+      }
+    }
+
+    & .person-info {
+      margin: 10px 10px 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__short-description-wrapp  {
+      margin: 0;
+    }
+
+    &__short-description-wrapp .person-info {
+      display: none;
+    }
+
+    &__short-description {
+      padding: 30px 25px;
+    }
+
+    &__quote {
+      margin: 0 20px 0 0;
+      display: none;
+    }
+
+    &__additional-info {
+      margin: 0;
+    }
+
+    &__second-img-paramount {
+      width: 180px;
+      height: 150px;
+    }
+
+    &__second-img-minor {
+      width: 160px;
+      height: 150px;
+    }
+  }
+}
+
+@media screen and (max-width: 448px){
+  .article-info {
+
+    &__title {
+      margin: 25px 0;
+    }
+
+    &__type-article {
+      margin: 15px auto;
+    }
+
+    &__first-img {
+      width: 320px;
+      height: auto;
+    }
+
+    &__short-description {
+      padding: 30px 5px;
+    }
+
+    &__first-img_hidden {
+      width: 320px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    &__second-img-paramount {
+      width: 130px;
+      height: 100px;
+    }
+
+    &__second-img-minor {
+      width: 120px;
+      height: 100px;
+    }
+
+    &__additional-info {
+      padding: 25px 5px;
+    }
+  }
 }

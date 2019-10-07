@@ -13,7 +13,7 @@ const NewsArticles = ({
 }) => {
   return newArticles.map((item, index) => (
     <div
-      onClick={() => history.push(`articles/${item.id}`)}
+      onClick={() => history.push(`news/${item.id}`)}
       key={index}
       className="news__item"
     >
@@ -25,7 +25,7 @@ const NewsArticles = ({
         <div
           onClick={e => {
             e.stopPropagation();
-            history.push(`articles/${item.id}`);
+            history.push(`news/${item.id}`);
           }}
           className="news__btn"
         >
