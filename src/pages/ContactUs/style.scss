@@ -7,12 +7,13 @@
   &__section {
     color: white;
     display: flex;
+    position: relative;
     &-first{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 41.5%;
-      background: url("../../img/contact-us-bg.jpg") no-repeat;
+      //background: url("../../../public/img/contact-us-bg.jpg") no-repeat;
       background-size: cover;
     }
 

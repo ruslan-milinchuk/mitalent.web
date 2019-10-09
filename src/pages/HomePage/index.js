@@ -6,10 +6,11 @@ import ButtonsSocial from "../../components/ButtonsSocial";
 import ButtonList from "../../components/ButtonList";
 import "./style.css";
 import TriangleRight from "../../icons/TriangleRight";
+import CustomerGroups from "../../components/CustomerGroups";
 
 class HomePage extends Component {
   state = {
-    defaultPerson: [],
+    defaultPerson: {},
     numberPhoto: "01",
     currentIndex: 0
   };
@@ -44,10 +45,12 @@ class HomePage extends Component {
             <div className="home-page__first-divider"></div>
             <div className="home-page__number-slide">{numberPhoto}</div>
           </div>
-          <div
-            className="home-page__slider"
-            style={{ backgroundImage: "url(" + list[currentIndex] + ")" }}
-          >
+          <div className="home-page__slider">
+            <img
+              src={list[currentIndex]}
+              alt=""
+              className="home-page__slider-img"
+            />
             <div className="home-page__info">
               <h2 className="home-page__title">
                 {firstName} <br /> {lastName}
@@ -72,6 +75,7 @@ class HomePage extends Component {
             />
           </div>
         </div>
+        <CustomerGroups />
         <div className="our-stories">
           <OurStoriesArticles newArticles={newArticles} />
         </div>
@@ -84,10 +88,14 @@ class HomePage extends Component {
     return Math.floor(rand);
   };
 
+  renderIndex = index => {
+    return index + 1 >= 10 ? index + 1 : "0" + (index + 1);
+  };
+
   stateNumb = index => {
     return this.setState({
       currentIndex: index,
-      numberPhoto: index + 1 >= 10 ? index + 1 : "0" + (index + 1)
+      numberPhoto: this.renderIndex(index)
     });
   };
 }
