@@ -23,7 +23,7 @@ class ProfileSlider extends Component {
           <h3 className="person__role">{role}</h3>
           <div className="person__btn">
             <div className="person__btn-list">
-              <ButtonList list={list} stateNumb={this.stateNumb} />
+              <ButtonList currentIndex={currentIndex} list={list} stateNumb={this.stateNumb} />
             </div>
             <div className="person__btn-arrow_disp-inline">
               <button
