@@ -5,13 +5,13 @@
   width: 100%; }
   .contact__section {
     color: white;
-    display: flex; }
+    display: flex;
+    position: relative; }
     .contact__section-first {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 41.5%;
-      background: url("../../img/contact-us-bg.jpg") no-repeat;
       background-size: cover; }
     .contact__section-second {
       padding: 169px 0 12% 140px;
