@@ -56,6 +56,7 @@
     display: flex;
     flex-direction: column; }
   .person__btn-item {
+    position: relative;
     cursor: pointer;
     background-color: white;
     outline: none;
@@ -65,14 +66,18 @@
     height: 35px;
     color: grey; }
     .person__btn-item:hover {
-      border: 1px grey solid;
-      border-radius: 2px; }
+      color: #b5d2d3; }
+  .person__btn-item-active {
+    font-weight: 700; }
+  .person__btn-item-active:hover {
+    color: grey; }
   .person__btn-item-active:before {
     content: '';
-    width: 5px;
-    height: 1px;
-    border: 1px black solid;
-    color: black; }
+    position: absolute;
+    width: 20px;
+    border-bottom: 2px #b5d2d3 solid;
+    left: -45px;
+    top: 17px; }
   .person__img {
     margin-right: 25px;
     margin-top: 55px;
