@@ -7,9 +7,9 @@ export default [
     shortDescription: "American actor and comedian",
     mainDescription:
       " Born in Chicago, Noemie began performing stand-up comedy in San Francisco and Los Angeles during the mid-1970s, After rising to fame playing the alien Mork in the sitcom Mork & Mindy, Williams established a career in both stand-up comedy and feature film acting. He was known for his improvisation skills and the wide variety of memorable character voices he created. Many critics have lauded Williams as one of the funniest comedians of all time",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/NoemieBeier/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/NoemieBeier/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/NoemieBeier/personPhoto/photo-3.jpg",
     articles: [
       {
         id: "p2cFFNf0u",
@@ -35,9 +35,9 @@ export default [
     shortDescription: "Is an English actor, film producer, and musician.",
     mainDescription:
       "Amos is the recipient of several accolades, including a Golden Globe Award, a Laurence Olivier Award and has been nominated for two Primetime Emmy Awards.Born in London, England, he earned a double first in Classics at the University of Cambridge and later proceeded to study acting at the Royal Academy of Dramatic Art. At the beginning of his career, he appeared in West End productions of Cymbeline (2007) and Ivanov (2008)",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/AmosDach/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/AmosDach/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/AmosDach/personPhoto/photo-3.jpg",
     article: [
       {
         id: "XQknHTpgFY",
@@ -61,9 +61,9 @@ export default [
     shortDescription: "Is an American film and television actor. ",
     mainDescription:
       'Hamilton began his film career in 1985 and although he has a substantial body of work in film and television he is, perhaps, most famous for his debonair style and his perfect and perpetual suntan. Bo Derek writes in her autobiography "there was an ongoing contest between John Derek and George Hamilton as to who was tanner"',
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/LincolnGlover/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/LincolnGlover/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/LincolnGlover/personPhoto/photo-3.jpg",
     article: [
       {
         id: "8Ea0mvkx5Zz",
@@ -89,9 +89,9 @@ export default [
     shortDescription: "Is an Irish film, television, and stage actor. ",
     mainDescription:
       "In 2010, he achieved widespread recognition playing the role of Jim Moriarty in the BBC series Sherlock, a role which continued until 2017. In 2017 he won acclaim playing the title role of Hamlet in a production first staged at the Almeida Theatre, directed by Robert Icke, and for which he has been nominated for a 2018 Olivier Award for Best Actor.",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/GloverLincoln/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/GloverLincoln/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/GloverLincoln/personPhoto/photo-3.jpg",
     article: [
       {
         id: "FpxPIRjohDg",
@@ -116,9 +116,9 @@ export default [
     shortDescription: "Is an English actor, film producer, and musician.",
     mainDescription:
       "Amos is the recipient of several accolades, including a Golden Globe Award, a Laurence Olivier Award and has been nominated for two Primetime Emmy Awards.Born in London, England, he earned a double first in Classics at the University of Cambridge and later proceeded to study acting at the Royal Academy of Dramatic Art. At the beginning of his career, he appeared in West End productions of Cymbeline (2007) and Ivanov (2008)",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/TeresaKuphal/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/TeresaKuphal/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/TeresaKuphal/personPhoto/photo-3.jpg",
     article: [
       {
         id: "d2N4mOFaOSx",
@@ -143,9 +143,9 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/SherwoodWill/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/SherwoodWill/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/SherwoodWill/personPhoto/photo-3.jpg",
     article: [
       {
         id: "ND0P3BHh74W",
@@ -171,9 +171,9 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainFoto: "./img/persons/EllsworthYost/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/EllsworthYost/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/EllsworthYost/personPhoto/photo-3.jpg",
     article: [
       {
         id: "eyFi9O9t11P",
