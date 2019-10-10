@@ -5,7 +5,7 @@
   &__client {
     display: flex;
     width: 100%;
-    margin: 0 0 70px 20px;
+    margin: 0 0 50px 20px;
     padding-top: 90px;
     overflow: hidden;
   }
@@ -128,26 +128,81 @@
     }
   }
 
+  &__client-title {
+    text-align: center;
+    font-family: "Aftica Regular";
+    font-size: 43px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+  }
+
   &__btn-img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin: 0 0 55px 30px;
   }
+
+  &__more-clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 165px;
+    background: #b5d2d3;
+    margin: 0 auto 90px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+    &:hover {
+      background: #c7e4e5;
+    }
+  }
+
+  &__title-news {
+    font-family: "Aftica Regular";
+    font-weight: 100;
+    text-align: center;
+    font-size: 43px;
+    letter-spacing: 1.5px;
+    margin-bottom: 35px;
+  }
+
+  &__divider-news {
+    width: 120px;
+    border-bottom: 2px black solid;
+    margin: 0 auto 60px;
+  }
+
+  & .header {
+    padding: 0 20px;
+  }
+
+  & .person__btn-item-active:before {
+    content: '';
+    position: absolute;
+    width: 39px;
+    border-bottom: 2px #b5d2d3 solid;
+    left: 80px;
+    top: 17px;
+  }
+
+  & .customer-groups__btn-wrapper {
+    display: none;
+  }
+
+  & .client__card {
+    max-width: 250px;
+  }
 }
 
-.header {
-  padding: 0 20px;
-}
 
-.person__btn-item-active:before {
-  content: '';
-  position: absolute;
-  width: 39px;
-  border-bottom: 2px #b5d2d3 solid;
-  left: 80px;
-  top: 17px;
-}
 
 @media screen and (max-width: 960px){
   .home-page {
