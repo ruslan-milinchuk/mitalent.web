@@ -55,6 +55,7 @@
       min-height: 100%;
       z-index: -1;
       animation: eye 6s ease-in-out infinite;
+      opacity: 0;
       filter: grayscale(1);
     }
 
