@@ -7,7 +7,7 @@ const OurStoriesArticles = ({ newArticles }) => {
     <Link className="our-stories__item" to={`news/${item.id}`}>
       <div
         className="our-stories__img"
-        style={{ backgroundImage: "url(" + item.person.img + ")" }}
+        style={{ backgroundImage: "url(" + item.slider[1] + ")" }}
       >
         <div className="our-stories__img_hover"></div>
       </div>
