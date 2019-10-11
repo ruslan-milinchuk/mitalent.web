@@ -13,7 +13,8 @@
     background: rgba(0, 0, 0, 0.7);
     display: block; }
   .client__card > img {
-    width: 100%; }
+    width: 100%;
+    filter: grayscale(0.9); }
 .client__card:hover {
   background-color: rgba(0, 0, 0, 0.7); }
 .client__card:hover > .client__name {

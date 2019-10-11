@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import windowSize from "react-window-size";
 
 import articles from "../../fixtures/articles.js";
 import persons from "../../fixtures/persons.js";
@@ -10,19 +9,7 @@ import "./style.css";
 import TriangleRight from "../../icons/TriangleRight";
 import SliderWrapper from "../../components/SliderWrapper";
 
-const SLIDER_IMG_LENGTH_HUGE = 12,
-  SLIDER_IMG_LENGTH_LARGE = 10,
-  SLIDER_IMG_LENGTH_BIG = 8,
-  SLIDER_IMG_LENGTH_MEDIUM = 6,
-  SLIDER_IMG_LENGTH_SMALL = 4,
-  SLIDER_IMG_LENGTH_TINY = 2,
-  HUGE_DEVISE_MAX_WIDTH = 2098,
-  LARGE_DEVISE_MAX_WIDTH = 1804,
-  BIG_DEVISE_MAX_WIDTH = 1510,
-  MEDIUM_DEVISE_MAX_WIDTH = 1216,
-  SMALL_DEVISE_MAX_WIDTH = 922,
-  TINY_DEVISE_MIN_WIDTH = 360,
-  TINY_DEVISE_MAX_WIDTH = 628,
+const SLIDER_IMG_LENGTH = 8,
   SLIDER_IMG_TIME_ANIMATION = 6000;
 
 class HomePage extends Component {
@@ -30,14 +17,13 @@ class HomePage extends Component {
     defaultPerson: {},
     numberPhoto: "01",
     currentIndex: 0,
-    maxItemLengthChanges: 0,
-    maxItemLengthFixed: 0,
+    maxItemLengthChanges: SLIDER_IMG_LENGTH,
+    maxItemLengthFixed: SLIDER_IMG_LENGTH,
     listLength: null,
     scrollYPosition: 0
   };
 
   componentDidMount() {
-    this.sliderWrappLength();
     this.timeoutSlider();
     const objPerson = this.randomNumb(0, persons.length - 1);
     const list = [];
@@ -47,14 +33,6 @@ class HomePage extends Component {
       defaultPerson: persons[objPerson],
       listLength: list.length
     });
-  }
-
-  shouldComponentUpdate(nextProps, nextState, nextContext) {
-    if (this.props.windowWidth !== nextProps.windowWidth) {
-      this.sliderWrappLength();
-    }
-
-    return this.props.windowWidth === nextProps.windowWidth;
   }
 
   render() {
@@ -191,83 +169,6 @@ class HomePage extends Component {
       numberPhoto: this.renderIndex(index)
     });
   };
-
-  sliderWrappLength = () => {
-    const { windowWidth } = this.props;
-    const { maxItemLengthChanges } = this.state;
-    if (
-      LARGE_DEVISE_MAX_WIDTH + 1 <= windowWidth &&
-      windowWidth <= HUGE_DEVISE_MAX_WIDTH
-    ) {
-      if (maxItemLengthChanges === SLIDER_IMG_LENGTH_HUGE) {
-        return;
-      }
-      return this.setState({
-        maxItemLengthChanges: SLIDER_IMG_LENGTH_HUGE,
-        maxItemLengthFixed: SLIDER_IMG_LENGTH_HUGE
-      });
-    }
-    if (
-      BIG_DEVISE_MAX_WIDTH + 1 <= windowWidth &&
-      windowWidth <= LARGE_DEVISE_MAX_WIDTH
-    ) {
-      if (maxItemLengthChanges === SLIDER_IMG_LENGTH_LARGE) {
-        return;
-      }
-      return this.setState({
-        maxItemLengthChanges: SLIDER_IMG_LENGTH_LARGE,
-        maxItemLengthFixed: SLIDER_IMG_LENGTH_LARGE
-      });
-    }
-    if (
-      MEDIUM_DEVISE_MAX_WIDTH + 1 <= windowWidth &&
-      windowWidth <= BIG_DEVISE_MAX_WIDTH
-    ) {
-      if (maxItemLengthChanges === SLIDER_IMG_LENGTH_BIG) {
-        return;
-      }
-      return this.setState({
-        maxItemLengthChanges: SLIDER_IMG_LENGTH_BIG,
-        maxItemLengthFixed: SLIDER_IMG_LENGTH_BIG
-      });
-    }
-    if (
-      SMALL_DEVISE_MAX_WIDTH + 1 <= windowWidth &&
-      windowWidth <= MEDIUM_DEVISE_MAX_WIDTH
-    ) {
-      if (maxItemLengthChanges === SLIDER_IMG_LENGTH_MEDIUM) {
-        return;
-      }
-      return this.setState({
-        maxItemLengthChanges: SLIDER_IMG_LENGTH_MEDIUM,
-        maxItemLengthFixed: SLIDER_IMG_LENGTH_MEDIUM
-      });
-    }
-    if (
-      TINY_DEVISE_MAX_WIDTH + 1 <= windowWidth &&
-      windowWidth <= SMALL_DEVISE_MAX_WIDTH
-    ) {
-      if (maxItemLengthChanges === SLIDER_IMG_LENGTH_SMALL) {
-        return;
-      }
-      return this.setState({
-        maxItemLengthChanges: SLIDER_IMG_LENGTH_SMALL,
-        maxItemLengthFixed: SLIDER_IMG_LENGTH_SMALL
-      });
-    }
-    if (
-      TINY_DEVISE_MIN_WIDTH <= windowWidth &&
-      windowWidth <= TINY_DEVISE_MAX_WIDTH
-    ) {
-      if (maxItemLengthChanges === SLIDER_IMG_LENGTH_TINY) {
-        return;
-      }
-      return this.setState({
-        maxItemLengthChanges: SLIDER_IMG_LENGTH_TINY,
-        maxItemLengthFixed: SLIDER_IMG_LENGTH_TINY
-      });
-    }
-  };
 }
 
-export default windowSize(HomePage);
+export default HomePage;
