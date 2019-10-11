@@ -4,7 +4,7 @@
   height: 310px;
   overflow: hidden; }
   .client__card:hover:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@
   margin: auto;
   justify-content: center; }
   .client__list-slider {
-    transition: all .7s; }
+    transition: all 0.7s; }
 .client__name {
   font-family: Helvetica;
   display: none;
@@ -64,7 +64,8 @@
   overflow: hidden;
   width: 25px;
   height: 25px;
-  display: none; }
+  display: none;
+  overflow: hidden; }
 .client__link > svg {
   width: 10px;
   transform: rotate(-45deg);
