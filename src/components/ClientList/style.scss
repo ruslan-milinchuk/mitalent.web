@@ -18,12 +18,12 @@
 
     & > img {
       width: 100%;
-      filter: grayscale(0.9);
+      filter: grayscale(1);
     }
-  }
 
-  &__card:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    &:hover > img {
+      filter: grayscale(0);
+    }
   }
 
   &__card:hover > &__name {
@@ -43,7 +43,7 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    max-width: 1000px;
     margin: auto;
     justify-content: center;
 
@@ -96,5 +96,23 @@
     width: 10px;
     transform: rotate(-45deg);
     color: white;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .client__list {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 794px) {
+  .client__list {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  .client__list {
+    width: 250px;
   }
 }

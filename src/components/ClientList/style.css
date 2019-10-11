@@ -14,9 +14,9 @@
     display: block; }
   .client__card > img {
     width: 100%;
-    filter: grayscale(0.9); }
-.client__card:hover {
-  background-color: rgba(0, 0, 0, 0.7); }
+    filter: grayscale(1); }
+  .client__card:hover > img {
+    filter: grayscale(0); }
 .client__card:hover > .client__name {
   display: block; }
 .client__card:hover > .client__role {
@@ -28,7 +28,7 @@
 .client__list {
   display: flex;
   flex-wrap: wrap;
-  width: 85%;
+  max-width: 1000px;
   margin: auto;
   justify-content: center; }
   .client__list-slider {
@@ -71,5 +71,15 @@
   width: 10px;
   transform: rotate(-45deg);
   color: white; }
+
+@media screen and (max-width: 1040px) {
+  .client__list {
+    width: 750px; } }
+@media screen and (max-width: 794px) {
+  .client__list {
+    width: 500px; } }
+@media screen and (max-width: 542px) {
+  .client__list {
+    width: 250px; } }
 
 /*# sourceMappingURL=style.css.map */
