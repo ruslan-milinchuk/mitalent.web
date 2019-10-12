@@ -1,6 +1,7 @@
 .layout {
   padding: 90px 20px 50px;
-  min-height: calc(100vh - 300px); }
+  min-height: calc(100vh - 300px);
+  overflow: hidden; }
 
 @media screen and (max-width: 480px) {
   .layout {

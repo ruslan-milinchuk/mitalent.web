@@ -3,13 +3,33 @@ import "./style.css";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
 import ButtonList from "../ButtonList";
+import persons from "../../fixtures/persons";
+
 class ProfileSlider extends Component {
   state = { currentIndex: 0 };
 
   render() {
-    const { list, name, role, link } = this.props;
-    const [firstName, lastName] = name;
     const { currentIndex } = this.state;
+    const { idPerson } = this.props;
+    const neededPerson = [];
+    persons.map(item => {
+      if (idPerson === item.id) {
+        neededPerson.push(item);
+      }
+    });
+    const {
+      firstName,
+      lastName,
+      type,
+      mainFoto,
+      profileFoto,
+      pressFoto
+    } = neededPerson[0];
+    console.log("neededPerson", neededPerson);
+    let list = [];
+    list.push(mainFoto, profileFoto, pressFoto);
+    let role = type;
+    const link = "#";
     return (
       <div className="person">
         <div className="person__content">
@@ -23,7 +43,11 @@ class ProfileSlider extends Component {
           <h3 className="person__role">{role}</h3>
           <div className="person__btn">
             <div className="person__btn-list">
-              <ButtonList currentIndex={currentIndex} list={list} stateNumb={this.stateNumb} />
+              <ButtonList
+                currentIndex={currentIndex}
+                list={list}
+                stateNumb={this.stateNumb}
+              />
             </div>
             <div className="person__btn-arrow_disp-inline">
               <button
@@ -42,12 +66,7 @@ class ProfileSlider extends Component {
           </div>
         </div>
         <div className="person__img">
-          <img
-            src={list[currentIndex]}
-            alt="photo
-        client"
-          />
-
+          <img src={`.${list[currentIndex]}`} alt="" />
           <a className="person__link" href={link}>
             Enquire about {firstName}
           </a>

@@ -2,31 +2,44 @@
   display: flex;
   align-items: flex-end;
   width: 100%;
-  height: 70vh; }
+  position: relative; }
+  .person:after {
+    content: "";
+    position: absolute;
+    right: -76%;
+    top: -32%;
+    height: 100%;
+    width: 100%;
+    background: #b5d2d3;
+    z-index: -1; }
   .person__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
-    z-index: 1; }
+    width: 37%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0; }
   .person__name {
-    font-size: 35px;
-    margin-left: 20vw;
-    padding-top: 80px; }
+    font-size: 52px;
+    margin-left: 150px;
+    padding-top: 142px;
+    color: rgba(0, 0, 0, 0.82); }
     .person__name_font {
-      font-family: Nominee Regular;
-      font-weight: lighter;
+      font-family: "Aftica Regular";
+      font-weight: 100;
       z-index: 1;
       min-width: 350px;
       letter-spacing: 2px; }
   .person__role {
     font-family: Aftica Regular;
-    margin-left: 20vw;
-    padding-top: 50px;
-    min-width: 175px;
+    margin-left: 150px;
+    padding: 50px 0 0 5px;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+    line-height: 1.5;
     color: gray;
     z-index: 1; }
   .person__btn {
@@ -72,18 +85,18 @@
   .person__btn-item-active:hover {
     color: grey; }
   .person__btn-item-active:before {
-    content: '';
+    content: "";
     position: absolute;
     width: 20px;
     border-bottom: 2px #b5d2d3 solid;
     left: -45px;
     top: 17px; }
   .person__img {
-    margin-right: 25px;
-    margin-top: 55px;
-    height: 70vh;
+    margin: 55px 4% 0 24%;
+    height: 505px;
     overflow: hidden;
-    position: relative; }
+    position: relative;
+    width: 72%; }
     .person__img > img {
       width: 100%; }
   .person__link {
@@ -104,45 +117,45 @@
   .person__content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    width: 25%; } }
+@media screen and (max-width: 940px) {
   .person__name {
-    padding-top: 70px; } }
-@media screen and (max-width: 1100px) {
-  .person__name {
-    padding-top: 38px; }
-  .person__name_font {
-    font-size: 50px; }
-  .person__link {
-    padding: 15px 30px; }
-  .person__btn {
-    margin-bottom: 50px; }
-  .person__btn-left, .person__btn-right {
-    width: 15px; } }
+    margin-left: 100px; }
+  .person__role {
+    margin-left: 100px; } }
 @media screen and (max-width: 830px) {
   .person {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 125px; }
+    .person:after {
+      position: unset; }
     .person__br-none {
       display: none; }
     .person__content {
       width: 100%;
-      justify-content: space-between; }
+      justify-content: space-between;
+      margin-top: -120px; }
     .person__role {
       font-size: 10px;
-      padding: 15px;
+      padding: 20px;
       margin: auto;
       text-align: center; }
     .person__name {
       padding-top: 15px;
-      margin: auto; }
+      margin: auto;
+      line-height: 0; }
     .person__name_font {
-      font-size: 40px;
+      font-size: 34px;
       min-width: 0;
       margin-bottom: 20px; }
     .person__btn {
       justify-content: center;
-      margin-bottom: 0; }
+      margin-top: -15px; }
       .person__btn-item {
         margin: 5px 10px; }
+        .person__btn-item-active:before {
+          left: 7px; }
       .person__btn-list {
         flex-direction: unset; }
       .person__btn-left, .person__btn-right {
@@ -154,26 +167,15 @@
         display: none; }
     .person__img {
       margin: auto;
-      height: 56vh; } }
-@media screen and (max-width: 700px) {
-  .person__name {
-    padding-top: 5px; }
-  .person__name_font {
-    font-size: 30px; }
-  .person__role {
-    font-size: 10px;
-    padding-top: 15px; }
-  .person__btn-item {
-    width: 25px;
-    height: 25px; }
-  .person__link {
-    font-size: 12px;
-    padding: 10px 15px; } }
+      width: 95%;
+      height: 380px; }
+    .person__link {
+      padding: 15px 30px; } }
 @media screen and (max-width: 500px) {
+  .person__role {
+    padding: 15px; }
   .person__name_font {
     font-size: 20px; }
-  .person__role {
-    text-transform: unset; }
   .person__btn-item {
     margin-left: 10px; }
   .person__link {
@@ -184,21 +186,13 @@
   .person__btn-left, .person__btn-right {
     margin: 5px; } }
 @media screen and (max-width: 408px) {
-  .person__name {
-    font-size: 20px;
-    padding-top: 5px; }
-  .person__name_font {
-    display: inline;
-    margin-right: 10px;
-    font-size: 20px; }
-  .person__role {
-    padding-top: 10px; }
-  .person__btn-item {
-    width: 20px;
-    height: 20px; }
-  .person__link {
-    font-size: 8px;
-    padding: 5px 10px; } }
+  .person {
+    margin-top: 90px; }
+    .person__name_font {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .person__img {
+      margin-top: -10px; } }
 @media screen and (height: 1366px) and (width: 1024px) {
   .person__name_font {
     font-size: 45px; }

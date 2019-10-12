@@ -440,8 +440,8 @@ export default [
     id: "bsXpwTuDEEHSPvQ",
     person: {
       profileId: "sl5a8Ea0mvkx5Zz",
-      firstName: "Lincoln",
-      lastName: "Glover",
+      firstName: "Glover",
+      lastName: "Lincoln",
       img: "https://klike.net/uploads/posts/2019-03/medium/1551512888_2.jpg"
     },
     createAt: "2018-06-08T19:03:23.000Z",

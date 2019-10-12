@@ -15,8 +15,13 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 700;
-    color: rgba(167,167,167,.9);
-    font-family: "Aftica Regular"
+    color: rgba(167, 167, 167, 0.9);
+    font-family: "Aftica Regular";
+    background: rgba(0, 0, 0, 0);
+
+    &:focus {
+      background: white;
+    }
   }
 
   &__button {
@@ -24,12 +29,13 @@
     width: 35px;
     height: 100%;
     outline: none;
+    background: rgba(0, 0, 0, 0);
     cursor: pointer;
   }
 }
 
 @media screen and(max-width:740px) {
-  .search-form{
+  .search-form {
     width: 246px;
     &__input {
       width: 180px;
@@ -39,7 +45,7 @@
 }
 
 @media screen and(max-width:600px) {
-  .search-form{
+  .search-form {
     width: 215px;
     &__input {
       width: 178px;
@@ -50,5 +56,4 @@
 }
 
 @media screen and(max-width:480px) {
-
 }

@@ -2,24 +2,39 @@
   display: flex;
   align-items: flex-end;
   width: 100%;
-  height: 70vh;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: -76%;
+    top: -32%;
+    height: 100%;
+    width: 100%;
+    background: #b5d2d3;
+    z-index: -1;
+  }
 
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 37%;
     z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   &__name {
-    font-size: 35px;
-    margin-left: 20vw;
-    padding-top: 80px;
+    font-size: 52px;
+    margin-left: 150px;
+    padding-top: 142px;
+    color: rgba(0, 0, 0, 0.82);
 
     &_font {
-      font-family: Nominee Regular;
-      font-weight: lighter;
+      font-family: "Aftica Regular";
+      font-weight: 100;
       z-index: 1;
       min-width: 350px;
       letter-spacing: 2px;
@@ -28,12 +43,12 @@
 
   &__role {
     font-family: Aftica Regular;
-    margin-left: 20vw;
-    padding-top: 50px;
-    min-width: 175px;
+    margin-left: 150px;
+    padding: 50px 0 0 5px;
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 2px;
+    line-height: 1.5;
     color: gray;
     z-index: 1;
   }
@@ -117,11 +132,11 @@
   }
 
   &__img {
-    margin-right: 25px;
-    margin-top: 55px;
-    height: 70vh;
+    margin: 55px 4% 0 24%;
+    height: 505px;
     overflow: hidden;
     position: relative;
+    width: 72%;
     & > img {
       width: 100%;
     }
@@ -151,39 +166,30 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-    }
-    &__name {
-      padding-top: 70px;
+      width: 25%;
     }
   }
 }
-@media screen and(max-width:1100px) {
+@media screen and(max-width:940px) {
   .person {
     &__name {
-      padding-top: 38px;
+      margin-left: 100px;
     }
 
-    &__name_font {
-      font-size: 50px;
-    }
-
-    &__link {
-      padding: 15px 30px;
-    }
-
-    &__btn {
-      margin-bottom: 50px;
-    }
-
-    &__btn-left,
-    &__btn-right {
-      width: 15px;
+    &__role {
+      margin-left: 100px;
     }
   }
 }
+
 @media screen and(max-width:830px) {
   .person {
     display: inline-block;
+    margin-top: 125px;
+
+    &:after {
+      position: unset;
+    }
 
     &__br-none {
       display: none;
@@ -192,11 +198,12 @@
     &__content {
       width: 100%;
       justify-content: space-between;
+      margin-top: -120px;
     }
 
     &__role {
       font-size: 10px;
-      padding: 15px;
+      padding: 20px;
       margin: auto;
       text-align: center;
     }
@@ -204,20 +211,25 @@
     &__name {
       padding-top: 15px;
       margin: auto;
+      line-height: 0;
     }
 
     &__name_font {
-      font-size: 40px;
+      font-size: 34px;
       min-width: 0;
       margin-bottom: 20px;
     }
 
     &__btn {
       justify-content: center;
-      margin-bottom: 0;
+      margin-top: -15px;
 
       &-item {
         margin: 5px 10px;
+
+        &-active:before {
+          left: 7px;
+        }
       }
 
       &-list {
@@ -241,44 +253,24 @@
 
     &__img {
       margin: auto;
-      height: 56vh;
-    }
-  }
-}
-@media screen and(max-width:700px) {
-  .person {
-    &__name {
-      padding-top: 5px;
-    }
-
-    &__name_font {
-      font-size: 30px;
-    }
-
-    &__role {
-      font-size: 10px;
-      padding-top: 15px;
-    }
-
-    &__btn-item {
-      width: 25px;
-      height: 25px;
+      width: 95%;
+      height: 380px;
     }
 
     &__link {
-      font-size: 12px;
-      padding: 10px 15px;
+      padding: 15px 30px;
     }
   }
 }
+
 @media screen and(max-width:500px) {
   .person {
-    &__name_font {
-      font-size: 20px;
+    &__role {
+      padding: 15px;
     }
 
-    &__role {
-      text-transform: unset;
+    &__name_font {
+      font-size: 20px;
     }
 
     &__btn-item {
@@ -302,29 +294,15 @@
 }
 @media screen and(max-width:408px) {
   .person {
-    &__name {
-      font-size: 20px;
-      padding-top: 5px;
-    }
+    margin-top: 90px;
 
     &__name_font {
-      display: inline;
-      margin-right: 10px;
       font-size: 20px;
+      margin-bottom: 10px;
     }
 
-    &__role {
-      padding-top: 10px;
-    }
-
-    &__btn-item {
-      width: 20px;
-      height: 20px;
-    }
-
-    &__link {
-      font-size: 8px;
-      padding: 5px 10px;
+    &__img {
+      margin-top: -10px;
     }
   }
 }

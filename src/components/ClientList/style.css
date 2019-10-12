@@ -66,7 +66,8 @@
   width: 25px;
   height: 25px;
   display: none;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
 .client__link > svg {
   width: 10px;
   transform: rotate(-45deg);
