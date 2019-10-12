@@ -10,20 +10,28 @@ export default [
     mainFoto: "./img/persons/NoemieBeier/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/NoemieBeier/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/NoemieBeier/personPhoto/photo-3.jpg",
+    awards: [
+      "Best Actor in a Negative Role Hum Award winners 2019.",
+      "Hollywood Film Award for Best Actor 2018.",
+      "Art Prize of the German Democratic Republic 2018.",
+      "Raigam Tele'es Best Teledrama Actor Award 2019.",
+      "Sumathi Best Teledrama Actor Award2017."
+    ],
     articles: [
       {
-        id: "p2cFFNf0u",
+        id: "vG6Uo8cQ30eeEh9",
         shortDescription:
           "To Love and to Be Loved - This Is the Psychology of Love",
         date: "2019-06-09T15:03:23.000Z",
-        img: ""
+        img: "https://img.viva.ua/pictures/content/25/25866.jpg"
       },
       {
-        id: "p2up2cFF",
+        id: "Lw_HBA3PDALM8qg",
         shortDescription:
           "5 Effects That Migraines Can Have On Your Mental Health",
         date: "2018-04-09T18:03:23.000Z",
-        img: ""
+        img:
+          "https://atlantablackstar.com/wp-content/uploads/2013/07/migraine.jpg"
       }
     ]
   },
@@ -38,18 +46,25 @@ export default [
     mainFoto: "./img/persons/AmosDach/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/AmosDach/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/AmosDach/personPhoto/photo-3.jpg",
+    awards: [
+      "Hollywood Supporting Actress Award 2018.",
+      "AVN Award for Best Actor 2018.",
+      "Golden Boot Awards 2019.",
+      "ITA Award for Best Actress in a Negative Role 2019."
+    ],
     article: [
       {
-        id: "XQknHTpgFY",
+        id: "uSvSopTzvct1JN3",
         shortDescription: "How Exercise Improves Mental Health.",
         date: "2019-06-02T11:03:23.000Z",
-        img: ""
+        img: "https://miro.medium.com/max/3200/1*PCS-DoKajyYOWXzlK_9LwA.jpeg"
       },
       {
-        id: "rvH0UXQkn",
+        id: "ny3ZZtW5OSePWKC",
         shortDescription: "Can Supplements Help Your Long Term Brain Function?",
         date: "2016-05-19T23:03:23.000Z",
-        img: ""
+        img:
+          "https://img2.abo.media/upload/article/o_1dj6e5e0b27cin81m329f4dk30.jpg"
       }
     ]
   },
@@ -64,20 +79,29 @@ export default [
     mainFoto: "./img/persons/LincolnGlover/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/LincolnGlover/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/LincolnGlover/personPhoto/photo-3.jpg",
+    awards: [
+      "Young Artist Award 2017.",
+      "he Gielgud Award 2018.",
+      "ITA Award for Best Actress in a Negative Role 2018.",
+      "AVN Award for Male Performer of the Year 2019.",
+      "Hollywood Film Award for Best Actor 2019.",
+      "Raigam Tele'es Best Teledrama Actor Award 2019."
+    ],
     article: [
       {
-        id: "8Ea0mvkx5Zz",
+        id: "mLVX77WFLQF8d4z",
         shortDescription:
           "5 Teenage Addictions That Are Often Underestimated – Until It's Too Late.",
         date: "2016-06-04T15:03:23.000Z",
-        img: ""
+        img:
+          "https://mamovediya.com.ua/uploads/content/2017/11/10/source/vospytanye-podrostka-6382x.png"
       },
       {
-        id: "sl5a8Ea0mv",
+        id: "JxU4NWz_JewcMcr",
         shortDescription:
           "Time for a 'back to basics' approach? Getting to grips with HOW people learn .",
         date: "2018-06-08T19:03:23.000Z",
-        img: ""
+        img: "https://ak7.picdn.net/shutterstock/videos/9610337/thumb/1.jpg"
       }
     ]
   },
@@ -92,19 +116,30 @@ export default [
     mainFoto: "./img/persons/GloverLincoln/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/GloverLincoln/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/GloverLincoln/personPhoto/photo-3.jpg",
+    awards: [
+      "Raigam Tele'es Best Teledrama Actor Award 2019.",
+      "Young Artist Award 2017.",
+      "AVN Award for Male Performer of the Year 2019.",
+      "Hollywood Film Award for Best Actor 2019.",
+      "he Gielgud Award 2018.",
+      "ITA Award for Best Actress in a Negative Role 2018.",
+      "Awards for young actors and actresses‎  2019."
+    ],
     article: [
       {
-        id: "FpxPIRjohDg",
+        id: "0qpPasOGAuvc7rL",
         shortDescription: "How Your Lifestyle Affects Your Mental Health .",
         date: "2019-06-08T19:03:23.000Z",
-        img: ""
+        img:
+          "https://www.ministeriodesalud.go.cr/images/stories/ImagenesMS/2019/Prensa_2019/img_reduce_tabaco_cr_2019.jpg"
       },
       {
-        id: "DxLLFpxPIRjo",
+        id: "JxU4NWz_JewcMcr",
         shortDescription:
           "Sustaining a Life-Changing Injury at Work: The Steps to Take  .",
         date: "2017-06-08T19:03:23.000Z",
-        img: ""
+        img:
+          "http://dtek-dnem.com.ua/wp-content/uploads/2019/06/для-защиты-сотрудников-специальное-снаряжение.jpg"
       }
     ]
   },
@@ -119,18 +154,26 @@ export default [
     mainFoto: "./img/persons/TeresaKuphal/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/TeresaKuphal/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/TeresaKuphal/personPhoto/photo-3.jpg",
+    awards: [
+      "Film awards for lead actor 2018.",
+      "Goya Award for Best Editing 2018.",
+      "Baeksang Arts Awards for Most Popular Actor (Film) 2019.",
+      "Raigam Tele'es Best Upcoming Teledrama Actor Award 2019."
+    ],
     article: [
       {
-        id: "d2N4mOFaOSx",
+        id: "ZakEp6d0jT3Aa2O",
         shortDescription: "How Exercise Improves Mental Health.",
         date: "2016-09-17T14:03:23.000Z",
-        img: ""
+        img:
+          "http://tatarbunar-rda.odessa.gov.ua/files/tatarbunar-rda/Anya/folder/51218454_1973973536240508_8438491481047564288_n.jpg"
       },
       {
-        id: "iC7Id2N4mOF",
+        id: "MQK7vguTqNT8v2d",
         shortDescription: "Can Supplements Help Your Long Term Brain Function?",
         date: "2019-12-17T04:43:23.000Z",
-        img: ""
+        img:
+          "https://img2.abo.media/upload/article/o_1dj6e5e0b27cin81m329f4dk30.jpg"
       }
     ]
   },
@@ -146,19 +189,28 @@ export default [
     mainFoto: "./img/persons/SherwoodWill/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/SherwoodWill/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/SherwoodWill/personPhoto/photo-3.jpg",
+    awards: [
+      "Alabama Jazz Hall of Fame 2017.",
+      "Hawaiian Music Hall of Fame 2017.",
+      "The Southern Legends Entertainment & Performing Arts 2018.",
+      "Western Music Association Hall of Fame 2018.",
+      "Rhythm and Blues Music Hall of Fame 2019.",
+      "Canadian Country Music Hall of Fame 2019"
+    ],
     article: [
       {
-        id: "ND0P3BHh74W",
+        id: "EiZV6vNroFbCKJd",
         shortDescription:
           "How To Help Your Loved One Bounce Back After Addiction.",
         date: "2016-09-17T14:03:23.000Z",
-        img: ""
+        img:
+          "https://previews.123rf.com/images/tverdohlib/tverdohlib1609/tverdohlib160902089/62698164-young-couple-of-handsome-bearded-man-with-long-beard-smoking-cigarette-and-sexy-woman-in-checkered-s.jpg"
       },
       {
-        id: "7y6uND0P3BH",
+        id: "42U9GDwEiUNvBxo",
         shortDescription: "HIV Stigma - How Can You Deal With It? ",
         date: "2018-04-17T10:40:23.000Z",
-        img: ""
+        img: "https://www.5.ua/media/pictures/original/154254.jpg"
       }
     ]
   },
@@ -174,24 +226,33 @@ export default [
     mainFoto: "./img/persons/EllsworthYost/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/EllsworthYost/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/EllsworthYost/personPhoto/photo-3.jpg",
+    awards: [
+      "Franco Abbiati Prize 2017.",
+      "Raigam Tele'es Best Teledrama Music Director Award 2017.",
+      "The Southern Legends Entertainment & Performing Arts 2018.",
+      "UK Music Video Awards 2018.",
+      "City People Entertainment Awards 2019.",
+      "Midlands Music Awards 2019"
+    ],
     article: [
       {
-        id: "eyFi9O9t11P",
+        id: "q2nkfTjlg09q3RP",
         shortDescription:
           "Compassion and Friendship: 7 Ways to Uplift a Friend Struggling from Depression .",
         date: "2018-12-17T14:03:21.000Z",
-        img: ""
+        img: "https://i.work.ua/article/1696b.jpg"
       },
       {
-        id: "9O9t11PGTS6",
+        id: "qMb1xCiDw9gw_8f",
         shortDescription: "Money Psychology .",
         date: "2019-07-17T10:20:23.000Z",
-        img: ""
+        img:
+          "https://woman-psy.com/upload/iblock/131/%D0%B0%D0%B5%D1%80%D0%BA%D0%B5%D1%80%20%281%29.jpg"
       }
     ]
   },
   {
-    id: "KOtAYUTmgkvcohZ",
+    id: "KOtAYUojvfvcohZ",
     firstName: "Rodriguez",
     lastName: "Ruby",
     type: ["musician"],
@@ -202,19 +263,27 @@ export default [
     mainFoto: "./img/persons/RodriguezRuby/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/RodriguezRuby/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/RodriguezRuby/personPhoto/photo-3.jpg",
+    awards: [
+      "Grammy Award for Best Country Collaboration with Vocals 2017.",
+      "American Music Award for Collaboration of the Year 2018.",
+      "The Southern Legends Entertainment & Performing Arts 2018.",
+      "MTV Video Music Award Japan for Best Collaboration 2018.",
+      "Lo Nuestro Award for Collaboration of the Year 2019."
+    ],
     article: [
       {
-        id: "YUTmgkvcohZ",
+        id: "jmjPzNh3z_PQHKW",
         shortDescription:
           "Napping - The Good, The Bad, And How To Do It Properly .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://arqdosono.com.br/blog/wp-content/uploads/2017/10/middle-aged-beautiful-woman-sleeping-in-bed_1262-6148.jpg"
       },
       {
-        id: "KOtAYUTmgkv",
+        id: "tTDIgstl_pbnsdp",
         shortDescription: "Is Depression Really On The Rise? If So, Why? ",
         date: "2018-01-24:20:23.000Z",
-        img: ""
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
       }
     ]
   },
@@ -229,19 +298,27 @@ export default [
     mainFoto: "./img/persons/RubyRodriguez/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/RubyRodriguez/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/RubyRodriguez/personPhoto/photo-3.jpg",
+    awards: [
+      "Golden Gramophone Award 2016.",
+      "MTV Pilipinas for Favorite Group Video 2017.",
+      "Premios 40 Principales for Best International Album 2018.",
+      "BBC Scotland Young Traditional Musician of the Year 2019."
+    ],
     article: [
       {
-        id: "YUTmgkvcohZ",
+        id: "GHAZALBNszX4WVC",
         shortDescription:
           "Napping - The Good, The Bad, And How To Do It Properly .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "http://www.propaganda-eg.com/wp-content/uploads/2019/07/comment-soigner-la-fatigue.jpg"
       },
       {
-        id: "KOtAYUTmgkv",
+        id: "5LkhWV2SXRu_Sba",
         shortDescription: "Is Depression Really On The Rise? If So, Why? ",
         date: "2018-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://cdn.filzor.ru/wp-content/uploads/2019/08/870x489_107x80_detail_crop_60544987f64ea7634a381494c217642f.jpg"
       }
     ]
   },
@@ -257,20 +334,30 @@ export default [
     mainFoto: "./img/persons/FloydAnderson/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/FloydAnderson/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/FloydAnderson/personPhoto/photo-3.jpg",
+    awards: [
+      "ECNY Awards 2016.",
+      "NAACP Image Award for Outstanding Comedy Series 2018.",
+      "Grammy Award for Best Comedy Album 2018.",
+      "Thurber Prize for American Humor 2019.",
+      "BBC New Comedy Award 2019.",
+      "Leicester Mercury Comedian of the Year 2019."
+    ],
     article: [
       {
-        id: "GjAwzyp2PCp",
+        id: "0qpPasOGAuvc7rL",
         shortDescription:
           "Comedy Wildlife Photography Awards 2019: Here are the finalists .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://cdn.filzor.ru/wp-content/uploads/2019/08/870x489_107x80_detail_crop_60544987f64ea7634a381494c217642f.jpg"
       },
       {
-        id: "zyp2PCp4OYd",
+        id: "SHTKu0An21epHpu",
         shortDescription:
           "This Week's Top Comedy Video: 10 Best Lifehacks for Living Alone . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://www.k1.ua/uploads/media/photo/2015/05/13/5a45dfd2a8e8d7f0dba8ccd91f28f88e8486faea.jpg"
       }
     ]
   },
@@ -286,18 +373,29 @@ export default [
     mainFoto: "./img/persons/MoisesSchowalter/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/MoisesSchowalter/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/MoisesSchowalter/personPhoto/photo-3.jpg",
+    awards: [
+      "So You Think You're Funny 2017.",
+      "Midlands Comedy Awards 2018.",
+      "City Life Comedian of the Year 2018.",
+      "Bollinger Everyman Wodehouse Prize 2019.",
+      "Stephen Leacock Memorial Medal for Humour 2019.",
+      "Russell Prize 2019.",
+      "Juno Award for Comedy Album of the Year 2019."
+    ],
     article: [
       {
-        id: "Ki7iZjkfJIv",
+        id: "3GDRwFZW_24s3Bp",
         shortDescription: "The Funny Thing About Abusive Relationships .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://cdn.lifehack.org/wp-content/uploads/2018/09/verbally-abusive-relationship-1024x768.jpeg"
       },
       {
-        id: "n7SUKi7iZjk",
+        id: "X4qLVpPUDreCySk",
         shortDescription: "Half-Truths, Non-Truths, and Louis C.K . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://timeincsecure-a.akamaihd.net/rtmp_uds/219646971/201709/336/219646971_5573777845001_5573773904001-th.jpg?pubId=219646971&videoId=5573773904001"
       }
     ]
   },
@@ -313,18 +411,29 @@ export default [
     mainFoto: "./img/persons/MervinJacobson/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/MervinJacobson/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/MervinJacobson/personPhoto/photo-3.jpg",
+    awards: [
+      "Stephen Leacock Memorial Medal for Humour 2017.",
+      "Midlands Comedy Awards 2018.",
+      "Stephen Leacock Memorial Medal for Humour 2018.",
+      "Russell Prize 2018.",
+      "City Life Comedian of the Year 2018.",
+      "Bollinger Everyman Wodehouse Prize 2019.",
+      "Juno Award for Comedy Album of the Year 2019."
+    ],
     article: [
       {
-        id: "r32cyTkpAO3",
+        id: "3GDRwFZW_24s3Bp",
         shortDescription: "The Funny Thing About Abusive Relationships .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://cdn.lifehack.org/wp-content/uploads/2018/09/verbally-abusive-relationship-1024x768.jpeg"
       },
       {
-        id: "1YDar32cyTk",
+        id: "X4qLVpPUDreCySk",
         shortDescription: "Half-Truths, Non-Truths, and Louis C.K . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://nationalpostcom.files.wordpress.com/2017/11/0926_ar_louis_ck-1.jpg"
       }
     ]
   },
@@ -340,19 +449,28 @@ export default [
     mainFoto: "./img/persons/AparnaNancherla/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/AparnaNancherla/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/AparnaNancherla/personPhoto/photo-3.jpg",
+    awards: [
+      "International Festival of the Humor of Bordighera 2017.",
+      "Deutscher Comedypreis 2018.",
+      "Billy T Award 2018.",
+      "Bollinger Everyman Wodehouse Prize 2019.",
+      "Kerala Sahitya Akademi Award for Humour 2019."
+    ],
     article: [
       {
-        id: "hmSHalRCSrg",
+        id: "6rhUuA77378i1jS",
         shortDescription: "My Adventures in Going Viral .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://static01.nyt.com/images/2016/05/29/opinion/sunday/29flores/29flores-superJumbo.jpg?quality=90&auto=webp"
       },
       {
-        id: "dSkMhmSHalR",
+        id: "N6tzHcdohLCu831",
         shortDescription:
           "‘I broke the contract’: how Hannah Gadsby's trauma transformed comedy . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://www.sbs.com.au/topics/sites/sbs.com.au.topics/files/hannah_g.jpg"
       }
     ]
   },
@@ -368,19 +486,28 @@ export default [
     mainFoto: "./img/persons/ShaniyaCassin/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/ShaniyaCassin/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/ShaniyaCassin/personPhoto/photo-3.jpg",
+    awards: [
+      "Bollinger Everyman Wodehouse Prize 2017.",
+      "Stephen Leacock Memorial Medal for Humour 2018.",
+      "Thurber Prize for American Humor 2018.",
+      "Kerala Sahitya Akademi Award for Humour 2019.",
+      "NAACP Image Award for Outstanding Comedy Series 2019."
+    ],
     article: [
       {
-        id: "Udhfdbvq1eW",
+        id: "HgIWK_NwyNWzIlQ",
         shortDescription:
           "This Entrepreneur Raised $2M With A Five-Slide Presentation -- About Nothing .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://hicenter.co.il/wp-content/uploads/2017/09/conference-2705706_1920-1920x1080.jpg"
       },
       {
-        id: "ShWSUdhfdbv",
+        id: "C2H3cLKvBWe9QwP",
         shortDescription: "Great TV 2014: Not a List, Not in Order . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://media.newyorker.com/photos/590964f46552fa0be682ecd3/master/w_2046,c_limit/Nussbaum-Great-TV-2014.jpg"
       }
     ]
   },
@@ -396,19 +523,29 @@ export default [
     mainFoto: "./img/persons/MallieMarvin/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/MallieMarvin/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/MallieMarvin/personPhoto/photo-3.jpg",
+    awards: [
+      "Isabella Blow Award for Fashion Creator 2017.",
+      "Swarovski Award for Positive Change 2017.",
+      "Model of the Year 2018.",
+      "British Designer of the Year - Womenswear 2019.",
+      "Urban Luxe Award 2019.",
+      "Accessories Designer of the Yea 2019."
+    ],
     article: [
       {
-        id: "L7wWuElWi7o",
+        id: "XmwKlAXl7kmYwqu",
         shortDescription:
           "Inspired by Kim Kardashian, a feverish legion of followers struggle to achieve online fame .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
       },
       {
-        id: "uElWi7oQU5p",
+        id: "nkNx03kt4Pnw_nv",
         shortDescription: "Why fashion models don’t smile . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Fashion%20Shows%20By%20Noura%20Alswailem%20%2C%20via%20Wikimedia%20Commons.jpg?itok=2hqxjidc"
       }
     ]
   },
@@ -424,20 +561,31 @@ export default [
     mainFoto: "./img/persons/ZionSchultz/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/ZionSchultz/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/ZionSchultz/personPhoto/photo-3.jpg",
+    awards: [
+      "New Establishment Designer 2017.",
+      "British Style - Fashion Innovator 2017.",
+      "Red Carpet 2018.",
+      "Emerging Womenswear Designe 2019.",
+      "British Style Award 2019.",
+      "Accessories Designer of the Yea 2019.",
+      "Hall of Fame 2019."
+    ],
     article: [
       {
-        id: "sU1hncIirB",
+        id: "QFtlq0ngPQwzqct",
         shortDescription:
           "Anorexia is an illness – not something we can simply blame on the media .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://images.theconversation.com/files/179596/original/file-20170725-11526-1wnciz9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
       },
       {
-        id: "tvvgsU1hncI",
+        id: "nJLpHsihsn4TD4G",
         shortDescription:
           "Weighing the evidence for banning skinny catwalk models . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://assets.change.org/photos/9/rf/mf/gtrFmfokfxNqxKm-1600x900-noPad.jpg?1495464317"
       }
     ]
   },
@@ -453,19 +601,29 @@ export default [
     mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    awards: [
+      "Contemporary Designer 2017.",
+      "British Style - Fashion Innovator 2017.",
+      "New Generation Designer 2018.",
+      "Emerging Womenswear Designe 2019.",
+      "BContemporary Designer 2019.",
+      "Accessories Designer of the Yea 2019."
+    ],
     article: [
       {
-        id: "LzbO_7JDhi7",
+        id: "uenSeagxWxsWYsH",
         shortDescription:
           "Damned if you do and damned if you don’t – why body image needs regulation .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://a.optmnstr.com/users/6db32459bd37/images/5c37a158174b1533847285-blog-inline-relationshipmistakes.jpg"
       },
       {
-        id: "3LuGLzbO_7J",
+        id: "Iy3xqrSxFbmOZpC",
         shortDescription: "The story of … the supermodel. ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img:
+          "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg"
       }
     ]
   },
@@ -481,18 +639,28 @@ export default [
     mainFoto: "./img/persons/DollyKoss/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/DollyKoss/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/DollyKoss/personPhoto/photo-3.jpg",
+    awards: [
+      "British Menswear Designer of the Year 2017.",
+      "Ready-to-Wear Designer of the Year 2017.",
+      "Fashion Icon (voted for by the public) 2018.",
+      "Outstanding Achievement Award 2019.",
+      "warovski Award for Positive Change 2019.",
+      "Accessories Designer of the Yea 2019.",
+      "Urban Luxury 2019."
+    ],
     article: [
       {
-        id: "r00WQkQQuUx",
+        id: "SYmX6ZRGtXB20QT",
         shortDescription: "Infants, Adults and Novelty. ",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://i.dailymail.co.uk/i/pix/2017/10/19/13/457DF4B100000578-0-image-a-15_1508414568952.jpg"
       },
       {
-        id: "QkQQuUxTNW1",
+        id: "mkExdROETf8w0pG",
         shortDescription: "The Easy Way To Manage A Flu This Fall.",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img: "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg"
       }
     ]
   },
@@ -508,18 +676,29 @@ export default [
     mainFoto: "./img/persons/AlenaWindler/personPhoto/photo-1.jpg",
     profileFoto: "./img/persons/AlenaWindler/personPhoto/photo-2.jpg",
     pressFoto: "./img/persons/AlenaWindler/personPhoto/photo-3.jpg",
+    awards: [
+      "Relentlessly Resolute Award 2017.",
+      "Dedicated Stalwart Award 2017.",
+      "Ardent Techie Award 2018.",
+      "Innovator Technology Award  2019.",
+      "Exceptional Travel and Hospitality Award 2019.",
+      "Outstanding Media & Entertainment Award 2019.",
+      "Savvy Luxury Retail Award 2019.",
+      "Tenacious Property and Construction Award  2019."
+    ],
     article: [
       {
-        id: "MXWLU45971_",
+        id: "Ju2dVQImOC3A1yy",
         shortDescription: "Resilience, Satisfaction and Happiness  .",
         date: "2019-09-17:03:21.000Z",
-        img: ""
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
       },
       {
-        id: "ikdlMXWLU45",
+        id: "6ghnqmQfuajJ7xt",
         shortDescription: "Why is Laughter Contagious? . ",
         date: "2019-01-24:20:23.000Z",
-        img: ""
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
       }
     ]
   }
