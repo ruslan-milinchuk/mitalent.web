@@ -5,10 +5,14 @@ import ArrowRight from "../../icons/ArrowRight";
 
 class PersonCardList extends Component {
   render() {
-    const { data, history } = this.props;
+    const { data, history, startPath } = this.props;
+    let startPathCheck = "";
+    if (startPath !== undefined) {
+      startPathCheck = startPath;
+    }
     return data.map((item, index) => (
       <div key={index} className="client__card">
-        <img src={item.mainFoto} alt="client image" />
+        <img src={`${startPathCheck}${item.mainFoto}`} alt="client image" />
         <h3 className="client__name">
           {item.firstName} {item.lastName}
         </h3>
