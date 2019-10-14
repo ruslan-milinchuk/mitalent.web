@@ -18,11 +18,9 @@ class CustomerGroups extends Component {
   componentDidMount() {
     const { role } = this.props;
     let { type } = this.state;
-    if (role !== undefined) {
-      type = role[0];
-    }
+
     const filterWithRole = persons.filter(item => {
-      return item.type.includes(type);
+      return item.type.includes(role ? role[0] : type);
     });
     this.setState({ data: persons, filterData: filterWithRole });
   }

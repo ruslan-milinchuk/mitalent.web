@@ -28,12 +28,7 @@ class Profile extends Component {
     const { history } = this.props;
     const { pathname } = history.location;
     const idPerson = pathname.split("/")[2];
-    const neededPerson = [];
-    persons.map(item => {
-      if (idPerson === item.id) {
-        neededPerson.push(item);
-      }
-    });
+    let neededPerson = persons.filter(item => idPerson === item.id)[0];
     const { categoryActive, categoryProfile, categoryAwards } = this.state;
     const {
       firstName,
@@ -41,8 +36,8 @@ class Profile extends Component {
       profileFoto,
       articles,
       pressFoto
-    } = neededPerson[0];
-    const { type, contact } = neededPerson[0];
+    } = neededPerson;
+    const { type, contact } = neededPerson;
     const { address, phone, email } = contact;
     return (
       <div>

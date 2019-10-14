@@ -11,12 +11,7 @@ class ProfileSlider extends Component {
   render() {
     const { currentIndex } = this.state;
     const { idPerson } = this.props;
-    const neededPerson = [];
-    persons.map(item => {
-      if (idPerson === item.id) {
-        neededPerson.push(item);
-      }
-    });
+    let neededPerson = persons.filter(item => idPerson === item.id)[0];
     const {
       firstName,
       lastName,
@@ -24,7 +19,7 @@ class ProfileSlider extends Component {
       mainFoto,
       profileFoto,
       pressFoto
-    } = neededPerson[0];
+    } = neededPerson;
     let list = [];
     list.push(mainFoto, profileFoto, pressFoto);
     let role = type;
