@@ -119,7 +119,8 @@
     max-width: 50%;
     padding: 0 0 0 165px;
     box-sizing: border-box;
-    background: black;
+    background: url("../../img/profile-bg.jpg");
+    background-size: cover;
     margin-left: -20px; }
 .profile__article {
   display: flex;
@@ -128,6 +129,10 @@
   overflow: hidden;
   margin-bottom: 10px;
   cursor: pointer; }
+  .profile__article:hover .profile__article-title {
+    color: #b5d2d3; }
+  .profile__article:hover .profile__article-date {
+    color: white; }
   .profile__article-title {
     font-family: Seconda;
     color: white; }
@@ -145,6 +150,61 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 20px; }
+.profile__contact {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .profile__contact-title {
+    position: relative;
+    font-size: 47px;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding: 0 0 25px; }
+    .profile__contact-title:after {
+      position: unset;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 120px;
+      border-bottom: 2px black solid; }
+  .profile__contact-data {
+    width: 420px;
+    box-shadow: 5px 5px 9px 3px #b5d2d3;
+    padding: 60px;
+    font-family: Seconda; }
+  .profile__contact-subtitle {
+    font-size: 40px;
+    font-weight: 100;
+    margin: 25px 0 15px;
+    color: #b5d2d3;
+    line-height: 1; }
+    .profile__contact-subtitle:first-child {
+      margin-top: 0; }
+  .profile__contact-description {
+    font-size: 22px;
+    margin-bottom: 35px;
+    color: #919191;
+    text-decoration: none; }
+
+.similar-clients__title {
+  position: relative;
+  font-family: Seconda;
+  font-size: 47px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 0 0 25px;
+  margin: 65px 0 65px 150px; }
+  .similar-clients__title:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    border-bottom: 2px black solid; }
+.similar-clients .customer-groups__btn-wrapper {
+  display: none; }
 
 @media screen and (max-width: 1200px) {
   .profile__btn-s {
@@ -212,7 +272,10 @@
     font-size: 16px;
     line-height: 1.4;
     padding-left: 35px;
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .similar-clients__title {
+    margin: 45px 0 45px 55px; } }
 @media screen and (max-width: 834px) {
   .profile__press-img {
     display: none; }
@@ -242,7 +305,30 @@
   .profile__article {
     max-height: 115px; }
   .profile__press-info {
-    padding: 30px; } }
+    padding: 30px; }
+  .profile__contact {
+    padding: 15px;
+    align-items: flex-start; }
+    .profile__contact-title {
+      position: relative;
+      padding: 0 0 25px;
+      margin: 0 0 45px 40px;
+      font-size: 35px; }
+      .profile__contact-title:after {
+        position: absolute; }
+    .profile__contact-data {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 40px; }
+    .profile__contact-subtitle {
+      font-size: 30px;
+      margin: 45px 0 15px; }
+    .profile__contact-description {
+      font-size: 20px; }
+
+  .similar-clients__title {
+    font-size: 35px;
+    padding: 0 0 15px; } }
 @media screen and (max-width: 476px) {
   .profile__buttons {
     display: none; }
@@ -263,7 +349,24 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 180px; } }
+    max-width: 180px; }
+  .profile__contact {
+    padding: 15px 0; }
+    .profile__contact-title {
+      font-size: 28px;
+      padding: 0 0 20px;
+      margin: 0 0 45px 15px; }
+    .profile__contact-data {
+      padding: 20px; }
+    .profile__contact-subtitle {
+      font-size: 24px;
+      margin: 35px 0 15px; }
+    .profile__contact-description {
+      font-size: 16px; }
+
+  .similar-clients__title {
+    font-size: 28px;
+    margin: 45px 0 45px 15px; } }
 @media screen and (max-width: 375px) {
   .profile__article-title {
     max-width: 156px; } }

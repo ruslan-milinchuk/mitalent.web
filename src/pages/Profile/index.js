@@ -5,6 +5,7 @@ import "./style.css";
 import CategoryProfile from "../../components/CategoryProfile";
 import CategoryAwards from "../../components/CategoryAwards";
 import ButtonsSocial from "../../components/ButtonsSocial";
+import CustomerGroups from "../../components/CustomerGroups";
 
 class Profile extends Component {
   state = {
@@ -12,6 +13,17 @@ class Profile extends Component {
     categoryProfile: "profile",
     categoryAwards: "awards"
   };
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      window.scrollTo(0, 0);
+    }
+  }
+
   render() {
     const { history } = this.props;
     const { pathname } = history.location;
@@ -27,10 +39,11 @@ class Profile extends Component {
       firstName,
       lastName,
       profileFoto,
-      article,
+      articles,
       pressFoto
     } = neededPerson[0];
-    console.log("neededPerson[0]", neededPerson[0]);
+    const { type, contact } = neededPerson[0];
+    const { address, phone, email } = contact;
     return (
       <div>
         <ProfileSlider idPerson={idPerson} />
@@ -81,40 +94,72 @@ class Profile extends Component {
               <br /> on Press
             </h4>
             <div
-              onClick={() => history.push(`/news/${article[0].id}`)}
+              onClick={() => history.push(`/news/${articles[0].id}`)}
               className="profile__article"
             >
               <div className="profile__article-img">
-                <img src={article[0].img} alt="" />
+                <img src={articles[0].img} alt="" />
               </div>
               <div className="profile__article-data">
                 <div className="profile__article-title">
-                  {article[0].shortDescription}
+                  {articles[0].shortDescription}
                 </div>
                 <div className="profile__article-date">
-                  {new Date(article[0].date).toDateString()}
+                  {new Date(articles[0].date).toDateString()}
                 </div>
               </div>
             </div>
             <div
-              onClick={() => history.push(`/news/${article[1].id}`)}
+              onClick={() => history.push(`/news/${articles[1].id}`)}
               className="profile__article"
             >
               <div className="profile__article-img">
-                <img src={article[1].img} alt="" />
+                <img src={articles[1].img} alt="" />
               </div>
               <div className="profile__article-data">
                 <div className="profile__article-title">
-                  {article[1].shortDescription}
+                  {articles[1].shortDescription}
                 </div>
                 <div className="profile__article-date">
-                  {new Date(article[1].date).toDateString()}
+                  {new Date(articles[1].date).toDateString()}
                 </div>
               </div>
             </div>
           </div>
           <div className="profile__press-img">
             <img src={`.${pressFoto}`} alt="press foto" />
+          </div>
+        </div>
+        <div className="similar-clients">
+          <h4 className="similar-clients__title">Similar clients</h4>
+          <CustomerGroups role={type} startPath="../." />
+        </div>
+        <div className="profile__contact" id="contact">
+          <h4 className="profile__contact-title">{`Contact ${firstName}`}</h4>
+          <div className="profile__contact-data">
+            <h3 className="profile__contact-subtitle">Address</h3>
+            <a
+              className="profile__contact-description"
+              href="#"
+              target="_blank"
+            >
+              {address}
+            </a>
+            <h3 className="profile__contact-subtitle">Phone</h3>
+            <a
+              className="profile__contact-description"
+              href={`tel:${phone}`}
+              target="_blank"
+            >
+              {phone}
+            </a>
+            <h3 className="profile__contact-subtitle">Email</h3>
+            <a
+              className="profile__contact-description"
+              href={`mailto:${email}`}
+            >
+              {email}
+            </a>
           </div>
         </div>
       </div>

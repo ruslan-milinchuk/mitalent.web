@@ -170,7 +170,8 @@
       max-width: 50%;
       padding: 0 0 0 165px;
       box-sizing: border-box;
-      background: black;
+      background: url("../../img/profile-bg.jpg");
+      background-size: cover;
       margin-left: -20px;
     }
   }
@@ -182,6 +183,14 @@
     overflow: hidden;
     margin-bottom: 10px;
     cursor: pointer;
+
+    &:hover &-title {
+      color: #b5d2d3;
+    }
+
+    &:hover &-date {
+      color: white;
+    }
 
     &-title {
       font-family: Seconda;
@@ -209,6 +218,81 @@
       justify-content: space-between;
       padding-left: 20px;
     }
+  }
+
+  &__contact {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      position: relative;
+      font-size: 47px;
+      font-weight: 100;
+      text-transform: capitalize;
+      padding: 0 0 25px;
+
+      &:after {
+        position: unset;
+        content: "";
+        bottom: 0;
+        left: 0;
+        width: 120px;
+        border-bottom: 2px black solid;
+      }
+    }
+
+    &-data {
+      width: 420px;
+      box-shadow: 5px 5px 9px 3px #b5d2d3;
+      padding: 60px;
+      font-family: Seconda;
+    }
+
+    &-subtitle {
+      font-size: 40px;
+      font-weight: 100;
+      margin: 25px 0 15px;
+      color: #b5d2d3;
+      line-height: 1;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    &-description {
+      font-size: 22px;
+      margin-bottom: 35px;
+      color: #919191;
+      text-decoration: none;
+    }
+  }
+}
+
+.similar-clients {
+  &__title {
+    position: relative;
+    font-family: Seconda;
+    font-size: 47px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 0 0 25px;
+    margin: 65px 0 65px 150px;
+
+    &:after {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      width: 120px;
+      border-bottom: 2px black solid;
+    }
+  }
+  & .customer-groups__btn-wrapper {
+    display: none;
   }
 }
 
@@ -336,6 +420,11 @@
       max-width: 100%;
     }
   }
+  .similar-clients {
+    &__title {
+      margin: 45px 0 45px 55px;
+    }
+  }
 }
 
 @media screen and (max-width: 834px) {
@@ -401,6 +490,44 @@
     &__press-info {
       padding: 30px;
     }
+
+    &__contact {
+      padding: 15px;
+      align-items: flex-start;
+
+      &-title {
+        position: relative;
+        padding: 0 0 25px;
+        margin: 0 0 45px 40px;
+        font-size: 35px;
+
+        &:after {
+          position: absolute;
+        }
+      }
+
+      &-data {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 40px;
+      }
+
+      &-subtitle {
+        font-size: 30px;
+        margin: 45px 0 15px;
+      }
+
+      &-description {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .similar-clients {
+    &__title {
+      font-size: 35px;
+      padding: 0 0 15px;
+    }
   }
 }
 
@@ -441,6 +568,34 @@
         max-width: 180px;
       }
     }
+
+    &__contact {
+      padding: 15px 0;
+
+      &-title {
+        font-size: 28px;
+        padding: 0 0 20px;
+        margin: 0 0 45px 15px;
+      }
+
+      &-data {
+        padding: 20px;
+      }
+
+      &-subtitle {
+        font-size: 24px;
+        margin: 35px 0 15px;
+      }
+
+      &-description {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .similar-clients__title {
+    font-size: 28px;
+    margin: 45px 0 45px 15px;
   }
 }
 
