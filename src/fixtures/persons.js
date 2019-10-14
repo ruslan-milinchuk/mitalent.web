@@ -33,7 +33,12 @@ export default [
         img:
           "https://atlantablackstar.com/wp-content/uploads/2013/07/migraine.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Port Lucianoland, IL 89644",
+      phone: "1-526-679-4754 x94388",
+      email: "NoemieBeier@yahoo.com"
+    }
   },
   {
     id: "rvH0UXQknHTpgFY",
@@ -52,7 +57,7 @@ export default [
       "Golden Boot Awards 2019.",
       "ITA Award for Best Actress in a Negative Role 2019."
     ],
-    article: [
+    articles: [
       {
         id: "uSvSopTzvct1JN3",
         shortDescription: "How Exercise Improves Mental Health.",
@@ -66,7 +71,12 @@ export default [
         img:
           "https://img2.abo.media/upload/article/o_1dj6e5e0b27cin81m329f4dk30.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Adrianachester, CA 66206",
+      phone: "790.625.7825 x774",
+      email: "AmosDach@yahoo.com"
+    }
   },
   {
     id: "sl5a8Ea0mvkx5Zz",
@@ -87,7 +97,7 @@ export default [
       "Hollywood Film Award for Best Actor 2019.",
       "Raigam Tele'es Best Teledrama Actor Award 2019."
     ],
-    article: [
+    articles: [
       {
         id: "mLVX77WFLQF8d4z",
         shortDescription:
@@ -103,7 +113,12 @@ export default [
         date: "2018-06-08T19:03:23.000Z",
         img: "https://ak7.picdn.net/shutterstock/videos/9610337/thumb/1.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Rodrickmouth, VA 81671",
+      phone: "(067) 806-7682 x81596",
+      email: "LincolnGlover@yahoo.com"
+    }
   },
   {
     id: "DxLLFpxPIRjohDg",
@@ -125,7 +140,7 @@ export default [
       "ITA Award for Best Actress in a Negative Role 2018.",
       "Awards for young actors and actresses‎  2019."
     ],
-    article: [
+    articles: [
       {
         id: "0qpPasOGAuvc7rL",
         shortDescription: "How Your Lifestyle Affects Your Mental Health .",
@@ -141,7 +156,12 @@ export default [
         img:
           "http://dtek-dnem.com.ua/wp-content/uploads/2019/06/для-защиты-сотрудников-специальное-снаряжение.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "New Marcuston, SD 02769-9801",
+      phone: "427.417.5893 x24511",
+      email: "GloverLincoln@yahoo.com"
+    }
   },
   {
     id: "iC7Id2N4mOFaOSx",
@@ -160,7 +180,7 @@ export default [
       "Baeksang Arts Awards for Most Popular Actor (Film) 2019.",
       "Raigam Tele'es Best Upcoming Teledrama Actor Award 2019."
     ],
-    article: [
+    articles: [
       {
         id: "ZakEp6d0jT3Aa2O",
         shortDescription: "How Exercise Improves Mental Health.",
@@ -175,7 +195,12 @@ export default [
         img:
           "https://img2.abo.media/upload/article/o_1dj6e5e0b27cin81m329f4dk30.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "North Mireyatown, MO 48739-9763",
+      phone: "954.958.7324 x44893",
+      email: "TeresaKuphal@yahoo.com"
+    }
   },
   {
     id: "7y6uND0P3BHh74W",
@@ -197,7 +222,7 @@ export default [
       "Rhythm and Blues Music Hall of Fame 2019.",
       "Canadian Country Music Hall of Fame 2019"
     ],
-    article: [
+    articles: [
       {
         id: "EiZV6vNroFbCKJd",
         shortDescription:
@@ -212,7 +237,12 @@ export default [
         date: "2018-04-17T10:40:23.000Z",
         img: "https://www.5.ua/media/pictures/original/154254.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Isacton, ME 15588-9976",
+      phone: "954.958.7324 x44893",
+      email: "SherwoodWill@yahoo.com"
+    }
   },
   {
     id: "eyFi9O9t11PGTS6",
@@ -234,7 +264,7 @@ export default [
       "City People Entertainment Awards 2019.",
       "Midlands Music Awards 2019"
     ],
-    article: [
+    articles: [
       {
         id: "q2nkfTjlg09q3RP",
         shortDescription:
@@ -249,7 +279,12 @@ export default [
         img:
           "https://woman-psy.com/upload/iblock/131/%D0%B0%D0%B5%D1%80%D0%BA%D0%B5%D1%80%20%281%29.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Lueilwitzfurt, WY 44330",
+      phone: "(877) 798-5335 x09222",
+      email: "EllsworthYost@yahoo.com"
+    }
   },
   {
     id: "KOtAYUojvfvcohZ",
@@ -270,7 +305,7 @@ export default [
       "MTV Video Music Award Japan for Best Collaboration 2018.",
       "Lo Nuestro Award for Collaboration of the Year 2019."
     ],
-    article: [
+    articles: [
       {
         id: "jmjPzNh3z_PQHKW",
         shortDescription:
@@ -285,7 +320,12 @@ export default [
         date: "2018-01-24:20:23.000Z",
         img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Lueilwitzfurt, WY 44330",
+      phone: "(877) 798-5335 x09222",
+      email: "RodriguezRuby@yahoo.com"
+    }
   },
   {
     id: "KOtAYUTmgkvcohZ",
@@ -304,7 +344,7 @@ export default [
       "Premios 40 Principales for Best International Album 2018.",
       "BBC Scotland Young Traditional Musician of the Year 2019."
     ],
-    article: [
+    articles: [
       {
         id: "GHAZALBNszX4WVC",
         shortDescription:
@@ -320,7 +360,12 @@ export default [
         img:
           "https://cdn.filzor.ru/wp-content/uploads/2019/08/870x489_107x80_detail_crop_60544987f64ea7634a381494c217642f.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Lindmouth, DE 56034",
+      phone: "482-089-0183 x5922",
+      email: "RubyRodriguez@yahoo.com"
+    }
   },
   {
     id: "GjAwzyp2PCp4OYd",
@@ -342,7 +387,7 @@ export default [
       "BBC New Comedy Award 2019.",
       "Leicester Mercury Comedian of the Year 2019."
     ],
-    article: [
+    articles: [
       {
         id: "0qpPasOGAuvc7rL",
         shortDescription:
@@ -359,7 +404,12 @@ export default [
         img:
           "https://www.k1.ua/uploads/media/photo/2015/05/13/5a45dfd2a8e8d7f0dba8ccd91f28f88e8486faea.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "West Malvinastad, RI 96117",
+      phone: "774.651.9010 x25152",
+      email: "FloydAnderson@yahoo.com"
+    }
   },
   {
     id: "n7SUKi7iZjkfJIv",
@@ -382,7 +432,7 @@ export default [
       "Russell Prize 2019.",
       "Juno Award for Comedy Album of the Year 2019."
     ],
-    article: [
+    articles: [
       {
         id: "3GDRwFZW_24s3Bp",
         shortDescription: "The Funny Thing About Abusive Relationships .",
@@ -397,7 +447,12 @@ export default [
         img:
           "https://timeincsecure-a.akamaihd.net/rtmp_uds/219646971/201709/336/219646971_5573777845001_5573773904001-th.jpg?pubId=219646971&videoId=5573773904001"
       }
-    ]
+    ],
+    contact: {
+      address: "Olentown, AR 48779",
+      phone: "200-503-0385 x5557",
+      email: "MoisesSchowalter@yahoo.com"
+    }
   },
   {
     id: "1YDar32cyTkpAO3",
@@ -420,7 +475,7 @@ export default [
       "Bollinger Everyman Wodehouse Prize 2019.",
       "Juno Award for Comedy Album of the Year 2019."
     ],
-    article: [
+    articles: [
       {
         id: "3GDRwFZW_24s3Bp",
         shortDescription: "The Funny Thing About Abusive Relationships .",
@@ -435,7 +490,12 @@ export default [
         img:
           "https://nationalpostcom.files.wordpress.com/2017/11/0926_ar_louis_ck-1.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Morarberg, AL 01897",
+      phone: "1-052-672-0805 x12230",
+      email: "MervinJacobson@yahoo.com"
+    }
   },
   {
     id: "dSkMhmSHalRCSrg",
@@ -456,7 +516,7 @@ export default [
       "Bollinger Everyman Wodehouse Prize 2019.",
       "Kerala Sahitya Akademi Award for Humour 2019."
     ],
-    article: [
+    articles: [
       {
         id: "6rhUuA77378i1jS",
         shortDescription: "My Adventures in Going Viral .",
@@ -472,7 +532,12 @@ export default [
         img:
           "https://www.sbs.com.au/topics/sites/sbs.com.au.topics/files/hannah_g.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "West Jaylonfurt, ME 88924-5829",
+      phone: "(434) 411-3386 x8794",
+      email: "AparnaNancherla@yahoo.com"
+    }
   },
   {
     id: "ShWSUdhfdbvq1eW",
@@ -493,7 +558,7 @@ export default [
       "Kerala Sahitya Akademi Award for Humour 2019.",
       "NAACP Image Award for Outstanding Comedy Series 2019."
     ],
-    article: [
+    articles: [
       {
         id: "HgIWK_NwyNWzIlQ",
         shortDescription:
@@ -509,7 +574,12 @@ export default [
         img:
           "https://media.newyorker.com/photos/590964f46552fa0be682ecd3/master/w_2046,c_limit/Nussbaum-Great-TV-2014.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Gerlachfurt, AR 15974",
+      phone: "568.702.1307 x8059",
+      email: "ShaniyaCassin@yahoo.com"
+    }
   },
   {
     id: "L7wWuElWi7oQU5p",
@@ -531,7 +601,7 @@ export default [
       "Urban Luxe Award 2019.",
       "Accessories Designer of the Yea 2019."
     ],
-    article: [
+    articles: [
       {
         id: "XmwKlAXl7kmYwqu",
         shortDescription:
@@ -547,7 +617,12 @@ export default [
         img:
           "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Fashion%20Shows%20By%20Noura%20Alswailem%20%2C%20via%20Wikimedia%20Commons.jpg?itok=2hqxjidc"
       }
-    ]
+    ],
+    contact: {
+      address: "Velmaport, SD 79092",
+      phone: "(813) 690-3248 x2791",
+      email: "MallieMarvin@yahoo.com"
+    }
   },
   {
     id: "tvvgsU1hncIirBl",
@@ -570,7 +645,7 @@ export default [
       "Accessories Designer of the Yea 2019.",
       "Hall of Fame 2019."
     ],
-    article: [
+    articles: [
       {
         id: "QFtlq0ngPQwzqct",
         shortDescription:
@@ -587,7 +662,12 @@ export default [
         img:
           "https://assets.change.org/photos/9/rf/mf/gtrFmfokfxNqxKm-1600x900-noPad.jpg?1495464317"
       }
-    ]
+    ],
+    contact: {
+      address: "Boydbury, OH 54275-6782",
+      phone: "(058) 611-3535 x8955",
+      email: "ZionSchultz@yahoo.com"
+    }
   },
   {
     id: "3LuGLzbO_7JDhi7",
@@ -609,7 +689,7 @@ export default [
       "BContemporary Designer 2019.",
       "Accessories Designer of the Yea 2019."
     ],
-    article: [
+    articles: [
       {
         id: "uenSeagxWxsWYsH",
         shortDescription:
@@ -625,7 +705,12 @@ export default [
         img:
           "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "North Eli, PA 44295",
+      phone: "1-241-824-0051 x526",
+      email: "AniyaMonahan@yahoo.com"
+    }
   },
   {
     id: "r00WQkQQuUxTNW1",
@@ -648,7 +733,7 @@ export default [
       "Accessories Designer of the Yea 2019.",
       "Urban Luxury 2019."
     ],
-    article: [
+    articles: [
       {
         id: "SYmX6ZRGtXB20QT",
         shortDescription: "Infants, Adults and Novelty. ",
@@ -662,7 +747,12 @@ export default [
         date: "2019-01-24:20:23.000Z",
         img: "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "Zulaufview, IN 48973",
+      phone: "(812) 353-4915 x57518",
+      email: "DollyKoss@yahoo.com"
+    }
   },
   {
     id: "ikdlMXWLU45971_",
@@ -686,7 +776,7 @@ export default [
       "Savvy Luxury Retail Award 2019.",
       "Tenacious Property and Construction Award  2019."
     ],
-    article: [
+    articles: [
       {
         id: "Ju2dVQImOC3A1yy",
         shortDescription: "Resilience, Satisfaction and Happiness  .",
@@ -700,6 +790,11 @@ export default [
         date: "2019-01-24:20:23.000Z",
         img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
       }
-    ]
+    ],
+    contact: {
+      address: "East Ubaldoville, MA 28052-7612",
+      phone: "215-960-7471 x93952",
+      email: "AlenaWindler@yahoo.com"
+    }
   }
 ];
