@@ -109,9 +109,11 @@
     padding: 20px 50px;
     background-color: white;
     text-decoration: none;
-    font-size: 14px; }
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 10; }
     .person__link:hover {
-      color: grey; }
+      color: #b5d2d3; }
 
 @media screen and (max-width: 1300px) {
   .person__content {
