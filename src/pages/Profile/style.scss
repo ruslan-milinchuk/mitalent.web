@@ -221,21 +221,17 @@
   }
 
   &__contact {
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     &-title {
       position: relative;
+      font-family: Seconda;
       font-size: 47px;
-      font-weight: 100;
+      font-weight: 400;
       text-transform: capitalize;
       padding: 0 0 25px;
+      margin: 65px 0 45px 150px;
 
       &:after {
-        position: unset;
+        position: absolute;
         content: "";
         bottom: 0;
         left: 0;
@@ -245,29 +241,21 @@
     }
 
     &-data {
-      width: 420px;
-      box-shadow: 5px 5px 9px 3px #b5d2d3;
-      padding: 60px;
+      margin-left: 150px;
       font-family: Seconda;
-    }
-
-    &-subtitle {
-      font-size: 40px;
-      font-weight: 100;
-      margin: 25px 0 15px;
-      color: #b5d2d3;
-      line-height: 1;
-
-      &:first-child {
-        margin-top: 0;
-      }
+      list-style-type: decimal;
+      font-size: 18px;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      text-decoration: none;
     }
 
     &-description {
-      font-size: 22px;
-      margin-bottom: 35px;
-      color: #919191;
+      color: black;
       text-decoration: none;
+      &:hover {
+        color: #b5d2d3;
+      }
     }
   }
 }
@@ -419,6 +407,16 @@
       padding-left: 35px;
       max-width: 100%;
     }
+
+    &__contact {
+      &-title {
+        margin: 45px 0 45px 55px;
+      }
+
+      &-data {
+        margin-left: 55px;
+      }
+    }
   }
   .similar-clients {
     &__title {
@@ -492,33 +490,9 @@
     }
 
     &__contact {
-      padding: 15px;
-      align-items: flex-start;
-
       &-title {
-        position: relative;
-        padding: 0 0 25px;
-        margin: 0 0 45px 40px;
         font-size: 35px;
-
-        &:after {
-          position: absolute;
-        }
-      }
-
-      &-data {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 40px;
-      }
-
-      &-subtitle {
-        font-size: 30px;
-        margin: 45px 0 15px;
-      }
-
-      &-description {
-        font-size: 20px;
+        padding: 0 0 15px;
       }
     }
   }
@@ -570,25 +544,13 @@
     }
 
     &__contact {
-      padding: 15px 0;
-
       &-title {
         font-size: 28px;
-        padding: 0 0 20px;
-        margin: 0 0 45px 15px;
+        margin: 45px 0 45px 15px;
       }
 
       &-data {
-        padding: 20px;
-      }
-
-      &-subtitle {
-        font-size: 24px;
-        margin: 35px 0 15px;
-      }
-
-      &-description {
-        font-size: 16px;
+        margin-left: 15px;
       }
     }
   }

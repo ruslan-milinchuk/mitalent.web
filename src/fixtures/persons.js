@@ -36,8 +36,8 @@ export default [
     ],
     contact: {
       address: "Port Lucianoland, IL 89644",
-      phone: "1-526-679-4754 x94388",
-      email: "NoemieBeier@yahoo.com"
+      phone: "+49-790-65210421",
+      email: "Beier@yahoo.com"
     }
   },
   {
@@ -74,8 +74,8 @@ export default [
     ],
     contact: {
       address: "Adrianachester, CA 66206",
-      phone: "790.625.7825 x774",
-      email: "AmosDach@yahoo.com"
+      phone: "+49-405-9524660",
+      email: "Dach@yahoo.com"
     }
   },
   {
@@ -116,8 +116,8 @@ export default [
     ],
     contact: {
       address: "Rodrickmouth, VA 81671",
-      phone: "(067) 806-7682 x81596",
-      email: "LincolnGlover@yahoo.com"
+      phone: "+49-887-88024666",
+      email: "Glover@yahoo.com"
     }
   },
   {
@@ -159,8 +159,8 @@ export default [
     ],
     contact: {
       address: "New Marcuston, SD 02769-9801",
-      phone: "427.417.5893 x24511",
-      email: "GloverLincoln@yahoo.com"
+      phone: "+49-640-38555556",
+      email: "Lincoln@yahoo.com"
     }
   },
   {
@@ -198,8 +198,8 @@ export default [
     ],
     contact: {
       address: "North Mireyatown, MO 48739-9763",
-      phone: "954.958.7324 x44893",
-      email: "TeresaKuphal@yahoo.com"
+      phone: "+49-064-0020058",
+      email: "Kuphal@yahoo.com"
     }
   },
   {
@@ -240,8 +240,8 @@ export default [
     ],
     contact: {
       address: "Isacton, ME 15588-9976",
-      phone: "954.958.7324 x44893",
-      email: "SherwoodWill@yahoo.com"
+      phone: "+49-518-2016587",
+      email: "Will@yahoo.com"
     }
   },
   {
@@ -282,8 +282,8 @@ export default [
     ],
     contact: {
       address: "Lueilwitzfurt, WY 44330",
-      phone: "(877) 798-5335 x09222",
-      email: "EllsworthYost@yahoo.com"
+      phone: "+49-570-36281482",
+      email: "Yost@yahoo.com"
     }
   },
   {
@@ -323,8 +323,8 @@ export default [
     ],
     contact: {
       address: "Lueilwitzfurt, WY 44330",
-      phone: "(877) 798-5335 x09222",
-      email: "RodriguezRuby@yahoo.com"
+      phone: "+49-406-19214100",
+      email: "Ruby@yahoo.com"
     }
   },
   {
@@ -363,8 +363,8 @@ export default [
     ],
     contact: {
       address: "Lindmouth, DE 56034",
-      phone: "482-089-0183 x5922",
-      email: "RubyRodriguez@yahoo.com"
+      phone: "+49-321-6683410",
+      email: "Rodriguez@yahoo.com"
     }
   },
   {
@@ -407,8 +407,8 @@ export default [
     ],
     contact: {
       address: "West Malvinastad, RI 96117",
-      phone: "774.651.9010 x25152",
-      email: "FloydAnderson@yahoo.com"
+      phone: "+49-261-0907414",
+      email: "Anderson@yahoo.com"
     }
   },
   {
@@ -450,8 +450,8 @@ export default [
     ],
     contact: {
       address: "Olentown, AR 48779",
-      phone: "200-503-0385 x5557",
-      email: "MoisesSchowalter@yahoo.com"
+      phone: "+49-395-33764013",
+      email: "Schowalter@yahoo.com"
     }
   },
   {
@@ -493,8 +493,8 @@ export default [
     ],
     contact: {
       address: "Morarberg, AL 01897",
-      phone: "1-052-672-0805 x12230",
-      email: "MervinJacobson@yahoo.com"
+      phone: "+49-272-26659422",
+      email: "Jacobson@yahoo.com"
     }
   },
   {
@@ -535,8 +535,8 @@ export default [
     ],
     contact: {
       address: "West Jaylonfurt, ME 88924-5829",
-      phone: "(434) 411-3386 x8794",
-      email: "AparnaNancherla@yahoo.com"
+      phone: "+49-084-69465506",
+      email: "Nancherla@yahoo.com"
     }
   },
   {
@@ -577,8 +577,8 @@ export default [
     ],
     contact: {
       address: "Gerlachfurt, AR 15974",
-      phone: "568.702.1307 x8059",
-      email: "ShaniyaCassin@yahoo.com"
+      phone: "+49-935-5408957",
+      email: "Cassin@yahoo.com"
     }
   },
   {
@@ -621,7 +621,7 @@ export default [
     contact: {
       address: "Velmaport, SD 79092",
       phone: "(813) 690-3248 x2791",
-      email: "MallieMarvin@yahoo.com"
+      email: "Marvin@yahoo.com"
     }
   },
   {
@@ -665,8 +665,8 @@ export default [
     ],
     contact: {
       address: "Boydbury, OH 54275-6782",
-      phone: "(058) 611-3535 x8955",
-      email: "ZionSchultz@yahoo.com"
+      phone: "+49-699-84712296",
+      email: "Schultz@yahoo.com"
     }
   },
   {
@@ -708,8 +708,8 @@ export default [
     ],
     contact: {
       address: "North Eli, PA 44295",
-      phone: "1-241-824-0051 x526",
-      email: "AniyaMonahan@yahoo.com"
+      phone: "+49-892-75543388",
+      email: "Monahan@yahoo.com"
     }
   },
   {
@@ -750,8 +750,8 @@ export default [
     ],
     contact: {
       address: "Zulaufview, IN 48973",
-      phone: "(812) 353-4915 x57518",
-      email: "DollyKoss@yahoo.com"
+      phone: "+49-714-25217450",
+      email: "Koss@yahoo.com"
     }
   },
   {
@@ -793,8 +793,8 @@ export default [
     ],
     contact: {
       address: "East Ubaldoville, MA 28052-7612",
-      phone: "215-960-7471 x93952",
-      email: "AlenaWindler@yahoo.com"
+      phone: "+49-813-464-18330",
+      email: "Windler@yahoo.com"
     }
   }
 ];
