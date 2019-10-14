@@ -7,12 +7,7 @@ import persons from "../../fixtures/persons";
 class PersonShortInfo extends Component {
   render() {
     const { history, idPerson } = this.props;
-    let neededPerson = null;
-    persons.map(item => {
-      if (idPerson === item.id) {
-        neededPerson = item;
-      }
-    });
+    let neededPerson = persons.filter(item => idPerson === item.id)[0];
 
     const { firstName, lastName, createAt, mainFoto } = neededPerson;
     return (

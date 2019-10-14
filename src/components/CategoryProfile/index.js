@@ -4,7 +4,7 @@ import Star from "../../icons/Star";
 class CategoryProfile extends Component {
   render() {
     const { infoCategory } = this.props;
-    const { shortDescription, mainDescription, awards } = infoCategory[0];
+    const { shortDescription, mainDescription, awards } = infoCategory;
     const lastAwards = awards[awards.length - 1];
     return (
       <div className="profile__description">
