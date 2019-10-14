@@ -2,20 +2,19 @@ import React, { Component } from "react";
 import { withRouter } from "react-router";
 
 import "./style.css";
-import articles from "../../fixtures/articles";
+import persons from "../../fixtures/persons";
+
 class PersonShortInfo extends Component {
   render() {
-    const { articles, history } = this.props;
-    const { firstName, lastName, img } = articles[0].person;
-    const { createAt } = articles[0];
-    const { pathname } = history.location;
-    const idArticle = pathname.split("/")[2];
-    const idPerson = [];
-    articles.map(item => {
-      if (idArticle === item.id) {
-        idPerson.push(item.person.profileId);
+    const { history, idPerson } = this.props;
+    let neededPerson = null;
+    persons.map(item => {
+      if (idPerson === item.id) {
+        neededPerson = item;
       }
     });
+
+    const { firstName, lastName, createAt, mainFoto } = neededPerson;
     return (
       <div
         onClick={e => {
@@ -29,7 +28,7 @@ class PersonShortInfo extends Component {
             {new Date(createAt).toDateString()}
           </div>
         </div>
-        <img className="person-info__img" src={img} alt="" />
+        <img className="person-info__img" src={`../.${mainFoto}`} alt="" />
       </div>
     );
   }

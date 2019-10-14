@@ -36,10 +36,12 @@ class Article extends Component {
       additionalLongDescription
     } = neededArticle[0];
     const allQuoute = quoute.map((item, index) => <p key={index}>{item}</p>);
+    const { person } = neededArticle[0];
+    const { profileId } = person;
     return (
       <div className="article-info">
         <div className="article-info__main">
-          <PersonShortInfo articles={articles} />
+          <PersonShortInfo idPerson={profileId} />
           <div className="article-info__main-info">
             <h3 className="article-info__title">{title}</h3>
             <p className="article-info__type-article">{typeArticle[0]}</p>
@@ -50,7 +52,7 @@ class Article extends Component {
           <img className="article-info__first-img" src={slider[0]} alt="" />
         </div>
         <div className="article-info__short-description-wrapp">
-          <PersonShortInfo articles={articles} />
+          <PersonShortInfo idPerson={profileId} />
           <div className="article-info__short-description">
             <div className="article-info__quote">{allQuoute}</div>
             <div className="article-info__description">{longDescription}</div>
