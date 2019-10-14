@@ -12,6 +12,7 @@
       flex-direction: column;
       justify-content: space-between;
       width: 41.5%;
+      background: url("../../img/contact-us-bg.jpg");
       background-size: cover; }
     .contact__section-second {
       padding: 169px 0 12% 140px;

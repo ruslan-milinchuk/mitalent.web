@@ -1,28 +1,30 @@
-.contact{
+.contact {
   color: black;
   display: flex;
-  margin:  -90px 0 0 -20px ;
+  margin: -90px 0 0 -20px;
   width: 100%;
 
   &__section {
     color: white;
     display: flex;
     position: relative;
-    &-first{
+
+    &-first {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 41.5%;
+      background: url("../../img/contact-us-bg.jpg");
       background-size: cover;
     }
 
-    &-second{
+    &-second {
       padding: 169px 0 12% 140px;
       color: black;
     }
   }
 
-  &__title{
+  &__title {
     font-size: 69px;
     margin: 176px 0 0 30%;
     font-family: Helvetica;
@@ -31,14 +33,14 @@
     transform: rotateX(15deg);
   }
 
-  &__divider{
+  &__divider {
     width: 51px;
     border-bottom: 5px white solid;
     display: inline-block;
     margin-left: 30px;
   }
 
-  &__short-description{
+  &__short-description {
     margin-top: 42px;
     text-transform: uppercase;
     letter-spacing: 2.3px;
@@ -47,11 +49,11 @@
     font-weight: bold;
   }
 
-  &__btn{
+  &__btn {
     display: flex;
     justify-content: flex-end;
     height: 73px;
-    &-info{
+    &-info {
       border: none;
       outline: none;
       width: 52%;
@@ -63,14 +65,14 @@
       color: white;
     }
 
-    &-navigation{
+    &-navigation {
       width: 73px;
       border: none;
       outline: none;
     }
   }
 
-  &__info{
+  &__info {
     position: relative;
     max-width: 36vw;
     padding-right: 56px;
@@ -78,19 +80,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &:after{
-      content: '';
+    &:after {
+      content: "";
       position: absolute;
       width: 46%;
       height: 100%;
       background: #b4d4d3;
       right: -46%;
-
-    ;
     }
   }
 
-  &__description{
+  &__description {
     font-family: Seconda;
     margin-bottom: 59px;
 
@@ -100,34 +100,36 @@
       font-size: 55px;
       float: left;
       font-weight: lighter;
-      margin: 0 10px -15px 0 ;
+      margin: 0 10px -15px 0;
     }
-
   }
 
-  &__location{
+  &__location {
     color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  &__coordinates, &__phone, &__mail{
+  &__coordinates,
+  &__phone,
+  &__mail {
     display: flex;
     min-width: 40%;
-    margin: 21px 15px 21px 0;  }
+    margin: 21px 15px 21px 0;
+  }
 
-  &__svg{
+  &__svg {
     padding-top: 7px;
 
-    &-date{
+    &-date {
       margin-left: 20px;
       letter-spacing: 1px;
       font-size: 11px;
-      &>a {
+      & > a {
         text-decoration: none;
         line-height: 23px;
-        color: rgba(167,167,167,.9);
+        color: rgba(167, 167, 167, 0.9);
         display: block;
       }
     }
@@ -135,24 +137,24 @@
 }
 
 @media screen and(max-width:1250px) {
-  .contact{
-    &__coordinates, &__phone, &__mail {
-
+  .contact {
+    &__coordinates,
+    &__phone,
+    &__mail {
       margin: 10px 10px 10px 0;
     }
   }
 }
 
 @media screen and(max-width:1024px) {
-  .contact{
-    &__info{
+  .contact {
+    &__info {
       max-width: 42vw;
       padding-right: 60px;
     }
 
-    &__section{
-
-      &-first{
+    &__section {
+      &-first {
         width: 50%;
       }
 
@@ -164,20 +166,19 @@
 }
 
 @media screen and(max-width:868px) {
-  .contact{
-
-    &__title{
+  .contact {
+    &__title {
       font-size: 53px;
     }
 
     &__description:first-letter {
-        font-size: 48px;
+      font-size: 48px;
     }
 
-    &__info{
-     padding-right: 0;
+    &__info {
+      padding-right: 0;
 
-      &:after{
+      &:after {
         display: none;
       }
     }
@@ -185,22 +186,21 @@
 }
 
 @media screen and(max-width:735px) {
-  .contact{
-
-    &__title{
+  .contact {
+    &__title {
       margin: 120px auto 0;
     }
 
-    &__btn{
+    &__btn {
       width: 100%;
       height: 50px;
       justify-content: unset;
 
-      &-navigation{
+      &-navigation {
         width: 16%;
       }
 
-      &-info{
+      &-info {
         width: 84%;
       }
     }
@@ -208,36 +208,38 @@
 }
 
 @media screen and(max-width:630px) {
-  .contact{
+  .contact {
     flex-direction: column;
     margin: -90px 0 0 0;
 
-    &__title{
-        margin: 120px auto 86px;
+    &__title {
+      margin: 120px auto 86px;
     }
 
-    &__section{
-
+    &__section {
       &-first {
-        width: 100%;      }
+        width: 100%;
+      }
 
       &-second {
         padding: 90px 0 0 20px;
       }
     }
 
-    &__coordinates, &__phone, &__mail {
+    &__coordinates,
+    &__phone,
+    &__mail {
       margin-top: 10px;
     }
 
-    &__info{
+    &__info {
       max-width: 100%;
     }
 
-    &__btn{
+    &__btn {
       justify-content: flex-end;
 
-      &-info{
+      &-info {
         width: 170px;
       }
 
@@ -248,9 +250,8 @@
   }
 }
 @media screen and(max-width:440px) {
-  .contact{
-
-    &__section-second{
+  .contact {
+    &__section-second {
       padding: 45px 0 0 0;
     }
 
