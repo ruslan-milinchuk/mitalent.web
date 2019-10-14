@@ -25,7 +25,7 @@ class SliderWrapper extends Component {
   }
 
   render() {
-    const { position, filterData, onClick, dataLength } = this.props;
+    const { position, filterData, onClick, dataLength, startPath } = this.props;
     const { maxItemLength } = this.state;
     return (
       <div className="customer-groups__slider">
@@ -41,7 +41,7 @@ class SliderWrapper extends Component {
         )}
         <div className="client__list-wrapper">
           <div style={{ marginLeft: position }} className="client__list-slider">
-            <ClientList data={filterData} />
+            <ClientList data={filterData} startPath={startPath} />
           </div>
         </div>
         {dataLength > maxItemLength && (

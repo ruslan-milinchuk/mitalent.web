@@ -16,7 +16,11 @@ class CustomerGroups extends Component {
   };
 
   componentDidMount() {
-    const { type } = this.state;
+    const { role } = this.props;
+    let { type } = this.state;
+    if (role !== undefined) {
+      type = role[0];
+    }
     const filterWithRole = persons.filter(item => {
       return item.type.includes(type);
     });
@@ -24,6 +28,7 @@ class CustomerGroups extends Component {
   }
 
   render() {
+    const { startPath } = this.props;
     const { type, filterData, position } = this.state;
     return (
       <div className="customer-groups">
@@ -35,6 +40,7 @@ class CustomerGroups extends Component {
           />
         </div>
         <SliderWrapper
+          startPath={startPath}
           dataLength={filterData.length}
           filterData={filterData}
           position={position}

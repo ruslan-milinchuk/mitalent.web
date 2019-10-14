@@ -1,12 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import PersonCardList from "../PersonCardList";
 import "./style.css";
 
-const ClientList = ({ data }) => {
-  return (
-    <div  className="client__list" >
-      <PersonCardList data={data} />
-    </div>
-  );
-};
+class ClientList extends Component {
+  render() {
+    const { startPath, data } = this.props;
+    return (
+      <div className="client__list">
+        <PersonCardList data={data} startPath={startPath} />
+      </div>
+    );
+  }
+}
 export default ClientList;
