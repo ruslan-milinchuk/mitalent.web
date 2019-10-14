@@ -25,7 +25,6 @@ class ProfileSlider extends Component {
       profileFoto,
       pressFoto
     } = neededPerson[0];
-    console.log("neededPerson", neededPerson);
     let list = [];
     list.push(mainFoto, profileFoto, pressFoto);
     let role = type;
@@ -67,8 +66,8 @@ class ProfileSlider extends Component {
         </div>
         <div className="person__img">
           <img src={`.${list[currentIndex]}`} alt="" />
-          <a className="person__link" href={link}>
-            Enquire about {firstName}
+          <a className="person__link" href="#contact">
+            Contact {firstName}
           </a>
         </div>
         <div className="person__btn-arrow_disp-none">

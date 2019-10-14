@@ -153,9 +153,11 @@
     background-color: white;
     text-decoration: none;
     font-size: 14px;
+    cursor: pointer;
+    z-index: 10;
 
     &:hover {
-      color: grey;
+      color: #b5d2d3;
     }
   }
 }
