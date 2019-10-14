@@ -11,7 +11,7 @@ const ContactUs = () => (
       <div className="contact__title">
         Contact <br />
         us
-        <div className="contact__divider"></div>
+        <div className="contact__divider"/>
         <div className="contact__short-description">Mass impressions</div>
       </div>
 
