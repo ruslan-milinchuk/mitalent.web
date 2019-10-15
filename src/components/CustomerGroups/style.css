@@ -43,6 +43,7 @@
   padding: 10px;
   cursor: pointer; }
   .customer-groups .arrow-unactive {
+    cursor: no-drop;
     color: grey; }
 
 @media screen and (max-width: 1111px) {

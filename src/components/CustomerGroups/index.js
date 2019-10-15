@@ -11,18 +11,32 @@ class CustomerGroups extends Component {
   state = {
     position: 0,
     type: "musician",
+    allType: "",
     data: [],
     filterData: []
   };
 
   componentDidMount() {
-    const { role } = this.props;
+    const { defaultRole, addRole } = this.props;
+    if (addRole) {
+      this.setState({
+        data: persons,
+        filterData: persons,
+        type: addRole,
+        allType: addRole
+      });
+      if (role.indexOf(addRole) === -1) {
+        role.unshift(addRole);
+      }
+    }
     let { type } = this.state;
 
-    const filterWithRole = persons.filter(item => {
-      return item.type.includes(role ? role[0] : type);
-    });
-    this.setState({ data: persons, filterData: filterWithRole });
+    if (!addRole) {
+      const filterWithRole = persons.filter(item => {
+        return item.type.includes(defaultRole ? defaultRole[0] : type);
+      });
+      this.setState({ data: persons, filterData: filterWithRole });
+    }
   }
 
   render() {
@@ -49,14 +63,24 @@ class CustomerGroups extends Component {
   }
 
   changeRole = value => {
-    const { data } = this.state;
+    const { data, allType } = this.state;
 
     const filterDataWithRole = data.filter(item => {
       const { type } = item;
       return type.includes(value);
     });
 
-    this.setState({ filterData: filterDataWithRole, type: value, position: 0 });
+    if (value === allType) {
+      this.setState({ filterData: persons, type: allType, position: 0 });
+    }
+
+    if (value !== allType) {
+      this.setState({
+        filterData: filterDataWithRole,
+        type: value,
+        position: 0
+      });
+    }
   };
 }
 
