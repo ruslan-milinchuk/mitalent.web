@@ -6,7 +6,7 @@ import "./style.css";
 import SliderWrapper from "../SliderWrapper";
 
 const role = ["actor", "musician", "comedian", "model"];
-
+const STANDARD_ROLE_LENGTH = 4;
 class CustomerGroups extends Component {
   state = {
     position: 0,
@@ -36,6 +36,10 @@ class CustomerGroups extends Component {
         return item.type.includes(defaultRole ? defaultRole[0] : type);
       });
       this.setState({ data: persons, filterData: filterWithRole });
+    }
+
+    if (role.length > STANDARD_ROLE_LENGTH && addRole === undefined) {
+      role.splice(0, 1);
     }
   }
 

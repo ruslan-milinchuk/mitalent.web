@@ -93,7 +93,6 @@ class Clients extends Component {
         <div className="clients__list">
           <CustomerGroups defaultRole={[addRole]} addRole={addRole} />
         </div>
-        <CustomerGroups />
       </div>
     );
   }
