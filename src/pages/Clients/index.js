@@ -4,6 +4,9 @@ import "./style.css";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
+import CustomerGroups from "../../components/CustomerGroups";
+
+const addRole = "all";
 
 class Clients extends Component {
   state = {
@@ -33,6 +36,7 @@ class Clients extends Component {
       profileFoto,
       pressFoto
     } = this.state.defaultPerson;
+    console.log("type", type);
     const list = [];
     list.push(mainFoto, profileFoto, pressFoto);
     return (
@@ -86,6 +90,9 @@ class Clients extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="clients__list">
+          <CustomerGroups defaultRole={[addRole]} addRole={addRole} />
         </div>
       </div>
     );
