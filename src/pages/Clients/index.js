@@ -4,6 +4,10 @@ import "./style.css";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
+import ButtonsGroupsClients from "../../components/ButtonsGroupsClients";
+import PersonCardList from "../../components/PersonCardList";
+
+const role = ["all", "actor", "comedian", "model", "musician"];
 
 class Clients extends Component {
   state = {
@@ -87,6 +91,7 @@ class Clients extends Component {
             </div>
           </div>
         </div>
+        <CustomerGroupsClients />
       </div>
     );
   }
@@ -122,6 +127,61 @@ class Clients extends Component {
 
   renderIndex = index => {
     return index + 1 >= 10 ? index + 1 : "0" + (index + 1);
+  };
+}
+
+class CustomerGroupsClients extends Component {
+  state = {
+    position: 0,
+    data: persons,
+    filterData: [],
+    type: role[0]
+  };
+
+  componentDidMount() {
+    this.changeRole(role[0]);
+  }
+
+  render() {
+    const { type, filterData, data } = this.state;
+    return (
+      <div className="clients__list-wrapper">
+        <div className="clients__list">
+          <div className="clients__list-buttons">
+            <ButtonsGroupsClients
+              activeType={type}
+              changeRole={this.changeRole}
+              role={role}
+            />
+          </div>
+          <div className="clients__card-wrapper">
+            <PersonCardList data={filterData} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  changeRole = value => {
+    const { data } = this.state;
+
+    const filterDataWithRole = data.filter(item => {
+      const { type } = item;
+      return type.includes(value);
+    });
+
+    if (value === role[0]) {
+      this.setState({ filterData: persons, type: role[0], position: 0 });
+    }
+
+    if (value !== role[0]) {
+      this.setState({
+        filterData: filterDataWithRole,
+        filterDataLength: filterDataWithRole.length,
+        type: value,
+        position: 0
+      });
+    }
   };
 }
 

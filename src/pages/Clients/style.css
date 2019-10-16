@@ -143,7 +143,32 @@
     color: #b5d2d3; }
 .clients__control-left {
   margin-bottom: 5px; }
+.clients__list-wrapper {
+  display: flex;
+  justify-content: center; }
+.clients__list {
+  display: flex;
+  flex-direction: column;
+  align-items: end; }
+.clients__list-buttons {
+  display: flex;
+  max-width: 1200px; }
+.clients__card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px; }
+.clients .client__card {
+  min-width: 300px;
+  height: 310px;
+  width: 300px; }
 
+@media screen and (max-width: 1245px) {
+  .clients__card-wrapper {
+    max-width: 900px; }
+  .clients .client__card {
+    min-width: 225px;
+    height: 275px;
+    width: 225px; } }
 @media screen and (max-width: 1165px) {
   .clients__info-wrapper {
     justify-content: center;
@@ -174,7 +199,13 @@
       border-bottom: 2px #b5d2d3 solid; }
   .clients__control-slider {
     min-width: 60px;
-    height: 80px; } }
+    height: 80px; }
+  .clients__card-wrapper {
+    max-width: 800px; }
+  .clients .client__card {
+    min-width: 200px;
+    height: 245px;
+    width: 200px; } }
 @media screen and (max-width: 871px) {
   .clients__social-numb {
     height: 365px; }
@@ -194,7 +225,13 @@
     height: 445px; }
     .clients__person-btn {
       height: 80px;
-      min-width: 300px; } }
+      min-width: 300px; }
+  .clients__card-wrapper {
+    max-width: 600px; }
+  .clients .client__card {
+    min-width: 300px;
+    height: 365px;
+    width: 300px; } }
 @media screen and (max-width: 762px) {
   .clients__person {
     min-width: 300px;
@@ -231,7 +268,13 @@
       min-width: 225px;
       padding-left: 40px; }
   .clients__control-slider {
-    min-width: 35px; } }
+    min-width: 35px; }
+  .clients__card-wrapper {
+    max-width: 550px; }
+  .clients .client__card {
+    min-width: 275px;
+    height: 335px;
+    width: 275px; } }
 @media screen and (max-width: 592px) {
   .clients__social-numb {
     height: 245px; }
@@ -276,7 +319,15 @@
     min-width: 30px;
     height: 50px; }
   .clients__control-left > svg, .clients__control-right > svg {
-    min-width: 10px; } }
+    min-width: 10px; }
+  .clients__list {
+    align-items: center; }
+  .clients__card-wrapper {
+    max-width: 430px; }
+  .clients .client__card {
+    min-width: 215px;
+    height: 265px;
+    width: 215px; } }
 @media screen and (max-width: 460px) {
   .clients__info-page {
     padding: 60px 0 35px 10px; }
@@ -313,6 +364,16 @@
     min-width: 25px;
     height: 40px; }
   .clients__control-left, .clients__control-right {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .clients__card-wrapper {
+    max-width: 320px; }
+  .clients .client__card {
+    min-width: 160px;
+    height: 195px;
+    width: 160px; }
+  .clients .customer-groups__btn, .clients .customer-groups__btn-active {
+    padding: 5px 9px;
+    font-size: 9px;
+    margin: 25px 0; } }
 
 /*# sourceMappingURL=style.css.map */
