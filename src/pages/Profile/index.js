@@ -127,7 +127,7 @@ class Profile extends Component {
         </div>
         <div className="similar-clients">
           <h4 className="similar-clients__title">Similar clients</h4>
-          <CustomerGroups defaultRole={type} startPath="../." />
+          <CustomerGroups defaultRole={type} startPath="../." role={type} />
         </div>
         <div className="profile__contact" id="contact">
           <h4 className="profile__contact-title">{`Contact ${firstName}`}</h4>

@@ -5,6 +5,8 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import CustomerGroups from "../../components/CustomerGroups";
 
+const role = ["actor", "musician", "comedian", "model"];
+
 class About extends Component {
   render() {
     return (
@@ -42,7 +44,7 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <CustomerGroups />
+        <CustomerGroups role={role} defaultRole={[role[3]]} />
       </div>
     );
   }

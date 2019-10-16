@@ -6,7 +6,8 @@ import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
 import CustomerGroups from "../../components/CustomerGroups";
 
-const addRole = "all";
+const defaultRole = "all";
+const role = ["all", "actor", "musician", "comedian", "model"];
 
 class Clients extends Component {
   state = {
@@ -91,7 +92,7 @@ class Clients extends Component {
           </div>
         </div>
         <div className="clients__list">
-          <CustomerGroups defaultRole={[addRole]} addRole={addRole} />
+          <CustomerGroups defaultRole={[defaultRole]} role={role} />
         </div>
       </div>
     );

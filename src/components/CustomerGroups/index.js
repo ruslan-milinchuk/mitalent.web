@@ -5,46 +5,37 @@ import ButtonsGroupsClients from "../ButtonsGroupsClients";
 import "./style.css";
 import SliderWrapper from "../SliderWrapper";
 
-const role = ["actor", "musician", "comedian", "model"];
-const STANDARD_ROLE_LENGTH = 4;
+const ALL_TYPES = "all";
+
 class CustomerGroups extends Component {
   state = {
     position: 0,
-    type: "musician",
-    allType: "",
+    type: "",
     data: [],
     filterData: []
   };
 
   componentDidMount() {
-    const { defaultRole, addRole } = this.props;
-    if (addRole) {
-      this.setState({
-        data: persons,
-        filterData: persons,
-        type: addRole,
-        allType: addRole
-      });
-      if (role.indexOf(addRole) === -1) {
-        role.unshift(addRole);
-      }
-    }
-    let { type } = this.state;
+    const { defaultRole } = this.props;
 
-    if (!addRole) {
-      const filterWithRole = persons.filter(item => {
-        return item.type.includes(defaultRole ? defaultRole[0] : type);
-      });
-      this.setState({ data: persons, filterData: filterWithRole });
-    }
-
-    if (role.length > STANDARD_ROLE_LENGTH && addRole === undefined) {
-      role.splice(0, 1);
+    let filterWithRole = null;
+    this.isAllRole(defaultRole)
+      ? (filterWithRole = persons)
+      : (filterWithRole = persons.filter(item => {
+          return item.type.includes(defaultRole[0]);
+        }));
+    this.setState({
+      data: persons,
+      filterData: filterWithRole,
+      type: defaultRole[0]
+    });
+    if (defaultRole[0] === ALL_TYPES) {
+      this.changeRole(defaultRole[0]);
     }
   }
 
   render() {
-    const { startPath } = this.props;
+    const { startPath, role } = this.props;
     const { type, filterData, position } = this.state;
     return (
       <div className="customer-groups">
@@ -67,24 +58,30 @@ class CustomerGroups extends Component {
   }
 
   changeRole = value => {
-    const { data, allType } = this.state;
+    const { data } = this.state;
 
     const filterDataWithRole = data.filter(item => {
       const { type } = item;
       return type.includes(value);
     });
 
-    if (value === allType) {
-      this.setState({ filterData: persons, type: allType, position: 0 });
+    if (value === ALL_TYPES) {
+      this.setState({ filterData: persons, type: ALL_TYPES, position: 0 });
     }
 
-    if (value !== allType) {
+    if (value !== ALL_TYPES) {
       this.setState({
         filterData: filterDataWithRole,
         type: value,
         position: 0
       });
     }
+  };
+
+  isAllRole = defaultRole => {
+    persons.map(item => {
+      return item.type[0] === defaultRole[0];
+    });
   };
 }
 
