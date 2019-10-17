@@ -153,6 +153,7 @@ class Clients extends Component {
             <ButtonsSocial component="connect" />
           </div>
         </div>
+        <h3 className="clients__news-title">Latest news</h3>
         <RandomArticle articles={articles} newArticleLength={6} />
       </div>
     );
