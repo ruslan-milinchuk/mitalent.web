@@ -13,8 +13,9 @@ export default [
     shortDescription:
       "September 2019 - Whether we are aware of it or not, love is all around us. If only we could realize it. There are many people who love us. Think of your family, friends, and the partners who cherish us. But the biggest question to ask ourselves is what love is.",
     slider: [
-      "https://img.viva.ua/pictures/content/25/25866.jpg",
-      "https://img.tsn.ua/cached/1567001687/tsn-f31867ea2500d8c162f8e1b3822736e1/thumbs/x/3a/38/98ae08a19296f9b68b10651dbaac383a.jpeg"
+      "https://images.unsplash.com/photo-1562337589-c234e07afe89?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1562324808-db86167e15dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=802&q=80",
+      "https://images.unsplash.com/photo-1503401639559-b16332601594?ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80"
     ],
     quoute: [
       "However, the psychology of love looks at things in a deeper way.",
@@ -101,8 +102,9 @@ export default [
     shortDescription:
       "If you suffer from migraines and want to find out more, read on for 5 effects that they can have on your mental health",
     slider: [
-      "https://atlantablackstar.com/wp-content/uploads/2013/07/migraine.jpg",
-      "https://narodna-pravda.ua/wp-content/uploads/2019/08/img-top-3-389149-9pycDqKA-1024x768.jpg"
+      "https://images.unsplash.com/photo-1549321495-305eb13f8aa9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1543297031-d102cd432d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
     quoute: [
       "A migraine is a throbbing pain on one side of the head that is persistent.",
@@ -193,8 +195,9 @@ export default [
     shortDescription:
       "If you have been diagnosed with a mental health condition, here are a number of benefits you may experience by incorporating regular exercise into your lifestyle:",
     slider: [
-      "https://miro.medium.com/max/3200/1*PCS-DoKajyYOWXzlK_9LwA.jpeg",
-      "http://newsdaily.org.ua/images/3887/3887-54-1537353652.jpg"
+      "https://images.unsplash.com/photo-1552965677-8ddf4bdc939f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1560383124-d4d4b22995d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1552406157-570373a5a440?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
     quoute: [
       "When you feel good physically, you feel great mentally. ",
@@ -275,8 +278,9 @@ export default [
     shortDescription:
       "Below we have a list of a few of the supplements that you should either try or avoid!",
     slider: [
-      "https://img2.abo.media/upload/article/o_1dj6e5e0b27cin81m329f4dk30.jpg",
-      "https://d2ebzu6go672f3.cloudfront.net/media/content/images/p6_Brain_MLSept19_gi615500314.jpg"
+      "https://images.unsplash.com/photo-1471940393269-df205607fb2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1473283147055-e39c51463929?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1541800569-95a8b25835f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "Coffee is extremely popular across the globe, mainly as a morning wake-me-up. ",
@@ -360,8 +364,9 @@ export default [
     shortDescription:
       "Are your teenagers favorite pastimes verging on becoming addictions? Learn to recognize the signs and plan to step in if things seem to be getting out of hand.",
     slider: [
-      "https://mamovediya.com.ua/uploads/content/2017/11/10/source/vospytanye-podrostka-6382x.png",
-      "https://svopi.ru/uploads/posts/2016-10/1477457591_hawaii-becomes-first-us-state-to-raise-smoking-age-to-21.jpg"
+      "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1552055568-e9943cd2a08f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80",
+      "https://images.unsplash.com/photo-1545261540-bb4fab425886?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
     quoute: [
       "Good luck finding a teenager who dutifully eats his or her vegetables.",
@@ -451,8 +456,9 @@ export default [
     shortDescription:
       "Individuals all have their own 'optimised state' in which they learn most effectively and this can be influenced by a variety of factors. ",
     slider: [
-      "https://ak7.picdn.net/shutterstock/videos/9610337/thumb/1.jpg",
-      "https://st.depositphotos.com/1158045/4197/i/950/depositphotos_41979057-stock-photo-people-studying-in-a-library.jpg"
+      "https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1533143217966-d0134c5e461e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
+      "https://images.unsplash.com/photo-1571068452916-4a370cbeaa81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     ],
     quoute: [
       "Whilst creating optimal conditions for learning is vital, of equal importance is good mental health.",
@@ -538,8 +544,9 @@ export default [
     shortDescription:
       "In fact, many doctors often prescribe lifestyle factors such as exercise and a good diet as part of treatments for illnesses such as depression and anxiety.",
     slider: [
-      "https://www.ministeriodesalud.go.cr/images/stories/ImagenesMS/2019/Prensa_2019/img_reduce_tabaco_cr_2019.jpg",
-      "https://www.previssima.fr/files/previssima/images_redacteurs/rubriques-thematiques/aides-sociales-a-la-dependa.jpg"
+      "https://images.unsplash.com/photo-1569581464548-66d245ae5ca5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1567760188301-8d682568f3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1518253042715-a2534e1b0a7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
     ],
     quoute: [
       "You can also improve your lifestyle by taking up regular exercise.",
@@ -618,8 +625,9 @@ export default [
     shortDescription:
       "In the case of sustaining an injury in the workplace, you're going to need to take the steps outlined in this article – steps that'll ensure you're able to hit the ground running with both your recovery and your attitude. Here’s what you'll need to do.",
     slider: [
-      "http://dtek-dnem.com.ua/wp-content/uploads/2019/06/для-защиты-сотрудников-специальное-снаряжение.jpg",
-      "https://ncworkercomp.com/wp-content/uploads/2013/08/construction-accident-bigstock.jpg"
+      "https://images.unsplash.com/photo-1541356666084-907d25d6ec67?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1571057853776-d0b33228567f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1548781695-12c50fd2ca76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     ],
     quoute: [
       "In the immediate aftermath of your injury sustained in the workplace.",
@@ -705,8 +713,9 @@ export default [
     shortDescription:
       "If you have been diagnosed with a mental health condition, here are a number of benefits you may experience by incorporating regular exercise into your lifestyle:",
     slider: [
-      "http://tatarbunar-rda.odessa.gov.ua/files/tatarbunar-rda/Anya/folder/51218454_1973973536240508_8438491481047564288_n.jpg",
-      "https://d24joh06to7u2b.cloudfront.net/wp-content/uploads/2015/04/o-OLDER-COUPLES-HAVING-FUN-facebook-e1427954512111.jpg"
+      "https://images.unsplash.com/photo-1493946740644-2d8a1f1a6aff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1668&q=80",
+      "https://images.unsplash.com/photo-1533942295064-8cfcfee30ac7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" <
+        "https://images.unsplash.com/photo-1496298126013-b93de808c28d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1613&q=80"
     ],
     quoute: [
       "Seven out of 10 adults in the USA suffer from stress.",
@@ -787,8 +796,9 @@ export default [
     shortDescription:
       "Living a healthy lifestyle and eating properly is great, and filling in the gaps with the effective supplements below is even better. ",
     slider: [
-      "https://c8.alamy.com/comp/EC2KM7/brain-medicine-mental-health-care-concept-as-hands-holding-an-open-EC2KM7.jpg",
-      "https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319313/pills-and-the-human-brain.jpg"
+      "https://images.unsplash.com/photo-1526638684360-95cdcee762ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1660&q=80",
+      "https://images.unsplash.com/photo-1487900562037-056962ab1fb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
+      "https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
     quoute: [
       "Choline is an essential nutrient found in meat, eggs and dairy, yet when consumed in excess.",
@@ -868,8 +878,9 @@ export default [
     shortDescription:
       "This can be a difficult task, which is why this guide has been created to give you some ideas on how to help them bounce back after kicking their addiction.",
     slider: [
-      "https://previews.123rf.com/images/tverdohlib/tverdohlib1609/tverdohlib160902089/62698164-young-couple-of-handsome-bearded-man-with-long-beard-smoking-cigarette-and-sexy-woman-in-checkered-s.jpg",
-      "https://zagorje.by/images/8.jpg"
+      "https://images.unsplash.com/photo-1441100094486-eff37b2c8e19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1507546602-311207b97bfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80",
+      "https://images.unsplash.com/photo-1427384924179-da03b8c3ccf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
     quoute: [
       "As much as you will want to be constantly there for the person you love.",
@@ -950,8 +961,9 @@ export default [
     shortDescription:
       "If you or someone you know is living with HIV, you have the power to take a few simple steps to help eradicate the stigma.",
     slider: [
-      "https://www.5.ua/media/pictures/original/154254.jpg",
-      "http://images.unian.net/photos/2014_06/1401711318-9379-vich-spid.jpg"
+      "https://images.unsplash.com/photo-1567364301956-d143bd377905?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
+      "https://images.unsplash.com/photo-1552338804-c42590cb7b88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
+      "https://images.unsplash.com/photo-1570368586359-3512009fd421?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
     ],
     quoute: [
       "In most first world countries, people with HIV are a protected class. ",
@@ -1035,8 +1047,9 @@ export default [
     shortDescription:
       "Chances are, someone you know is struggling with depression. If this person is close to you, you probably want to do all you can to improve the way they feel.",
     slider: [
-      "https://i.work.ua/article/1696b.jpg",
-      "https://tbn-tv.com/wp-content/uploads/2019/03/o-FRIENDSHIP-facebook-1080x675_croped-680x400.jpg"
+      "https://images.unsplash.com/photo-1469212044023-0e55b4b9745a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80",
+      "https://images.unsplash.com/photo-1515601915049-08c8836c2204?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1501446690852-da55df7bfe07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "Things like sunshine, fresh air, and a positive mindset are great.",
@@ -1127,8 +1140,9 @@ export default [
     shortDescription:
       "Shopping can trigger pleasure centres in the brain and thus is a hard habit to break out of. ",
     slider: [
-      "https://woman-psy.com/upload/iblock/131/%D0%B0%D0%B5%D1%80%D0%BA%D0%B5%D1%80%20%281%29.jpg",
-      "https://image.cnbcfm.com/api/v1/image/101297751-76491916r.jpg?v=1532564561&w=678&h=381"
+      "https://images.unsplash.com/photo-1480281188484-99c2b092f455?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1549998333-52ebdca6931b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80",
+      "https://images.unsplash.com/photo-1543949879-4ea269a7a1a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2178&q=80"
     ],
     quoute: [
       "The first thing you need to realise is that idle shopping often happens when you are bored or unhappy.",
@@ -1207,8 +1221,9 @@ export default [
     shortDescription:
       "As we've covered here before, daytime napping can be disruptive to sleep patterns. Which can in turn be disruptive to your health in general. However, a great many people swear by napping. Both Edison and Einstein liked a quick snooze in between bursts of scientific brilliance.",
     slider: [
-      "https://arqdosono.com.br/blog/wp-content/uploads/2017/10/middle-aged-beautiful-woman-sleeping-in-bed_1262-6148.jpg",
-      "https://graciasmama.co/wp-content/uploads/2018/01/patron-sueno-bebe.jpg"
+      "https://images.unsplash.com/photo-1467780839816-65e92876c0bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
+      "https://images.unsplash.com/photo-1445294211564-3ca59d999abd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80",
+      "https://images.unsplash.com/photo-1551120738-c3fcea8d0cf8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "Nap for the right amount of time.",
@@ -1292,8 +1307,9 @@ export default [
     shortDescription:
       " If you look at depression statistics spread over several years, a very worrying trend becomes immediately apparent. Cases of depression begin to rise extremely sharply in around 2005, and continue to escalate at an alarming pace. Should the problem continue in this vein",
     slider: [
-      "https://www.blysk.space/wp-content/uploads/2019/05/8521-1.jpg",
-      "https://media.pogliad.ua/news/article/2018/03/28/352568/rsX3HMvvFKs8ChMs6yXg.r695x430.jpg"
+      "https://images.unsplash.com/photo-1551283895-bad586708963?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1560727119-dd8c459dcfe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1653&q=80",
+      "https://images.unsplash.com/photo-1518707839885-2748a5e8fd37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
     quoute: [
       "There has been much talk recently about the 'politics of fear'.",
@@ -1381,8 +1397,9 @@ export default [
     shortDescription:
       "As we've covered here before, daytime napping can be disruptive to sleep patterns. Which can in turn be disruptive to your health in general. However, a great many people swear by napping. Both Edison and Einstein liked a quick snooze in between bursts of scientific brilliance. Winston Churchill did not let even the pressures of wartime governance prevent him from taking his afternoon nap. ",
     slider: [
-      "http://www.propaganda-eg.com/wp-content/uploads/2019/07/comment-soigner-la-fatigue.jpg",
-      "https://www.palinfo.com/Uploads/Models/Media/Images/2016/5/8/-880151218.jpg?h=500&w=947&crop=auto&scale=both&quality=80&404=default&format=jpg"
+      "https://images.unsplash.com/photo-1560419450-a53fe3b90211?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571235663358-c402973503af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80",
+      "https://images.unsplash.com/photo-1571217668979-f46db8864f75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       " As you'd expect, naps can provide an energy boost.",
@@ -1467,8 +1484,9 @@ export default [
     shortDescription:
       "If you look at depression statistics spread over several years, a very worrying trend becomes immediately apparent. Cases of depression begin to rise extremely sharply in around 2005, and continue to escalate at an alarming pace. Should the problem continue in this vein, it seems that everyone in the world will before long be suffering from depression, or some form of anxiety disorder.",
     slider: [
-      "https://cdn.lifehacker.ru/wp-content/uploads/2018/02/Depra_1518533823-1140x570.jpg",
-      "https://cdn.filzor.ru/wp-content/uploads/2019/08/870x489_107x80_detail_crop_60544987f64ea7634a381494c217642f.jpg"
+      "https://images.unsplash.com/photo-1569174237922-5689ad487104?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1569302911021-297d2362e3d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1569820229114-07aa8a51f47c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80"
     ],
     quoute: [
       "So what, if anything, is going on? What do people think is behind this problem?",
@@ -1556,8 +1574,9 @@ export default [
     shortDescription:
       "Nearly 30 years ago, a handful of smart people set out with one mission: to make some silly movies. What followed was a true golden age of Hollywood comedy that saw the arrival of megastars still with us today, a commercial explosion, and then, an eventual splintering that changed the genre forever. Welcome to Comedy in the ’90s, a six-part series released over three months that will document this decade-defining boom in all of its sophomoric glory.",
     slider: [
-      "https://venta.com.ua/image/0fddfcf2/32ccd096747b9be9121f98d7.jpg",
-      "https://static.ukrinform.com/photos/2017_11/thumb_files/630_360_1510683440-9854.jpg"
+      "https://images.unsplash.com/photo-1569777504499-96759566c488?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
+      "https://images.unsplash.com/photo-1569834381156-7b735e41e57d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
+      "https://images.unsplash.com/photo-1568214697537-ace27ffd6cf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
     quoute: [
       "Plaid jacket and belt too tight and he wasn’t even being funny.",
@@ -1664,8 +1683,9 @@ export default [
     shortDescription:
       "In early 1995, Billy Madison (February 10) and Tommy Boy (March 31) hit theaters. Most critics, unsurprisingly, despised them. Gene Siskel wrote that Sandler’s film was “the latest entry in the American cinema’s investigation of dumb-and-dumber heroes.” Roger Ebert’s assessment of Farley’s comedy, meanwhile: “The movie is an assembly of clichés and obligatory scenes from dozens of other movies, all are better.”",
     slider: [
-      "https://www.k1.ua/uploads/media/photo/2015/05/13/5a45dfd2a8e8d7f0dba8ccd91f28f88e8486faea.jpg",
-      "https://tureligious.com.ua/wp-content/uploads/2017/02/roassa.jpg"
+      "https://images.unsplash.com/photo-1564694245232-0a1ad9f3cd38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1564928275797-a7ab0852021d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1741&q=80",
+      "https://images.unsplash.com/photo-1564665759044-959473395029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "For many aspiring comedic actors growing up in the ’90s, Adam Sandler’s career and approach was the mold.",
@@ -1745,8 +1765,9 @@ export default [
     shortDescription:
       "The UPS guy accidentally delivered your package to my house and I brought it over.Thanks, can you leave it on the porch?",
     slider: [
-      "https://cdn.lifehack.org/wp-content/uploads/2018/09/verbally-abusive-relationship-1024x768.jpeg",
-      "https://victimsthamesvalley.s3.amazonaws.com/Photos/Coercive%20control%20campaign/If%20I%20loved%20him%20I'd%20do%20it%20poster.jpg"
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1543163300-3566d6a3fab0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1542308239-3860f3197faa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "This is all terrible information for professional comedians.",
@@ -1821,8 +1842,9 @@ export default [
     shortDescription:
       "If you want to figure out why standup comedy has become the most romanticized American art form of the past decade—and there are numerous factors, I’m sure, from podcasts to YouTube to … well, basically, it’s the Internet—you could start by reading the long e-mail that Louis C.K. blasted to his fans on Tuesday, moments after sending word that his new special was available on his Web site. ",
     slider: [
-      "https://nationalpostcom.files.wordpress.com/2017/11/0926_ar_louis_ck-1.jpg",
-      "https://timeincsecure-a.akamaihd.net/rtmp_uds/219646971/201709/336/219646971_5573777845001_5573773904001-th.jpg?pubId=219646971&videoId=5573773904001"
+      "https://images.unsplash.com/photo-1566554497832-cd49191043f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80",
+      "https://images.unsplash.com/photo-1554953858-5b019c8dd992?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "https://images.unsplash.com/photo-1559834716-658b83325086?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
     quoute: [
       " Half truths. Non-truths. Broad and hilariously wrongful generalizations.”).",
@@ -1897,8 +1919,9 @@ export default [
     shortDescription:
       "I got a promotion a few days ago, so I decided to stop for a drink on my way home- just me and my sense of accomplishment. I ended up alone in a bar, running defense against a bouncer who held my ID hostage while he commented on my ass (among other things), and asked me vaguely threatening questions about my sex life.",
     slider: [
-      "https://cdn.lifehack.org/wp-content/uploads/2010/04/self-improvement.jpeg",
-      "https://cdn.mindful.org/MINDFULNESS.png?q=80&fm=jpg&fit=crop&w=1400&h=875"
+      "https://images.unsplash.com/photo-1543297031-d102cd432d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1477146901578-40f6955116e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
+      "https://images.unsplash.com/photo-1541535267011-2fad2b4b9f74?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     ],
     quoute: [
       "However, the psychology of love looks at things in a deeper way.",
@@ -1980,8 +2003,9 @@ export default [
     shortDescription:
       "In the case of sustaining an injury in the workplace, you're going to need to take the steps outlined in this article – steps that'll ensure you're able to hit the ground running with both your recovery and your attitude. Here’s what you'll need to do.",
     slider: [
-      "https://timesofindia.indiatimes.com/thumb/msid-69140211,width-1200,height-900,resizemode-4/.jpg",
-      "https://www.personneltoday.com/wp-content/uploads/sites/8/2018/06/CPD-motorcycle.jpg-cropped.jpg"
+      "https://images.unsplash.com/photo-1560417181-1385dabe37c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1552870741-2b13710212c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1549738237-c3cf2277f3f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "In the immediate aftermath of your injury sustained in the workplace.",
@@ -2067,8 +2091,9 @@ export default [
     shortDescription:
       "You may have eventually seen it in your Facebook feed or in a chain email. It is the most widely consumed joke that I have produced. I don’t think it’s the funniest thing I’ve ever written, but that’s how these things go. Either way, it’s everywhere and it’s made me no money.",
     slider: [
-      "https://static01.nyt.com/images/2016/05/29/opinion/sunday/29flores/29flores-superJumbo.jpg?quality=90&auto=webp",
-      "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487618891i/33573083._UY1334_SS1334_.jpg"
+      "https://images.unsplash.com/photo-1508881669417-574b54552d73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
+      "https://images.unsplash.com/photo-1508292311848-357cd4300fa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1508171997656-fdf7cf6c4df9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "It occurred to me that of all mind-boiling aspects of the current presidential race.",
@@ -2154,8 +2179,9 @@ export default [
     shortDescription:
       "During the live run of Hannah Gadsby’s standup show, Nanette, she found herself sleeping 15 hours a night, then taking naps during the day. “I got bronchitis in London,” she says. “A tooth wrenched out in Edinburgh. Then I got carbon monoxide poisoning from the flat in New York. I was Googling ‘neurological disorders’, I had the tremors and my speech was slurring. I kept telling people I was really tired, texting them coffin emojis, and they’d say: ‘Of course you are, this show is exhausting.’”",
     slider: [
-      "https://www.sbs.com.au/topics/sites/sbs.com.au.topics/files/hannah_g.jpg",
-      "https://cdn.newsapi.com.au/image/v1/bfdcb6594c253ee518c383984f32caf1"
+      "https://images.unsplash.com/photo-1507980062492-714282f31ee0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1507546530-14a03f8d180a?ixlib=rb-1.2.1&auto=format&fit=crop&w=595&q=80",
+      "https://images.unsplash.com/photo-1421484147738-5e2539487ab0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
     quoute: [
       "But she doesn’t think you should really suffer for your art.",
@@ -2242,8 +2268,9 @@ export default [
     shortDescription:
       'On a memorable episode of the hit 1990s sitcom Seinfeld, NBC executives meet Jerry after his nightclub act and ask him to come up with an idea for a TV series. His friend George decides he can be a sitcom writer and comes up with the idea of it being "a show about nothing," and it worked! Run with it.',
     slider: [
-      "https://hicenter.co.il/wp-content/uploads/2017/09/conference-2705706_1920-1920x1080.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXyosXQD7Tu_O_fRv-ZxWWrlxF2A4ce6jyw1ofimClMypTYXEj"
+      "https://images.unsplash.com/photo-1508881136857-d1781947f4d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1546702133-d1552256b03f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
+      "https://images.unsplash.com/photo-1490633874781-1c63cc424610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "But how did he do it?",
@@ -2329,8 +2356,9 @@ export default [
     shortDescription:
       "For four years, I’ve refused to write a top-ten list. My motives were suspect. A good chunk of it was principle, but it’s hard to deny that there’s an element of entitlement. After all, I was lucky enough to be working at a venue outside the journalistic list mines. I’ve written my share of lists, and they make me itch—so reductive, so mathematical. Also, like all TV critics, I haven’t watched everything.",
     slider: [
-      "https://media.newyorker.com/photos/590964f46552fa0be682ecd3/master/w_2046,c_limit/Nussbaum-Great-TV-2014.jpg",
-      "https://www.rollingstone.com/wp-content/uploads/2018/06/rolling-stone-100-best-tv-shows-of-all-time-c76cdd0b-2e04-4769-84c1-0faab178ddbf.jpg"
+      "https://images.unsplash.com/photo-1490633874781-1c63cc424610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1515056140641-c645caffe247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1515445702422-3a80ccfdb236?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
     quoute: [
       " “Transparent” shakes up the system.",
@@ -2420,8 +2448,9 @@ export default [
     shortDescription:
       "When Kim Kardashian “broke the Internet” with her nude selfie last week, it was the latest stunt by a socialite who has become an object of fascination in our celebrity-obsessed culture.While some deride her as being “famous for being famous,” I see someone who works intensely hard at what I’ve termed glamour labor.",
     slider: [
-      "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
-      "https://www.hellomagazine.com/imagenes/brides/2019051473010/kim-kardashian-wedding-makeup-collection/0-355-290/Kim-Kardashian-KKW-launch-t.jpg"
+      "https://images.unsplash.com/photo-1535048637252-3a8c40fa2172?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2090&q=80",
+      "https://images.unsplash.com/photo-1533463107614-05572aa79fe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
+      "https://images.unsplash.com/photo-1508060698845-34709bc12e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "Glamour labor is a phenomenon of the Internet age.",
@@ -2513,8 +2542,9 @@ export default [
     shortDescription:
       "It’s almost fashion week season, with events in London, New York and Paris all coming up, and I have one pretty sure prediction: the models won’t be smiling. In spite of some hasty claims that happy faces are now de rigeur, a blank expression is a perennial trait of model behaviour.",
     slider: [
-      "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Fashion%20Shows%20By%20Noura%20Alswailem%20%2C%20via%20Wikimedia%20Commons.jpg?itok=2hqxjidc",
-      "https://d.newsweek.com/en/full/421179/1-30-models.jpg"
+      "https://images.unsplash.com/photo-1502136969935-8d8eef54d77b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80",
+      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1500440993422-db2f2895d146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
     ],
     quoute: [
       "The other thing that has always troubled me about this is how tiresomely predictable it is.",
@@ -2592,8 +2622,9 @@ export default [
     shortDescription:
       "France has joined Italy and Israel in passing laws banning the promotion of extreme thinness in the fashion industry. The health reforms, which include fining agencies employing models with a BMI under 18 and criminalising pro-anorexia web content, have now passed through the upper house of parliament.",
     slider: [
-      "https://images.theconversation.com/files/179596/original/file-20170725-11526-1wnciz9.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop",
-      "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/07/25/3595165a-ad13-11e9-a61f-bc570b50c4e7_image_hires_060819.jpg?itok=DEgfweKK&v=1564006105"
+      "https://images.unsplash.com/photo-1500440993422-db2f2895d146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
+      "https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1496478981722-3ae516118a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1647&q=80"
     ],
     quoute: [
       "More importantly, the research showed correlation, not causation .",
@@ -2682,8 +2713,9 @@ export default [
     shortDescription:
       "The French government is backing parliamentary plans to ban unhealthily thin models from catwalks. Under two proposed amendments to recent health reforms, anyone employing skinny, undernourished fashion models or “glorifying anorexia” could face fines of up to €75,000 (US$80,000; £54,000; A$104,000) and a six-month prison sentence.",
     slider: [
-      "https://assets.change.org/photos/9/rf/mf/gtrFmfokfxNqxKm-1600x900-noPad.jpg?1495464317",
-      "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2015/02/07/Outlook/Advance/Images/cocorocha031423174091-259.jpg?t=20170517"
+      "https://images.unsplash.com/photo-1495013034289-3664878e32f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1683&q=80",
+      "https://images.unsplash.com/photo-1494967990034-6a28085f9ed0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1491172700640-4f1a131a3670?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "They found fashion models tended to be significantly underweight.",
@@ -2770,8 +2802,9 @@ export default [
     shortDescription:
       "Our obsession with women’s weight and attractiveness manifests in different ways in the media, including being sold images that are far removed from reality and often impossible to achieve, or focusing on women’s looks rather then their achievements.",
     slider: [
-      "https://a.optmnstr.com/users/6db32459bd37/images/5c37a158174b1533847285-blog-inline-relationshipmistakes.jpg",
-      "https://images.theconversation.com/files/174774/original/file-20170620-32348-6crcd4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+      "https://images.unsplash.com/photo-1565808065893-e294b359f004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1565945985125-a59c660a9932?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1565945985123-4c67ab31eb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "But, admirable as these initiatives appear .",
@@ -2858,8 +2891,9 @@ export default [
     shortDescription:
       "Women, fashion, and glamour are synonymous in the modern era – but in the mid to late 1980s this association intensified into one distinct cultural icon: the supermodel.",
     slider: [
-      "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg",
-      "https://images.theconversation.com/files/52137/original/ym4bwg6f-1403658844.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+      "https://images.unsplash.com/photo-1566153580922-16a9709fff30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80",
+      "https://images.unsplash.com/photo-1566136646093-bf14a769d8d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1566105734084-e1c0e8cfb31d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80"
     ],
     quoute: [
       "This grouping is not definitive and the term was applied to other high profile.",
@@ -2943,8 +2977,9 @@ export default [
     shortDescription:
       "No matter how careful you are during the winter months and how hygienic you always try to be, catching the flu is often difficult to avoid when the virus is circulating around your family and friends. Sometimes, even applying copious amounts of hand sanitizer throughout the day cannot stop the germs spreading and before you know it, your muscles are starting to ache, your hands and forehead are clamming up with sweat, and your nose becomes increasingly congested as you fall victim to a horrible seasonal flu.",
     slider: [
-      "https://www.healthline.com/hlcmsresource/images/topic_centers/Cold_and_Flu/1296x728_Treating_a_Cold_or_Flu_When_Pregnant.jpg",
-      "https://www.besthealthmag.ca/wp-content/uploads/sites/16/2010/10/cold-or-flu.jpg"
+      "https://images.unsplash.com/photo-1553531384-fdedae5009ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1553531384-397c80973a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "Prioritize Bed Rest.",
@@ -3023,8 +3058,9 @@ export default [
     shortDescription:
       "Infants who are excellent at processing novel information when they are just 6- and 12-months-old are likely to demonstrate excellence in intelligence tests and academic achievements as young adults in their 20's. This is the conclusion of a study directed by Joseph Fagan of Case Western Reserve University in the US with co-investigators Cynthia Holland from Cuyahoga Community College and undergraduate student Karyn Wheeler.",
     slider: [
-      "https://i.dailymail.co.uk/i/pix/2017/10/19/13/457DF4B100000578-0-image-a-15_1508414568952.jpg",
-      "https://scx2.b-cdn.net/gfx/news/hires/2017/1-infant.jpg"
+      "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80",
+      "https://images.unsplash.com/photo-1529251709126-13669520d1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1497501917125-1d703ac4a255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=704&q=80"
     ],
     quoute: [
       "They found fashion models tended to be significantly underweight.",
@@ -3106,8 +3142,9 @@ export default [
     shortDescription:
       "Some of us never get over the pain of losing of a loved one while for most people adverse emotional situations associated with anxiety and depression fade with time. But there is another group who actually gain strength and grow personally from meeting adversity.",
     slider: [
-      "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZV71ZsEVhYM5DEX2_MDR80ctaHohJqfuL_Xvf5PwM1RezG7dE"
+      "https://images.unsplash.com/photo-1564419188242-3bd31c0b7f67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+      "https://images.unsplash.com/photo-1510662145379-13537db782dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=756&q=80",
+      "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
     quoute: [
       "The latter quality is a component of emotional intelligence.",
@@ -3216,8 +3253,9 @@ export default [
     typeArticle: ["featured news", "trend"],
     shortDescription: "T.",
     slider: [
-      "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg",
-      "https://wallpaperscave.ru/images/original/18/01-21/celebrity-emma-watson-13070.jpg"
+      "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
+      "https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
+      "https://images.unsplash.com/photo-1527707240828-f7ca7d3c46a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
     ],
     quoute: [
       "In an example given in the media release.",
