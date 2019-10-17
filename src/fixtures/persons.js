@@ -203,6 +203,121 @@ export default [
     }
   },
   {
+    id: "ZDnKoZWQ8tsv22l",
+    firstName: "Fabienne",
+    lastName: "Zehnder",
+    type: ["actor"],
+    shortDescription:
+      "His every role incarnates very strong and single-minded person. ",
+    mainDescription:
+      "He was born in Connecticut while Connecticut was still a colony — before there was a United States of America. As a young man he went to college, but he left college for a while to fight in the Revolutionary War. He has two brothers, James and Henry. He attended the Bournemouth School for Girls. ",
+    mainFoto: "./img/persons/FabienneZehnder/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/FabienneZehnder/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/FabienneZehnder/personPhoto/photo-3.jpg",
+    awards: [
+      "Film awards for lead actor 2016.",
+      "Goya Award for Best Editing 2017.",
+      "Baeksang Arts Awards for Most Popular Actor (Film) 2019."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "Lake Eva, MT 7808",
+      phone: "+41-13-654-1865",
+      email: "Zehnder88@yahoo.com"
+    }
+  },
+  {
+    id: "gXFyfYaFUQS3LR5",
+    firstName: "Margrith",
+    lastName: "Schaub",
+    type: ["actor"],
+    shortDescription:
+      "She began her career as a model and first appeared in a Cadbury advertisement.",
+    mainDescription:
+      "She is actress, model and singer, known for her work in European arthouse films in English, French, and Italian. An icon of the Swinging Sixties, she began her career as a model and later became a fashion icon and muse.  When the film was first released on Netflix there was some controversy about whether the film would be triggering for those with eating disorders.",
+    mainFoto: "./img/persons/MargrithSchaub/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/MargrithSchaub/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/MargrithSchaub/personPhoto/photo-3.jpg",
+    awards: [
+      "Raigam Tele'es Best Upcoming Teledrama Actor Award 2015.",
+      "Film awards for lead actor 2016.",
+      "Goya Award for Best Editing 2017.",
+      "Baeksang Arts Awards for Most Popular Actor (Film) 2019."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "Jakobchester, NY 2159",
+      phone: "+4178-113-6635",
+      email: "Margrith_Schaub88@hotmail.com"
+    }
+  },
+  {
+    id: "uQNlewrbcVrf3J_",
+    firstName: "Véronique",
+    lastName: "Schäfer",
+    type: ["actor"],
+    shortDescription: "Véronique Schäfer is actress, model, and writer.",
+    mainDescription:
+      "She stated in 2013 that she does not like to discuss the interest in her relationships publicly due to witnessing the difficulties caused by the media coverage of her parents' divorce. Then she starred as Clary Fray in The Mortal Instruments: City of Bones, a film adaptation of the first book in The New York Times best-selling The Mortal Instruments novels, written by Cassandra Clare.",
+    mainFoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-3.jpg",
+    awards: [
+      "Young Hollywood Awards	 2008.",
+      "Teen Choice Awards 2014.",
+      "Alliance of Women Film Journalists 2017.",
+      "Costume Designers Guild 2017."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "West Hanspeter, ME 5058",
+      phone: "+41-37-32627",
+      email: "Schfer6@hotmail.com"
+    }
+  },
+  {
     id: "7y6uND0P3BHh74W",
     firstName: "Sherwood",
     lastName: "Will",
@@ -365,6 +480,164 @@ export default [
       address: "Lindmouth, DE 56034",
       phone: "+49-321-6683410",
       email: "Rodriguez@yahoo.com"
+    }
+  },
+  {
+    id: "ZRfklVL7YPAlYQQ",
+    firstName: "Alfons",
+    lastName: "Zollinger",
+    type: ["musician"],
+    shortDescription:
+      "Alfons found fame as the guest vocalist on Chase & Status's All Goes Wrong. ",
+    mainDescription:
+      "She was born in Bedford. Her father is a builder, and her mother was a teacher. She is of Irish/English origin and a big fan of football and particularly Manchester United. She played football at a young age for the Bedford Park Rangers. She attended St Thomas More Catholic School. Her younger brother is an aspiring boxer. Her musical beginnings are obscure. ",
+    mainFoto: "./img/persons/AlfonsZollinger/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/AlfonsZollinger/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/AlfonsZollinger/personPhoto/photo-3.jpg",
+    awards: [
+      "Alabama Jazz Hall of Fame 2015.",
+      "Hawaiian Music Hall of Fame 2017.",
+      "The Southern Legends Entertainment & Performing Arts 2018.",
+      "Western Music Association Hall of Fame 2019."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "Huberfort, AR 5486",
+      phone: "+41-788-401921",
+      email: "Alfons64@hotmail.com"
+    }
+  },
+  {
+    id: "bBWcjaWxygcf5zl",
+    firstName: "Beat",
+    lastName: "Meier",
+    type: ["musician"],
+    shortDescription:
+      "She is an English flautist of Ukrainian and Irish descent.",
+    mainDescription:
+      "Beat Meier trained at the Guildhall School of Music in London, England where she studied modern flute with Kathryn Lukas and developed a great interest and love for the wooden flute, studying with Stephen Preston.In her roles as soloist and orchestral principal, she has travelled throughout Europe, the Far East, and North and South America.",
+    mainFoto: "./img/persons/BeatMeier/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/BeatMeier/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/BeatMeier/personPhoto/photo-3.jpg",
+    awards: [
+      "Alabama Jazz Hall of Fame 2015.",
+      "Hawaiian Music Hall of Fame 2017.",
+      "The Southern Legends Entertainment & Performing Arts 2017.",
+      "Western Music Association Hall of Fame 2018.",
+      "MTV Video Music Award Japan for Best Collaboration 2018.",
+      "Lo Nuestro Award for Collaboration of the Year 2019."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "Huberfort, AR 5486",
+      phone: "+41-787-283747",
+      email: "Meier35@yahoo.com"
+    }
+  },
+  {
+    id: "0S_JlvBvuImZ4Rk",
+    firstName: "Nathalie",
+    lastName: "Amrein",
+    type: ["musician"],
+    shortDescription:
+      "She as a singer in the girl band The Saturdays, who are signed to Fascination and Polydor Records. ",
+    mainDescription:
+      "Once Nathalie had joined the band, they began recording music and releasing a number of hits. The group later gained another record deal with Geffen Records after having huge success in the United Kingdom. White and the rest of the group then signed a deal with Island Def Jam Records and Mercury Records to distribute their music in the United States, which led to their first UK number-one single 'What About Us'.",
+    mainFoto: "./img/persons/NathalieAmrein/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/NathalieAmrein/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/NathalieAmrein/personPhoto/photo-3.jpg",
+    awards: [
+      "Alabama Jazz Hall of Fame 2016.",
+      "The Southern Legends Entertainment & Performing Arts 2017.",
+      "Western Music Association Hall of Fame 2017.",
+      "Lo Nuestro Award for Collaboration of the Year 2019."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "Port Marc, ID 9299",
+      phone: "+4178-623-91-01",
+      email: "Amrein@hotmail.com"
+    }
+  },
+  {
+    id: "0c0yVVu4kAEFWBE",
+    firstName: "Julia",
+    lastName: "Marti",
+    type: ["musician"],
+    shortDescription:
+      "She is an English classical crossover soprano, singer, songwriter, actress, dancer and musician.",
+    mainDescription:
+      "Julia Marti has sung in many languages including English, Spanish, French, Latin, German, Turkish, Italian, Russian, Mandarin Chinese, Japanese and Catalan. The scholarships will support students in their postgraduate studies at the Royal Northern College of Music on the two-year Master of Music Programme.",
+    mainFoto: "./img/persons/JuliaMarti/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/JuliaMarti/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/JuliaMarti/personPhoto/photo-3.jpg",
+    awards: [
+      "Golden Key to the City of Chicago 2010.",
+      "UNESCO Artist for Peace Award 2012.",
+      "Cavaliere of the Ordine al Merito della Repubblica Italiana Award 2016.",
+      "Lo Nuestro Award for Collaboration of the Year 2019."
+    ],
+    articles: [
+      {
+        id: "Ju2dVQImOC3A1yy",
+        shortDescription: "Resilience, Satisfaction and Happiness  .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/2018-05/world-3043067_1280.jpg"
+      },
+      {
+        id: "6ghnqmQfuajJ7xt",
+        shortDescription: "Why is Laughter Contagious? . ",
+        date: "2019-01-24:20:23.000Z",
+        img: "https://bombanoise.com/wp-content/uploads/2017/11/mujeres.jpg"
+      }
+    ],
+    contact: {
+      address: "Knechtside, TX 9597",
+      phone: "+41-938-62-97-25",
+      email: "Marti52@gmail.com"
     }
   },
   {
@@ -582,6 +855,80 @@ export default [
     }
   },
   {
+    id: "1DRTBGRJML67lkZ",
+    firstName: "Ansley",
+    lastName: "Hauck",
+    type: ["comedian"],
+    shortDescription:
+      "Ansley Hauck is an American stand-up comedian and actress. ",
+    mainDescription:
+      "Hauck wrote and made her film debut in a starring role in Trainwreck (2015), for which she received nominations for the Writers Guild of America Award for Best Original Screenplay and the Golden Globe Award for Best Actress – Motion Picture Comedy or Musical. She published a memoir in 2016, The Girl with the Lower Back Tattoo, which held the top position on The New York Times Non-Fiction Best Seller list for two weeks. ",
+    mainFoto: "./img/persons/AnsleyHauck/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/AnsleyHauck/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/AnsleyHauck/personPhoto/photo-3.jpg",
+    awards: [
+      "Television Critics Association Award 2015.",
+      "Critics' Choice Movie Award 2016.",
+      "Grammy Awards 2017.",
+      "MTV Movie & TV Awards 2018",
+      "	Primetime Emmy Award 2019."
+    ],
+    articles: [{}, {}],
+    contact: {
+      address: "Johnsonport, OK 89055",
+      phone: "+49-330-276-7152",
+      email: "Ansley52@yahoo.com"
+    }
+  },
+  {
+    id: "dlwnharQXyVG5AT",
+    firstName: "Jerry",
+    lastName: "Balistreri",
+    type: ["comedian"],
+    shortDescription: "Jerry Balistreri is an English comedian. ",
+    mainDescription:
+      "Kitson was born in Denby Dale, West Yorkshire, to a lecturer father and primary school headteacher mother, and began performing comedy at the age of 16.He was a pupil at Scissett Middle School and Shelley College in Yorkshire, England. Kitson subsequently studied drama at Roehampton Institute, now known as Roehampton University. He has a stutter.",
+    mainFoto: "./img/persons/JerryBalistreri/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/JerryBalistreri/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/JerryBalistreri/personPhoto/photo-3.jpg",
+    awards: [
+      "Television Critics Association Award 2016.",
+      "Critics' Choice Movie Award 2016.",
+      "MTV Movie & TV Awards 2017",
+      "	Primetime Emmy Award 2019."
+    ],
+    articles: [{}, {}],
+    contact: {
+      address: "Connerton, NM 77659-1272",
+      phone: "+49-541-564-6612",
+      email: "Balistreri71@hotmail.com"
+    }
+  },
+  {
+    id: "tLY1MeTWtADG5pb",
+    firstName: "Maëlys",
+    lastName: "Bertrand",
+    type: ["comedian"],
+    shortDescription:
+      "Maëlys Bertrand is a French comedian, screenwriter, film producer and director.",
+    mainDescription:
+      "Best known for his stand-up comedy sketches, he also worked with director Alain Chabat in several films and other notable French humourists such as Florence Foresti, Fred Testot and Gad Elmaleh. He has starred in a number of box-office successes, including Amélie, Asterix & Obelix: Mission Cleopatra, Hollywoo and HOUBA! On the Trail of the Marsupilami.",
+    mainFoto: "./img/persons/MaëlysBertrand/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/MaëlysBertrand/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/MaëlysBertrand/personPhoto/photo-3.jpg",
+    awards: [
+      "Television Critics Association Award 2016.",
+      "MTV Movie & TV Awards 2017",
+      "	Primetime Emmy Award 2019."
+    ],
+    articles: [{}, {}],
+    contact: {
+      address: "Alicialand, OH 02286",
+      phone: "+49-135-674-0967",
+      email: "Bertrand@gmail.com"
+    }
+  },
+  {
     id: "L7wWuElWi7oQU5p",
     firstName: "Mallie",
     lastName: "Marvin",
@@ -795,6 +1142,129 @@ export default [
       address: "East Ubaldoville, MA 28052-7612",
       phone: "+49-813-464-18330",
       email: "Windler@yahoo.com"
+    }
+  },
+  {
+    id: "4KwRtQRePLcPuNz",
+    firstName: "Lena",
+    lastName: "Garcia",
+    type: ["model"],
+    shortDescription: "Lena Garcia is a French-Indonesian model and actress.",
+    mainDescription:
+      "During her modeling career, she has walked on the Paris, Sidney, Milan and New York fashion runways, and has become a model for numerous global brands including Timberland, Kate Spade, Levi’s, Rebecca Minkoff, Hugo Boss, Free People, Nasty Gal, and TRESemmé, among others.",
+    mainFoto: "./img/persons/LenaGarcia/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/LenaGarcia/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/LenaGarcia/personPhoto/photo-3.jpg",
+    awards: [
+      "Isabella Blow Award for Fashion Creator 2017.",
+      "Model of the Year 2017.",
+      "British Designer of the Year - Womenswear 2018.",
+      "Swarovski Award for Positive Change 2018.",
+      "Accessories Designer of the Yea 2019."
+    ],
+    articles: [
+      {
+        id: "XmwKlAXl7kmYwqu",
+        shortDescription:
+          "Inspired by Kim Kardashian, a feverish legion of followers struggle to achieve online fame .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+      },
+      {
+        id: "nkNx03kt4Pnw_nv",
+        shortDescription: "Why fashion models don’t smile . ",
+        date: "2019-01-24:20:23.000Z",
+        img:
+          "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Fashion%20Shows%20By%20Noura%20Alswailem%20%2C%20via%20Wikimedia%20Commons.jpg?itok=2hqxjidc"
+      }
+    ],
+    contact: {
+      address: "Dumontborough, NY 75481",
+      phone: "+43-075-918-3359",
+      email: "Lena25@hotmail.fr"
+    }
+  },
+  {
+    id: "EMc6JVdVBubsUwW",
+    firstName: "Paul",
+    lastName: "Blanc",
+    type: ["model"],
+    shortDescription: "Paul Blanc is a French-Indonesian model and actors.",
+    mainDescription:
+      "He has modeled for brands including Dolce & Gabbana, H&M, Armani Exchange, Belstaff, Gap Inc., Levi's, TOM FORD, Yeezy, Vivienne Westwood, Banana Republic, and Thom Browne.Bosso was brought to mainstream recognition by fashion executive Nick Wooster.",
+      mainFoto: "./img/persons/PaulBlanc/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/PaulBlanc/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/PaulBlanc/personPhoto/photo-3.jpg",
+    awards: [
+      "MTV Indonesia Movie Awards 2016.",
+      "Model of the Year 2017.",
+      "RuPaul's Drag Race 2018.",
+      "Accessories Designer of the Yea 2019."
+    ],
+    articles: [
+      {
+        id: "XmwKlAXl7kmYwqu",
+        shortDescription:
+          "Inspired by Kim Kardashian, a feverish legion of followers struggle to achieve online fame .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://images.theconversation.com/files/114530/original/image-20160309-13740-1w5i5ha.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+      },
+      {
+        id: "nkNx03kt4Pnw_nv",
+        shortDescription: "Why fashion models don’t smile . ",
+        date: "2019-01-24:20:23.000Z",
+        img:
+          "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Fashion%20Shows%20By%20Noura%20Alswailem%20%2C%20via%20Wikimedia%20Commons.jpg?itok=2hqxjidc"
+      }
+    ],
+    contact: {
+      address: "New Benjaminport, AZ 96463",
+      phone: "+33-352-080-9914",
+      email: "Blanc77@hotmail.fr"
+    }
+  },
+  {
+    id: "3LuGLzbO_7JDhi7",
+    firstName: "Julien",
+    lastName: "Dupuis",
+    type: ["model"],
+    shortDescription: "She was discovered by model Ash Stymest.",
+    mainDescription:
+      "She has done campaigns for Moschino and Calvin Klein. She has appeared in runway shows for Fenty x Puma, Yeezy, Fendi, Marc Jacobs, Miu Miu and Jeremy Scott. In magazines, she has been in American Vogue, Vogue Italia, Vogue Japan, Glamour, i-D, Jalouse, Net-a-porter, Dazed, V and Love. In commercial work she has modeled for Urban Outfitters.",
+   mainFoto: "./img/persons/JulienDupuis/personPhoto/photo-1.jpg",
+    profileFoto: "./img/persons/JulienDupuis/personPhoto/photo-2.jpg",
+    pressFoto: "./img/persons/JulienDupuis/personPhoto/photo-3.jpg",
+    awards: [
+      "Contemporary Designer 2017.",
+      "New Generation Designer 2018.",
+      "Emerging Womenswear Designe 2018.",
+      "BContemporary Designer 2019.",
+      "Model of the year 2019 ",
+      "Accessories Designer of the Yea 2019."
+    ],
+    articles: [
+      {
+        id: "uenSeagxWxsWYsH",
+        shortDescription:
+          "Damned if you do and damned if you don’t – why body image needs regulation .",
+        date: "2019-09-17:03:21.000Z",
+        img:
+          "https://a.optmnstr.com/users/6db32459bd37/images/5c37a158174b1533847285-blog-inline-relationshipmistakes.jpg"
+      },
+      {
+        id: "Iy3xqrSxFbmOZpC",
+        shortDescription: "The story of … the supermodel. ",
+        date: "2019-01-24:20:23.000Z",
+        img:
+          "https://celebrityinsider.org/wp-content/uploads/2017/06/Plus-Size-Supermodel-Ashley-Graham-Shares-Her-Sexual-Harassment-Story-2.jpg"
+      }
+    ],
+    contact: {
+      address: "New Louna, WY 05378",
+      phone: "+33-767-551-9219",
+      email: "Julien99@hotmail.fr"
     }
   }
 ];
