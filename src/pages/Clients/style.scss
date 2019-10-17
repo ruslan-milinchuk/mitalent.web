@@ -512,6 +512,14 @@
         align-items: flex-end;
       }
     }
+
+    & .random {
+      &__title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
   }
 }
 
@@ -599,6 +607,16 @@
       &-img {
         width: 200px;
         height: auto;
+      }
+    }
+
+    & .random {
+      &__item {
+        width: 50%;
+      }
+
+      &__info {
+        max-width: calc(100% - 140px);
       }
     }
   }
@@ -879,6 +897,16 @@
 
       &__date {
         font-size: 12px;
+      }
+    }
+
+    & .random {
+      &__item {
+        width: 100%;
+      }
+
+      &__info {
+        width: calc(100% - 100px);
       }
     }
   }
