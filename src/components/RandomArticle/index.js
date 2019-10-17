@@ -4,8 +4,7 @@ import { withRouter } from "react-router";
 
 class RandomArticle extends Component {
   render() {
-    const { articles, history } = this.props;
-    const newArticleLength = 4;
+    const { articles, history, newArticleLength } = this.props;
     const newArticles = [];
     for (let i = 0; i < newArticleLength; i++) {
       newArticles.push(articles[this.randomNumb(0, articles.length - 1)]);

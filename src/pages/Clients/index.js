@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import persons from "../../fixtures/persons";
+import articles from "../../fixtures/articles";
 import "./style.css";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import ArrowLeft from "../../icons/ArrowLeft";
@@ -7,6 +8,7 @@ import ArrowRight from "../../icons/ArrowRight";
 import ButtonsGroupsClients from "../../components/ButtonsGroupsClients";
 import PersonCardList from "../../components/PersonCardList";
 import articlesList from "../../fixtures/articles";
+import RandomArticle from "../../components/RandomArticle";
 
 const role = ["all", "actor", "comedian", "model", "musician"];
 
@@ -151,6 +153,7 @@ class Clients extends Component {
             <ButtonsSocial component="connect" />
           </div>
         </div>
+        <RandomArticle articles={articles} newArticleLength={6} />
       </div>
     );
   }

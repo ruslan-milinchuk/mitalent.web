@@ -367,6 +367,28 @@
       }
     }
   }
+
+  & .random {
+    margin-top: 40px;
+    width: 100%;
+
+    &__item {
+      max-height: 70px;
+      width: 30%;
+
+      &:nth-child(3n) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__info {
+      max-width: calc(100% - 100px);
+    }
+
+    &__title {
+      white-space: unset;
+    }
+  }
 }
 
 @media screen and (max-width: 1245px) {
@@ -379,6 +401,15 @@
       min-width: 225px;
       height: 275px;
       width: 225px;
+    }
+  }
+}
+
+@media screen and (max-width: 1162px) {
+  .clients {
+    & .random__item:nth-child(3),
+    .random__item:nth-child(4) {
+      margin-bottom: 30px;
     }
   }
 }

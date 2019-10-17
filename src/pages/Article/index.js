@@ -74,7 +74,7 @@ class Article extends Component {
             {additionalLongDescription}
           </div>
         </div>
-        <RandomArticle articles={articles} />
+        <RandomArticle articles={articles} newArticleLength={4} />
       </div>
     );
   }
