@@ -6,6 +6,7 @@ import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
 import ButtonsGroupsClients from "../../components/ButtonsGroupsClients";
 import PersonCardList from "../../components/PersonCardList";
+import articlesList from "../../fixtures/articles";
 
 const role = ["all", "actor", "comedian", "model", "musician"];
 
@@ -14,21 +15,43 @@ class Clients extends Component {
     numberPhoto: "01",
     defaultPerson: {},
     currentIndex: 0,
-    listLength: null
+    listLength: null,
+    allArticles: {},
+    articleId: "",
+    quoute: [],
+    createAt: "",
+    articleImg: []
   };
   componentDidMount() {
     const objPerson = this.randomNumb(0, persons.length - 1);
     const list = [];
-    const { mainFoto, profileFoto, pressFoto } = objPerson;
+    const { mainFoto, profileFoto, pressFoto, articles } = persons[objPerson];
     list.push(mainFoto, profileFoto, pressFoto);
+    const articleId = articles[0].id;
+    const neededArticle = articlesList.filter(item => item.id === articleId)[0];
+    const { slider, quoute, createAt, title } = neededArticle;
+    const articleDate = new Date(createAt).toDateString();
     this.setState({
       defaultPerson: persons[objPerson],
-      listLength: list.length
+      listLength: list.length,
+      quoute: quoute,
+      createAt: articleDate,
+      articleImg: slider,
+      title,
+      articleId
     });
   }
   render() {
     const { history } = this.props;
-    const { numberPhoto, currentIndex } = this.state;
+    const {
+      numberPhoto,
+      currentIndex,
+      quoute,
+      createAt,
+      articleImg,
+      title,
+      articleId
+    } = this.state;
     const {
       firstName,
       lastName,
@@ -39,6 +62,10 @@ class Clients extends Component {
     } = this.state.defaultPerson;
     const list = [];
     list.push(mainFoto, profileFoto, pressFoto);
+    const articleQuoute = quoute.map(item => {
+      return <p>{item}</p>;
+    });
+
     return (
       <div className="clients">
         <div className="clients__slider">
@@ -92,6 +119,38 @@ class Clients extends Component {
           </div>
         </div>
         <CustomerGroupsClients />
+        <div className="clients__connect">
+          <div className="clients__connect-info">
+            <h3 className="clients__connect-title">
+              Connect to
+              <br />
+              {firstName}
+            </h3>
+            <div className="clients__article-info">
+              <p className="clients__article-quote">{articleQuoute}</p>
+              <div
+                className="article"
+                onClick={() => history.push(`/news/${articleId}`)}
+              >
+                <div
+                  className="article__img"
+                  style={{ backgroundImage: `url(${articleImg[0]})` }}
+                />
+                <div className="article__info">
+                  <h3 className="article__title">{title}</h3>
+                  <p className="article__date">{createAt}</p>
+                </div>
+              </div>
+            </div>
+            <img src={pressFoto} alt="" className="clients__article-img" />
+            <div
+              className="clients__connect-img"
+              style={{ backgroundImage: `url(${articleImg[1]})` }}
+            />
+            <div className="clients__connect-decor" />
+            <ButtonsSocial component="connect" />
+          </div>
+        </div>
       </div>
     );
   }
