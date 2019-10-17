@@ -15,7 +15,7 @@ class RandomArticle extends Component {
         {newArticles.map(({ slider, title, createAt, id }, index) => (
           <div
             onClick={e => {
-              history.push(id);
+              history.push(`/news/${id}`);
             }}
             key={index}
             className="random__item"
