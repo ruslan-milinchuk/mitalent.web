@@ -1,5 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
+import { withRouter } from "react-router";
 import "./style.css";
-const Layout = ({ children }) => <div className="layout">{children}</div>;
+class Layout extends Component {
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      window.scrollTo(0, 0);
+    }
+  }
 
-export default Layout;
+  render() {
+    const { children } = this.props;
+    return <div className="layout">{children}</div>;
+  }
+}
+export default withRouter(Layout);

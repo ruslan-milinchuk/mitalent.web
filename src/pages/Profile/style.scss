@@ -346,7 +346,7 @@
 @media screen and (max-width: 1011px) {
   .profile {
     &__main {
-      margin: 90px 10px;
+      margin: 90px 0;
     }
 
     &__press {
@@ -447,7 +447,7 @@
       justify-content: space-between;
       max-height: max-content;
 
-      padding: 0 15px;
+      padding: 0;
 
       &-img {
         display: none;
@@ -546,18 +546,18 @@
     &__contact {
       &-title {
         font-size: 28px;
-        margin: 45px 0 45px 15px;
+        margin: 45px 0 45px 0;
       }
 
       &-data {
-        margin-left: 15px;
+        margin-left: 0;
       }
     }
   }
 
   .similar-clients__title {
     font-size: 28px;
-    margin: 45px 0 45px 15px;
+    margin: 45px 0 45px 0;
   }
 }
 

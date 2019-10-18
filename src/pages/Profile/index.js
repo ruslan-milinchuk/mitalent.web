@@ -14,16 +14,6 @@ class Profile extends Component {
     categoryAwards: "awards"
   };
 
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
-  componentDidUpdate(prevProps) {
-    if (this.props.location.pathname !== prevProps.location.pathname) {
-      window.scrollTo(0, 0);
-    }
-  }
-
   render() {
     const { history } = this.props;
     const { pathname } = history.location;

@@ -63,7 +63,7 @@
     flex-direction: column;
     justify-content: space-between; }
     .contact__info:after {
-      content: '';
+      content: "";
       position: absolute;
       width: 46%;
       height: 100%;
@@ -138,7 +138,8 @@
     .contact__title {
       margin: 120px auto 86px; }
     .contact__section-first {
-      width: 100%; }
+      width: calc(100% + 40px);
+      margin-left: -20px; }
     .contact__section-second {
       padding: 90px 0 0 20px; }
     .contact__coordinates, .contact__phone, .contact__mail {
@@ -160,6 +161,6 @@
     margin-bottom: 59px;
     font-size: 15px; }
   .contact__btn-info {
-    width: 88%; } }
+    width: calc(100% - 50px); } }
 
 /*# sourceMappingURL=style.css.map */

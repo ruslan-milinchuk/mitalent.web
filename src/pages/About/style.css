@@ -2,12 +2,11 @@
   display: flex;
   margin: -91px 0 0 -20px; }
   .about__comunication {
-    background: url(http://5b0988e595225.cdn.sohucs.com/images/20180408/cce984e2e7474db8a808c64d23cf6dc3.jpeg) no-repeat;
     width: 45.5%;
     background-size: cover;
-    background-position: top; }
+    background: url(http://5b0988e595225.cdn.sohucs.com/images/20180408/cce984e2e7474db8a808c64d23cf6dc3.jpeg) no-repeat top; }
   .about__buttons {
-    margin: 250px 0 189px 30px;
+    margin: 250px 0 189px 20px;
     display: inline-flex;
     flex-direction: column; }
     .about__buttons > a {
@@ -57,7 +56,7 @@
     font-size: 16px;
     padding-left: 130px; }
     .about__date:after {
-      content: '';
+      content: "";
       position: absolute;
       width: 173px;
       height: 48%;
@@ -67,7 +66,7 @@
   .about__title {
     font-family: Seconda;
     margin: 155px 15px 10px 0;
-    max-width: calc( 100% - 235px);
+    max-width: calc(100% - 235px);
     font-weight: 100; }
     .about__title:first-letter {
       font-size: 55px;
@@ -75,11 +74,11 @@
       font-weight: lighter;
       margin: -5px 11px 0px -7px; }
   .about__description {
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     font-size: 11px;
     color: gray;
     line-height: 2.2;
-    max-width: calc( 100% - 190px); }
+    max-width: calc(100% - 190px); }
     .about__description:first-child {
       margin-bottom: 10px; }
   .about__quote {
@@ -104,9 +103,9 @@
     padding-right: 0; } }
 @media screen and (max-width: 1151px) {
   .about__title {
-    max-width: calc( 100% - 145px); }
+    max-width: calc(100% - 145px); }
   .about__description {
-    max-width: calc( 100% - 120px); }
+    max-width: calc(100% - 120px); }
   .about__date:after {
     width: 125px; }
   .about__quote {
@@ -130,7 +129,8 @@
   .about {
     margin: -91px 0 0 0px; }
     .about__comunication {
-      width: 47%; }
+      width: 47%;
+      margin-left: -20px; }
     .about__title {
       max-width: 100%;
       margin: 80px auto 0; }
@@ -139,7 +139,7 @@
       line-height: 1.6;
       margin-bottom: 0; }
     .about__buttons {
-      margin: 0 0 189px 30px;
+      margin: 0 0 189px 20px;
       padding-top: 125px; }
     .about__date {
       display: flex;
@@ -156,9 +156,9 @@
   .about {
     display: block; }
     .about__comunication {
-      width: 100%; }
+      width: calc(100% + 40px); }
     .about__buttons {
-      margin: 0 0 125px 30px; }
+      margin: 0 0 125px 20px; }
     .about__date {
       width: 100%;
       padding: 0; }
