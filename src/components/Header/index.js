@@ -28,7 +28,10 @@ class Header extends Component {
     const { itScroll } = this.state;
     return (
       <div className="header__wrapp">
-        <div className={itScroll ? "header header__on-scroll" : "header"}>
+        <div
+          onClick={() => this.itsScroll}
+          className={itScroll ? "header header__on-scroll" : "header"}
+        >
           <div className="header__menu">
             <BurgerMenu itsScroll={itScroll} />
             <Link

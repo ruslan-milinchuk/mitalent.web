@@ -21,9 +21,10 @@ body {
   height: 25px;
   border-radius: 50%;
   position: relative;
-  cursor: pointer; }
-  .menu-btn:hover .menu-btn span, .menu-btn span::before, .menu-btn span::after {
-    background-color: #919191; }
+  cursor: pointer;
+  transition: all .5s ease-in-out; }
+  .menu-btn_padding {
+    margin: 20px 75px 20px 20px; }
   .menu-btn span, .menu-btn span::before, .menu-btn span::after {
     position: absolute;
     top: 50%;
@@ -33,6 +34,16 @@ body {
     width: 20px;
     height: 2px;
     background-color: black; }
+  .menu-btn:hover span::before {
+    background-color: #919191; }
+  .menu-btn:hover span {
+    background-color: #919191; }
+  .menu-btn:hover span::after {
+    background-color: #919191; }
+  .menu-btn__open span,
+  .menu-btn__open span::before,
+  .menu-btn__open span::after {
+    background-color: #919191; }
   .menu-btn span::before, .menu-btn span::after {
     content: "";
     display: block;

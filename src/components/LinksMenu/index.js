@@ -6,7 +6,7 @@ class LinksMenu extends Component {
     const { close, history, itsScroll } = this.props;
     const { pathname } = history.location;
     return (
-      <div className={itsScroll ? "header__list header__list-bg" : "header__list"}>
+      <div className={itsScroll ? "header__list header__list-scroll" : "header__list"}>
         <Link
           onClick={close}
           className={

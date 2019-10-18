@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between; }
   .header__on-scroll {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     transition: background-color 1s ease-in; }
   .header__wrapp {
     position: fixed;
@@ -34,10 +34,12 @@
     font-size: 14px;
     letter-spacing: 2px;
     z-index: 4;
-    top: 68px; }
-    .header__list-bg {
-      background-color: rgba(255, 255, 255, 0.5);
-      transition: background-color 1s ease-in; }
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 68px; }
+    .header__list-scroll {
+      top: 68px;
+      padding-top: 0; }
   .header__item_unfixed {
     text-decoration: none;
     color: black;
@@ -70,6 +72,8 @@
     height: 100%;
     outline: none;
     cursor: pointer; }
+  .header .menu-btn {
+    z-index: 10; }
 
 @media screen and (max-width: 1024px) {
   .header > .search-form {

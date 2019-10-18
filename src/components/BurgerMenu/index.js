@@ -9,7 +9,20 @@ class BurgerMenu extends Component {
 
   render() {
     const { isOpen } = this.state;
-    const {itsScroll}=this.props
+    const { itsScroll } = this.props;
+    let menuClass = "";
+
+    if (isOpen && !itsScroll) {
+      menuClass = "menu-btn menu-btn__open menu-btn_padding";
+    }
+    if (isOpen && itsScroll) {
+      menuClass = "menu-btn menu-btn__open";
+    }
+
+    if (!isOpen) {
+      menuClass = "menu-btn";
+    }
+
     return (
       <div className="header__burger-menu">
         <div
@@ -17,11 +30,11 @@ class BurgerMenu extends Component {
           className={isOpen ? "header__open-menu" : "header__close-menu"}
         />
         <div className="section" onClick={this.menuClick}>
-          <div className="menu-btn">
+          <div className={menuClass}>
             <span />
           </div>
         </div>
-        {isOpen && <LinksMenu itsScroll={itsScroll}  close={this.menuClick} />}
+        {isOpen && <LinksMenu itsScroll={itsScroll} close={this.menuClick} />}
       </div>
     );
   }
