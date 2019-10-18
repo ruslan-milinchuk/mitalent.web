@@ -1,53 +1,59 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
+import classNames from "classnames";
+
+const LINK_CONTACT = "/contact-us";
+const LINK_CLIENTS = "/clients";
+const LINK_ABOUT = "/about";
+const LINK_NEWS = "/news";
 
 class LinksMenu extends Component {
   render() {
-    const { close, history, itsScroll } = this.props;
+    const { close, history, itScroll } = this.props;
     const { pathname } = history.location;
     return (
-      <div className={itsScroll ? "header__list header__list-scroll" : "header__list"}>
+      <div
+        className={
+          itScroll ? "header__list header__list-scroll" : "header__list"
+        }
+      >
         <Link
           onClick={close}
-          className={
-            pathname === "/about"
-              ? "header__item_unfixed header__item-active"
-              : "header__item_unfixed"
-          }
-          to="/about"
+          className={classNames(
+            { "header__item-active": pathname === LINK_ABOUT },
+            { header__item_unfixed: true }
+          )}
+          to={LINK_ABOUT}
         >
           About
         </Link>
         <Link
           onClick={close}
-          className={
-            pathname === "/clients"
-              ? "header__item_unfixed header__item-active"
-              : "header__item_unfixed"
-          }
-          to="/clients"
+          className={classNames(
+            { "header__item-active": pathname === LINK_CLIENTS },
+            { header__item_unfixed: true }
+          )}
+          to={LINK_CLIENTS}
         >
           Clients
         </Link>
         <Link
           onClick={close}
-          className={
-            pathname === "/news"
-              ? "header__item_unfixed header__item-active"
-              : "header__item_unfixed"
-          }
-          to="/news"
+          className={classNames(
+            { "header__item-active": pathname === LINK_NEWS },
+            { header__item_unfixed: true }
+          )}
+          to={LINK_NEWS}
         >
           News
         </Link>
         <Link
           onClick={close}
-          className={
-            pathname === "/contact-us"
-              ? "header__item_unfixed header__item-active"
-              : "header__item_unfixed"
-          }
-          to="/contact-us"
+          className={classNames(
+            { "header__item-active": pathname === LINK_CONTACT },
+            { header__item_unfixed: true }
+          )}
+          to={LINK_CONTACT}
         >
           Contact us
         </Link>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
+import classNames from "classnames";
 
 import BurgerMenu from "../BurgerMenu";
 import { Link } from "react-router-dom";
@@ -13,14 +14,14 @@ class Header extends Component {
   };
 
   componentDidMount() {
-    this.itsScroll();
+    this.itScroll();
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
       this.setState({ itScroll: false });
     }
-    this.itsScroll();
+    this.itScroll();
   }
 
   render() {
@@ -29,27 +30,28 @@ class Header extends Component {
     return (
       <div className="header__wrapp">
         <div
-          onClick={() => this.itsScroll}
-          className={itScroll ? "header header__on-scroll" : "header"}
+          onClick={() => this.itScroll}
+          className={classNames(
+            { "header__on-scroll": itScroll },
+            { header: true }
+          )}
         >
           <div className="header__menu">
-            <BurgerMenu itsScroll={itScroll} />
+            <BurgerMenu itScroll={itScroll} />
             <Link
-              className={
-                pathname === "/clients"
-                  ? "header__item_fixed header__item-active"
-                  : "header__item_fixed"
-              }
+              className={classNames(
+                { "header__item-active": pathname === "/clients" },
+                { header__item_fixed: true }
+              )}
               to="/clients"
             >
               Clients
             </Link>
             <Link
-              className={
-                pathname === "/news"
-                  ? "header__item_fixed header__item-active"
-                  : "header__item_fixed"
-              }
+              className={classNames(
+                { "header__item-active": pathname === "/news" },
+                { header__item_fixed: true }
+              )}
               to="/news"
             >
               News
@@ -62,7 +64,7 @@ class Header extends Component {
     );
   }
 
-  itsScroll = () => {
+  itScroll = () => {
     setInterval(() => {
       if (window.scrollY !== 0) {
         this.setState({ itScroll: true });

@@ -10,7 +10,7 @@ class About extends Component {
     return (
       <div className="about-wrapper">
         <div className="about">
-          <div className="about__comunication">
+          <div className="about__communication">
             <ButtonsSocial component="about" />
             <Link to="/contact-us" className="about__btn-info">
               <div className="about__btn-name">Contact us</div>
@@ -38,7 +38,7 @@ class About extends Component {
               radio and film.
             </p>
             <div className="about__quote">
-              <span>Motivation</span> Is The First Step To <span>Succes</span>
+              <span>Motivation</span> Is The First Step To <span>Success</span>
             </div>
           </div>
         </div>

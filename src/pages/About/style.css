@@ -1,7 +1,7 @@
 .about {
   display: flex;
   margin: -91px 0 0 -20px; }
-  .about__comunication {
+  .about__communication {
     width: 45.5%;
     background-size: cover;
     background: url(http://5b0988e595225.cdn.sohucs.com/images/20180408/cce984e2e7474db8a808c64d23cf6dc3.jpeg) no-repeat top; }
@@ -128,7 +128,7 @@
 @media screen and (max-width: 803px) {
   .about {
     margin: -91px 0 0 0px; }
-    .about__comunication {
+    .about__communication {
       width: 47%;
       margin-left: -20px; }
     .about__title {
@@ -155,7 +155,7 @@
 @media screen and (max-width: 736px) {
   .about {
     display: block; }
-    .about__comunication {
+    .about__communication {
       width: calc(100% + 40px); }
     .about__buttons {
       margin: 0 0 125px 20px; }
@@ -170,7 +170,7 @@
     .about__quote {
       margin-top: 10px; } }
 @media screen and (max-width: 541px) {
-  .about__comunication {
+  .about__communication {
     display: flex;
     align-items: flex-end;
     height: 350px; }

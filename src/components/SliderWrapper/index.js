@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import windowSize from "react-window-size";
+import classNames from "classnames";
 
 import ArrowLeft from "../../icons/ArrowLeft";
 import ClientList from "../ClientList";
 import ArrowRight from "../../icons/ArrowRight";
 
-const WIDHT_IMG_SLIDER = 250;
+const WIDTH_IMG_SLIDER = 250;
 
 class SliderWrapper extends Component {
   state = {
@@ -32,9 +33,12 @@ class SliderWrapper extends Component {
         {dataLength > maxItemLength && (
           <div
             onClick={() =>
-              position !== 0 && onClick(position + WIDHT_IMG_SLIDER)
+              position !== 0 && onClick(position + WIDTH_IMG_SLIDER)
             }
-            className={position === 0 ? "arrow arrow-unactive" : "arrow"}
+            className={classNames(
+              { "arrow-unactive": position === 0 },
+              { arrow: true }
+            )}
           >
             <ArrowLeft />
           </div>
@@ -46,17 +50,20 @@ class SliderWrapper extends Component {
         </div>
         {dataLength > maxItemLength && (
           <div
-            className={
-              position ===
-              maxItemLength * WIDHT_IMG_SLIDER - dataLength * WIDHT_IMG_SLIDER
-                ? "arrow arrow-unactive"
-                : "arrow"
-            }
+            className={classNames(
+              {
+                "arrow-unactive":
+                  position ===
+                  maxItemLength * WIDTH_IMG_SLIDER -
+                    dataLength * WIDTH_IMG_SLIDER
+              },
+              { arrow: true }
+            )}
             onClick={() =>
               position !==
-                maxItemLength * WIDHT_IMG_SLIDER -
-                  dataLength * WIDHT_IMG_SLIDER &&
-              onClick(position - WIDHT_IMG_SLIDER)
+                maxItemLength * WIDTH_IMG_SLIDER -
+                  dataLength * WIDTH_IMG_SLIDER &&
+              onClick(position - WIDTH_IMG_SLIDER)
             }
           >
             <ArrowRight />

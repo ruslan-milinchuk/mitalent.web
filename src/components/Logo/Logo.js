@@ -5,7 +5,7 @@ const Logo = () => (
   <h1>
     <Link className="logo" to="/">
       <span>MI</span>
-      <span className="logo__spasing">TALENT</span>
+      <span className="logo__spacing">TALENT</span>
     </Link>
   </h1>
 );

@@ -16,12 +16,12 @@ class ProfileSlider extends Component {
       firstName,
       lastName,
       type,
-      mainFoto,
-      profileFoto,
-      pressFoto
+      mainPhoto,
+      profilePhoto,
+      pressPhoto
     } = neededPerson;
     let list = [];
-    list.push(mainFoto, profileFoto, pressFoto);
+    list.push(mainPhoto, profilePhoto, pressPhoto);
     let role = type;
     const link = "#";
     return (

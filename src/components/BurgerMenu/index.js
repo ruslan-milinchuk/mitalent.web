@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import LinksMenu from "../LinksMenu";
+import classNames from "classnames";
 import "./style.css";
 
 class BurgerMenu extends Component {
@@ -9,32 +10,28 @@ class BurgerMenu extends Component {
 
   render() {
     const { isOpen } = this.state;
-    const { itsScroll } = this.props;
-    let menuClass = "";
-
-    if (isOpen && !itsScroll) {
-      menuClass = "menu-btn menu-btn__open menu-btn_padding";
-    }
-    if (isOpen && itsScroll) {
-      menuClass = "menu-btn menu-btn__open";
-    }
-
-    if (!isOpen) {
-      menuClass = "menu-btn";
-    }
+    const { itScroll } = this.props;
+    let menuClass = classNames({
+      "menu-btn": true,
+      "menu-btn__open": isOpen && itScroll,
+      "menu-btn__open menu-btn_padding": isOpen && !itScroll
+    });
 
     return (
       <div className="header__burger-menu">
         <div
           onClick={this.menuClick}
-          className={isOpen ? "header__open-menu" : "header__close-menu"}
+          className={classNames(
+            { "header__open-menu": isOpen },
+            { "header__close-menu": !isOpen }
+          )}
         />
         <div className="section" onClick={this.menuClick}>
           <div className={menuClass}>
             <span />
           </div>
         </div>
-        {isOpen && <LinksMenu itsScroll={itsScroll} close={this.menuClick} />}
+        {isOpen && <LinksMenu itsScroll={itScroll} close={this.menuClick} />}
       </div>
     );
   }

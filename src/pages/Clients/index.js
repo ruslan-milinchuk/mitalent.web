@@ -20,23 +20,25 @@ class Clients extends Component {
     listLength: null,
     allArticles: {},
     articleId: "",
-    quoute: [],
+    quote: [],
     createAt: "",
     articleImg: []
   };
   componentDidMount() {
     const objPerson = this.randomNumb(0, persons.length - 1);
     const list = [];
-    const { mainFoto, profileFoto, pressFoto, articles } = persons[objPerson];
-    list.push(mainFoto, profileFoto, pressFoto);
+    const { mainPhoto, profilePhoto, pressPhoto, articles } = persons[
+      objPerson
+    ];
+    list.push(mainPhoto, profilePhoto, pressPhoto);
     const articleId = articles[0].id;
     const neededArticle = articlesList.filter(item => item.id === articleId)[0];
-    const { slider, quoute, createAt, title } = neededArticle;
+    const { slider, quote, createAt, title } = neededArticle;
     const articleDate = new Date(createAt).toDateString();
     this.setState({
       defaultPerson: persons[objPerson],
       listLength: list.length,
-      quoute: quoute,
+      quote: quote,
       createAt: articleDate,
       articleImg: slider,
       title,
@@ -48,7 +50,7 @@ class Clients extends Component {
     const {
       numberPhoto,
       currentIndex,
-      quoute,
+      quote,
       createAt,
       articleImg,
       title,
@@ -58,13 +60,13 @@ class Clients extends Component {
       firstName,
       lastName,
       type,
-      mainFoto,
-      profileFoto,
-      pressFoto
+      mainPhoto,
+      profilePhoto,
+      pressPhoto
     } = this.state.defaultPerson;
     const list = [];
-    list.push(mainFoto, profileFoto, pressFoto);
-    const articleQuoute = quoute.map(item => {
+    list.push(mainPhoto, profilePhoto, pressPhoto);
+    const articleQuote = quote.map(item => {
       return <p>{item}</p>;
     });
 
@@ -129,7 +131,7 @@ class Clients extends Component {
               {firstName}
             </h3>
             <div className="clients__article-info">
-              <p className="clients__article-quote">{articleQuoute}</p>
+              <p className="clients__article-quote">{articleQuote}</p>
               <div
                 className="article"
                 onClick={() => history.push(`/news/${articleId}`)}
@@ -144,7 +146,7 @@ class Clients extends Component {
                 </div>
               </div>
             </div>
-            <img src={pressFoto} alt="" className="clients__article-img" />
+            <img src={pressPhoto} alt="" className="clients__article-img" />
             <div
               className="clients__connect-img"
               style={{ backgroundImage: `url(${articleImg[1]})` }}
@@ -206,7 +208,7 @@ class CustomerGroupsClients extends Component {
   }
 
   render() {
-    const { type, filterData, data } = this.state;
+    const { type, filterData } = this.state;
     return (
       <div className="clients__list-wrapper">
         <div className="clients__list">

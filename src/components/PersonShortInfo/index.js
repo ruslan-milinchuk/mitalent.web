@@ -9,7 +9,7 @@ class PersonShortInfo extends Component {
     const { history, idPerson } = this.props;
     let neededPerson = persons.filter(item => idPerson === item.id)[0];
 
-    const { firstName, lastName, createAt, mainFoto } = neededPerson;
+    const { firstName, lastName, createAt, mainPhoto } = neededPerson;
     return (
       <div
         onClick={e => {
@@ -23,7 +23,7 @@ class PersonShortInfo extends Component {
             {new Date(createAt).toDateString()}
           </div>
         </div>
-        <img className="person-info__img" src={`../.${mainFoto}`} alt="" />
+        <img className="person-info__img" src={`../.${mainPhoto}`} alt="" />
       </div>
     );
   }
