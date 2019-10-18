@@ -2,6 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  .header__on-scroll {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 1s ease-in; }
   .header__wrapp {
     position: fixed;
     width: 100%;
@@ -25,26 +28,32 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    background-color: transparent;
     text-transform: uppercase;
     font-family: Seconda;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 2px;
-    z-index: 4; }
+    z-index: 4;
+    top: 68px; }
+    .header__list-bg {
+      background-color: rgba(255, 255, 255, 0.5);
+      transition: background-color 1s ease-in; }
   .header__item_unfixed {
     text-decoration: none;
     color: black;
-    margin: 15px;
-    text-transform: uppercase; }
+    margin: 15px 25px;
+    text-transform: uppercase;
+    cursor: pointer; }
+    .header__item_unfixed:first-child {
+      margin-top: 5px; }
+    .header__item_unfixed:last-child {
+      margin-bottom: 30px; }
+    .header__item_unfixed:hover {
+      color: rgba(167, 167, 167, 0.9); }
   .header__item-active {
     color: #919191; }
-  .header__item_unfixed:hover {
-    color: rgba(167, 167, 167, 0.9); }
   .header__item_fixed:hover, .header__item_unfixed:hover {
     text-decoration: none; }
-  .header__item_unfixed:first-child {
-    margin-top: 0; }
   .header__input {
     padding-left: 30px;
     border: none;
@@ -85,6 +94,6 @@
     font-size: 26px; }
 
   .menu-btn {
-    margin: 10px 0 10px 10px; } }
+    margin: 10px 0 10px 20px; } }
 
 /*# sourceMappingURL=style.css.map */

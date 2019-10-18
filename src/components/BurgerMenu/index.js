@@ -9,14 +9,19 @@ class BurgerMenu extends Component {
 
   render() {
     const { isOpen } = this.state;
+    const {itsScroll}=this.props
     return (
       <div className="header__burger-menu">
+        <div
+          onClick={this.menuClick}
+          className={isOpen ? "header__open-menu" : "header__close-menu"}
+        />
         <div className="section" onClick={this.menuClick}>
-          <a href="#" className="menu-btn">
+          <div className="menu-btn">
             <span />
-          </a>
+          </div>
         </div>
-        {isOpen && <LinksMenu close={this.menuClick} />}
+        {isOpen && <LinksMenu itsScroll={itsScroll}  close={this.menuClick} />}
       </div>
     );
   }

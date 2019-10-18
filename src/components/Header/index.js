@@ -8,13 +8,29 @@ import Logo from "../Logo/Logo";
 import FormSearch from "../FormSearch";
 
 class Header extends Component {
+  state = {
+    itScroll: false
+  };
+
+  componentDidMount() {
+    this.itsScroll();
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      this.setState({ itScroll: false });
+    }
+    this.itsScroll();
+  }
+
   render() {
     const { pathname } = this.props.history.location;
+    const { itScroll } = this.state;
     return (
       <div className="header__wrapp">
-        <div className="header">
+        <div className={itScroll ? "header header__on-scroll" : "header"}>
           <div className="header__menu">
-            <BurgerMenu />
+            <BurgerMenu itsScroll={itScroll} />
             <Link
               className={
                 pathname === "/clients"
@@ -42,6 +58,20 @@ class Header extends Component {
       </div>
     );
   }
+
+  itsScroll = () => {
+    let scrolling = setInterval(() => {
+      let scroll = false;
+      if (window.scrollY !== 0) {
+        this.setState({ itScroll: true });
+        scroll = true;
+      }
+
+      if (scroll) {
+        clearInterval(scrolling);
+      }
+    }, 50);
+  };
 }
 
 export default withRouter(Header);
