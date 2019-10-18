@@ -3,10 +3,10 @@ import { Link, withRouter } from "react-router-dom";
 
 class LinksMenu extends Component {
   render() {
-    const { close, history } = this.props;
+    const { close, history, itsScroll } = this.props;
     const { pathname } = history.location;
     return (
-      <div className="header__list">
+      <div className={itsScroll ? "header__list header__list-bg" : "header__list"}>
         <Link
           onClick={close}
           className={

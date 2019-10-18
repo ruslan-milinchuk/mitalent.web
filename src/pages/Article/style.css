@@ -15,7 +15,7 @@
     letter-spacing: 2px;
     line-height: 1.5; }
     .article-info__title:after {
-      content: '';
+      content: "";
       margin-left: 30px;
       width: 70px;
       border-bottom: 5px black solid;
@@ -70,6 +70,8 @@
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 20px; }
+  .article-info .person__short-info_none {
+    display: none; }
 
 @media screen and (max-width: 1165px) {
   .article-info__title {
@@ -100,15 +102,15 @@
     margin: 50px auto;
     padding: 0 50px; }
   .article-info .person-info {
-    margin: 10px 0 0; } }
+    margin: 10px 0 0 25px; } }
 @media screen and (max-width: 776px) {
   .article-info__first-img_hidden {
     height: 400px; }
   .article-info__short-description-wrapp {
     flex-direction: column;
-    align-items: center; }
+    align-items: flex-start; }
     .article-info__short-description-wrapp .person-info {
-      margin: 10px 0 20px; }
+      margin: 10px 0 20px 25px; }
   .article-info__short-description-wrapp, .article-info__main {
     width: 100%; }
   .article-info__short-description {
@@ -129,15 +131,23 @@
     .article-info__main {
       flex-direction: column;
       margin-bottom: 30px; }
+      .article-info__main .person-info {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row-reverse;
+        margin: 25px 0; }
+        .article-info__main .person-info__data {
+          margin: 0 0 0 15px;
+          text-align: left; }
+      .article-info__main > .person-info {
+        display: none; }
+    .article-info__type-article {
+      margin-bottom: 25px; }
     .article-info__title {
       font-size: 20px;
-      text-align: center; }
+      text-align: left; }
     .article-info__first-img_hidden {
       height: 250px; }
-    .article-info .person-info {
-      margin: 10px 10px 15px;
-      display: flex;
-      justify-content: center; }
     .article-info__short-description-wrapp {
       margin: 0; }
     .article-info__short-description-wrapp .person-info {
@@ -154,8 +164,12 @@
       height: 150px; }
     .article-info__second-img-minor {
       width: 160px;
-      height: 150px; } }
+      height: 150px; }
+    .article-info .person__short-info_none {
+      display: block; } }
 @media screen and (max-width: 448px) {
+  .article-info__main-info {
+    margin: 5px; }
   .article-info__title {
     margin: 25px 0; }
   .article-info__type-article {

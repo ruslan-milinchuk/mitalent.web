@@ -218,7 +218,8 @@
 
     &__section {
       &-first {
-        width: 100%;
+        width: calc(100% + 40px);
+        margin-left: -20px;
       }
 
       &-second {
@@ -265,7 +266,7 @@
     }
 
     &__btn-info {
-      width: 88%;
+      width: calc(100% - 50px);
     }
   }
 }

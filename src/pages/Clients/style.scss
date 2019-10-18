@@ -10,7 +10,7 @@
     background-size: cover;
     margin: -90px 0 0 -20px;
     width: 62%;
-    padding: 120px 0 120px 45px;
+    padding: 120px 0 120px 20px;
     box-sizing: border-box;
   }
 
@@ -474,10 +474,6 @@
       padding: 0;
     }
 
-    &__info-page {
-      padding: 120px 0 120px 25px;
-    }
-
     &__info-title {
       font-size: 60px;
     }
@@ -587,7 +583,7 @@
     }
 
     &__info-page {
-      padding: 100px 0 100px 25px;
+      padding: 100px 0 100px 20px;
     }
 
     &__info-title {
@@ -694,7 +690,7 @@
     }
 
     &__info-page {
-      padding: 70px 0 70px 25px;
+      padding: 70px 0 70px 20px;
     }
 
     &__info-wrapper {
@@ -820,7 +816,7 @@
 
     &__info-page {
       width: 67%;
-      padding: 70px 0 55px 10px;
+      padding: 70px 0 55px 20px;
     }
 
     &__info-wrapper {
@@ -968,7 +964,7 @@
 @media screen and (max-width: 460px) {
   .clients {
     &__info-page {
-      padding: 60px 0 35px 10px;
+      padding: 60px 0 35px 20px;
     }
     &__social-numb {
       height: 185px;

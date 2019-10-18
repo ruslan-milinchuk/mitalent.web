@@ -5,15 +5,6 @@ import PersonShortInfo from "../../components/PersonShortInfo";
 import "./style.css";
 import RandomArticle from "../../components/RandomArticle";
 class Article extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
-
-  componentDidUpdate(prevProps) {
-    if (this.props.location.pathname !== prevProps.location.pathname) {
-      window.scrollTo(0, 0);
-    }
-  }
 
   render() {
     const { history } = this.props;
@@ -44,6 +35,7 @@ class Article extends Component {
           <PersonShortInfo idPerson={profileId} />
           <div className="article-info__main-info">
             <h3 className="article-info__title">{title}</h3>
+            <div className="person__short-info_none"><PersonShortInfo idPerson={profileId} /></div>
             <p className="article-info__type-article">{typeArticle[0]}</p>
             <p className="article-info__subtitle">{shortDescription}</p>
           </div>

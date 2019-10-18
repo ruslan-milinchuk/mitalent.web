@@ -232,7 +232,7 @@
     padding: 0 0 0 90px; } }
 @media screen and (max-width: 1011px) {
   .profile__main {
-    margin: 90px 10px; }
+    margin: 90px 0; }
   .profile__press-title {
     font-size: 36px;
     padding-bottom: 20px;
@@ -282,7 +282,7 @@
     display: flex;
     justify-content: space-between;
     max-height: max-content;
-    padding: 0 15px; }
+    padding: 0; }
     .profile__main-img {
       display: none; }
   .profile__btn-s {
@@ -331,13 +331,13 @@
     max-width: 180px; }
   .profile__contact-title {
     font-size: 28px;
-    margin: 45px 0 45px 15px; }
+    margin: 45px 0 45px 0; }
   .profile__contact-data {
-    margin-left: 15px; }
+    margin-left: 0; }
 
   .similar-clients__title {
     font-size: 28px;
-    margin: 45px 0 45px 15px; } }
+    margin: 45px 0 45px 0; } }
 @media screen and (max-width: 375px) {
   .profile__article-title {
     max-width: 156px; } }
