@@ -9,7 +9,7 @@ const OurStoriesArticles = ({ newArticles }) => {
         className="our-stories__img"
         style={{ backgroundImage: "url(" + item.slider[1] + ")" }}
       >
-        <div className="our-stories__img_hover"></div>
+        <div className="our-stories__img_hover"/>
       </div>
       <div className="our-stories__info">
         <div className="our-stories__link">

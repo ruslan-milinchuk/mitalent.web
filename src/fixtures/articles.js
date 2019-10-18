@@ -17,7 +17,7 @@ export default [
       "https://images.unsplash.com/photo-1562324808-db86167e15dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=802&q=80",
       "https://images.unsplash.com/photo-1503401639559-b16332601594?ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80"
     ],
-    quoute: [
+    quote: [
       "However, the psychology of love looks at things in a deeper way.",
       "Love changes how people view others and other things.",
       "How we do it matters to others and also ourselves."
@@ -106,7 +106,7 @@ export default [
       "https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1543297031-d102cd432d54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
-    quoute: [
+    quote: [
       "A migraine is a throbbing pain on one side of the head that is persistent.",
       "Migraine aura without headache (silent migraine)."
     ],
@@ -199,7 +199,7 @@ export default [
       "https://images.unsplash.com/photo-1560383124-d4d4b22995d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1552406157-570373a5a440?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
-    quoute: [
+    quote: [
       "When you feel good physically, you feel great mentally. ",
       " Find out more about Colchester courses and what you need to do to get on this career path.",
       "With this in mind, it's easy to see how exercise has a direct link to self-confidence. "
@@ -282,7 +282,7 @@ export default [
       "https://images.unsplash.com/photo-1473283147055-e39c51463929?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1541800569-95a8b25835f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "Coffee is extremely popular across the globe, mainly as a morning wake-me-up. ",
       "There is a lot of controversy surrounding the effectiveness of supplements on long term function."
     ],
@@ -368,7 +368,7 @@ export default [
       "https://images.unsplash.com/photo-1552055568-e9943cd2a08f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80",
       "https://images.unsplash.com/photo-1545261540-bb4fab425886?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
-    quoute: [
+    quote: [
       "Good luck finding a teenager who dutifully eats his or her vegetables.",
       "It's no secret that teenagers have a tendency to experiment with alcohol.",
       "If you catch your teenager drinking, handle the problem immediately."
@@ -460,7 +460,7 @@ export default [
       "https://images.unsplash.com/photo-1533143217966-d0134c5e461e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
       "https://images.unsplash.com/photo-1571068452916-4a370cbeaa81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     ],
-    quoute: [
+    quote: [
       "Whilst creating optimal conditions for learning is vital, of equal importance is good mental health.",
       "A common technique which applies across multiple learning types is the art of questioning.",
       "When supplemented with effective stress management and relaxation strategies to minimise any emotional distractions."
@@ -548,7 +548,7 @@ export default [
       "https://images.unsplash.com/photo-1567760188301-8d682568f3cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
       "https://images.unsplash.com/photo-1518253042715-a2534e1b0a7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
     ],
-    quoute: [
+    quote: [
       "You can also improve your lifestyle by taking up regular exercise.",
       "Exercise can help to improve the amount of vitamins that you will receive, increase the amount of serotonin ."
     ],
@@ -629,7 +629,7 @@ export default [
       "https://images.unsplash.com/photo-1571057853776-d0b33228567f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1548781695-12c50fd2ca76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
     ],
-    quoute: [
+    quote: [
       "In the immediate aftermath of your injury sustained in the workplace.",
       "Shortly after the incident, it'll be time to begin thinking about securing compensation.",
       "Whatever you do, don't delay in getting medical attention - a difference of hours can make a huge difference in terms of your overall recovery time."
@@ -717,7 +717,7 @@ export default [
       "https://images.unsplash.com/photo-1533942295064-8cfcfee30ac7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" <
         "https://images.unsplash.com/photo-1496298126013-b93de808c28d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1613&q=80"
     ],
-    quoute: [
+    quote: [
       "Seven out of 10 adults in the USA suffer from stress.",
       "When you feel good physically, you feel great mentally.",
       "Over 40 million people have been diagnosed with anxiety in the USA alone."
@@ -800,7 +800,7 @@ export default [
       "https://images.unsplash.com/photo-1487900562037-056962ab1fb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80",
       "https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
-    quoute: [
+    quote: [
       "Choline is an essential nutrient found in meat, eggs and dairy, yet when consumed in excess.",
       "However, it is thought that the benefits of ginkgo may only really apply to older people, so consider this before purchasing.",
       "Supplements on the market can often make rather vague claims about the effects."
@@ -882,7 +882,7 @@ export default [
       "https://images.unsplash.com/photo-1507546602-311207b97bfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80",
       "https://images.unsplash.com/photo-1427384924179-da03b8c3ccf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
-    quoute: [
+    quote: [
       "As much as you will want to be constantly there for the person you love.",
       "Once they have decided they want to change their life.",
       "If you are able to talk to this person you care about and get them to understand ."
@@ -965,7 +965,7 @@ export default [
       "https://images.unsplash.com/photo-1552338804-c42590cb7b88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
       "https://images.unsplash.com/photo-1570368586359-3512009fd421?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
     ],
-    quoute: [
+    quote: [
       "In most first world countries, people with HIV are a protected class. ",
       "When you decide to tell people that you're living with HIV, you're making a brave move. ",
       "See if there are any local meetups or support groups for people living with HIV."
@@ -1051,7 +1051,7 @@ export default [
       "https://images.unsplash.com/photo-1515601915049-08c8836c2204?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1501446690852-da55df7bfe07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMjU4fQ&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "Things like sunshine, fresh air, and a positive mindset are great.",
       "One of the worst things you can do is change the way you treat your friend with depression.",
       "Depression can suddenly change a person."
@@ -1144,7 +1144,7 @@ export default [
       "https://images.unsplash.com/photo-1549998333-52ebdca6931b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80",
       "https://images.unsplash.com/photo-1543949879-4ea269a7a1a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=2178&q=80"
     ],
-    quoute: [
+    quote: [
       "The first thing you need to realise is that idle shopping often happens when you are bored or unhappy.",
       "Another trick to stop you spending so much is to stop using credit cards or debit cards.",
       "Make a budget by first calculating how much money you get paid each month."
@@ -1225,7 +1225,7 @@ export default [
       "https://images.unsplash.com/photo-1445294211564-3ca59d999abd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80",
       "https://images.unsplash.com/photo-1551120738-c3fcea8d0cf8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "Nap for the right amount of time.",
       "If naps can do all of this, what's the problem with them?",
       "As you'd expect, naps can provide an energy boost."
@@ -1311,7 +1311,7 @@ export default [
       "https://images.unsplash.com/photo-1560727119-dd8c459dcfe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1653&q=80",
       "https://images.unsplash.com/photo-1518707839885-2748a5e8fd37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
-    quoute: [
+    quote: [
       "There has been much talk recently about the 'politics of fear'.",
       "The internet causes addiction. ",
       "The internet feeds us a lot of depressing news, and makes us periodically angry "
@@ -1401,7 +1401,7 @@ export default [
       "https://images.unsplash.com/photo-1571235663358-c402973503af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80",
       "https://images.unsplash.com/photo-1571217668979-f46db8864f75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       " As you'd expect, naps can provide an energy boost.",
       "If naps can do all of this, what's the problem with them? ",
       "Avoid napping if you're an insomniac. "
@@ -1488,7 +1488,7 @@ export default [
       "https://images.unsplash.com/photo-1569302911021-297d2362e3d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1569820229114-07aa8a51f47c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80"
     ],
-    quoute: [
+    quote: [
       "So what, if anything, is going on? What do people think is behind this problem?",
       "The internet feeds us a lot of depressing news, and makes us periodically angry.",
       "Lack of access to 'green spaces'. "
@@ -1578,7 +1578,7 @@ export default [
       "https://images.unsplash.com/photo-1569834381156-7b735e41e57d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80",
       "https://images.unsplash.com/photo-1568214697537-ace27ffd6cf3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
-    quoute: [
+    quote: [
       "Plaid jacket and belt too tight and he wasn’t even being funny.",
       "Hey buddy, life’s moved on but you still bring us so much joy.",
       "He had a heart in this weird way."
@@ -1687,7 +1687,7 @@ export default [
       "https://images.unsplash.com/photo-1564928275797-a7ab0852021d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1741&q=80",
       "https://images.unsplash.com/photo-1564665759044-959473395029?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "For many aspiring comedic actors growing up in the ’90s, Adam Sandler’s career and approach was the mold.",
       "In a just world, Farley would’ve been right there with his friend.",
       "Later that year, Michaels fired Sandler and Farley. "
@@ -1769,7 +1769,7 @@ export default [
       "https://images.unsplash.com/photo-1543163300-3566d6a3fab0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
       "https://images.unsplash.com/photo-1542308239-3860f3197faa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "This is all terrible information for professional comedians.",
       "Get a bunch of professional comedians in a room and you're probably going to be looking at a sad sack of potatoes. ",
       "Antisocial traits aside, think of the comedians who have struggled with drugs, alcohol, and depression."
@@ -1846,7 +1846,7 @@ export default [
       "https://images.unsplash.com/photo-1554953858-5b019c8dd992?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
       "https://images.unsplash.com/photo-1559834716-658b83325086?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
-    quoute: [
+    quote: [
       " Half truths. Non-truths. Broad and hilariously wrongful generalizations.”).",
       "But this paean to the after-hours freedom of the night club doesn’t entirely.",
       "When a comic performs at a club, it’s late and everyone’s drinking, he noted."
@@ -1923,7 +1923,7 @@ export default [
       "https://images.unsplash.com/photo-1477146901578-40f6955116e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80",
       "https://images.unsplash.com/photo-1541535267011-2fad2b4b9f74?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
     ],
-    quoute: [
+    quote: [
       "However, the psychology of love looks at things in a deeper way.",
       "Love changes how people view others and other things.",
       "How we do it matters to others and also ourselves."
@@ -2007,7 +2007,7 @@ export default [
       "https://images.unsplash.com/photo-1552870741-2b13710212c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1549738237-c3cf2277f3f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "In the immediate aftermath of your injury sustained in the workplace.",
       "Shortly after the incident, it'll be time to begin thinking about securing compensation.",
       "Whatever you do, don't delay in getting medical attention - a difference of hours can make a huge difference in terms of your overall recovery time."
@@ -2095,7 +2095,7 @@ export default [
       "https://images.unsplash.com/photo-1508292311848-357cd4300fa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1508171997656-fdf7cf6c4df9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "It occurred to me that of all mind-boiling aspects of the current presidential race.",
       "My brain filled with dopamine.",
       "Celebrities were batting my joke at one another. "
@@ -2183,7 +2183,7 @@ export default [
       "https://images.unsplash.com/photo-1507546530-14a03f8d180a?ixlib=rb-1.2.1&auto=format&fit=crop&w=595&q=80",
       "https://images.unsplash.com/photo-1421484147738-5e2539487ab0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
-    quoute: [
+    quote: [
       "But she doesn’t think you should really suffer for your art.",
       "Gadsby is keen to go incognito.",
       "Gadsby can’t bring herself to look right now. "
@@ -2272,7 +2272,7 @@ export default [
       "https://images.unsplash.com/photo-1546702133-d1552256b03f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
       "https://images.unsplash.com/photo-1490633874781-1c63cc424610?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "But how did he do it?",
       "He cites the example of single mothers, explaining how they come to work.",
       "Seek your money where the VCs seek theirs."
@@ -2360,7 +2360,7 @@ export default [
       "https://images.unsplash.com/photo-1515056140641-c645caffe247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
       "https://images.unsplash.com/photo-1515445702422-3a80ccfdb236?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
     ],
-    quoute: [
+    quote: [
       " “Transparent” shakes up the system.",
       "O.K., I’ll drop the fake math and rude comparisons. ",
       "Directors have begun to flood a medium that used to be run by writers."
@@ -2452,7 +2452,7 @@ export default [
       "https://images.unsplash.com/photo-1533463107614-05572aa79fe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
       "https://images.unsplash.com/photo-1508060698845-34709bc12e1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "Glamour labor is a phenomenon of the Internet age.",
       "Today, people are finding they have to work more for less. ",
       "Now the burden of risk is shifting to individuals."
@@ -2546,7 +2546,7 @@ export default [
       "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1500440993422-db2f2895d146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
     ],
-    quoute: [
+    quote: [
       "The other thing that has always troubled me about this is how tiresomely predictable it is.",
       "There’s an interesting heritage to it, too.",
       "Detractors of fashion often complain about the convention ."
@@ -2626,7 +2626,7 @@ export default [
       "https://images.unsplash.com/photo-1436076863939-06870fe779c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1496478981722-3ae516118a04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1647&q=80"
     ],
-    quoute: [
+    quote: [
       "More importantly, the research showed correlation, not causation .",
       "Perhaps, as the authors suggested, these images activated, rather than cultivated, beauty ideals.",
       "It has the highest mortality rate of any psychiatric illness."
@@ -2717,7 +2717,7 @@ export default [
       "https://images.unsplash.com/photo-1494967990034-6a28085f9ed0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1491172700640-4f1a131a3670?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "They found fashion models tended to be significantly underweight.",
       "Research shows women view their bodies more negatively after viewing media images .",
       "Associations between thinness-promoting media and disordered eating  ."
@@ -2806,7 +2806,7 @@ export default [
       "https://images.unsplash.com/photo-1565945985125-a59c660a9932?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1565945985123-4c67ab31eb8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "But, admirable as these initiatives appear .",
       "Most people now feel that how they look has a real impact on other aspects .",
       "The pressure to represent more realistic images of women in the media ."
@@ -2895,7 +2895,7 @@ export default [
       "https://images.unsplash.com/photo-1566136646093-bf14a769d8d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
       "https://images.unsplash.com/photo-1566105734084-e1c0e8cfb31d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80"
     ],
-    quoute: [
+    quote: [
       "This grouping is not definitive and the term was applied to other high profile.",
       "American Vogue 1991, Peter Lindbergh. Ji, We don’t wake up for less than $10,000 a day ."
     ],
@@ -2981,7 +2981,7 @@ export default [
       "https://images.unsplash.com/photo-1553531384-397c80973a0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
       "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "Prioritize Bed Rest.",
       "Do your best to control your core body temperature as having the flu can really make it soar.",
       "Have a digital ear thermometer to hand at home so you can get an accurate reading of your fever."
@@ -3062,7 +3062,7 @@ export default [
       "https://images.unsplash.com/photo-1529251709126-13669520d1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
       "https://images.unsplash.com/photo-1497501917125-1d703ac4a255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=704&q=80"
     ],
-    quoute: [
+    quote: [
       "They found fashion models tended to be significantly underweight.",
       "Research shows women view their bodies more negatively after viewing media images .",
       "Associations between thinness-promoting media and disordered eating  ."
@@ -3146,7 +3146,7 @@ export default [
       "https://images.unsplash.com/photo-1510662145379-13537db782dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=756&q=80",
       "https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
     ],
-    quoute: [
+    quote: [
       "The latter quality is a component of emotional intelligence.",
       "The results showed that students who were more resilient .",
       "Some of the characteristics of being resilient can be worked on and improved."
@@ -3257,7 +3257,7 @@ export default [
       "https://images.unsplash.com/photo-1525811902-f2342640856e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80",
       "https://images.unsplash.com/photo-1527707240828-f7ca7d3c46a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
     ],
-    quoute: [
+    quote: [
       "In an example given in the media release.",
       "Researchers played volunteers various sounds while measuring brain responses using an fMRI scanner.",
       " The new study can be compared with with one by researchers at University College ."

@@ -1,4 +1,6 @@
 import React from "react";
+import classNames from "classnames";
+
 import ArrowRight from "../../icons/ArrowRight";
 import ArrowLeft from "../../icons/ArrowLeft";
 
@@ -33,11 +35,10 @@ const NewsArticles = ({
         </div>
         <div className="news__control-start">
           <div
-            className={
-              count === 0
-                ? "news__control-left news__control-left-disable"
-                : "news__control-left"
-            }
+            className={classNames(
+              { "news__control-left-disable": count === 0 },
+              { "news__control-left": true }
+            )}
             onClick={e => {
               e.stopPropagation();
               clickArrowLeft();
@@ -48,11 +49,13 @@ const NewsArticles = ({
             </div>
           </div>
           <div
-            className={
-              count + sliceArticle === articlesLength
-                ? "news__control-right news__control-right-disable"
-                : "news__control-right"
-            }
+            className={classNames(
+              {
+                "news__control-right-disable":
+                  count + sliceArticle === articlesLength
+              },
+              { "news__control-right": true }
+            )}
             onClick={e => {
               e.stopPropagation();
               clickArrowRight();

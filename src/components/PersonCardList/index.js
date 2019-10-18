@@ -12,7 +12,7 @@ class PersonCardList extends Component {
     }
     return data.map((item, index) => (
       <div key={index} className="client__card">
-        <img src={`${startPathCheck}${item.mainFoto}`} alt="client image" />
+        <img src={`${startPathCheck}${item.mainPhoto}`} alt="client image" />
         <h3 className="client__name">
           {item.firstName} {item.lastName}
         </h3>

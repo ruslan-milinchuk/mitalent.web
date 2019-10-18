@@ -7,9 +7,9 @@ export default [
     shortDescription: "American actor and comedian",
     mainDescription:
       " Born in Chicago, Noemie began performing stand-up comedy in San Francisco and Los Angeles during the mid-1970s, After rising to fame playing the alien Mork in the sitcom Mork & Mindy, Williams established a career in both stand-up comedy and feature film acting. He was known for his improvisation skills and the wide variety of memorable character voices he created. Many critics have lauded Williams as one of the funniest comedians of all time",
-    mainFoto: "./img/persons/NoemieBeier/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/NoemieBeier/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/NoemieBeier/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/NoemieBeier/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/NoemieBeier/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/NoemieBeier/personPhoto/photo-3.jpg",
     awards: [
       "Best Actor in a Negative Role Hum Award winners 2019.",
       "Hollywood Film Award for Best Actor 2018.",
@@ -49,9 +49,9 @@ export default [
     shortDescription: "Is an English actor, film producer, and musician.",
     mainDescription:
       "Amos is the recipient of several accolades, including a Golden Globe Award, a Laurence Olivier Award and has been nominated for two Primetime Emmy Awards.Born in London, England, he earned a double first in Classics at the University of Cambridge and later proceeded to study acting at the Royal Academy of Dramatic Art. At the beginning of his career, he appeared in West End productions of Cymbeline (2007) and Ivanov (2008)",
-    mainFoto: "./img/persons/AmosDach/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AmosDach/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AmosDach/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/AmosDach/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/AmosDach/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/AmosDach/personPhoto/photo-3.jpg",
     awards: [
       "Hollywood Supporting Actress Award 2018.",
       "AVN Award for Best Actor 2018.",
@@ -88,9 +88,9 @@ export default [
     shortDescription: "Is an American film and television actor. ",
     mainDescription:
       'Hamilton began his film career in 1985 and although he has a substantial body of work in film and television he is, perhaps, most famous for his debonair style and his perfect and perpetual suntan. Bo Derek writes in her autobiography "there was an ongoing contest between John Derek and George Hamilton as to who was tanner"',
-    mainFoto: "./img/persons/LincolnGlover/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/LincolnGlover/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/LincolnGlover/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/LincolnGlover/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/LincolnGlover/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/LincolnGlover/personPhoto/photo-3.jpg",
     awards: [
       "Young Artist Award 2017.",
       "he Gielgud Award 2018.",
@@ -131,9 +131,9 @@ export default [
     shortDescription: "Is an Irish film, television, and stage actor. ",
     mainDescription:
       "In 2010, he achieved widespread recognition playing the role of Jim Moriarty in the BBC series Sherlock, a role which continued until 2017. In 2017 he won acclaim playing the title role of Hamlet in a production first staged at the Almeida Theatre, directed by Robert Icke, and for which he has been nominated for a 2018 Olivier Award for Best Actor.",
-    mainFoto: "./img/persons/GloverLincoln/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/GloverLincoln/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/GloverLincoln/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/GloverLincoln/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/GloverLincoln/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/GloverLincoln/personPhoto/photo-3.jpg",
     awards: [
       "Raigam Tele'es Best Teledrama Actor Award 2019.",
       "Young Artist Award 2017.",
@@ -174,9 +174,9 @@ export default [
     shortDescription: "Is an English actor, film producer, and musician.",
     mainDescription:
       "Amos is the recipient of several accolades, including a Golden Globe Award, a Laurence Olivier Award and has been nominated for two Primetime Emmy Awards.Born in London, England, he earned a double first in Classics at the University of Cambridge and later proceeded to study acting at the Royal Academy of Dramatic Art. At the beginning of his career, he appeared in West End productions of Cymbeline (2007) and Ivanov (2008)",
-    mainFoto: "./img/persons/TeresaKuphal/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/TeresaKuphal/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/TeresaKuphal/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/TeresaKuphal/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/TeresaKuphal/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/TeresaKuphal/personPhoto/photo-3.jpg",
     awards: [
       "Film awards for lead actor 2018.",
       "Goya Award for Best Editing 2018.",
@@ -214,9 +214,9 @@ export default [
       "His every role incarnates very strong and single-minded person. ",
     mainDescription:
       "He was born in Connecticut while Connecticut was still a colony — before there was a United States of America. As a young man he went to college, but he left college for a while to fight in the Revolutionary War. He has two brothers, James and Henry. He attended the Bournemouth School for Girls. ",
-    mainFoto: "./img/persons/FabienneZehnder/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/FabienneZehnder/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/FabienneZehnder/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/FabienneZehnder/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/FabienneZehnder/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/FabienneZehnder/personPhoto/photo-3.jpg",
     awards: [
       "Film awards for lead actor 2016.",
       "Goya Award for Best Editing 2017.",
@@ -253,9 +253,9 @@ export default [
       "She began her career as a model and first appeared in a Cadbury advertisement.",
     mainDescription:
       "She is actress, model and singer, known for her work in European arthouse films in English, French, and Italian. An icon of the Swinging Sixties, she began her career as a model and later became a fashion icon and muse.  When the film was first released on Netflix there was some controversy about whether the film would be triggering for those with eating disorders.",
-    mainFoto: "./img/persons/MargrithSchaub/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/MargrithSchaub/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/MargrithSchaub/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/MargrithSchaub/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/MargrithSchaub/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/MargrithSchaub/personPhoto/photo-3.jpg",
     awards: [
       "Raigam Tele'es Best Upcoming Teledrama Actor Award 2015.",
       "Film awards for lead actor 2016.",
@@ -292,9 +292,9 @@ export default [
     shortDescription: "Véronique Schäfer is actress, model, and writer.",
     mainDescription:
       "She stated in 2013 that she does not like to discuss the interest in her relationships publicly due to witnessing the difficulties caused by the media coverage of her parents' divorce. Then she starred as Clary Fray in The Mortal Instruments: City of Bones, a film adaptation of the first book in The New York Times best-selling The Mortal Instruments novels, written by Cassandra Clare.",
-    mainFoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/VéroniqueSchäfer/personPhoto/photo-3.jpg",
     awards: [
       "Young Hollywood Awards	 2008.",
       "Teen Choice Awards 2014.",
@@ -332,9 +332,9 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "./img/persons/SherwoodWill/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/SherwoodWill/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/SherwoodWill/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/SherwoodWill/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/SherwoodWill/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/SherwoodWill/personPhoto/photo-3.jpg",
     awards: [
       "Alabama Jazz Hall of Fame 2017.",
       "Hawaiian Music Hall of Fame 2017.",
@@ -375,9 +375,9 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "./img/persons/EllsworthYost/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/EllsworthYost/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/EllsworthYost/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/EllsworthYost/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/EllsworthYost/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/EllsworthYost/personPhoto/photo-3.jpg",
     awards: [
       "Franco Abbiati Prize 2017.",
       "Raigam Tele'es Best Teledrama Music Director Award 2017.",
@@ -419,9 +419,9 @@ export default [
       "Often referred to by the title Pandit, was an Indian classical musician who played the shehnai.",
     mainDescription:
       "He worked for All India Radio and played with artists such as Ravi Shankar and Debu Chaudhuri in addition to recording under his own name. Lal was one of the leading exponents of the shehnai in Hindustani classical music. In 1989, he received the Sangeet Natak Akademi Award, the highest recognition afforded artists in India.",
-    mainFoto: "./img/persons/RodriguezRuby/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/RodriguezRuby/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/RodriguezRuby/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/RodriguezRuby/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/RodriguezRuby/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/RodriguezRuby/personPhoto/photo-3.jpg",
     awards: [
       "Grammy Award for Best Country Collaboration with Vocals 2017.",
       "American Music Award for Collaboration of the Year 2018.",
@@ -460,9 +460,9 @@ export default [
     shortDescription: "Is an English singer, songwriter and musician.",
     mainDescription:
       'Since then, he has released ten studio albums and one live album under his real name. His solo hits include "She\'s Not There", "Say You Don\'t Mind", "I Don\'t Believe in Miracles", "How Could We Dare to Be Wrong", "What Becomes of the Brokenhearted", and "The Tracks of My Tears". In 2019, Blunstone was inducted into the Rock and Roll Hall of Fame as part of The Zombies.',
-    mainFoto: "./img/persons/RubyRodriguez/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/RubyRodriguez/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/RubyRodriguez/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/RubyRodriguez/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/RubyRodriguez/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/RubyRodriguez/personPhoto/photo-3.jpg",
     awards: [
       "Golden Gramophone Award 2016.",
       "MTV Pilipinas for Favorite Group Video 2017.",
@@ -501,9 +501,9 @@ export default [
       "Alfons found fame as the guest vocalist on Chase & Status's All Goes Wrong. ",
     mainDescription:
       "She was born in Bedford. Her father is a builder, and her mother was a teacher. She is of Irish/English origin and a big fan of football and particularly Manchester United. She played football at a young age for the Bedford Park Rangers. She attended St Thomas More Catholic School. Her younger brother is an aspiring boxer. Her musical beginnings are obscure. ",
-    mainFoto: "./img/persons/AlfonsZollinger/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AlfonsZollinger/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AlfonsZollinger/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/AlfonsZollinger/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/AlfonsZollinger/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/AlfonsZollinger/personPhoto/photo-3.jpg",
     awards: [
       "Alabama Jazz Hall of Fame 2015.",
       "Hawaiian Music Hall of Fame 2017.",
@@ -541,9 +541,9 @@ export default [
       "She is an English flautist of Ukrainian and Irish descent.",
     mainDescription:
       "Beat Meier trained at the Guildhall School of Music in London, England where she studied modern flute with Kathryn Lukas and developed a great interest and love for the wooden flute, studying with Stephen Preston.In her roles as soloist and orchestral principal, she has travelled throughout Europe, the Far East, and North and South America.",
-    mainFoto: "./img/persons/BeatMeier/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/BeatMeier/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/BeatMeier/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/BeatMeier/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/BeatMeier/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/BeatMeier/personPhoto/photo-3.jpg",
     awards: [
       "Alabama Jazz Hall of Fame 2015.",
       "Hawaiian Music Hall of Fame 2017.",
@@ -583,9 +583,9 @@ export default [
       "She as a singer in the girl band The Saturdays, who are signed to Fascination and Polydor Records. ",
     mainDescription:
       "Once Nathalie had joined the band, they began recording music and releasing a number of hits. The group later gained another record deal with Geffen Records after having huge success in the United Kingdom. White and the rest of the group then signed a deal with Island Def Jam Records and Mercury Records to distribute their music in the United States, which led to their first UK number-one single 'What About Us'.",
-    mainFoto: "./img/persons/NathalieAmrein/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/NathalieAmrein/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/NathalieAmrein/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/NathalieAmrein/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/NathalieAmrein/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/NathalieAmrein/personPhoto/photo-3.jpg",
     awards: [
       "Alabama Jazz Hall of Fame 2016.",
       "The Southern Legends Entertainment & Performing Arts 2017.",
@@ -623,9 +623,9 @@ export default [
       "She is an English classical crossover soprano, singer, songwriter, actress, dancer and musician.",
     mainDescription:
       "Julia Marti has sung in many languages including English, Spanish, French, Latin, German, Turkish, Italian, Russian, Mandarin Chinese, Japanese and Catalan. The scholarships will support students in their postgraduate studies at the Royal Northern College of Music on the two-year Master of Music Programme.",
-    mainFoto: "./img/persons/JuliaMarti/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/JuliaMarti/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/JuliaMarti/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/JuliaMarti/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/JuliaMarti/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/JuliaMarti/personPhoto/photo-3.jpg",
     awards: [
       "Golden Key to the City of Chicago 2010.",
       "UNESCO Artist for Peace Award 2012.",
@@ -663,9 +663,9 @@ export default [
       "British comic Floyd started the year off by absurdly releasing four hour-long specials.",
     mainDescription:
       "We’re not prioritizing quantity over quality, though: Floyd’s four specials are all hilarious, but also serve as a kind of time-lapse photograph of his development as a comedian. It was asking a lot of the audience, especially in countries where he was basically unknown, but it also immediately established Floyd as an unusually clever and charming comic. ",
-    mainFoto: "./img/persons/FloydAnderson/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/FloydAnderson/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/FloydAnderson/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/FloydAnderson/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/FloydAnderson/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/FloydAnderson/personPhoto/photo-3.jpg",
     awards: [
       "ECNY Awards 2016.",
       "NAACP Image Award for Outstanding Comedy Series 2018.",
@@ -707,9 +707,9 @@ export default [
       "Moises-Holland’s sitcom, Those Who Can’t, skipped 2018. He kept busy, though, by releasing a fine new stand-up.",
     mainDescription:
       "Album on Comedy Central Records, Adam Cayton-Holland Performs His Signature Bits, and by publishing one of the best books written by a comedian in recent memory. Tragedy Plus Time is a brave, sad, and, yes, funny look at loss and mental illness, focused on Cayton-Holland’s younger sister and her suicide. He turns heartbreaking tragedy into a hopeful tribute to life. ",
-    mainFoto: "./img/persons/MoisesSchowalter/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/MoisesSchowalter/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/MoisesSchowalter/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/MoisesSchowalter/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/MoisesSchowalter/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/MoisesSchowalter/personPhoto/photo-3.jpg",
     awards: [
       "So You Think You're Funny 2017.",
       "Midlands Comedy Awards 2018.",
@@ -750,9 +750,9 @@ export default [
       "When he’s not directing movies or just hanging out on film sets with his old SNL buddies, Mervin also one of the best stand-up comedians of all time.",
     mainDescription:
       " It’s been a while since he’s really proven that to the world, though, so he went ahead and reminded all of us with Tamborine, his first hour of new material in a decade. Yes, Mervin’s last special came out before Obama became president. Tamborine is a smart, powerful hour that’s risky in the right ways. As I wrote in our original review, “Mervin hits on one hot button issue after another, regularly flirting with jokes that some might be offended by, but with a perspective that’s so thoughtful, original, and, in its own wicked way. ",
-    mainFoto: "./img/persons/MervinJacobson/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/MervinJacobson/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/MervinJacobson/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/MervinJacobson/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/MervinJacobson/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/MervinJacobson/personPhoto/photo-3.jpg",
     awards: [
       "Stephen Leacock Memorial Medal for Humour 2017.",
       "Midlands Comedy Awards 2018.",
@@ -793,9 +793,9 @@ export default [
       "Aparna’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "./img/persons/AparnaNancherla/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AparnaNancherla/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AparnaNancherla/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/AparnaNancherla/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/AparnaNancherla/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/AparnaNancherla/personPhoto/photo-3.jpg",
     awards: [
       "International Festival of the Humor of Bordighera 2017.",
       "Deutscher Comedypreis 2018.",
@@ -835,9 +835,9 @@ export default [
       "Shaniya’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       "Nancherla channeled her distinctive awkwardness as the beleaguered human resources rep in Comedy Central’s Corporate, establishing herself as the most reliable part of that hit-and-miss show. More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "./img/persons/ShaniyaCassin/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/ShaniyaCassin/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/ShaniyaCassin/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/ShaniyaCassin/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/ShaniyaCassin/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/ShaniyaCassin/personPhoto/photo-3.jpg",
     awards: [
       "Bollinger Everyman Wodehouse Prize 2017.",
       "Stephen Leacock Memorial Medal for Humour 2018.",
@@ -877,9 +877,9 @@ export default [
       "Ansley Hauck is an American stand-up comedian and actress. ",
     mainDescription:
       "Hauck wrote and made her film debut in a starring role in Trainwreck (2015), for which she received nominations for the Writers Guild of America Award for Best Original Screenplay and the Golden Globe Award for Best Actress – Motion Picture Comedy or Musical. She published a memoir in 2016, The Girl with the Lower Back Tattoo, which held the top position on The New York Times Non-Fiction Best Seller list for two weeks. ",
-    mainFoto: "./img/persons/AnsleyHauck/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AnsleyHauck/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AnsleyHauck/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/AnsleyHauck/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/AnsleyHauck/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/AnsleyHauck/personPhoto/photo-3.jpg",
     awards: [
       "Television Critics Association Award 2015.",
       "Critics' Choice Movie Award 2016.",
@@ -918,9 +918,9 @@ export default [
     shortDescription: "Jerry Balistreri is an English comedian. ",
     mainDescription:
       "Kitson was born in Denby Dale, West Yorkshire, to a lecturer father and primary school headteacher mother, and began performing comedy at the age of 16.He was a pupil at Scissett Middle School and Shelley College in Yorkshire, England. Kitson subsequently studied drama at Roehampton Institute, now known as Roehampton University. He has a stutter.",
-    mainFoto: "./img/persons/JerryBalistreri/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/JerryBalistreri/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/JerryBalistreri/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/JerryBalistreri/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/JerryBalistreri/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/JerryBalistreri/personPhoto/photo-3.jpg",
     awards: [
       "Television Critics Association Award 2016.",
       "Critics' Choice Movie Award 2016.",
@@ -959,9 +959,9 @@ export default [
       "Maëlys Bertrand is a French comedian, screenwriter, film producer and director.",
     mainDescription:
       "Best known for his stand-up comedy sketches, he also worked with director Alain Chabat in several films and other notable French humourists such as Florence Foresti, Fred Testot and Gad Elmaleh. He has starred in a number of box-office successes, including Amélie, Asterix & Obelix: Mission Cleopatra, Hollywoo and HOUBA! On the Trail of the Marsupilami.",
-    mainFoto: "./img/persons/MaelysBertrand/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/MaelysBertrand/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/MaelysBertrand/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/MaelysBertrand/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/MaelysBertrand/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/MaelysBertrand/personPhoto/photo-3.jpg",
     awards: [
       "Television Critics Association Award 2016.",
       "MTV Movie & TV Awards 2017",
@@ -999,9 +999,9 @@ export default [
       "A whirlwind year for Mallie Marvin has shown that patience is the best virtue .",
     mainDescription:
       " The spunky model has been locking down the names that matter in her ascension to the top ranks: i-D, Numero, Chanel, Alexander Wang, Vera Wang. The sleeping giant has risen. ",
-    mainFoto: "./img/persons/MallieMarvin/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/MallieMarvin/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/MallieMarvin/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/MallieMarvin/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/MallieMarvin/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/MallieMarvin/personPhoto/photo-3.jpg",
     awards: [
       "Isabella Blow Award for Fashion Creator 2017.",
       "Swarovski Award for Positive Change 2017.",
@@ -1042,9 +1042,9 @@ export default [
       "When Zion embraces a girl in a big way it can transform a fresh face into a star.",
     mainDescription:
       "  With back to back Vogue Italia covers and Prada campaigns, Amanda Murphy is the iconic photographer's latest favorite but he's far from the only one to notice this Chicagoan stunner. Frequent appearances in American Vogue, plus campaigns for Celine, Bottega and Ferragamo cement Amanda's status as a major player in the modeling world. ",
-    mainFoto: "./img/persons/ZionSchultz/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/ZionSchultz/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/ZionSchultz/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/ZionSchultz/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/ZionSchultz/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/ZionSchultz/personPhoto/photo-3.jpg",
     awards: [
       "New Establishment Designer 2017.",
       "British Style - Fashion Innovator 2017.",
@@ -1087,9 +1087,9 @@ export default [
       "Shaniya’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " Nancherla channeled her distinctive awkwardness as the beleaguered human resources rep in Comedy Central’s Corporate, establishing herself as the most reliable part of that hit-and-miss show. More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/AniyaMonahan/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/AniyaMonahan/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/AniyaMonahan/personPhoto/photo-3.jpg",
     awards: [
       "Contemporary Designer 2017.",
       "British Style - Fashion Innovator 2017.",
@@ -1130,9 +1130,9 @@ export default [
       "A chance encounter at Howard Homecoming was all new face Dolly Koss needed to be the viral talk of the town.",
     mainDescription:
       " The Sudanese muse was the first black model to open Prada since Naomi Campbell in 1997 and has been in 4 of their ad campaigns. Fendi and Alexander Wang campaigns, editorials in British Vogue and Vogue Italia, plus single model covers for Dazed, i-D, Purple have Dolly waving down to us all from the stratosphere. The icing on the cake in 2018 was of course her joining the Estee Lauder family as one of their newest ambassadors. ",
-    mainFoto: "./img/persons/DollyKoss/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/DollyKoss/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/DollyKoss/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/DollyKoss/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/DollyKoss/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/DollyKoss/personPhoto/photo-3.jpg",
     awards: [
       "British Menswear Designer of the Year 2017.",
       "Ready-to-Wear Designer of the Year 2017.",
@@ -1173,9 +1173,9 @@ export default [
       "Shaniya’s a highlight whenever she appears on The Tonight Show, but that’s not why she’s on this list. .",
     mainDescription:
       " Nancherla channeled her distinctive awkwardness as the beleaguered human resources rep in Comedy Central’s Corporate, establishing herself as the most reliable part of that hit-and-miss show. More significantly, she released another great half-hour of stand-up as part of The Standups anthology on Netflix. She continues to deepen and refine her voice as a comedian, and has about as bright of a future as anybody else right now. ",
-    mainFoto: "./img/persons/AlenaWindler/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/AlenaWindler/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/AlenaWindler/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/AlenaWindler/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/AlenaWindler/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/AlenaWindler/personPhoto/photo-3.jpg",
     awards: [
       "Relentlessly Resolute Award 2017.",
       "Dedicated Stalwart Award 2017.",
@@ -1216,9 +1216,9 @@ export default [
     shortDescription: "Lena Garcia is a French-Indonesian model and actress.",
     mainDescription:
       "During her modeling career, she has walked on the Paris, Sidney, Milan and New York fashion runways, and has become a model for numerous global brands including Timberland, Kate Spade, Levi’s, Rebecca Minkoff, Hugo Boss, Free People, Nasty Gal, and TRESemmé, among others.",
-    mainFoto: "./img/persons/LenaGarcia/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/LenaGarcia/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/LenaGarcia/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/LenaGarcia/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/LenaGarcia/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/LenaGarcia/personPhoto/photo-3.jpg",
     awards: [
       "Isabella Blow Award for Fashion Creator 2017.",
       "Model of the Year 2017.",
@@ -1257,9 +1257,9 @@ export default [
     shortDescription: "Paul Blanc is a French-Indonesian model and actors.",
     mainDescription:
       "He has modeled for brands including Dolce & Gabbana, H&M, Armani Exchange, Belstaff, Gap Inc., Levi's, TOM FORD, Yeezy, Vivienne Westwood, Banana Republic, and Thom Browne.Bosso was brought to mainstream recognition by fashion executive Nick Wooster.",
-    mainFoto: "./img/persons/PaulBlanc/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/PaulBlanc/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/PaulBlanc/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/PaulBlanc/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/PaulBlanc/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/PaulBlanc/personPhoto/photo-3.jpg",
     awards: [
       "MTV Indonesia Movie Awards 2016.",
       "Model of the Year 2017.",
@@ -1297,9 +1297,9 @@ export default [
     shortDescription: "She was discovered by model Ash Stymest.",
     mainDescription:
       "She has done campaigns for Moschino and Calvin Klein. She has appeared in runway shows for Fenty x Puma, Yeezy, Fendi, Marc Jacobs, Miu Miu and Jeremy Scott. In magazines, she has been in American Vogue, Vogue Italia, Vogue Japan, Glamour, i-D, Jalouse, Net-a-porter, Dazed, V and Love. In commercial work she has modeled for Urban Outfitters.",
-    mainFoto: "./img/persons/JulienDupuis/personPhoto/photo-1.jpg",
-    profileFoto: "./img/persons/JulienDupuis/personPhoto/photo-2.jpg",
-    pressFoto: "./img/persons/JulienDupuis/personPhoto/photo-3.jpg",
+    mainPhoto: "./img/persons/JulienDupuis/personPhoto/photo-1.jpg",
+    profilePhoto: "./img/persons/JulienDupuis/personPhoto/photo-2.jpg",
+    pressPhoto: "./img/persons/JulienDupuis/personPhoto/photo-3.jpg",
     awards: [
       "Contemporary Designer 2017.",
       "New Generation Designer 2018.",

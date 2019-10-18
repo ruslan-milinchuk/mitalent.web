@@ -21,12 +21,12 @@ class Article extends Component {
       typeArticle,
       shortDescription,
       slider,
-      quoute,
+      quote,
       longDescription,
       additionalTitle,
       additionalLongDescription
     } = neededArticle[0];
-    const allQuoute = quoute.map((item, index) => <p key={index}>{item}</p>);
+    const allQuote = quote.map((item, index) => <p key={index}>{item}</p>);
     const { person } = neededArticle[0];
     const { profileId } = person;
     return (
@@ -46,7 +46,7 @@ class Article extends Component {
         <div className="article-info__short-description-wrapp">
           <PersonShortInfo idPerson={profileId} />
           <div className="article-info__short-description">
-            <div className="article-info__quote">{allQuoute}</div>
+            <div className="article-info__quote">{allQuote}</div>
             <div className="article-info__description">{longDescription}</div>
           </div>
         </div>

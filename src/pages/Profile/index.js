@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import classNames from "classnames";
+
 import ProfileSlider from "../../components/ProfileSlider";
 import persons from "../../fixtures/persons";
 import "./style.css";
@@ -23,9 +25,9 @@ class Profile extends Component {
     const {
       firstName,
       lastName,
-      profileFoto,
+      profilePhoto,
       articles,
-      pressFoto
+      pressPhoto
     } = neededPerson;
     const { type, contact } = neededPerson;
     const { address, phone, email } = contact;
@@ -34,26 +36,26 @@ class Profile extends Component {
         <ProfileSlider idPerson={idPerson} />
         <div className="profile__main">
           <div className="profile__main-img">
-            <img src={`.${profileFoto}`} alt="profile photo" />
+            <img src={`.${profilePhoto}`} alt="profile photo" />
           </div>
           <div className="profile__main-info">
             <div className="profile__btn-s">
               <div
-                className={
-                  categoryActive === categoryProfile
-                    ? "profile__btn-s-category profile__btn-s-category_active"
-                    : "profile__btn-s-category"
-                }
+                className={classNames({
+                  "profile__btn-s-category": true,
+                  "profile__btn-s-category_active":
+                    categoryActive === categoryProfile
+                })}
                 onClick={() => this.changeCategory(categoryProfile)}
               >
                 {categoryProfile}
               </div>
               <div
-                className={
-                  categoryActive === categoryAwards
-                    ? "profile__btn-s-category profile__btn-s-category_active"
-                    : "profile__btn-s-category"
-                }
+                className={classNames({
+                  "profile__btn-s-category": true,
+                  "profile__btn-s-category_active":
+                    categoryActive === categoryAwards
+                })}
                 onClick={() => this.changeCategory(categoryAwards)}
               >
                 {categoryAwards}
@@ -112,7 +114,7 @@ class Profile extends Component {
             </div>
           </div>
           <div className="profile__press-img">
-            <img src={`.${pressFoto}`} alt="press foto" />
+            <img src={`.${pressPhoto}`} alt="press foto" />
           </div>
         </div>
         <div className="similar-clients">

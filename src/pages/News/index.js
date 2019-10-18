@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactResizeDetector, { withResizeDetector } from "react-resize-detector";
+import classNames from "classnames";
 
 import articles from "../../fixtures/articles";
 import "./style.css";
@@ -50,22 +51,20 @@ class News extends Component {
         />
         <div className="news__control-end">
           <div
-            className={
-              count === 0
-                ? "news__control-left news__control-left-disable"
-                : "news__control-left"
-            }
+            className={classNames(
+              { "news__control-left-disable": count === 0 },
+              { "news__control-left": true }
+            )}
             onClick={this.clickArrowLeft}
           >
             <ArrowLeft />
             <p className="news__control-name"> prev post</p>
           </div>
           <div
-            className={
-              count + sliceArticle === articlesLength
-                ? "news__control-right news__control-right-disable"
-                : "news__control-right"
-            }
+            className={classNames(
+              { "news__control-right-disable": count + sliceArticle === articlesLength },
+              { "news__control-right": true }
+            )}
             onClick={this.clickArrowRight}
           >
             <p className="news__control-name">next post </p>

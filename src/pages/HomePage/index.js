@@ -27,8 +27,8 @@ class HomePage extends Component {
     this.timeoutSlider();
     const objPerson = this.randomNumb(0, persons.length - 1);
     const list = [];
-    const { mainFoto, profileFoto, pressFoto } = objPerson;
-    list.push(mainFoto, profileFoto, pressFoto);
+    const { mainPhoto, profilePhoto, pressPhoto } = objPerson;
+    list.push(mainPhoto, profilePhoto, pressPhoto);
     this.setState({
       defaultPerson: persons[objPerson],
       listLength: list.length
@@ -44,12 +44,12 @@ class HomePage extends Component {
       firstName,
       lastName,
       shortDescription,
-      mainFoto,
-      profileFoto,
-      pressFoto
+      mainPhoto,
+      profilePhoto,
+      pressPhoto
     } = this.state.defaultPerson;
     const list = [];
-    list.push(mainFoto, profileFoto, pressFoto);
+    list.push(mainPhoto, profilePhoto, pressPhoto);
     const filterData = persons.slice(0, maxItemLengthChanges);
 
     return (
@@ -63,7 +63,7 @@ class HomePage extends Component {
           <div className="home-page__slider">
             <img
               src={list[currentIndex]}
-              alt=""
+              alt="person photo"
               className="home-page__slider-img"
             />
             <div className="home-page__info">
