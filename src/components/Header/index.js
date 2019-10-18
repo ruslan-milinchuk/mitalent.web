@@ -63,15 +63,12 @@ class Header extends Component {
   }
 
   itsScroll = () => {
-    let scrolling = setInterval(() => {
-      let scroll = false;
+    setInterval(() => {
       if (window.scrollY !== 0) {
         this.setState({ itScroll: true });
-        scroll = true;
       }
-
-      if (scroll) {
-        clearInterval(scrolling);
+      if (window.scrollY === 0) {
+        this.setState({ itScroll: false });
       }
     }, 50);
   };
