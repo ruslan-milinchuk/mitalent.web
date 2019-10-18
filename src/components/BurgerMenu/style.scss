@@ -30,11 +30,10 @@ body {
     border-radius: 50%;
     position: relative;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
 
-    &:hover & span,
-    & span::before,
-    & span::after {
-      background-color: #919191;
+    &_padding {
+      margin: 20px 75px 20px 20px;
     }
 
     & span,
@@ -48,6 +47,26 @@ body {
       width: 20px;
       height: 2px;
       background-color: black;
+    }
+
+    &:hover span::before {
+      background-color: #919191;
+    }
+
+    &:hover span {
+      background-color: #919191;
+    }
+
+    &:hover span::after {
+      background-color: #919191;
+    }
+
+    &__open {
+      & span,
+      span::before,
+      span::after {
+        background-color: #919191;
+      }
     }
     & span::before,
     & span::after {

@@ -4,7 +4,7 @@
   justify-content: space-between;
 
   &__on-scroll {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     transition: background-color 1s ease-in;
   }
 
@@ -45,11 +45,13 @@
     font-size: 14px;
     letter-spacing: 2px;
     z-index: 4;
-    top: 68px;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 68px;
 
-    &-bg {
-      background-color: rgba(255, 255, 255, 0.5);
-      transition: background-color 1s ease-in;
+    &-scroll {
+      top: 68px;
+      padding-top: 0;
     }
   }
 
@@ -100,6 +102,9 @@
     height: 100%;
     outline: none;
     cursor: pointer;
+  }
+  & .menu-btn {
+    z-index: 10;
   }
 }
 
