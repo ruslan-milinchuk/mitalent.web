@@ -137,7 +137,7 @@
     font-size: 43px;
     font-weight: 100;
     letter-spacing: 1.5px;
-    margin-bottom: 50px;
+    margin: 50px 0;
   }
 
   &__btn-img {
@@ -342,12 +342,6 @@
       letter-spacing: 1px;
     }
 
-    & .person__btn-item-active:before {
-      width: 25px;
-      left: 0;
-      border-bottom: 1px #b5d2d3 solid;
-    }
-
     &__link {
       width: 160px;
       height: 30px;
@@ -377,7 +371,7 @@
       &-active:before {
         width: 15px;
         top: 18px;
-        left: 5px;
+        left: 10px;
         border-bottom: 1px #b5d2d3 solid;
       }
     }
@@ -428,14 +422,6 @@
         width: 10px;
         height: 10px;
       }
-    }
-  }
-}
-
-@media screen and (max-width: 408px) {
-  .home-page {
-    & .person__btn-item-active:before {
-      left: 3px;
     }
   }
 }
