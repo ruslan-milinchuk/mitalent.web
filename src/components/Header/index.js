@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
-import { withScroll } from "react-window-decorators";
 import classNames from "classnames";
-
+import WithScroll from "../WithScroll";
 import BurgerMenu from "../BurgerMenu";
 import { Link } from "react-router-dom";
 import "./style.css";
@@ -22,7 +21,7 @@ class Header extends Component {
     if (this.props.location.pathname !== prevProps.location.pathname) {
       this.setState({ isScroll: false });
     }
-    if (this.props.scrollPositionY !== prevProps.scrollPositionY) {
+    if (this.props.scrollPosition !== prevProps.scrollPosition) {
       this.isScroll();
     }
   }
@@ -68,14 +67,16 @@ class Header extends Component {
   }
 
   isScroll = () => {
-    const { scrollPositionY } = this.props;
-    if (scrollPositionY !== 0) {
+    const { scrollPosition } = this.props;
+    console.log("scrollPosition", scrollPosition);
+    if (scrollPosition !== 0) {
       this.setState({ isScroll: true });
     }
-    if (scrollPositionY === 0) {
+    if (scrollPosition === 0) {
       this.setState({ isScroll: false });
     }
   };
 }
 
-export default withScroll(withRouter(Header));
+const HeaderWithLocation = withRouter(Header);
+export default WithScroll(HeaderWithLocation);

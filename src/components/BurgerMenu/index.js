@@ -14,7 +14,7 @@ class BurgerMenu extends Component {
     let menuClass = classNames({
       "menu-btn": true,
       "menu-btn__open": isOpen && isScroll,
-      "menu-btn__open menu-btn_padding": isOpen && !isScroll
+      "menu-btn_padding": isOpen && !isScroll
     });
 
     return (
