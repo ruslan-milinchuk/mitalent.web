@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
+import { withScroll } from "react-window-decorators";
 import classNames from "classnames";
 
 import BurgerMenu from "../BurgerMenu";
@@ -10,34 +11,36 @@ import FormSearch from "../FormSearch";
 
 class Header extends Component {
   state = {
-    itScroll: false
+    isScroll: false
   };
 
   componentDidMount() {
-    this.itScroll();
+    this.isScroll();
   }
 
   componentDidUpdate(prevProps, prevState, snapshot) {
     if (this.props.location.pathname !== prevProps.location.pathname) {
-      this.setState({ itScroll: false });
+      this.setState({ isScroll: false });
     }
-    this.itScroll();
+    if (this.props.scrollPositionY !== prevProps.scrollPositionY) {
+      this.isScroll();
+    }
   }
 
   render() {
     const { pathname } = this.props.history.location;
-    const { itScroll } = this.state;
+    const { isScroll } = this.state;
     return (
       <div className="header__wrapp">
         <div
-          onClick={() => this.itScroll}
+          onClick={() => this.isScroll}
           className={classNames(
-            { "header__on-scroll": itScroll },
+            { "header__on-scroll": isScroll },
             { header: true }
           )}
         >
           <div className="header__menu">
-            <BurgerMenu itScroll={itScroll} />
+            <BurgerMenu isScroll={isScroll} />
             <Link
               className={classNames(
                 { "header__item-active": pathname === "/clients" },
@@ -64,16 +67,15 @@ class Header extends Component {
     );
   }
 
-  itScroll = () => {
-    setInterval(() => {
-      if (window.scrollY !== 0) {
-        this.setState({ itScroll: true });
-      }
-      if (window.scrollY === 0) {
-        this.setState({ itScroll: false });
-      }
-    }, 50);
+  isScroll = () => {
+    const { scrollPositionY } = this.props;
+    if (scrollPositionY !== 0) {
+      this.setState({ isScroll: true });
+    }
+    if (scrollPositionY === 0) {
+      this.setState({ isScroll: false });
+    }
   };
 }
 
-export default withRouter(Header);
+export default withScroll(withRouter(Header));

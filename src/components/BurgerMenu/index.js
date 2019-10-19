@@ -10,11 +10,11 @@ class BurgerMenu extends Component {
 
   render() {
     const { isOpen } = this.state;
-    const { itScroll } = this.props;
+    const { isScroll } = this.props;
     let menuClass = classNames({
       "menu-btn": true,
-      "menu-btn__open": isOpen && itScroll,
-      "menu-btn__open menu-btn_padding": isOpen && !itScroll
+      "menu-btn__open": isOpen && isScroll,
+      "menu-btn__open menu-btn_padding": isOpen && !isScroll
     });
 
     return (
@@ -31,7 +31,7 @@ class BurgerMenu extends Component {
             <span />
           </div>
         </div>
-        {isOpen && <LinksMenu itsScroll={itScroll} close={this.menuClick} />}
+        {isOpen && <LinksMenu isScroll={isScroll} close={this.menuClick} />}
       </div>
     );
   }

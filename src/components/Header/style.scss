@@ -152,3 +152,12 @@
     margin: 10px 0 10px 20px;
   }
 }
+
+@media screen and(max-width: 480px) {
+  .header {
+    &__list-scroll {
+      top: 52px;
+      padding-top: 16px;
+    }
+  }
+}

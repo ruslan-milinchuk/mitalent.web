@@ -99,5 +99,9 @@
 
   .menu-btn {
     margin: 10px 0 10px 20px; } }
+@media screen and (max-width: 480px) {
+  .header__list-scroll {
+    top: 52px;
+    padding-top: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
