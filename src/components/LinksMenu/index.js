@@ -9,13 +9,14 @@ const LINK_NEWS = "/news";
 
 class LinksMenu extends Component {
   render() {
-    const { close, history, itScroll } = this.props;
+    const { close, history, isScroll } = this.props;
     const { pathname } = history.location;
     return (
       <div
-        className={
-          itScroll ? "header__list header__list-scroll" : "header__list"
-        }
+        className={classNames(
+          { "header__list-scroll": isScroll },
+          { header__list: true }
+        )}
       >
         <Link
           onClick={close}
