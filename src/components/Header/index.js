@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router";
 import classNames from "classnames";
-import WithScroll from "../WithScroll";
+import withScroll from "../withScroll";
 import BurgerMenu from "../BurgerMenu";
 import { Link } from "react-router-dom";
 import "./style.css";
@@ -68,7 +68,6 @@ class Header extends Component {
 
   isScroll = () => {
     const { scrollPosition } = this.props;
-    console.log("scrollPosition", scrollPosition);
     if (scrollPosition !== 0) {
       this.setState({ isScroll: true });
     }
@@ -79,4 +78,4 @@ class Header extends Component {
 }
 
 const HeaderWithLocation = withRouter(Header);
-export default WithScroll(HeaderWithLocation);
+export default withScroll(HeaderWithLocation);

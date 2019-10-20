@@ -1,19 +1,10 @@
 import React, { Component } from "react";
 
-const WithScroll = ComposedComponent =>
+const withScroll = ComposedComponent =>
   class ScrollDecorator extends Component {
-    constructor() {
-      super();
-
-      this.state = {
-        scrollPosition: this.getWindowScrollTop()
-      };
-
-      this.handleInterval = this.handleInterval.bind(this);
-      this.handleRequestAnimationFrame = this.handleRequestAnimationFrame.bind(
-        this
-      );
-    }
+    state = {
+      scrollPosition: this.getWindowScrollTop()
+    };
 
     componentWillMount() {
       const INTERVAL = 20;
@@ -31,12 +22,12 @@ const WithScroll = ComposedComponent =>
       return window.pageYOffset || document.documentElement.scrollTop;
     }
 
-    handleInterval() {
+    handleInterval = () => {
       cancelAnimationFrame(this.requestID);
       this.requestID = requestAnimationFrame(this.handleRequestAnimationFrame);
-    }
+    };
 
-    handleRequestAnimationFrame() {
+    handleRequestAnimationFrame = () => {
       const { scrollPosition } = this.state;
       const newScrollPosition = this.getWindowScrollTop();
 
@@ -45,7 +36,7 @@ const WithScroll = ComposedComponent =>
           scrollPosition: newScrollPosition
         });
       }
-    }
+    };
 
     render() {
       const { scrollPosition } = this.state;
@@ -56,4 +47,4 @@ const WithScroll = ComposedComponent =>
     }
   };
 
-export default WithScroll;
+export default withScroll;
