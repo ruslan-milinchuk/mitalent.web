@@ -62,7 +62,10 @@ class News extends Component {
           </div>
           <div
             className={classNames(
-              { "news__control-right-disable": count + sliceArticle === articlesLength },
+              {
+                "news__control-right-disable":
+                  count + sliceArticle === articlesLength
+              },
               { "news__control-right": true }
             )}
             onClick={this.clickArrowRight}
