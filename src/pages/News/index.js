@@ -2,15 +2,17 @@ import React, { Component } from "react";
 import ReactResizeDetector, { withResizeDetector } from "react-resize-detector";
 import classNames from "classnames";
 
-import articles from "../../fixtures/articles";
 import "./style.css";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
 import NewsArticles from "../../components/NewsArticles";
+import apiFetch from "../../utils/apiFetch";
+import Loading from "../../components/Loading";
+import { Consumer } from "../../components/Preload";
 
 class News extends Component {
   state = {
-    articlesList: articles,
+    articlesList: [],
     newArticles: [],
     articlesLength: 0,
     count: 0,
@@ -20,24 +22,28 @@ class News extends Component {
     smallWidth: 548
   };
 
-  componentDidMount() {
-    const { articlesList, bigMonitor, smallMonitor, smallWidth } = this.state;
+  async componentDidMount() {
+    const articles = await apiFetch("/articles");
+    const { bigMonitor, smallMonitor, smallWidth } = this.state;
     const { width } = this.props;
-    let newArticles = articlesList.slice(
+    let newArticles = articles.slice(
       0,
       width <= smallWidth ? smallMonitor : bigMonitor
     );
     this.setState({
       newArticles,
-      articlesLength: articlesList.length,
-      sliceArticle: width <= smallWidth ? smallMonitor : bigMonitor
+      articlesLength: articles.length,
+      sliceArticle: width <= smallWidth ? smallMonitor : bigMonitor,
+      articlesList: articles
     });
   }
 
   render() {
     const { newArticles, count, articlesLength, sliceArticle } = this.state;
-    const { history } = this.props;
-
+    const { history, articles, people } = this.props;
+    if (!articles || !people) {
+      return <Loading />;
+    }
     return (
       <div className="news">
         <NewsArticles
@@ -62,7 +68,10 @@ class News extends Component {
           </div>
           <div
             className={classNames(
-              { "news__control-right-disable": count + sliceArticle === articlesLength },
+              {
+                "news__control-right-disable":
+                  count + sliceArticle === articlesLength
+              },
               { "news__control-right": true }
             )}
             onClick={this.clickArrowRight}
@@ -71,7 +80,7 @@ class News extends Component {
             <ArrowRight />
           </div>
         </div>
-        <ReactResizeDetector handleWidth onResize={this.onResize()} />
+        <ReactResizeDetector handleWidth onResize={() => this.onResize()} />
       </div>
     );
   }
@@ -134,4 +143,12 @@ class News extends Component {
   };
 }
 
-export default withResizeDetector(News);
+const NewsWithProps = props => (
+  <Consumer>
+    {value => (
+      <News articles={value.articles} people={value.people} {...props} />
+    )}
+  </Consumer>
+);
+
+export default withResizeDetector(NewsWithProps);

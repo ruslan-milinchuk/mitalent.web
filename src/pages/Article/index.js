@@ -1,21 +1,20 @@
 import React, { Component } from "react";
-import articles from "../../fixtures/articles";
 import PersonShortInfo from "../../components/PersonShortInfo";
 
 import "./style.css";
 import RandomArticle from "../../components/RandomArticle";
+import { Consumer } from "../../components/Preload";
+import { isEmpty } from "../../utils/isEmpty";
+import Loading from "../../components/Loading";
 class Article extends Component {
-
   render() {
-    const { history } = this.props;
+    const { history, articles } = this.props;
+    if (isEmpty(articles)) {
+      return <Loading />;
+    }
     const { pathname } = history.location;
     const idArticle = pathname.split("/")[2];
-    const neededArticle = [];
-    articles.map(item => {
-      if (idArticle === item.id) {
-        neededArticle.push(item);
-      }
-    });
+    const neededArticle = articles.find(item => item.idArticle);
     const {
       title,
       typeArticle,
@@ -35,7 +34,9 @@ class Article extends Component {
           <PersonShortInfo idPerson={profileId} />
           <div className="article-info__main-info">
             <h3 className="article-info__title">{title}</h3>
-            <div className="person__short-info_none"><PersonShortInfo idPerson={profileId} /></div>
+            <div className="person__short-info_none">
+              <PersonShortInfo idPerson={profileId} />
+            </div>
             <p className="article-info__type-article">{typeArticle[0]}</p>
             <p className="article-info__subtitle">{shortDescription}</p>
           </div>
@@ -72,4 +73,8 @@ class Article extends Component {
   }
 }
 
-export default Article;
+const ArticleWithProps = props => (
+  <Consumer>{value => <Article articles={value.articles} {...props} />}</Consumer>
+);
+
+export default ArticleWithProps;

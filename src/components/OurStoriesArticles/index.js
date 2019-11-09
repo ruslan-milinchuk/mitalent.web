@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const OurStoriesArticles = ({ newArticles }) => {
   return newArticles.map(item => (
-    <Link className="our-stories__item" to={`news/${item.id}`}>
+    <Link className="our-stories__item" to={`news/${item.uuid}`}>
       <div
         className="our-stories__img"
         style={{ backgroundImage: "url(" + item.slider[1] + ")" }}
       >
-        <div className="our-stories__img_hover"/>
+        <div className="our-stories__img_hover" />
       </div>
       <div className="our-stories__info">
         <div className="our-stories__link">

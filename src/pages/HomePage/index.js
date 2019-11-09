@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 
-import articles from "../../fixtures/articles.js";
-import persons from "../../fixtures/persons.js";
 import OurStoriesArticles from "../../components/OurStoriesArticles";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import ButtonList from "../../components/ButtonList";
 import "./style.css";
 import TriangleRight from "../../icons/TriangleRight";
 import SliderWrapper from "../../components/SliderWrapper";
+import { Consumer } from "../../components/Preload";
+import { isEmpty } from "../../utils/isEmpty";
+import Loading from "../../components/Loading";
+import apiFetch from "../../utils/apiFetch";
 
 const SLIDER_IMG_LENGTH = 8,
   SLIDER_IMG_TIME_ANIMATION = 6000;
@@ -23,24 +25,28 @@ class HomePage extends Component {
     scrollYPosition: 0
   };
 
-  componentDidMount() {
+  async componentDidMount() {
+    const peopleList = await apiFetch("/people");
     this.timeoutSlider();
-    const objPerson = this.randomNumb(0, persons.length - 1);
+    const objPerson = this.randomNumb(0, peopleList.length - 1);
     const list = [];
     const { mainPhoto, profilePhoto, pressPhoto } = objPerson;
     list.push(mainPhoto, profilePhoto, pressPhoto);
     this.setState({
-      defaultPerson: persons[objPerson],
+      defaultPerson: peopleList[objPerson],
       listLength: list.length
     });
   }
 
   render() {
-    const { history } = this.props;
+    const { history, people, articles } = this.props;
+    if (isEmpty(people) || isEmpty(articles)) {
+      return <Loading />;
+    }
     const { numberPhoto, currentIndex, maxItemLengthChanges } = this.state;
     let newArticles = articles.slice(0, 7);
     const {
-      id,
+      uuid,
       firstName,
       lastName,
       shortDescription,
@@ -50,8 +56,10 @@ class HomePage extends Component {
     } = this.state.defaultPerson;
     const list = [];
     list.push(mainPhoto, profilePhoto, pressPhoto);
-    const filterData = persons.slice(0, maxItemLengthChanges);
-
+    const filterData = people.slice(0, maxItemLengthChanges);
+    if (isEmpty(filterData)) {
+      return <Loading />;
+    }
     return (
       <div className="home-page">
         <div className="home-page__client">
@@ -73,7 +81,7 @@ class HomePage extends Component {
               <p className="home-page__type-person">{shortDescription}</p>
             </div>
             <div
-              onClick={() => history.push(`/profile/${id}`)}
+              onClick={() => history.push(`/profile/${uuid}`)}
               className="home-page__link"
             >
               <p className="home-page__link-name">view profile</p>
@@ -101,7 +109,7 @@ class HomePage extends Component {
           className="home-page__more-clients"
           onClick={() => this.clickBtnClients()}
         >
-          {maxItemLengthChanges !== persons.length ? "explore " : "hide "}
+          {maxItemLengthChanges !== people.length ? "explore " : "hide "}
           more
         </div>
         <h3 className="home-page__title-news">Latest News</h3>
@@ -114,6 +122,7 @@ class HomePage extends Component {
   }
 
   clickBtnClients = () => {
+    const { people } = this.props;
     const {
       maxItemLengthChanges,
       maxItemLengthFixed,
@@ -122,16 +131,16 @@ class HomePage extends Component {
 
     this.setState({
       maxItemLengthChanges:
-        maxItemLengthChanges !== persons.length
-          ? persons.length
+        maxItemLengthChanges !== people.length
+          ? people.length
           : maxItemLengthFixed
     });
 
-    if (maxItemLengthChanges !== persons.length) {
+    if (maxItemLengthChanges !== people.length) {
       this.setState({ scrollYPosition: window.scrollY });
     }
 
-    if (maxItemLengthChanges === persons.length) {
+    if (maxItemLengthChanges === people.length) {
       window.scrollTo(0, scrollYPosition);
     }
   };
@@ -171,4 +180,12 @@ class HomePage extends Component {
   };
 }
 
-export default HomePage;
+const HomePageWithProps = props => (
+  <Consumer>
+    {value => (
+      <HomePage articles={value.articles} people={value.people} {...props} />
+    )}
+  </Consumer>
+);
+
+export default HomePageWithProps;

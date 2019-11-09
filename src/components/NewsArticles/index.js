@@ -15,7 +15,7 @@ const NewsArticles = ({
 }) => {
   return newArticles.map((item, index) => (
     <div
-      onClick={() => history.push(`news/${item.id}`)}
+      onClick={() => history.push(`news/${item.uuid}`)}
       key={index}
       className="news__item"
     >
@@ -23,7 +23,7 @@ const NewsArticles = ({
         className="news__img"
         style={{ backgroundImage: "url(" + item.slider[0] + ")" }}
       >
-        <div className="news__img_hover"></div>
+        <div className="news__img_hover"/>
         <div
           onClick={e => {
             e.stopPropagation();

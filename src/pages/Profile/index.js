@@ -2,12 +2,14 @@ import React, { Component } from "react";
 import classNames from "classnames";
 
 import ProfileSlider from "../../components/ProfileSlider";
-import persons from "../../fixtures/persons";
 import "./style.css";
 import CategoryProfile from "../../components/CategoryProfile";
 import CategoryAwards from "../../components/CategoryAwards";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import CustomerGroups from "../../components/CustomerGroups";
+import { Consumer } from "../../components/Preload";
+import { isEmpty } from "../../utils/isEmpty";
+import Loading from "../../components/Loading";
 
 class Profile extends Component {
   state = {
@@ -17,10 +19,13 @@ class Profile extends Component {
   };
 
   render() {
-    const { history } = this.props;
+    const { history, people } = this.props;
+    if (isEmpty(people)) {
+      return <Loading />;
+    }
     const { pathname } = history.location;
     const idPerson = pathname.split("/")[2];
-    let neededPerson = persons.filter(item => idPerson === item.id)[0];
+    let neededPerson = people.filter(item => idPerson === item.uuid)[0];
     const { categoryActive, categoryProfile, categoryAwards } = this.state;
     const {
       firstName,
@@ -29,8 +34,8 @@ class Profile extends Component {
       articles,
       pressPhoto
     } = neededPerson;
-    const { type, contact } = neededPerson;
-    const { address, phone, email } = contact;
+    const { type, contacts } = neededPerson;
+    const { address, phone, email } = contacts;
     return (
       <div>
         <ProfileSlider idPerson={idPerson} />
@@ -81,7 +86,7 @@ class Profile extends Component {
               <br /> on Press
             </h4>
             <div
-              onClick={() => history.push(`/news/${articles[0].id}`)}
+              onClick={() => history.push(`/news/${articles[0].uuid}`)}
               className="profile__article"
             >
               <div className="profile__article-img">
@@ -97,7 +102,7 @@ class Profile extends Component {
               </div>
             </div>
             <div
-              onClick={() => history.push(`/news/${articles[1].id}`)}
+              onClick={() => history.push(`/news/${articles[1].uuid}`)}
               className="profile__article"
             >
               <div className="profile__article-img">
@@ -164,4 +169,8 @@ class Profile extends Component {
   };
 }
 
-export default Profile;
+const ProfileWithProps = props => (
+  <Consumer>{value => <Profile people={value.people} {...props} />}</Consumer>
+);
+
+export default ProfileWithProps;

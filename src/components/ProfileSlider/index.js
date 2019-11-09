@@ -3,15 +3,15 @@ import "./style.css";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
 import ButtonList from "../ButtonList";
-import persons from "../../fixtures/persons";
+import { Consumer } from "../Preload";
 
 class ProfileSlider extends Component {
   state = { currentIndex: 0 };
 
   render() {
     const { currentIndex } = this.state;
-    const { idPerson } = this.props;
-    let neededPerson = persons.filter(item => idPerson === item.id)[0];
+    const { idPerson, people } = this.props;
+    let neededPerson = people.filter(item => idPerson === item.uuid)[0];
     const {
       firstName,
       lastName,
@@ -23,7 +23,6 @@ class ProfileSlider extends Component {
     let list = [];
     list.push(mainPhoto, profilePhoto, pressPhoto);
     let role = type;
-    const link = "#";
     return (
       <div className="person">
         <div className="person__content">
@@ -102,4 +101,11 @@ class ProfileSlider extends Component {
       : this.setState({ currentIndex: currentIndex + 1 });
   };
 }
-export default ProfileSlider;
+
+const ProfileSliderWithProps = props => (
+  <Consumer>
+    {value => <ProfileSlider people={value.people} {...props} />}
+  </Consumer>
+);
+
+export default ProfileSliderWithProps;

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import persons from "../../fixtures/persons";
 import ButtonsGroupsClients from "../ButtonsGroupsClients";
 
 import "./style.css";
 import SliderWrapper from "../SliderWrapper";
+import { Consumer } from "../Preload";
 
 const role = ["actor", "musician", "comedian", "model"];
 
@@ -16,13 +16,12 @@ class CustomerGroups extends Component {
   };
 
   componentDidMount() {
-    const { role } = this.props;
+    const { role, people } = this.props;
     let { type } = this.state;
-
-    const filterWithRole = persons.filter(item => {
+    const filterWithRole = people.filter(item => {
       return item.type.includes(role ? role[0] : type);
     });
-    this.setState({ data: persons, filterData: filterWithRole });
+    this.setState({ data: people, filterData: filterWithRole });
   }
 
   render() {
@@ -60,4 +59,10 @@ class CustomerGroups extends Component {
   };
 }
 
-export default CustomerGroups;
+const CustomerGroupsWithProps = props => (
+  <Consumer>
+    {value => <CustomerGroups people={value.people} {...props} />}
+  </Consumer>
+);
+
+export default CustomerGroupsWithProps;

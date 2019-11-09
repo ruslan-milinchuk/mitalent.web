@@ -2,17 +2,17 @@ import React, { Component } from "react";
 import { withRouter } from "react-router";
 
 import "./style.css";
-import persons from "../../fixtures/persons";
+import { Consumer } from "../Preload";
 
 class PersonShortInfo extends Component {
   render() {
-    const { history, idPerson } = this.props;
-    let neededPerson = persons.filter(item => idPerson === item.id)[0];
+    const { history, idPerson, people } = this.props;
+    let neededPerson = people.filter(item => idPerson === item.uuid)[0];
 
     const { firstName, lastName, createAt, mainPhoto } = neededPerson;
     return (
       <div
-        onClick={e => {
+        onClick={() => {
           history.push(`/profile/${idPerson}`);
         }}
         className="person-info"
@@ -29,4 +29,10 @@ class PersonShortInfo extends Component {
   }
 }
 
-export default withRouter(PersonShortInfo);
+const PersonShortInfoWithProps = props => (
+  <Consumer>
+    {value => <PersonShortInfo people={value.people} {...props} />}
+  </Consumer>
+);
+
+export default withRouter(PersonShortInfoWithProps);

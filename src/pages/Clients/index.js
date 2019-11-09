@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import persons from "../../fixtures/persons";
-import articles from "../../fixtures/articles";
 import "./style.css";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import ArrowLeft from "../../icons/ArrowLeft";
 import ArrowRight from "../../icons/ArrowRight";
 import ButtonsGroupsClients from "../../components/ButtonsGroupsClients";
 import PersonCardList from "../../components/PersonCardList";
-import articlesList from "../../fixtures/articles";
 import RandomArticle from "../../components/RandomArticle";
+import { Consumer } from "../../components/Preload";
+import apiFetch from "../../utils/apiFetch";
+import { isEmpty } from "../../utils/isEmpty";
+import Loading from "../../components/Loading";
 
 const role = ["all", "actor", "comedian", "model", "musician"];
 
@@ -18,29 +19,35 @@ class Clients extends Component {
     defaultPerson: {},
     currentIndex: 0,
     listLength: null,
-    allArticles: {},
+    articlesList: [],
+    people: [],
     articleId: "",
     quote: [],
     createAt: "",
     articleImg: []
   };
-  componentDidMount() {
-    const objPerson = this.randomNumb(0, persons.length - 1);
+
+  async componentDidMount() {
+    const articlesList = await apiFetch("/articles");
+    const people = await apiFetch("/people");
+    const objPerson = this.randomNumb(0, people.length - 1);
     const list = [];
-    const { mainPhoto, profilePhoto, pressPhoto, articles } = persons[
-      objPerson
-    ];
+    const { mainPhoto, profilePhoto, pressPhoto, articles } = people[objPerson];
     list.push(mainPhoto, profilePhoto, pressPhoto);
-    const articleId = articles[0].id;
-    const neededArticle = articlesList.filter(item => item.id === articleId)[0];
+    const articleId = articles[0].uuid;
+    const neededArticle = articlesList.filter(
+      item => item.uuid === articleId
+    )[0];
     const { slider, quote, createAt, title } = neededArticle;
     const articleDate = new Date(createAt).toDateString();
     this.setState({
-      defaultPerson: persons[objPerson],
+      defaultPerson: people[objPerson],
       listLength: list.length,
       quote: quote,
       createAt: articleDate,
       articleImg: slider,
+      people: people,
+      articlesList: articlesList,
       title,
       articleId
     });
@@ -54,8 +61,13 @@ class Clients extends Component {
       createAt,
       articleImg,
       title,
-      articleId
+      articleId,
+      people,
+      articlesList
     } = this.state;
+    if (isEmpty(articlesList) || isEmpty(people)) {
+      return <Loading />;
+    }
     const {
       firstName,
       lastName,
@@ -69,7 +81,6 @@ class Clients extends Component {
     const articleQuote = quote.map(item => {
       return <p>{item}</p>;
     });
-
     return (
       <div className="clients">
         <div className="clients__slider">
@@ -122,7 +133,7 @@ class Clients extends Component {
             </div>
           </div>
         </div>
-        <CustomerGroupsClients />
+        <CustomerGroupsClients people={people} />
         <div className="clients__connect">
           <div className="clients__connect-info">
             <h3 className="clients__connect-title">
@@ -156,7 +167,7 @@ class Clients extends Component {
           </div>
         </div>
         <h3 className="clients__news-title">Latest news</h3>
-        <RandomArticle articles={articles} newArticleLength={6} />
+        <RandomArticle articles={articlesList} newArticleLength={6} />
       </div>
     );
   }
@@ -198,7 +209,7 @@ class Clients extends Component {
 class CustomerGroupsClients extends Component {
   state = {
     position: 0,
-    data: persons,
+    data: this.props.people,
     filterData: [],
     type: role[0]
   };
@@ -236,7 +247,7 @@ class CustomerGroupsClients extends Component {
     });
 
     if (value === role[0]) {
-      this.setState({ filterData: persons, type: role[0], position: 0 });
+      this.setState({ filterData: data, type: role[0], position: 0 });
     }
 
     if (value !== role[0]) {

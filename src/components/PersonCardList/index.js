@@ -2,10 +2,16 @@ import React, { Component } from "react";
 import { withRouter } from "react-router";
 
 import ArrowRight from "../../icons/ArrowRight";
+import { isEmpty } from "../../utils/isEmpty";
+import Loading from "../Loading";
 
 class PersonCardList extends Component {
   render() {
     const { data, history, startPath } = this.props;
+    if (isEmpty(data)) {
+      return <Loading />;
+    }
+    console.log("data", data);
     let startPathCheck = "";
     if (startPath !== undefined) {
       startPathCheck = startPath;
@@ -18,7 +24,7 @@ class PersonCardList extends Component {
         </h3>
         <h4 className="client__role">{item.type}</h4>
         <a
-          onClick={() => history.push(`/profile/${item.id}`)}
+          onClick={() => history.push(`/profile/${item.uuid}`)}
           className="client__link"
           href={item.link}
         >

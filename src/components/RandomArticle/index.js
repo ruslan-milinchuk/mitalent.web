@@ -12,10 +12,10 @@ class RandomArticle extends Component {
 
     return (
       <div className="random">
-        {newArticles.map(({ slider, title, createAt, id }, index) => (
+        {newArticles.map(({ slider, title, createAt, uuid }, index) => (
           <div
-            onClick={e => {
-              history.push(`/news/${id}`);
+            onClick={() => {
+              history.push(`/news/${uuid}`);
             }}
             key={index}
             className="random__item"
