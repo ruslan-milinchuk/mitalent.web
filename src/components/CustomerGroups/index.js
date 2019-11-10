@@ -39,7 +39,6 @@ class CustomerGroups extends Component {
         </div>
         <SliderWrapper
           startPath={startPath}
-          dataLength={filterData.length}
           filterData={filterData}
           position={position}
           onClick={value => this.setState({ position: value })}

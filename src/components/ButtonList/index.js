@@ -1,11 +1,11 @@
 import React from "react";
 import classNames from "classnames";
 
-const ButtonList = ({ currentIndex, list, setCurrentIndexImg }) =>
+const ButtonList = ({ currentIndex, list, setIndex }) =>
   list.map((item, index) => (
     <button
       key={index}
-      onClick={() => setCurrentIndexImg(index)}
+      onClick={() => setIndex(index)}
       className={classNames(
         { "person__btn-item-active": currentIndex === index },
         { "person__btn-item": true }
