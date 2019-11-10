@@ -5,6 +5,7 @@ import { Consumer } from "../Preload";
 import Loading from "../Loading";
 
 import { isEmpty } from "../../utils/isEmpty";
+import { randomNumbList } from "../../utils/randomNumbList";
 
 import "./style.css";
 
@@ -12,14 +13,16 @@ const RandomArticle = ({ articles, history, qtyRandomNumbers }) => {
   if (isEmpty(articles)) {
     return <Loading />;
   }
-  const articlesList = [];
-  for (let i = 0; i < qtyRandomNumbers; i++) {
-    articlesList.push(articles[randomNumb(0, articles.length - 1)]);
-  }
+
+  const articlesRandomList = randomNumbList(articles.length, qtyRandomNumbers);
+
+  const articleList = articles.filter(
+    (item, index) => articlesRandomList.indexOf(index) !== -1
+  );
 
   return (
     <div className="random">
-      {articlesList.map(({ slider=[], title, createAt, uuid }, index) => (
+      {articleList.map(({ slider = [], title, createAt, uuid }, index) => (
         <div
           onClick={() => {
             history.push(`/news/${uuid}`);
