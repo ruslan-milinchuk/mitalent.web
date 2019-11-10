@@ -14,6 +14,8 @@ import apiFetch from "../../utils/apiFetch";
 import { isEmpty } from "../../utils/isEmpty";
 
 import "./style.css";
+import { formatterIndex } from "../../utils/formatterIndex";
+import {randomNumb} from "../../utils/randomNumb";
 
 const ROLE = ["all", "actor", "comedian", "model", "musician"];
 const WHITE_LIST_ROLE = "all";
@@ -59,7 +61,7 @@ const ClientSlider = ({ person, history }) => {
         <div className="clients__social-numb">
           <ButtonsSocial component="clients" />
           <div className="clients__divider" />
-          <p className="clients__numb-img">{renderIndex(index)}</p>
+          <p className="clients__numb-img">{formatterIndex(index)}</p>
         </div>
         <div className="clients__info-wrapper">
           <div className="clients__info-wrapper_width">
@@ -180,15 +182,6 @@ const ConnectTo = ({ articleId, person, history }) => {
       </div>
     </div>
   );
-};
-
-const renderIndex = index => {
-  return index + 1 >= 10 ? index + 1 : "0" + (index + 1);
-};
-
-const randomNumb = (min, max) => {
-  let rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
 };
 
 const ClientsWithProps = props => (

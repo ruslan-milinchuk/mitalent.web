@@ -12,7 +12,7 @@ class PersonShortInfo extends Component {
     const { firstName, lastName, createAt, mainPhoto } = neededPerson;
     return (
       <div
-        onClick={e => {
+        onClick={() => {
           history.push(`/profile/${idPerson}`);
         }}
         className="person-info"

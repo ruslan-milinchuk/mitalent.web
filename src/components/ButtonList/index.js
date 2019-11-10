@@ -1,8 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 
-const ButtonList = ({ currentIndex, list, setCurrentIndexImg }) => {
-  return list.map((item, index) => (
+const ButtonList = ({ currentIndex, list, setCurrentIndexImg }) =>
+  list.map((item, index) => (
     <button
       key={index}
       onClick={() => setCurrentIndexImg(index)}
@@ -14,5 +14,4 @@ const ButtonList = ({ currentIndex, list, setCurrentIndexImg }) => {
       {index + 1 >= 10 ? index + 1 : "0" + (index + 1)}
     </button>
   ));
-};
 export default ButtonList;
