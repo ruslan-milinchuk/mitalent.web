@@ -11,20 +11,23 @@ import Footer from "./components/Footer";
 import Layout from "./components/Layout";
 import Article from "./pages/Article";
 import Profile from "./pages/Profile";
+import Preload from "./components/Preload";
 const history = createBrowserHistory();
 
 const App = () => (
   <Router history={history}>
     <Header />
-    <Layout>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/about" component={About} />
-      <Route path="/clients" component={Clients} />
-      <Route exact path="/news" component={News} />
-      <Route path="/news/:id" component={Article} />
-      <Route path="/contact-us" component={ContactUs} />
-      <Route path="/profile/:id" component={Profile} />
-    </Layout>
+    <Preload>
+      <Layout>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/about" component={About} />
+        <Route path="/clients" component={Clients} />
+        <Route exact path="/news" component={News} />
+        <Route path="/news/:id" component={Article} />
+        <Route path="/contact-us" component={ContactUs} />
+        <Route path="/profile/:id" component={Profile} />
+      </Layout>
+    </Preload>
     <Footer />
   </Router>
 );
