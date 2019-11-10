@@ -78,7 +78,7 @@ const Article = ({ history }) => {
           {additionalLongDescription}
         </div>
       </div>
-      <RandomArticle newArticleLength={4} />
+      <RandomArticle qtyRandomNumbers={4} />
     </div>
   );
 };
