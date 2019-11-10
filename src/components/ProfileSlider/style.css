@@ -50,18 +50,15 @@
     .person__btn-arrow_disp-inline {
       display: flex;
       margin: 0 auto; }
-    .person__btn-left, .person__btn-right, .person__btn-right_disp-none, .person__btn-left_disp-none {
+    .person__btn-left, .person__btn-right {
+      display: grid;
+      outline: none;
       cursor: pointer;
       background-color: white;
       width: 20px;
       border: none;
       margin: 10px;
       color: grey; }
-    .person__btn-left, .person__btn-right {
-      display: grid;
-      outline: none; }
-    .person__btn-arrow_disp-none {
-      display: none; }
     .person__btn-left:hover, .person__btn-right:hover {
       border-radius: 2px;
       color: black; }
@@ -166,7 +163,10 @@
         display: flex;
         justify-content: center; }
       .person__btn-arrow_disp-inline {
-        display: none; }
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        bottom: -400px; }
     .person__img {
       margin: auto;
       width: 100%;
