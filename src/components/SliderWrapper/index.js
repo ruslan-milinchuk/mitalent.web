@@ -26,7 +26,8 @@ class SliderWrapper extends Component {
   }
 
   render() {
-    const { position, filterData, onClick, dataLength, startPath } = this.props;
+    const { position, filterData, onClick, startPath } = this.props;
+    const dataLength = filterData.length
     const { maxItemLength } = this.state;
     return (
       <div className="customer-groups__slider">
