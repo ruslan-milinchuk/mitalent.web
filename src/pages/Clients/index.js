@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Consumer } from "../../components/Preload";
 import ButtonsSocial from "../../components/ButtonsSocial";
@@ -18,11 +18,11 @@ import "./style.css";
 const ROLE = ["all", "actor", "comedian", "model", "musician"];
 const WHITE_LIST_ROLE = "all";
 
-const Clients = ({ history, people, articles }) => {
+const Clients = ({ history, people }) => {
   const indexRandomPerson = randomNumb(0, people.length - 1);
   const person = people[indexRandomPerson];
 
-  if (isEmpty(articles) || isEmpty(people)) {
+  if (isEmpty(people)) {
     return <Loading />;
   }
 
@@ -36,7 +36,7 @@ const Clients = ({ history, people, articles }) => {
         history={history}
       />
       <h3 className="clients__news-title">Latest news</h3>
-      <RandomArticle articles={articles} newArticleLength={6} />
+      <RandomArticle qtyRandomNumbers={6} />
     </div>
   );
 };
@@ -192,7 +192,7 @@ const randomNumb = (min, max) => {
 };
 
 const ClientsWithProps = props => (
-  <Consumer>{value => <Clients {...value} {...props} />}</Consumer>
+  <Consumer>{value => <Clients people={value.people} {...props} />}</Consumer>
 );
 
 export default ClientsWithProps;
