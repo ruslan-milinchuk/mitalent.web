@@ -25,16 +25,15 @@ const Article = ({ history }) => {
   }
   const {
     title,
-    typeArticle,
+    typeArticle = [],
     shortDescription,
-    slider,
-    quote,
+    slider = [],
+    quote = [],
     longDescription,
     additionalTitle,
-    additionalLongDescription
+    additionalLongDescription,
+    person = {}
   } = article;
-
-  const { person } = article;
   const { profileId } = person;
   return (
     <div className="article-info">
