@@ -65,25 +65,15 @@
     }
 
     &-left,
-    &-right,
-    &-right_disp-none,
-    &-left_disp-none {
+    &-right {
+      display: grid;
+      outline: none;
       cursor: pointer;
       background-color: white;
       width: 20px;
       border: none;
       margin: 10px;
       color: grey;
-    }
-
-    &-left,
-    &-right {
-      display: grid;
-      outline: none;
-    }
-
-    &-arrow_disp-none {
-      display: none;
     }
 
     &-left:hover,
@@ -249,7 +239,10 @@
       }
 
       &-arrow_disp-inline {
-        display: none;
+        display: flex;
+        margin: 0 auto;
+        position: absolute;
+        bottom: -400px;
       }
     }
 
