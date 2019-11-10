@@ -12,28 +12,36 @@ import TriangleRight from "../../icons/TriangleRight";
 import { isEmpty } from "../../utils/isEmpty";
 
 import "./style.css";
+import { formatterIndex } from "../../utils/formatterIndex";
+import { randomNumb } from "../../utils/randomNumb";
 
 const SLIDER_IMG_LENGTH = 8,
   SLIDER_IMG_TIME_ANIMATION = 6000;
 
 const HomePage = ({ people, articles, history }) => {
   const [listIsOpen, setListIsOpen] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
   if (isEmpty(people) || isEmpty(articles)) {
     return <Loading />;
   }
   const indexRandomPerson = randomNumb(0, people.length - 1);
   const person = people[indexRandomPerson];
-  let newArticles = articles.slice(0, 7);
+  let sortArticlesList = articles.slice(0, 7);
   const filterData = listIsOpen ? people : people.slice(0, SLIDER_IMG_LENGTH);
 
   return (
     <div className="home-page">
       <PersonPhotoSlider {...person} history={history} />
       <h3 className="home-page__client-title">Our clients</h3>
-      <SliderWrapper filterData={filterData} position={0} onClick={null} />
+      <SliderWrapper filterData={filterData} position={0} onClick={() => {}} />
       <div
         className="home-page__more-clients"
-        onClick={() => setListIsOpen(!listIsOpen)}
+        onClick={() => {
+          !listIsOpen
+            ? setScrollPosition(window.scrollY)
+            : window.scrollTo(0, scrollPosition);
+          setListIsOpen(!listIsOpen);
+        }}
       >
         {listIsOpen ? "explore " : "hide "}
         more
@@ -41,7 +49,7 @@ const HomePage = ({ people, articles, history }) => {
       <h3 className="home-page__title-news">Latest News</h3>
       <div className="home-page__divider-news" />
       <div className="our-stories">
-        <OurStoriesArticles newArticles={newArticles} />
+        <OurStoriesArticles sortArticlesList={sortArticlesList} />
       </div>
     </div>
   );
@@ -71,9 +79,7 @@ const PersonPhotoSlider = ({
         <ButtonsSocial component="home-page" />
         <div className="home-page__first-divider" />
         <div className="home-page__number-slide">
-          {currentIndexImg + 1 >= 10
-            ? currentIndexImg + 1
-            : "0" + (currentIndexImg + 1)}
+          {formatterIndex(currentIndexImg)}
         </div>
       </div>
       <div className="home-page__slider">
@@ -119,11 +125,6 @@ const timeoutSlider = (currentIndexImg, listImg, setCurrentIndexImg) => {
       setCurrentIndexImg(0);
     }
   }, SLIDER_IMG_TIME_ANIMATION);
-};
-
-const randomNumb = (min, max) => {
-  let rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
 };
 
 const HomePageWithProps = props => (
