@@ -108,7 +108,7 @@ const PersonPhotoSlider = ({
         <ButtonList
           currentIndex={currentIndexImg}
           list={listImg}
-          setCurrentIndexImg={setCurrentIndexImg}
+          setIndex={setCurrentIndexImg}
         />
       </div>
     </div>

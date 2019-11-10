@@ -307,9 +307,6 @@
 @media screen and (max-width: 1120px) {
   .profile {
     &__main {
-      max-height: 480px;
-      margin: 90px 10px;
-
       &-img {
         min-width: 390px;
       }
@@ -478,9 +475,6 @@
 
 @media screen and (max-width: 600px) {
   .profile {
-    &__main {
-      margin: 40px 10px;
-    }
     &__article {
       max-height: 115px;
     }

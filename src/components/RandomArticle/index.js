@@ -15,10 +15,7 @@ const RandomArticle = ({ articles, history, qtyRandomNumbers }) => {
   }
 
   const articlesRandomList = randomNumbList(articles.length, qtyRandomNumbers);
-
-  const articleList = articles.filter(
-    (item, index) => articlesRandomList.indexOf(index) !== -1
-  );
+  const articleList = articlesRandomList.map(item => articles[item]);
 
   return (
     <div className="random">
@@ -44,11 +41,6 @@ const RandomArticle = ({ articles, history, qtyRandomNumbers }) => {
       ))}
     </div>
   );
-};
-
-const randomNumb = (min, max) => {
-  let rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
 };
 
 const RandomArticleWithProps = props => (

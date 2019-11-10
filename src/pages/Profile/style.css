@@ -210,13 +210,10 @@
     max-height: calc(100% - 125px);
     overflow: auto; } }
 @media screen and (max-width: 1120px) {
-  .profile__main {
-    max-height: 480px;
-    margin: 90px 10px; }
-    .profile__main-img {
-      min-width: 390px; }
-    .profile__main-info {
-      padding: 20px 30px; }
+  .profile__main-img {
+    min-width: 390px; }
+  .profile__main-info {
+    padding: 20px 30px; }
   .profile__title {
     margin-bottom: 10px;
     min-height: 0; }
@@ -295,8 +292,6 @@
   .profile__title, .profile__short-description, .profile__main-info, .profile__main-description {
     padding-left: 0; } }
 @media screen and (max-width: 600px) {
-  .profile__main {
-    margin: 40px 10px; }
   .profile__article {
     max-height: 115px; }
   .profile__press-info {
