@@ -1,137 +1,128 @@
-import React, { Component } from "react";
-import ReactResizeDetector, { withResizeDetector } from "react-resize-detector";
+import React, { useState, useEffect } from "react";
+
+import windowSize from "react-window-size";
 import classNames from "classnames";
 
-import articles from "../../fixtures/articles";
-import "./style.css";
-import ArrowLeft from "../../icons/ArrowLeft";
-import ArrowRight from "../../icons/ArrowRight";
+import { Consumer } from "../../components/Preload";
+import Loading from "../../components/Loading";
 import NewsArticles from "../../components/NewsArticles";
 
-class News extends Component {
-  state = {
-    articlesList: articles,
-    newArticles: [],
-    articlesLength: 0,
-    count: 0,
-    sliceArticle: 0,
-    smallMonitor: 5,
-    bigMonitor: 11,
-    smallWidth: 548
-  };
+import ArrowLeft from "../../icons/ArrowLeft";
+import ArrowRight from "../../icons/ArrowRight";
 
-  componentDidMount() {
-    const { articlesList, bigMonitor, smallMonitor, smallWidth } = this.state;
-    const { width } = this.props;
-    let newArticles = articlesList.slice(
-      0,
-      width <= smallWidth ? smallMonitor : bigMonitor
-    );
-    this.setState({
-      newArticles,
-      articlesLength: articlesList.length,
-      sliceArticle: width <= smallWidth ? smallMonitor : bigMonitor
-    });
+import { isEmpty } from "../../utils/isEmpty";
+
+import "./style.css";
+
+const SMALL_WIDTH = 548;
+const LARGE_DEVISE = 11;
+const SMALL_DEVISE = 5;
+
+const News = ({ windowWidth, articles, history }) => {
+  const qtySliceArticle =
+    SMALL_WIDTH < windowWidth ? LARGE_DEVISE : SMALL_DEVISE;
+  const [activeArticleList, setActiveArticleList] = useState({
+    articleList: [],
+    count: 0
+  });
+
+  useEffect(() => {
+    const callData = () => {
+      const sliceArticle = articles.slice(0, qtySliceArticle);
+      setActiveArticleList({ ...activeArticleList, articleList: sliceArticle });
+    };
+    callData();
+  }, [articles]);
+
+  useEffect(() => {
+    const callData = () => {
+      const sliceArticle = articles.slice(0, qtySliceArticle);
+      setActiveArticleList({
+        ...activeArticleList,
+        articleList: sliceArticle,
+        count: 0
+      });
+    };
+    callData();
+  }, [qtySliceArticle]);
+
+  if (isEmpty(articles)) {
+    return <Loading />;
   }
 
-  render() {
-    const { newArticles, count, articlesLength, sliceArticle } = this.state;
-    const { history } = this.props;
+  return (
+    <div className="news">
+      <NewsArticles
+        history={history}
+        articles={articles}
+        qtySliceArticle={qtySliceArticle}
+        activeArticleList={activeArticleList}
+        setActiveArticleList={setActiveArticleList}
+      />
+      <NewsControl
+        articles={articles}
+        qtySliceArticle={qtySliceArticle}
+        activeArticleList={activeArticleList}
+        setActiveArticleList={setActiveArticleList}
+      />
+    </div>
+  );
+};
 
-    return (
-      <div className="news">
-        <NewsArticles
-          history={history}
-          newArticles={newArticles}
-          count={count}
-          articlesLength={articlesLength}
-          sliceArticle={sliceArticle}
-          clickArrowLeft={this.clickArrowLeft}
-          clickArrowRight={this.clickArrowRight}
-        />
-        <div className="news__control-end">
-          <div
-            className={classNames(
-              { "news__control-left-disable": count === 0 },
-              { "news__control-left": true }
-            )}
-            onClick={this.clickArrowLeft}
-          >
-            <ArrowLeft />
-            <p className="news__control-name"> prev post</p>
-          </div>
-          <div
-            className={classNames(
-              { "news__control-right-disable": count + sliceArticle === articlesLength },
-              { "news__control-right": true }
-            )}
-            onClick={this.clickArrowRight}
-          >
-            <p className="news__control-name">next post </p>
-            <ArrowRight />
-          </div>
-        </div>
-        <ReactResizeDetector handleWidth onResize={this.onResize()} />
+const NewsControl = ({
+  qtySliceArticle,
+  activeArticleList,
+  setActiveArticleList,
+  articles
+}) => {
+  const { articleList = [], count } = activeArticleList;
+  return (
+    <div className="news__control-end">
+      <div
+        className={classNames("news__control-left", {
+          "news__control-left-disable": count === 0
+        })}
+        onClick={() =>
+          count - 1 >= 0
+            ? setActiveArticleList({
+                articleList: articles.slice(
+                  count - 1,
+                  count + qtySliceArticle - 1
+                ),
+                count: count - 1
+              })
+            : articleList
+        }
+      >
+        <ArrowLeft />
+        <p className="news__control-name"> prev post</p>
       </div>
-    );
-  }
-  clickArrowLeft = () => {
-    const { articlesList, count, sliceArticle } = this.state;
-    if (count - 1 >= 0) {
-      return this.setState({
-        newArticles: articlesList.slice(count - 1, count + sliceArticle - 1),
-        count: count - 1
-      });
-    }
-  };
+      <div
+        className={classNames("news__control-right", {
+          "news__control-right-disable":
+            count + qtySliceArticle === articles.length
+        })}
+        onClick={() =>
+          count + qtySliceArticle < articles.length
+            ? setActiveArticleList({
+                articleList: articles.slice(
+                  count + 1,
+                  count + (qtySliceArticle + 1)
+                ),
+                count: count + 1
+              })
+            : articleList
+        }
+      >
+        <p className="news__control-name">next post </p>
+        <ArrowRight />
+      </div>
+    </div>
+  );
+};
 
-  clickArrowRight = () => {
-    const { articlesList, count, articlesLength, sliceArticle } = this.state;
-    if (count + sliceArticle < articlesLength) {
-      return this.setState({
-        newArticles: articlesList.slice(count + 1, count + (sliceArticle + 1)),
-        count: count + 1
-      });
-    }
-  };
+const NewsWithProps = props => (
+  <Consumer>{value => <News articles={value.articles} {...props} />}</Consumer>
+);
 
-  updateArticleState = () => {
-    const {
-      articlesList,
-      newArticles,
-      smallMonitor,
-      bigMonitor,
-      smallWidth
-    } = this.state;
-
-    const { width } = this.props;
-
-    if (1 < width && width <= smallWidth) {
-      if (smallMonitor === newArticles.length) {
-        return;
-      }
-      return this.setState({
-        sliceArticle: smallMonitor,
-        newArticles: articlesList.slice(0, smallMonitor),
-        count: 0
-      });
-    }
-
-    if (smallWidth < width) {
-      if (bigMonitor === newArticles.length) {
-        return;
-      }
-      return this.setState({
-        sliceArticle: bigMonitor,
-        newArticles: articlesList.slice(0, bigMonitor),
-        count: 0
-      });
-    }
-  };
-
-  onResize = () => {
-    this.updateArticleState();
-  };
-}
-
-export default withResizeDetector(News);
+export default windowSize(NewsWithProps);
