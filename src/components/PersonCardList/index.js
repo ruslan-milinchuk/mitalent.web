@@ -6,7 +6,7 @@ import ArrowRight from "../../icons/ArrowRight";
 
 const PersonCardList = ({ data, history, startPath }) => {
   let startPathCheck = "";
-  if (startPath !== undefined) {
+  if (startPath) {
     startPathCheck = startPath;
   }
 

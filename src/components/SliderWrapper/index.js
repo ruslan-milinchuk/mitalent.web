@@ -58,18 +58,18 @@ const SliderWrapper = ({
   );
 };
 
-const changeState = (width, func) => {
+const changeState = (width, cb) => {
   if (width > 1111) {
-    func(4);
+    cb(4);
   }
   if (869 < width && width <= 1111) {
-    func(3);
+    cb(3);
   }
   if (619 < width && width <= 869) {
-    func(2);
+    cb(2);
   }
   if (360 < width && width <= 619) {
-    func(1);
+    cb(1);
   }
 };
 

@@ -13,17 +13,7 @@ import "./style.css";
 
 const Header = ({ history, scrollPosition }) => {
   const [isScroll, setIsScroll] = useState(false);
-  useEffect(() => {
-    const checkScroll = () => {
-      if (scrollPosition !== 0) {
-        setIsScroll(true);
-      }
-      if (scrollPosition === 0) {
-        setIsScroll(false);
-      }
-    };
-    checkScroll();
-  });
+  useEffect(() => setIsScroll(scrollPosition !== 0), [scrollPosition]);
 
   const { pathname } = history.location;
   return (
