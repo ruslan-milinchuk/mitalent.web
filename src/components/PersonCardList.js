@@ -2,7 +2,7 @@ import React from "react";
 
 import { withRouter } from "react-router";
 
-import { ArrowRight } from "../icons";
+import { ArrowRight } from "../icons/";
 
 const PersonCardList = ({ data, history, startPath = "" }) =>
   data.map((item, index) => (
@@ -11,19 +11,14 @@ const PersonCardList = ({ data, history, startPath = "" }) =>
       className="client__card"
       onClick={() => history.push(`/profile/${item.uuid}`)}
     >
-      <img src={`${startPath}${item.mainPhoto}`} alt="client image" />
+      <img src={`${startPath}${item.mainPhoto}`} alt="client" />
       <h3 className="client__name">
         {item.firstName} {item.lastName}
       </h3>
       <h4 className="client__role">{item.type}</h4>
-      <a
-        onClick={() => history.push(`/profile/${item.uuid}`)}
-        className="client__link"
-        href={item.link}
-        target="__blank"
-      >
+      <span className="client__link">
         <ArrowRight />
-      </a>
+      </span>
     </div>
   ));
 

@@ -149,7 +149,12 @@ const PersonContact = ({ address, phone, email, firstName }) => {
       <h4 className="profile__contact-title">{`Contact ${firstName}`}</h4>
       <div className="profile__contact-data">
         <h3 className="profile__contact-subtitle">Address</h3>
-        <a className="profile__contact-description" href="#" target="_blank">
+        <a
+          className="profile__contact-description"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {address}
         </a>
         <h3 className="profile__contact-subtitle">Phone</h3>
@@ -157,6 +162,7 @@ const PersonContact = ({ address, phone, email, firstName }) => {
           className="profile__contact-description"
           href={`tel:${phone}`}
           target="_blank"
+          rel="noopener noreferrer"
         >
           {phone}
         </a>
