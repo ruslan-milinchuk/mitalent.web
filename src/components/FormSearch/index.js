@@ -1,7 +1,10 @@
 import React from "react";
+
 import IconSearch from "../../icons/IconSearch";
-import "./style.css";
 import IconMail from "../../icons/IconMail";
+
+import "./style.css";
+
 const FormSearch = ({ placeholder, icon }) => (
   <form className="search-form">
     <input

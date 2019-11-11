@@ -1,17 +1,18 @@
 import React from "react";
+
 import classNames from "classnames";
+import {formatterIndex} from "../../utils/formatterIndex";
 
 const ButtonList = ({ currentIndex, list, setIndex }) =>
   list.map((item, index) => (
     <button
       key={index}
       onClick={() => setIndex(index)}
-      className={classNames(
+      className={classNames("person__btn-item",
         { "person__btn-item-active": currentIndex === index },
-        { "person__btn-item": true }
       )}
     >
-      {index + 1 >= 10 ? index + 1 : "0" + (index + 1)}
+      {formatterIndex(index)}
     </button>
   ));
 export default ButtonList;
