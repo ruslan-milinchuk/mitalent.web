@@ -23,8 +23,10 @@ const News = ({ windowWidth, articles, history }) => {
     SMALL_WIDTH < windowWidth ? LARGE_DEVISE : SMALL_DEVISE;
   const [index, setIndex] = useState(0);
   useEffect(() => {
-    setIndex(0);
-  }, [qtySliceArticle]);
+    if (qtySliceArticle === LARGE_DEVISE && index >= 28) {
+      setIndex(0);
+    }
+  }, [qtySliceArticle, index]);
   const sliceArticle = articles.slice(index, qtySliceArticle + index);
   if (isEmpty(articles)) {
     return <Loading />;
@@ -50,33 +52,31 @@ const News = ({ windowWidth, articles, history }) => {
   );
 };
 
-const NewsControl = ({ qtySliceArticle, index, setIndex, articles }) => {
-  return (
-    <div className="news__control-end">
-      <div
-        className={classNames("news__control-left", {
-          "news__control-left-disable": index === 0
-        })}
-        onClick={() => index - 1 >= 0 && setIndex(index - 1)}
-      >
-        <ArrowLeft />
-        <p className="news__control-name"> prev post</p>
-      </div>
-      <div
-        className={classNames("news__control-right", {
-          "news__control-right-disable":
-            index + qtySliceArticle === articles.length
-        })}
-        onClick={() =>
-          index + qtySliceArticle < articles.length && setIndex(index + 1)
-        }
-      >
-        <p className="news__control-name">next post </p>
-        <ArrowRight />
-      </div>
+const NewsControl = ({ qtySliceArticle, index, setIndex, articles }) => (
+  <div className="news__control-end">
+    <div
+      className={classNames("news__control-left", {
+        "news__control-left-disable": index === 0
+      })}
+      onClick={() => index - 1 >= 0 && setIndex(index - 1)}
+    >
+      <ArrowLeft />
+      <p className="news__control-name"> prev post</p>
     </div>
-  );
-};
+    <div
+      className={classNames("news__control-right", {
+        "news__control-right-disable":
+          index + qtySliceArticle === articles.length
+      })}
+      onClick={() =>
+        index + qtySliceArticle < articles.length && setIndex(index + 1)
+      }
+    >
+      <p className="news__control-name">next post </p>
+      <ArrowRight />
+    </div>
+  </div>
+);
 
 const NewsWithProps = props => (
   <Consumer>{value => <News articles={value.articles} {...props} />}</Consumer>
