@@ -21,31 +21,11 @@ const SMALL_DEVISE = 5;
 const News = ({ windowWidth, articles, history }) => {
   const qtySliceArticle =
     SMALL_WIDTH < windowWidth ? LARGE_DEVISE : SMALL_DEVISE;
-  const [activeArticleList, setActiveArticleList] = useState({
-    articleList: [],
-    count: 0
-  });
-
+  const [index, setIndex] = useState(0);
   useEffect(() => {
-    const callData = () => {
-      const sliceArticle = articles.slice(0, qtySliceArticle);
-      setActiveArticleList({ ...activeArticleList, articleList: sliceArticle });
-    };
-    callData();
-  }, [articles]);
-
-  useEffect(() => {
-    const callData = () => {
-      const sliceArticle = articles.slice(0, qtySliceArticle);
-      setActiveArticleList({
-        ...activeArticleList,
-        articleList: sliceArticle,
-        count: 0
-      });
-    };
-    callData();
+    setIndex(0);
   }, [qtySliceArticle]);
-
+  const sliceArticle = articles.slice(index, qtySliceArticle + index);
   if (isEmpty(articles)) {
     return <Loading />;
   }
@@ -56,43 +36,28 @@ const News = ({ windowWidth, articles, history }) => {
         history={history}
         articles={articles}
         qtySliceArticle={qtySliceArticle}
-        activeArticleList={activeArticleList}
-        setActiveArticleList={setActiveArticleList}
+        index={index}
+        setIndex={setIndex}
+        sliceArticle={sliceArticle}
       />
       <NewsControl
         articles={articles}
         qtySliceArticle={qtySliceArticle}
-        activeArticleList={activeArticleList}
-        setActiveArticleList={setActiveArticleList}
+        index={index}
+        setIndex={setIndex}
       />
     </div>
   );
 };
 
-const NewsControl = ({
-  qtySliceArticle,
-  activeArticleList,
-  setActiveArticleList,
-  articles
-}) => {
-  const { articleList = [], count } = activeArticleList;
+const NewsControl = ({ qtySliceArticle, index, setIndex, articles }) => {
   return (
     <div className="news__control-end">
       <div
         className={classNames("news__control-left", {
-          "news__control-left-disable": count === 0
+          "news__control-left-disable": index === 0
         })}
-        onClick={() =>
-          count - 1 >= 0
-            ? setActiveArticleList({
-                articleList: articles.slice(
-                  count - 1,
-                  count + qtySliceArticle - 1
-                ),
-                count: count - 1
-              })
-            : articleList
-        }
+        onClick={() => index - 1 >= 0 && setIndex(index - 1)}
       >
         <ArrowLeft />
         <p className="news__control-name"> prev post</p>
@@ -100,18 +65,10 @@ const NewsControl = ({
       <div
         className={classNames("news__control-right", {
           "news__control-right-disable":
-            count + qtySliceArticle === articles.length
+            index + qtySliceArticle === articles.length
         })}
         onClick={() =>
-          count + qtySliceArticle < articles.length
-            ? setActiveArticleList({
-                articleList: articles.slice(
-                  count + 1,
-                  count + (qtySliceArticle + 1)
-                ),
-                count: count + 1
-              })
-            : articleList
+          index + qtySliceArticle < articles.length && setIndex(index + 1)
         }
       >
         <p className="news__control-name">next post </p>

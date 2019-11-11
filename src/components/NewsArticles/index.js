@@ -9,15 +9,14 @@ const NewsArticles = ({
   history,
   articles = [],
   qtySliceArticle,
-  setActiveArticleList,
-  activeArticleList
+  index,
+  setIndex,
+  sliceArticle
 }) => {
-  const { articleList = [] } = activeArticleList;
-
-  return articleList.map((item, index) => (
+  return sliceArticle.map((item, key) => (
     <div
       onClick={() => history.push(`news/${item.uuid}`)}
-      key={index}
+      key={key}
       className="news__item"
     >
       <div
@@ -37,8 +36,8 @@ const NewsArticles = ({
         <NewsControl
           articles={articles}
           qtySliceArticle={qtySliceArticle}
-          setActiveArticleList={setActiveArticleList}
-          activeArticleList={activeArticleList}
+          index={index}
+          setIndex={setIndex}
         />
       </div>
       <div className="news__info">
@@ -54,32 +53,17 @@ const NewsArticles = ({
   ));
 };
 
-const NewsControl = ({
-  articles = [],
-  qtySliceArticle,
-  setActiveArticleList,
-  activeArticleList
-}) => {
-  const { articleList = [], count } = activeArticleList;
-
+const NewsControl = ({ articles = [], qtySliceArticle, index, setIndex }) => {
   return (
     <div className="news__control-start">
       <div
         className={classNames(
-          { "news__control-left-disable": count === 0 },
+          { "news__control-left-disable": index === 0 },
           { "news__control-left": true }
         )}
         onClick={function(e) {
           e.stopPropagation();
-          return count - 1 >= 0
-            ? setActiveArticleList({
-                articleList: articles.slice(
-                  count - 1,
-                  count + qtySliceArticle - 1
-                ),
-                count: count - 1
-              })
-            : articleList;
+          return index - 1 >= 0 && setIndex(index - 1);
         }}
       >
         <div className="svg">
@@ -90,21 +74,15 @@ const NewsControl = ({
         className={classNames(
           {
             "news__control-right-disable":
-              count + qtySliceArticle === articles.length
+              index + qtySliceArticle === articles.length
           },
           { "news__control-right": true }
         )}
         onClick={function(e) {
           e.stopPropagation();
-          return count + qtySliceArticle < articles.length
-            ? setActiveArticleList({
-                articleList: articles.slice(
-                  count + 1,
-                  count + (qtySliceArticle + 1)
-                ),
-                count: count + 1
-              })
-            : articleList;
+          return (
+            index + qtySliceArticle < articles.length && setIndex(index + 1)
+          );
         }}
       >
         <div className="svg">
