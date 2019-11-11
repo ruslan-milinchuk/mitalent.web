@@ -7,8 +7,7 @@ import { Consumer } from "../../components/Preload";
 import Loading from "../../components/Loading";
 import NewsArticles from "../../components/NewsArticles";
 
-import ArrowLeft from "../../icons/ArrowLeft";
-import ArrowRight from "../../icons/ArrowRight";
+import { ArrowLeft, ArrowRight } from "../../icons/";
 
 import { isEmpty } from "../../utils/isEmpty";
 

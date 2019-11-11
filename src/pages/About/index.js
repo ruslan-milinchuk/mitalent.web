@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ButtonsSocial from "../../components/ButtonsSocial";
 import CustomerGroups from "../../components/CustomerGroups";
 
-import User from "../../icons/User";
+import { User } from "../../icons/";
 
 import "./style.css";
 

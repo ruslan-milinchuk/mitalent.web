@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import ButtonList from "../ButtonList";
 import Loading from "../Loading";
 
-import ArrowLeft from "../../icons/ArrowLeft";
-import ArrowRight from "../../icons/ArrowRight";
+import { ArrowLeft, ArrowRight } from "../../icons/";
 
 import apiFetch from "../../utils/apiFetch";
 import { isEmpty } from "../../utils/isEmpty";

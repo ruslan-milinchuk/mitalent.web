@@ -1,9 +1,8 @@
 import React from "react";
+
+import { Flag, IconMail, Home, Phone } from "../../icons/";
+
 import "./style.css";
-import Flag from "../../icons/Flag";
-import Home from "../../icons/Home";
-import Phone from "../../icons/Phone";
-import IconMail from "../../icons/IconMail";
 
 const ContactUs = () => (
   <div className="contact">
@@ -11,7 +10,7 @@ const ContactUs = () => (
       <div className="contact__title">
         Contact <br />
         us
-        <div className="contact__divider"/>
+        <div className="contact__divider" />
         <div className="contact__short-description">Mass impressions</div>
       </div>
 

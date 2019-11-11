@@ -7,13 +7,14 @@ import ButtonList from "../../components/ButtonList";
 import SliderWrapper from "../../components/SliderWrapper";
 import Loading from "../../components/Loading";
 
-import TriangleRight from "../../icons/TriangleRight";
+import { TriangleRight } from "../../icons/";
+
+import { formatterIndex } from "../../utils/formatterIndex";
+import { randomNumb } from "../../utils/randomNumb";
 
 import { isEmpty } from "../../utils/isEmpty";
 
 import "./style.css";
-import { formatterIndex } from "../../utils/formatterIndex";
-import { randomNumb } from "../../utils/randomNumb";
 
 const SLIDER_IMG_LENGTH = 8,
   SLIDER_IMG_TIME_ANIMATION = 6000;
@@ -116,15 +117,13 @@ const PersonPhotoSlider = ({
 };
 
 const timeoutSlider = (currentIndexImg, listImg, setCurrentIndexImg) => {
-  setInterval(() => {
-    if (currentIndexImg + 1 < listImg.length) {
-      setCurrentIndexImg(currentIndexImg + 1);
-    }
-
-    if (currentIndexImg + 1 >= listImg.length) {
-      setCurrentIndexImg(0);
-    }
-  }, SLIDER_IMG_TIME_ANIMATION);
+  setInterval(
+    () =>
+      currentIndexImg + 1 < listImg.length
+        ? setCurrentIndexImg(currentIndexImg + 1)
+        : setCurrentIndexImg(0),
+    SLIDER_IMG_TIME_ANIMATION
+  );
 };
 
 const HomePageWithProps = props => (

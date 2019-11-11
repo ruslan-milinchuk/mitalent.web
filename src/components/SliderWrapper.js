@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
+
 import windowSize from "react-window-size";
 import classNames from "classnames";
 
-import ArrowLeft from "../../icons/ArrowLeft";
-import ClientList from "../ClientList";
-import ArrowRight from "../../icons/ArrowRight";
+import ClientList from "./ClientList";
+
+import { ArrowLeft, ArrowRight } from "../icons/";
 
 const WIDTH_IMG_SLIDER = 250;
 

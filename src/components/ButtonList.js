@@ -1,7 +1,7 @@
 import React from "react";
 
 import classNames from "classnames";
-import { formatterIndex } from "../../utils/formatterIndex";
+import { formatterIndex } from "../utils/formatterIndex";
 
 const ButtonList = ({ currentIndex, list, setIndex }) =>
   list.map((item, index) => (

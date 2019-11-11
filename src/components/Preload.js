@@ -1,5 +1,7 @@
 import React, { createContext, Component } from "react";
+
 import apiFetch from "../utils/apiFetch";
+
 export const { Provider, Consumer } = createContext("");
 
 class Preload extends Component {
