@@ -11,16 +11,12 @@ import "./style.css";
 
 const Article = ({ history }) => {
   const [article, setArticle] = useState({});
-  const [personInfo, setPersonInfo] = useState({});
   const { pathname } = history.location;
   const idArticle = pathname.split("/")[2];
   useEffect(() => {
     const callData = async () => {
       const [article] = await apiFetch(`/articles?uuid=${idArticle}`);
       setArticle(article);
-      const { profileId } = article.person;
-      const [personInfo] = await apiFetch(`/people?uuid=${profileId}`);
-      setPersonInfo(personInfo);
     };
     callData();
   }, [idArticle]);
@@ -36,16 +32,17 @@ const Article = ({ history }) => {
     quote = [],
     longDescription,
     additionalTitle,
-    additionalLongDescription
+    additionalLongDescription,
+    person
   } = article;
   return (
     <div className="article-info">
       <div className="article-info__main">
-        <PersonShortInfo personInfo={personInfo} />
+        <PersonShortInfo personInfo={person} />
         <div className="article-info__main-info">
           <h3 className="article-info__title">{title}</h3>
           <div className="person__short-info_none">
-            <PersonShortInfo personInfo={personInfo} />
+            <PersonShortInfo personInfo={person} />
           </div>
           <p className="article-info__type-article">{typeArticle[0]}</p>
           <p className="article-info__subtitle">{shortDescription}</p>
@@ -55,7 +52,7 @@ const Article = ({ history }) => {
         <img className="article-info__first-img" src={slider[0]} alt="" />
       </div>
       <div className="article-info__short-description-wrapp">
-        <PersonShortInfo personInfo={personInfo} />
+        <PersonShortInfo personInfo={person} />
         <div className="article-info__short-description">
           <div className="article-info__quote">
             {quote.map((item, index) => (

@@ -70,10 +70,6 @@ const PersonPhotoSlider = ({
 
   const [currentIndexImg, setCurrentIndexImg] = useState(0);
 
-  useEffect(() => {
-    timeoutSlider(currentIndexImg, listImg, setCurrentIndexImg);
-  }, [currentIndexImg]);
-
   return (
     <div className="home-page__client">
       <div className="home-page__social">
@@ -113,16 +109,6 @@ const PersonPhotoSlider = ({
         />
       </div>
     </div>
-  );
-};
-
-const timeoutSlider = (currentIndexImg, listImg, setCurrentIndexImg) => {
-  setInterval(
-    () =>
-      currentIndexImg + 1 < listImg.length
-        ? setCurrentIndexImg(currentIndexImg + 1)
-        : setCurrentIndexImg(0),
-    SLIDER_IMG_TIME_ANIMATION
   );
 };
 

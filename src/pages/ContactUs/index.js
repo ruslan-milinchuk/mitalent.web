@@ -37,16 +37,18 @@ const ContactUs = () => (
               <a
                 href="https://www.google.com.ua/maps/search/79+-+81+Barkeley+Square+/@51.5096272,-0.1480057,17z/data=!3m1!4b1?hl=ru"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 79 - 81 Barkeley Square
               </a>
               <a
                 href="https://www.google.com.ua/maps/place/%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.5285582,-0.2416816,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583?hl=ru"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 London
               </a>
-              <a href="#" target="_blank">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 WC923 9TT
               </a>
             </div>
@@ -56,10 +58,18 @@ const ContactUs = () => (
               <Phone />
             </div>
             <div className="contact__svg-date">
-              <a href="tel:+6494461709" target="_blank">
+              <a
+                href="tel:+6494461709"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 +6494461709
               </a>
-              <a href="tel:+6494461709" target="_blank">
+              <a
+                href="tel:+6494461709"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 +6494461709
               </a>
             </div>

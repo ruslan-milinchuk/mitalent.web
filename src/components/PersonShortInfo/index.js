@@ -2,23 +2,14 @@ import React from "react";
 
 import { withRouter } from "react-router";
 
-import Loading from "../Loading";
-
 import "./style.css";
 
 const PersonShortInfo = ({ history, personInfo }) => {
-  const { firstName, lastName, createdAt, mainPhoto, uuid } = personInfo;
-  if (!firstName || !lastName || !createdAt) {
-    return (
-      <div className="person-info">
-        <Loading className="person-info" />
-      </div>
-    );
-  }
+  const { firstName, lastName, createdAt, img, profileId } = personInfo;
   return (
     <div
       onClick={() => {
-        history.push(`/profile/${uuid}`);
+        history.push(`/profile/${profileId}`);
       }}
       className="person-info"
     >
@@ -28,7 +19,7 @@ const PersonShortInfo = ({ history, personInfo }) => {
           {new Date(createdAt).toDateString()}
         </div>
       </div>
-      <img className="person-info__img" src={`../.${mainPhoto}`} alt="" />
+      <img className="person-info__img" src={`../.${img}`} alt="" />
     </div>
   );
 };
