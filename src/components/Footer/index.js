@@ -1,8 +1,11 @@
 import React from "react";
+
 import Logo from "../Logo/Logo";
 import FormSearch from "../FormSearch";
-import "./style.css";
 import ButtonsSocial from "../ButtonsSocial";
+
+import "./style.css";
+
 const Footer = () => (
   <div className="footer">
     <div className="footer__section">

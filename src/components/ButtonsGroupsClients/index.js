@@ -1,4 +1,5 @@
 import React from "react";
+
 import classNames from "classnames";
 
 const ButtonsGroupsClients = ({ activeType, changeRole, role }) =>
@@ -7,10 +8,9 @@ const ButtonsGroupsClients = ({ activeType, changeRole, role }) =>
       id={item}
       key={item}
       onClick={() => changeRole(item)}
-      className={classNames(
-        { "customer-groups__btn-active": item === activeType },
-        { "customer-groups__btn": true }
-      )}
+      className={classNames("customer-groups__btn", {
+        "customer-groups__btn-active": item === activeType
+      })}
     >
       {item}
     </div>
