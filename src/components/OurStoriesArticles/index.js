@@ -1,10 +1,12 @@
 import React from "react";
-import "./style.css";
+
 import { Link } from "react-router-dom";
 
-const OurStoriesArticles = ({ sortArticlesList }) => {
-  return sortArticlesList.map(item => (
-    <Link className="our-stories__item" to={`news/${item.id}`}>
+import "./style.css";
+
+const OurStoriesArticles = ({ sortArticlesList }) =>
+  sortArticlesList.map(item => (
+    <Link className="our-stories__item" to={`news/${item.uuid}`}>
       <div
         className="our-stories__img"
         style={{ backgroundImage: "url(" + item.slider[1] + ")" }}
@@ -24,6 +26,5 @@ const OurStoriesArticles = ({ sortArticlesList }) => {
       </div>
     </Link>
   ));
-};
 
 export default OurStoriesArticles;
