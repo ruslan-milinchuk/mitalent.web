@@ -1,62 +1,44 @@
-import React, { Component } from "react";
-import persons from "../../fixtures/persons";
-import ButtonsGroupsClients from "../ButtonsGroupsClients";
+import React, { useState } from "react";
 
-import "./style.css";
+import { Consumer } from "../Preload";
+
+import ButtonsGroupsClients from "../ButtonsGroupsClients";
 import SliderWrapper from "../SliderWrapper";
 
-const role = ["actor", "musician", "comedian", "model"];
+import "./style.css";
 
-class CustomerGroups extends Component {
-  state = {
-    position: 0,
-    type: "musician",
-    data: [],
-    filterData: []
-  };
+const ROLE = ["actor", "musician", "comedian", "model"];
 
-  componentDidMount() {
-    const { role } = this.props;
-    let { type } = this.state;
+const CustomerGroups = ({ people, startPath, role }) => {
+  const [type, setType] = useState("musician");
+  const [position, setPosition] = useState(0);
 
-    const filterWithRole = persons.filter(item => {
-      return item.type.includes(role ? role[0] : type);
-    });
-    this.setState({ data: persons, filterData: filterWithRole });
-  }
-
-  render() {
-    const { startPath } = this.props;
-    const { type, filterData, position } = this.state;
-    return (
-      <div className="customer-groups">
-        <div className="customer-groups__btn-wrapper">
-          <ButtonsGroupsClients
-            activeType={type}
-            changeRole={this.changeRole}
-            role={role}
-          />
-        </div>
-        <SliderWrapper
-          startPath={startPath}
-          filterData={filterData}
-          position={position}
-          onClick={value => this.setState({ position: value })}
+  const filterWithRole = people.filter(item => {
+    return item.type.includes(role ? role[0] : type);
+  });
+  return (
+    <div className="customer-groups">
+      <div className="customer-groups__btn-wrapper">
+        <ButtonsGroupsClients
+          activeType={type}
+          changeRole={setType}
+          role={ROLE}
         />
       </div>
-    );
-  }
+      <SliderWrapper
+        startPath={startPath}
+        filterData={filterWithRole}
+        position={position}
+        onClick={value => setPosition(value)}
+      />
+    </div>
+  );
+};
 
-  changeRole = value => {
-    const { data } = this.state;
+const CustomerGroupsWithProps = props => (
+  <Consumer>
+    {value => <CustomerGroups people={value.people} {...props} />}
+  </Consumer>
+);
 
-    const filterDataWithRole = data.filter(item => {
-      const { type } = item;
-      return type.includes(value);
-    });
-
-    this.setState({ filterData: filterDataWithRole, type: value, position: 0 });
-  };
-}
-
-export default CustomerGroups;
+export default CustomerGroupsWithProps;
