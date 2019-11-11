@@ -65,7 +65,7 @@ const ProfileMainInfo = ({ person }) => {
             })}
             onClick={() => setCategory(CATEGORY_PROFILE)}
           >
-            {category}
+            {CATEGORY_PROFILE}
           </div>
           <div
             className={classNames({
@@ -74,7 +74,7 @@ const ProfileMainInfo = ({ person }) => {
             })}
             onClick={() => setCategory(CATEGORY_AWARDS)}
           >
-            {category}
+            {CATEGORY_AWARDS}
           </div>
         </div>
         <h4 className="profile__title">{category}</h4>

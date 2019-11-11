@@ -44,7 +44,7 @@ const HomePage = ({ people, articles, history }) => {
           setListIsOpen(!listIsOpen);
         }}
       >
-        {listIsOpen ? "explore " : "hide "}
+        {listIsOpen ? "hide " : "explore "}
         more
       </div>
       <h3 className="home-page__title-news">Latest News</h3>
