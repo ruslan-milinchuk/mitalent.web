@@ -34,6 +34,7 @@
     .profile__btn-s-category_active {
       color: black;
       border-bottom: 1.5px black solid;
+      margin-bottom: -1.5px;
       cursor: no-drop; }
 .profile__title {
   font-family: Seconda;
