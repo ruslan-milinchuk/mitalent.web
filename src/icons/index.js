@@ -1,0 +1,14 @@
+export { default as ArrowRight } from "./ArrowRight";
+export { default as ArrowLeft } from "./ArrowLeft";
+export { default as Facebook } from "./Facebook";
+export { default as Flag } from "./Flag";
+export { default as Home } from "./Home";
+export { default as IconMail } from "./IconMail";
+export { default as IconSearch } from "./IconSearch";
+export { default as Instagram } from "./Instagram";
+export { default as Phone } from "./Phone";
+export { default as Star } from "./Star";
+export { default as TriangleRight } from "./TriangleRight";
+export { default as Twitter } from "./Twitter";
+export { default as User } from "./User";
+export { default as Youtube } from "./Youtube";

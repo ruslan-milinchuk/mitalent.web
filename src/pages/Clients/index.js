@@ -7,15 +7,14 @@ import PersonCardList from "../../components/PersonCardList";
 import RandomArticle from "../../components/RandomArticle";
 import Loading from "../../components/Loading";
 
-import ArrowLeft from "../../icons/ArrowLeft";
-import ArrowRight from "../../icons/ArrowRight";
+import { ArrowLeft, ArrowRight } from "../../icons/";
 
 import apiFetch from "../../utils/apiFetch";
 import { isEmpty } from "../../utils/isEmpty";
 
 import "./style.css";
 import { formatterIndex } from "../../utils/formatterIndex";
-import {randomNumb} from "../../utils/randomNumb";
+import { randomNumb } from "../../utils/randomNumb";
 
 const ROLE = ["all", "actor", "comedian", "model", "musician"];
 const WHITE_LIST_ROLE = "all";

@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 import withScroll from "../withScroll";
 import BurgerMenu from "../BurgerMenu";
-import Logo from "../Logo/Logo";
+import Logo from "../Logo";
 import FormSearch from "../FormSearch";
 
 import "./style.css";

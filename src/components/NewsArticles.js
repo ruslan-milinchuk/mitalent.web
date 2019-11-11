@@ -2,8 +2,7 @@ import React from "react";
 
 import classNames from "classnames";
 
-import ArrowRight from "../../icons/ArrowRight";
-import ArrowLeft from "../../icons/ArrowLeft";
+import { ArrowRight, ArrowLeft } from "../icons/";
 
 const NewsArticles = ({
   history,

@@ -1,6 +1,6 @@
 import React from "react";
 
-import Star from "../../icons/Star";
+import { Star } from "../icons/";
 
 const CategoryProfile = ({ infoCategory }) => {
   const { shortDescription, mainDescription, awards } = infoCategory;

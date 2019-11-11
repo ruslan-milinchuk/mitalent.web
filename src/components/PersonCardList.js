@@ -2,7 +2,7 @@ import React from "react";
 
 import { withRouter } from "react-router";
 
-import ArrowRight from "../../icons/ArrowRight";
+import { ArrowRight } from "../icons";
 
 const PersonCardList = ({ data, history, startPath = "" }) =>
   data.map((item, index) => (

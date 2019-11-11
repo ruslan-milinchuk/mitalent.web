@@ -1,7 +1,6 @@
 import React from "react";
 
-import IconSearch from "../../icons/IconSearch";
-import IconMail from "../../icons/IconMail";
+import { IconSearch, IconMail } from "../../icons/";
 
 import "./style.css";
 

@@ -1,8 +1,6 @@
 import React from "react";
-import Facebook from "../../icons/Facebook";
-import Twitter from "../../icons/Twitter";
-import Instagram from "../../icons/Instagram";
-import Youtube from "../../icons/Youtube";
+
+import { Facebook, Twitter, Instagram, Youtube } from "../icons/";
 
 const ButtonsSocial = ({ component }) => (
   <div className={component + "__buttons"}>

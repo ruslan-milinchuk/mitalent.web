@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "../Logo/Logo";
+import Logo from "../Logo";
 import FormSearch from "../FormSearch";
 import ButtonsSocial from "../ButtonsSocial";
 
