@@ -1,81 +1,59 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
+
+import { Link } from "react-router-dom";
 import { withRouter } from "react-router";
 import classNames from "classnames";
+
 import withScroll from "../withScroll";
 import BurgerMenu from "../BurgerMenu";
-import { Link } from "react-router-dom";
-import "./style.css";
 import Logo from "../Logo/Logo";
 import FormSearch from "../FormSearch";
 
-class Header extends Component {
-  state = {
-    isScroll: false
-  };
+import "./style.css";
 
-  componentDidMount() {
-    this.isScroll();
-  }
+const Header = ({ history, scrollPosition }) => {
+  const [isScroll, setIsScroll] = useState(false);
+  useEffect(() => {
+    const checkScroll = () => {
+      if (scrollPosition !== 0) {
+        setIsScroll(true);
+      }
+      if (scrollPosition === 0) {
+        setIsScroll(false);
+      }
+    };
+    checkScroll();
+  });
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    if (this.props.location.pathname !== prevProps.location.pathname) {
-      this.setState({ isScroll: false });
-    }
-    if (this.props.scrollPosition !== prevProps.scrollPosition) {
-      this.isScroll();
-    }
-  }
-
-  render() {
-    const { pathname } = this.props.history.location;
-    const { isScroll } = this.state;
-    return (
-      <div className="header__wrapp">
-        <div
-          onClick={() => this.isScroll}
-          className={classNames(
-            { "header__on-scroll": isScroll },
-            { header: true }
-          )}
-        >
-          <div className="header__menu">
-            <BurgerMenu isScroll={isScroll} />
-            <Link
-              className={classNames(
-                { "header__item-active": pathname === "/clients" },
-                { header__item_fixed: true }
-              )}
-              to="/clients"
-            >
-              Clients
-            </Link>
-            <Link
-              className={classNames(
-                { "header__item-active": pathname === "/news" },
-                { header__item_fixed: true }
-              )}
-              to="/news"
-            >
-              News
-            </Link>
-          </div>
-          <Logo />
-          <FormSearch placeholder="Search client" icon="search" />
+  const { pathname } = history.location;
+  return (
+    <div className="header__wrapp">
+      <div className={classNames("header", { "header__on-scroll": isScroll })}>
+        <div className="header__menu">
+          <BurgerMenu isScroll={isScroll} />
+          <Link
+            className={classNames("header__item_fixed", {
+              "header__item-active": pathname === "/clients"
+            })}
+            to="/clients"
+          >
+            Clients
+          </Link>
+          <Link
+            className={classNames("header__item_fixed", {
+              "header__item-active": pathname === "/news"
+            })}
+            to="/news"
+          >
+            News
+          </Link>
         </div>
+        <Logo />
+        <FormSearch placeholder="Search client" icon="search" />
       </div>
-    );
-  }
-
-  isScroll = () => {
-    const { scrollPosition } = this.props;
-    if (scrollPosition !== 0) {
-      this.setState({ isScroll: true });
-    }
-    if (scrollPosition === 0) {
-      this.setState({ isScroll: false });
-    }
-  };
-}
+    </div>
+  );
+};
 
 const HeaderWithLocation = withRouter(Header);
 export default withScroll(HeaderWithLocation);
