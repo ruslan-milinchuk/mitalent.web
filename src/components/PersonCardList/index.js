@@ -4,19 +4,14 @@ import { withRouter } from "react-router";
 
 import ArrowRight from "../../icons/ArrowRight";
 
-const PersonCardList = ({ data, history, startPath }) => {
-  let startPathCheck = "";
-  if (startPath) {
-    startPathCheck = startPath;
-  }
-
-  return data.map((item, index) => (
+const PersonCardList = ({ data, history, startPath = "" }) =>
+  data.map((item, index) => (
     <div
       key={index}
       className="client__card"
       onClick={() => history.push(`/profile/${item.uuid}`)}
     >
-      <img src={`${startPathCheck}${item.mainPhoto}`} alt="client image" />
+      <img src={`${startPath}${item.mainPhoto}`} alt="client image" />
       <h3 className="client__name">
         {item.firstName} {item.lastName}
       </h3>
@@ -31,6 +26,5 @@ const PersonCardList = ({ data, history, startPath }) => {
       </a>
     </div>
   ));
-};
 
 export default withRouter(PersonCardList);
